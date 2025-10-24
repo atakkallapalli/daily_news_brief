@@ -1,0 +1,625 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economic & Financial News Report</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            font-size: 2.8em;
+            margin-bottom: 15px;
+            font-weight: 300;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-bottom: 10px;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            text-align: center;
+            border-left: 4px solid #3498db;
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            color: #7f8c8d;
+            font-size: 1.1em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .topic-section {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        
+        .topic-header {
+            background: #34495e;
+            color: white;
+            padding: 25px;
+            font-size: 1.4em;
+            font-weight: 600;
+        }
+        
+        .topic-content {
+            padding: 30px;
+        }
+        
+        .article {
+            border-bottom: 2px solid #ecf0f1;
+            padding: 25px 0;
+            transition: all 0.3s ease;
+        }
+        
+        .article:last-child {
+            border-bottom: none;
+        }
+        
+        .article:hover {
+            background-color: #f8f9fa;
+            padding-left: 10px;
+        }
+        
+        .article-title {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        
+        .article-title a {
+            color: #2c3e50;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .article-title a:hover {
+            color: #3498db;
+        }
+        
+        .article-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 15px;
+            font-size: 0.95em;
+        }
+        
+        .article-source {
+            background: #e8f4fd;
+            color: #2980b9;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+        
+        .article-date {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .article-summary {
+            color: #555;
+            line-height: 1.6;
+            font-size: 1em;
+        }
+        
+        .more-articles {
+            text-align: center;
+            margin-top: 25px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 30px;
+            background: #34495e;
+            color: white;
+            border-radius: 12px;
+        }
+        
+        .sources-list {
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .sources-list h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .sources-list ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .sources-list li {
+            background: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            color: #34495e;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .header h1 {
+                font-size: 2.2em;
+            }
+            
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .article-meta {
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Economic & Financial News Report</h1>
+            <p>Comprehensive Analysis of Market Trends and Economic Indicators</p>
+            <p><strong>Collection Period:</strong> Past 7 Days | <strong>Generated:</strong> October 24, 2025 at 08:49 PM UTC</p>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">70</div>
+                <div class="stat-label">Total Articles</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Topic Categories</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">2</div>
+                <div class="stat-label">News Sources</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">7</div>
+                <div class="stat-label">Days Coverage</div>
+            </div>
+        </div>
+        
+        <div class="sources-list">
+            <h3>Sources Covered:</h3>
+            <ul>
+                <li>NBC Business</li>
+                <li>Google News</li>
+            </ul>
+        </div>
+        
+        <div class="topic-section">
+            <div class="topic-header">
+                Unemployment & Employment (11 articles)
+            </div>
+            <div class="topic-content">
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMi7gFBVV95cUxPWXI2VldIRnd6bWZEWElqdV80eEpjOWkwZzZfcDBtbzJCNjJhSnZDVFFxU3c3Q3d5dFJDMm81SXZtSW9TRlBTT3gyT1h3TFFIRU5qM083b0lVU1R5UVM0WTJWR2RxY012WmJ5WWUxQzZoaUl3RXpESk1RY2JaUEJnWHFiUkZWYkZERi1pS25YOGxEcF9WZlZ1Q1FvaHJWa1dlT0V5bzJ6MGI3SHNjNGswdU15dFJhTG84akdPM25XMFF5NXN5ejVNNWhTbGVKLTRNTzZPS1VCa1JuaDloYVlaU1o1SXRNOXF2cXoxTi1B?oc=5" target="_blank">US weekly jobless claims increase, more people collecting unemployment checks, economists estimate - Reuters</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Thu, 23 Oct 2025 23:06:29 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        US weekly jobless claims increase, more people collecting unemployment checks, economists estimate  Reuters
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVkJtSWJIcDZNd1lBZzN5V3JGZVlRZkx1VGhOWGJGc2RXa3BmakxYTHB1ZUN4bVRSREhsQVVxdEJPeE5sOVpBREV6M1lObEc3MFNwUV9nYkpfQ3JtbDgya21JTGRkcEt1QnpjbHI1NmFYV0g5SDdZVkZSOU1pNmJZVXVCa3J4QnZyZHNPMWxIMzgzdFJuWktBbjBtUlM0bUx6T3FnMXFuTTBsS09haWhjNDh1TEJ4X1hnZXg5dm5CaWJwd2loQVRkdmpnS0NVTFNWeV9LeFZrclc3Zl9XeWkweW92RUdnN2lXUDJESXVHVGg?oc=5" target="_blank">Australia’s surprise unemployment spike suggests an economy not overheating but in need of stimulus | Greg Jericho - The Guardian</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Thu, 23 Oct 2025 03:23:00 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        Australia’s surprise unemployment spike suggests an economy not overheating but in need of stimulus | Greg Jericho  The Guardian
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxOUnlBSVZOb29fVEhYc2RUS3MtOG9rOTdwbk1OMjB6aUFENFU3dGY4aEpJcmhlLVFwdXl3RERxTjE4cFJ6bTRZSDFrWHVlREo2TU5QOU9LSEd1UXFiRmZMMElvalF6S205VzFTVS1OaWttSFdBUWg4clEwU3ljRmVmMHdQazlaOFpENHlsTThnZTczRzE0bHc4a25ZSWJBZGNQV2Y5U2RuZlRiaTI3dmM4T25YTdIBVkFVX3lxTE1hTW15U0preUVPbWR4MmFLTmRqUTZRVkV4RzJ2LUxLQzVsQWE3c0xRN0ZtaWFoWTdQR3Y0Q1dnM3YwQndQMHVBNDFXOVUxbzl6azNBY1pn?oc=5" target="_blank">China woos foreign tech talent, fanning its graduates’ unemployment fears - NBC News</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Thu, 23 Oct 2025 09:00:40 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        China woos foreign tech talent, fanning its graduates’ unemployment fears  NBC News
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxNY3Z4THFYZTNMSXFBQk9GcGQyNTVIZWx1X2NULTNZOUY0aG5sMFJiWm1JRVpCWWRnU2p6V0VxOUkxZEhBQ1U1SlhWaXJGeFBfRGpFakJReVBiazFPOFlFYU1aWjFnZmlucU9hNlVEdVc0a2dFa3dmUDE1OXFlWHlCdVVQUEFaM1RVR0dERUZnOXI3V0NOaV9uNklCcFZ0aVNURE13eUkzNTlHTjBPV1VfejhiakxTZw?oc=5" target="_blank">Port St. Lucie woman waits months for unemployment decision as eviction looms - WPTV</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Thu, 23 Oct 2025 19:13:56 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        Port St. Lucie woman waits months for unemployment decision as eviction looms  WPTV
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxPT1dOOTJXZzR2cDFYaHdvZFgzdlBCQ2s1UkV4QnBFV2ZXRkRQeU9SeUpNRnR2VHNIQVYtR01qbXRWTmdsdGppWkNoajFZcTNEMUg2bGRmc0kyaGc0TkJzNlJQbHRRd0dZeFNpLVB0RFFHR3NjRk5VdTZGRlVlbVFpcS1HLUpiNmJNNjFhdmpJUmhhVXBwOVZleW5EbzJ2S3JtMVZ6M0swMXNpMjd2SUdfQ2d5U0Y2SzIxYjdhZExQRExkeTZwd1pKdTQ5MkpaNkU?oc=5" target="_blank">Records: DES delayed launch of new unemployment system by a year because of ‘issues’ - ABC15 Arizona</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Fri, 24 Oct 2025 02:12:00 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        Records: DES delayed launch of new unemployment system by a year because of ‘issues’  ABC15 Arizona
+                    </div>
+                </div>
+                <div class="more-articles">
+                    ... and 6 more articles in this category
+                </div>
+            </div>
+        </div>
+        
+        <div class="topic-section">
+            <div class="topic-header">
+                General Economic News (24 articles)
+            </div>
+            <div class="topic-content">
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNX3Q4X1FrUmtjbDhEeV9DWjBMUUlJNWJJUWlZUVl4SWNNR21Odm0xRFNQeVlyQktfM0JGT2U0WmZ5S2Z4M1NmTlo3bmxXdUpiTkhNOFN3YVZGWlVpSnRsRUFoZ2hNckp2R1hUSllfaUEtZ0NCeFNZRUkzOFlvSlR5RVhCZXJ0ZGFnWGFQR0lNR19nazhxZFpJ?oc=5" target="_blank">Iowa city worker fired for the alleged theft of residents’ utility payments - KCCI</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Fri, 24 Oct 2025 02:49:00 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        Iowa city worker fired for the alleged theft of residents’ utility payments  KCCI
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxNMG5xcDZWTUZlMzBhSzV0TzRvWFhJaGlBWW1BZ0diTTY1WGs0WlVNSEpuR3FqVGFmSXBrR0JHel9qSEhjTlY2MGtTZmhNSWwtMkliWTN4a3hGMDVZcmVrYVFTeHg4VmpxTV9pMHphMkdsUmJ5UHJwbjhPMHNrbFc5WEhIN0hDNThRNm12MkdraThFYnlYNFVBSlNDRXpNbWV3RG10SXhYS09OaWFnN2FFNC1ubEtBSHVxX1NLS0lOcklrS0ZHUmhoT093?oc=5" target="_blank">Social Security 2026 COLA is 2.8%, but seniors will still fall into poverty. Here's why - USA Today</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Fri, 24 Oct 2025 14:20:34 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        Social Security 2026 COLA is 2.8%, but seniors will still fall into poverty. Here's why  USA Today
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxQRlFxVlZlZkVvR1VjX0FDRGQ0c2s2bkpEX0JVNkhDellIVHVsTk05R1kwMUxNWFRfZk9OejVOM1ZnbWZ1MDZQQWZGRnBsMmItVDdDYXA1TmdKT0pBVUQ3OUdJZ0ZabW5ndUtyMnYwdEEzZWNkdmpyb1NsNTRXYjQ2c1dOcHcxSWI3WW44VDJ0THZ3VUoybkZmUmNPSFlVQQ?oc=5" target="_blank">From Control to Contagion: The Market Cost of Political Dominance - NAI500</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Fri, 24 Oct 2025 18:59:47 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        From Control to Contagion: The Market Cost of Political Dominance  NAI500
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFA1eHBYODd6TGIwcEZwNENDSlF5RTUtSlhiZFJWdi0yZVhxSlcydkg4aXR6d0w2bFFKVm5kNTU3ZDJyTU5pXy0zQnBtdmtGTmFnMUZEd1hDRldnSDN3WkRmOURIY1FjUEI5Y0xEU1dxd0JiSk1MeVNTVVVRTkpZcEE?oc=5" target="_blank">Federal Reserve Watch: Working Out - Seeking Alpha</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Fri, 24 Oct 2025 18:21:14 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        Federal Reserve Watch: Working Out  Seeking Alpha
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNUXpBREg5QXhia2s1dFJLMUg2MTFGMWlkaFhDd1NLUjVfTUFLejl2bWZrbVNMNnVrVmtBckpJRzI0cVdTQ0lFQlJjOEJvYkdFVmZvOWo5ZVZUMDAyS29LMlh0cXdVd1JROURCSEh4RnJxbnBzYkVTNENzUXdSTkZvZFd6T1BjaWpvbExMOWtfUGdlZUNW?oc=5" target="_blank">Federal Reserve Preview: Inching Closer To Neutral - Seeking Alpha</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Fri, 24 Oct 2025 18:30:00 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        Federal Reserve Preview: Inching Closer To Neutral  Seeking Alpha
+                    </div>
+                </div>
+                <div class="more-articles">
+                    ... and 19 more articles in this category
+                </div>
+            </div>
+        </div>
+        
+        <div class="topic-section">
+            <div class="topic-header">
+                Inflation (15 articles)
+            </div>
+            <div class="topic-content">
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5fcDVhV1NaM3FnUzhMcGNKNUhIOEM5T2Q3LXd1TkQxVU5ydmUwSGx0dy1zbkt0cVY4bW55Yk9mQmdOV3RncGl4bXlNcnJEMzIteGhrSUk2a2xCRlkzdDJBSnFUUHVYZ05QSWxXYWtTYmhzSGpJMGhoclFEb1BsSzQ?oc=5" target="_blank">CPI Report Live Updates: Inflation Edged Higher in September - The New York Times</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Fri, 24 Oct 2025 20:26:55 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        CPI Report Live Updates: Inflation Edged Higher in September  The New York TimesStock Market Today: Dow, Nasdaq Hit New Highs After Inflation Report — Live Updates  The Wall Street JournalStocks jump ...
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVlJid2x0NmI1RTl5Rmw0TVk4RkZfX1NqbmQ5dG5BWHhXbVh3RWRISXJ1U3ZtR1ZKLVhFVEl4NkZkOUpyemhkMkh6cGpPUGFHZTlwS3FkZS1yQW9kYWNHbmx5VGhWMGgwTzl2UVJqelNrUzBTX1ZKV2xlcnBIMXM4NnhILUM5V2xpM3VJaGRZN21YaldCbXprSG9SZElWM0V2U1J4SHIyOEhENElid25NNURsVTYwX21RUVFvaHJRcUI?oc=5" target="_blank">What today's inflation report says about the economy — and Social Security checks - NPR</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Fri, 24 Oct 2025 20:25:14 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        What today's inflation report says about the economy — and Social Security checks  NPR
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNUXdTRFJqeXNkRWVXVkpDWnhlbkd2SGVOX3JGZURNXzJnLTdMTE5oQl9ydlMxc3pXLXdTaEpoR3lmWUFLcVdWQ0ZtdTgyQlQxRGxFcEVVZUhiY0FvTWJTUUZLRG94cTlqX0ZJcTBNYWtmNVlDcUt6OWxSeEk0SXNGUjFRWVhFYUQzd3ByekswbThZVUJh?oc=5" target="_blank">Social Security increase is in line with inflation but trails key expenses - The Washington Post</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Fri, 24 Oct 2025 20:38:28 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        Social Security increase is in line with inflation but trails key expenses  The Washington Post
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxOS3A1NExIQ2hWNzRMWGo1YTNTa19KNmhYcXlPa2NxQTRDQW5UU20tWWRsdmZFYnFDMUdjR3JVSDUtRnVDRUdKT19sRVpMSXdBRGg2Z1pOeFEtdHRNdTJXbWRRbDRkX0JTZG11Q2RuN3NuYTJZTTlsUEE2ZFNVY2VHeFBSQjNqNTVkb0dxX1U3UG50dlUwODZvMFRjY1Bfdnp4TUUtWVI2WXF1R3pWSV9kTTVESUJmRlZzYVVBTEJ0X0h5OTRiWWcxV3ZuMFM2bFXSAdQBQVVfeXFMTTZ6c0NWMHh2V1hTamVrZXNwT25hUWt1N1o2NlVjVTF6Yjh6M2MxdjNBZG5rSDdsVkVHWjMxclhJZ1ZyVjdiLVQ2cVhqdTJSV2h6MVV1NHZSNm91YW1WVXl6Ni1Sbm5UQ3A1ZndtZ19NYXluLXBqamhuSTJXVWhkRkk1SzEyWGpyZHl4VHowZER6WFR0VjRpNHBPcVVnNzJXYVladk92X2VXOVZ6d29YWUc0RjE1QnJsenFjalItaWt3NGJpWDdlNDlodDR3WlJJMXZ1VmQ?oc=5" target="_blank">White House says government shutdown could eliminate next inflation report despite optimistic numbers - Fox News</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Fri, 24 Oct 2025 20:01:49 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        White House says government shutdown could eliminate next inflation report despite optimistic numbers  Fox News
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxPekQxUkFuc3VCOW9hUEFxM0E0OHNRNnJKMUI2VWpyV1lLc1J0NmlJa2hkYmhyU1l6eG9IYTB0OWVvOFJHeHdnbmRrb0hyNXlNYl9Hcm5QcXBYLUNWamNNWnRBYXNwQXlZTVl6ZGh0Yk1PMEhtSXJQcDNhaGh1cGltRkJubng1VWd5OGkzQV9hYw?oc=5" target="_blank">Shutdown Could Cancel Next Inflation Report - The New York Times</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Fri, 24 Oct 2025 13:35:21 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        Shutdown Could Cancel Next Inflation Report  The New York Times
+                    </div>
+                </div>
+                <div class="more-articles">
+                    ... and 10 more articles in this category
+                </div>
+            </div>
+        </div>
+        
+        <div class="topic-section">
+            <div class="topic-header">
+                Market Risk (8 articles)
+            </div>
+            <div class="topic-content">
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBwcXhvRVVqcGhhVFktX1lqLW56VF9sVDRNYXRCZC1IcHF1VFNZVlpFdklxN2lqYkVJdElKcnZjc09xWFI0UkhOd2ZrQjlxSllha1pIRi1RdVo2eXJhdk1aSEl4b2lsYk51U3JkMTFqdGJhdWExaHRNMHF3MmxnRGc?oc=5" target="_blank">Manage Market Risks By Using This Simple Indicator Twice - Investor's Business Daily</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Fri, 24 Oct 2025 19:58:00 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        Manage Market Risks By Using This Simple Indicator Twice  Investor's Business Daily
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxNUGtoQUhIMGZLdXFpSGstWlExMXk5RnMwOUFQLVZJTW1VR2dvb2k4R1hSZFJlYUJlWDlaUllVakhEM1hwMUc0YWppbUlQb3RncHExSnU1MlFDNzhSMG5ZUHdxZFJCSVpLdHdPMFdEYzFZcVhJVlRYelI4NFNNWktxNWFJS0laUmVtOXBhQVdnQmdieGtFekx3T2ZhTG1DZHJ1bkNVRVV30gGrAUFVX3lxTE4wWlJvTm41Q01tMi1Wa0o2SDIxanNfLXFTMkpCYTI0dmxHSTZ6TDYwbC1rZ1JwMHByd0VPb0pEbFlXYUppM3owMFpDRWlDZXBiVjRaU19LQWpDbVpjaElhZjEzak1sUnJvNU5yamdjaG1vMVJjeFRZMkFRVnpLNktoYW5aQjBnLTZsTkl5TXJDWFl5MlM2MHZXdG1qRWVPTUpUWkNkaUZHSlVCUQ?oc=5" target="_blank">With stock market concentration risk at peak, 'it's cash, precious metals, and then crypto' as new normal - CNBC</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Thu, 23 Oct 2025 16:42:33 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        With stock market concentration risk at peak, 'it's cash, precious metals, and then crypto' as new normal  CNBC
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxOdXU2emcwN3Blakg2NXRLMzJfZUptVnVZZ3pUeXdOWHc3RGV4WWFtWXdVM0RCY0ZJMS1uRm9kbldnbGxXMkpkQUU3WTFPMnkwSXMtdFp5N0plVHVjV0EzR3JzUjZlNlhqeF8xaTRNdGRldGlWdV9CcGlOZlpPbENUbEoxZUc2Tkp0WlFKQnJmWUlTS3JBTTY2ZHEyNWxfWDVPSDVOYnJ6dXZ0V3Q3?oc=5" target="_blank">United Airlines to assume full market risk for Gillette air service in 2026 - County 17</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Thu, 23 Oct 2025 22:50:50 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        United Airlines to assume full market risk for Gillette air service in 2026  County 17
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxQX3llZ1Z4ajVmUTNCcDdMZVlpSXQxYV9tTUNzcHJreGtWTGVPbW5kM01qMVBqMEM0UEpnYXRhTWYtN2t3NWZWSTFUelRfMnNtZEU4bVpvVUR4OWFrQjZIcE9nNFpUMjVJdklRNm03TTN5VTYtTHNCZUZsVnp3WEI1Mk84Q0FQT2lKY3p3QjJqTjFmRGFadGF1Vk1SZVYwRUU4Y05r?oc=5" target="_blank">Solana: Can Strong Fundamentals Triumph Over the Market Risk? - Investing.com</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Thu, 23 Oct 2025 09:57:50 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        Solana: Can Strong Fundamentals Triumph Over the Market Risk?  Investing.com
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa3hwU2lwWExnQUhJaWJybXY3cTJYTHVMbkp3WGgxVk1JeUJzemZlTTl3bGpEWmtDNmJSOEYyWG9IMlk2ZVhJTjZNYTVvTUtvMHc4MWV4ZmlMRkhlZUZzYm9naGhWYTg2V1JNMmplR29RNDBBekdtYW96ZUFINkRYQjQ0ZmRMdjFmbWJmTTNLRFFYU2J6ajM2NjFlVjRFamRkZmxUVWpMeWM2dw?oc=5" target="_blank">Mitigating voluntary carbon market risks: Insurance strategies for corporate climate goals - Marsh</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Thu, 23 Oct 2025 12:55:21 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        Mitigating voluntary carbon market risks: Insurance strategies for corporate climate goals  Marsh
+                    </div>
+                </div>
+                <div class="more-articles">
+                    ... and 3 more articles in this category
+                </div>
+            </div>
+        </div>
+        
+        <div class="topic-section">
+            <div class="topic-header">
+                Banking & Finance (12 articles)
+            </div>
+            <div class="topic-content">
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSjFGV1NabG9fQ1prU3NGSGl0MnUyMVJicThrVDAtM3kyX2ZYd2VoTzJqQ2ZuaFBvSFJTbXROcHFYMXVWT3Vsa0MteUtyaW81a3J0WENUY1NlT3FzUWRRX0tyZ0tmR1E5RXNGWHBEQXR0Rm1VcWM5TkdqbmYwd014VUNwNzlDbWcwUFVFQWI0VnZ5UTJOUzNWUjItdks5REF6d2lEYnFrNnFGTUllZ0lMRUpjcjNFVy1HdnhxRjNfRERpRXdobmgyYg?oc=5" target="_blank">Fed hands banks a win with vote to advance 'stress test' overhaul - Reuters</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Fri, 24 Oct 2025 20:06:40 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        Fed hands banks a win with vote to advance 'stress test' overhaul  Reuters
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxQR25UQThBZUNDVmU4anJXb24zTjRJLVdEQnpiU1g1SGRQbEJpVTNObk1pSFJROUVaakF3QS1NdXlMdnVIM0VHTW1VSGdPSW1RYy1XTGN6TnZtZW9faFFzcnpTS2U2QVp3N2o2SGJuRmF0dzl6elVXZHR5S1hkZXE0aHhWdHI1WnhSY01B?oc=5" target="_blank">Fed Prepares Bank-Friendly Changes to Annual Stress Tests - The New York Times</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Fri, 24 Oct 2025 20:07:55 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        Fed Prepares Bank-Friendly Changes to Annual Stress Tests  The New York Times
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE96S1hRNl9mVHFzd0hNeUZQbWlIYTNZUGZaNy1tMzNpaDlCQWJCZ1BWbE5tNVZoNGVHS3Rmd2tYajR0TDhUUzYwakhmTnpHRUJqV1FaazhjOWxQWTRsU1pvTE1XS2diLTNlUDF2NEtHU3k?oc=5" target="_blank">Federal Reserve makes US bank stress tests less onerous - Financial Times</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Fri, 24 Oct 2025 17:54:53 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        Federal Reserve makes US bank stress tests less onerous  Financial Times
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE82dkstS2cyQy16aDVWTVlxUVR5VWt6SHVwTmp2d2VvSFgtMTk5UVJweVZ1WUtMZWhGTS1HVjMwVm1xX3VFa0ZKdVZOWDU2NW81RjFkaGtaSS16d9IBX0FVX3lxTE9zc0lwSjRXMDhSY0hfaTlOMDBzY255RmNBaU41Mi1mLUpxTkNkRzByVk81Q1h6NnZtaDFrckFVSEtGRlpBcU5OYWQza29UeF9pTk5DRXdrS2lZaW12X1Bv?oc=5" target="_blank">US firm collapses ringing 'alarm bells', says Bank of England chief - BBC</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Tue, 21 Oct 2025 15:32:56 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        US firm collapses ringing 'alarm bells', says Bank of England chief  BBC
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="https://news.google.com/rss/articles/CBMiiwNBVV95cUxOU3V1aVpPb2pwWUs2LVVmcGxPOWJXdFFMd1ZKYnE1RHlKcElsamNIY2hManIxVFdaZHMxR2xtSWRHUlRFdUMxLUFYel9BZFpUbURJTjJVandVdWk1My14X2JQTDNDTkJ6NVdkTUxkdTVxc0ZmMVdoWjl0SXgzV2ROT0xQUkJNUFc1dWVBazJydTd2SEpyWmZWNE5TYzFmUTJuS1VFQTJ5ZzNzWS1QZGlQYXFpZ1EyQWkyanJYeWJzdjlHdnpqdXJNXy1ETEN1NVhsTmUzQUR6UUNtM25iNENGZHVNdmFYaVJWYnVsY1had25QYmhDMHJSTzRvUmg5QVlNeFZLbjRCZnljOVUyZDF6eHlSczd6YjBuZ0RiM3BfelRvbVJKcF80WC1udTB3YWRqTnhKS2k2UDh4amJSRzBhQk5FNjVZUGdTX2N4ajlkTzQtWjVxZUNMamRXN1l2RWVNY3ItZTJjdkVjTjlLSnk4b3JFc3c1eDdQREMyY2V5SnJzV19hX2VOSU1yRQ?oc=5" target="_blank">Big Banks Enter Stablecoin Era by Taking Zelle International - The Wall Street Journal</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="article-source">Google News</span>
+                        <span class="article-date">Fri, 24 Oct 2025 15:38:00 GMT</span>
+                    </div>
+                    <div class="article-summary">
+                        Big Banks Enter Stablecoin Era by Taking Zelle International  The Wall Street Journal
+                    </div>
+                </div>
+                <div class="more-articles">
+                    ... and 7 more articles in this category
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <h3>Report Summary</h3>
+            <p>This report aggregates economic and financial news from major sources including Bloomberg, Reuters, Fox News, NBC, AP News, WSJ, and LinkedIn over the past week.</p>
+            <p>The analysis covers key economic indicators: unemployment trends, inflation data, market risk assessments, and banking sector developments.</p>
+            <p><strong>Data Collection Method:</strong> Automated aggregation from publicly available RSS feeds and Google News</p>
+            <p><strong>Generated on:</strong> October 24, 2025 at 08:49 PM UTC</p>
+        </div>
+    </div>
+</body>
+</html>
