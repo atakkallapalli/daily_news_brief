@@ -1,0 +1,71 @@
+{
+  "free_sources": [
+    {
+      "name": "CNBC RSS",
+      "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+      "source_type": "free_rss",
+      "category": "free",
+      "max_articles": 12,
+      "rate_limit": 1.0,
+      "active": true
+    },
+    {
+      "name": "Forbes Business",
+      "url": "https://www.forbes.com/business/feed/",
+      "source_type": "free_rss",
+      "category": "free",
+      "max_articles": 8,
+      "rate_limit": 1.5,
+      "active": true
+    },
+    {
+      "name": "Economist RSS",
+      "url": "https://www.economist.com/finance-and-economics/rss.xml",
+      "source_type": "free_rss",
+      "category": "free",
+      "max_articles": 10,
+      "rate_limit": 2.0,
+      "active": true
+    }
+  ],
+  "subscription_sources": [
+    {
+      "name": "Bloomberg Professional",
+      "url": "https://api.bloomberg.com/v1/news",
+      "source_type": "api",
+      "category": "subscription",
+      "api_key": "",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "max_articles": 25,
+      "rate_limit": 0.5,
+      "active": false
+    },
+    {
+      "name": "Refinitiv Eikon",
+      "url": "https://api.refinitiv.com/news",
+      "source_type": "api",
+      "category": "subscription",
+      "api_key": "",
+      "headers": {
+        "Authorization": "Bearer YOUR_TOKEN_HERE"
+      },
+      "max_articles": 20,
+      "rate_limit": 1.0,
+      "active": false
+    },
+    {
+      "name": "Financial Times Premium",
+      "url": "https://www.ft.com/rss/home/us",
+      "source_type": "subscription_rss",
+      "category": "subscription",
+      "headers": {
+        "FT-Client-Id": "your_client_id"
+      },
+      "max_articles": 15,
+      "rate_limit": 2.0,
+      "active": false
+    }
+  ]
+}

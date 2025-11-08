@@ -1,12 +1,12 @@
 # Economic and Financial News Summary
-**Collection Date:** 2025-11-08T00:20:18.109213
-**Total Articles:** 33
-**Sources:** BBC Business, Google News
-**Free Sources:** BBC Business, Google News
+**Collection Date:** 2025-11-08T00:23:13.129887
+**Total Articles:** 44
+**Sources:** Google News, Economist RSS, BBC Business, CNBC RSS
+**Free Sources:** Google News, Economist RSS, BBC Business, CNBC RSS
 
 ---
 
-## Inflation (10 articles)
+## Inflation (14 articles)
 
 ### 1. Bank says inflation has 'peaked' as it holds interest rates
 **Source:** BBC Business (free)
@@ -29,36 +29,50 @@
   • 📰 Economic and financial news update
 **Summary:** UK Inflation has fallen from record highs but remains above the Bank of England's 2% target....
 
-### 3. Inflation is so bad Americans are counting on Black Friday just to afford groceries and everyday essentials - Fortune
-**Source:** Google News (free)
-**Published:** Wed, 05 Nov 2025 18:58:00 GMT
-**URL:** https://news.google.com/rss/articles/CBMipAFBVV95cUxPOXVvM2dQaXhpQjFUbFFxRm9jaUpyNWVVb0x1NzFWNVFoU3lMaV9DdUdrMjVYcVR3WDZhZWc0QlR3dnFkTWVFX29LSUl3ZElqcjlHU2x4U2FYTnByRzg5WHFKSWIyQlBRNXpKdnZfS2syWnJsSUNoVmJvSjdqUkp3ekVtMmRuTDEyd1N5UWRjcWxwQ1E0TzBXTEY4bDBEYUh6NWhaNA?oc=5
+### 3. 
+        Would inflation-linked bonds survive an inflationary default?
+      
+**Source:** Economist RSS (free)
+**Published:** Wed, 15 Oct 2025 19:02:33 +0000
+**URL:** https://www.economist.com/finance-and-economics/2025/10/15/would-inflation-linked-bonds-survive-an-inflationary-default
 **Key Highlights:**
   • 📊 Inflation data and price trends updated
   • 📰 Economic and financial news update
-**Summary:** Inflation is so bad Americans are counting on Black Friday just to afford groceries and everyday essentials&nbsp;&nbsp;Fortune...
+**Summary:** 
+        A thought experiment on the nearest thing to a safe asset
+      ...
 
-### 4. Chipotle Isn’t Serving Tariff Inflation — for Now - Bloomberg.com
-**Source:** Google News (free)
-**Published:** Fri, 07 Nov 2025 11:30:04 GMT
-**URL:** https://news.google.com/rss/articles/CBMiowFBVV95cUxOZzBfRVl3aVZTMUF3aVJWQkFMbXFVSmoyM1VVMk9XdUYzQk5uZGwwWkNpSlhCdEFMalFrWTdVYVM1dkxxeW5vRFB3Rk5TemRoTVBpWVl2Y2ZCdGRZMlhFcE1wejREVWVYZ1ZtYUhucFJaS2VLNkhmQ0NIU2ozZ1pDdjRRNjUyd2loQUFjZS1sMzZSdGFsMjVJSXNLTm1fVmx5dGY4?oc=5
+### 4. 
+        Why American bondholders are jumpy about inflation
+      
+**Source:** Economist RSS (free)
+**Published:** Wed, 10 Sep 2025 19:05:23 +0000
+**URL:** https://www.economist.com/finance-and-economics/2025/09/10/why-american-bondholders-are-jumpy-about-inflation
 **Key Highlights:**
   • 📊 Inflation data and price trends updated
+  • 🏛️ Federal Reserve policy developments
   • 📰 Economic and financial news update
-**Summary:** Chipotle Isn’t Serving Tariff Inflation — for Now&nbsp;&nbsp;Bloomberg.com...
+**Summary:** 
+        The Federal Reserve prepares to cut interest rates in tricky circumstances
+      ...
 
-### 5. Inflation-Protected Bonds Fail a Key Test: They Don’t Help When Inflation Is High - The Wall Street Journal
-**Source:** Google News (free)
-**Published:** Thu, 06 Nov 2025 15:00:00 GMT
-**URL:** https://news.google.com/rss/articles/CBMi8wJBVV95cUxPZm8zdWFqNm1Cb2lZUC10Nk9lQmJHSTl1dVlUTzk2MGZDclhqdGhGNThOWEI3RXlqRTNCZVlEMTNOSXRTMHA1M2RKV05iZU16UkM5dDg2QzZxb0VYWUN6V3o4aDZzNkNhTVZyM1hiSWNyYV9LYUVqYXV4Y2NGckhtcy12N0d2Q2hiMTlMVEk5emRTaktCVkpzX3FaSmJweEN3R01lMmNxWnNEOTVCN3NSanNnbGpVVDd6OVdUdFFYVzBNWlNaay1WaE1oMWttRXBwY0Q1VWdGVl9SUW1Tc05PeTk3Umd2LWg2TE9yRmVhOTdZUVFPdGNtemdBZ2NhVGJHRXdTWmZ1cnk2RlB4WlN4UHZKNjNBZWZEcVdLRFFpd3hXVnk4SXlVNW1sdUtPa292SmM1bmJzN09fSnN1WG5jNnpVS1dVTmtiRnV1UzhhQ1Z4NldaaHFqS01nVkJmcU9xTFhTRlh0cnMwNjBaX0FUSVRhdw?oc=5
+### 5. 
+        How Trump’s war on the Federal Reserve could do serious damage 
+      
+**Source:** Economist RSS (free)
+**Published:** Thu, 28 Aug 2025 09:56:45 +0000
+**URL:** https://www.economist.com/finance-and-economics/2025/08/28/how-trumps-war-on-the-federal-reserve-could-do-serious-damage
 **Key Highlights:**
-  • 📊 Inflation data and price trends updated
+  • 💰 Inflationary pressures intensifying
+  • 🏛️ Federal Reserve policy developments
   • 📰 Economic and financial news update
-**Summary:** Inflation-Protected Bonds Fail a Key Test: They Don’t Help When Inflation Is High&nbsp;&nbsp;The Wall Street Journal...
+**Summary:** 
+        Just consider what happens if inflation starts to rise again
+      ...
 
-*... and 5 more articles in this category*
+*... and 9 more articles in this category*
 
-## Banking & Finance (2 articles)
+## Banking & Finance (4 articles)
 
 ### 1. Will Bank of England governor play Santa or Scrooge on interest rates?
 **Source:** BBC Business (free)
@@ -70,7 +84,31 @@
   • 📰 Economic and financial news update
 **Summary:** The interest rate decision was made by the narrowest of margins, meaning all eyes are now on the Bank's December meeting....
 
-### 2. BCBS dashboards - Bank for International Settlements
+### 2. Fed's Miran says stablecoin surge could help push interest rates lower
+**Source:** CNBC RSS (free)
+**Published:** Fri, 07 Nov 2025 20:46:48 GMT
+**URL:** https://www.cnbc.com/2025/11/07/feds-miran-says-stablecoin-surge-could-help-push-interest-rates-lower.html
+**Key Highlights:**
+  • 🏛️ Federal Reserve policy developments
+  • 🏦 Banking sector and financial institution news
+  • 🏛️ Policy implications and regulatory changes
+  • 📰 Economic and financial news update
+**Summary:** The central banker said the Fed might need to lower its own policy rate to avoid unintentionally slowing the economy....
+
+### 3. 
+        The deeper reason for banking’s retreat
+      
+**Source:** Economist RSS (free)
+**Published:** Thu, 31 Jul 2025 10:02:22 +0000
+**URL:** https://www.economist.com/finance-and-economics/2025/07/31/the-deeper-reason-for-bankings-retreat
+**Key Highlights:**
+  • 🏦 Banking sector and financial institution news
+  • 📰 Economic and financial news update
+**Summary:** 
+        Why bankers no longer play golf at 3pm
+      ...
+
+### 4. BCBS dashboards - Bank for International Settlements
 **Source:** Google News (free)
 **Published:** Thu, 23 Oct 2025 07:00:00 GMT
 **URL:** https://news.google.com/rss/articles/CBMiUEFVX3lxTE5mSVBXNzVFdkNGMlhMZzlKUDFSVmpYV3hlQUVtblhCMnIyekZEcThid3RvQzNVRWV4NXVYN1hjanZUelJyU080UFQ4Q2ktOVF5?oc=5
@@ -81,7 +119,71 @@
 **Summary:** BCBS dashboards&nbsp;&nbsp;Bank for International Settlements...
 
 
-## Unemployment & Employment (10 articles)
+## General Economic News (7 articles)
+
+### 1. 
+        America’s economy defies gloomy expectations
+      
+**Source:** Economist RSS (free)
+**Published:** Sun, 14 Sep 2025 13:39:13 +0000
+**URL:** https://www.economist.com/finance-and-economics/2025/09/14/americas-economy-defies-gloomy-expectations
+**Key Highlights:**
+  • 🏛️ Federal Reserve policy developments
+  • 📰 Economic and financial news update
+**Summary:** 
+        As the Federal Reserve cuts interest rates, growth is holding up
+      ...
+
+### 2. 
+        America is escaping its office crisis
+      
+**Source:** Economist RSS (free)
+**Published:** Mon, 01 Sep 2025 19:20:16 +0000
+**URL:** https://www.economist.com/finance-and-economics/2025/09/01/america-is-escaping-its-office-crisis
+**Key Highlights:**
+  • 🏛️ Federal Reserve policy developments
+  • 📰 Economic and financial news update
+**Summary:** 
+        The torment caused by covid-19 and high interest rates appears to be over
+      ...
+
+### 3. 
+        Trump “fires” Lisa Cook, escalating his war on the Federal Reserve
+      
+**Source:** Economist RSS (free)
+**Published:** Tue, 26 Aug 2025 08:36:17 +0000
+**URL:** https://www.economist.com/finance-and-economics/2025/08/26/trump-fires-lisa-cook-escalating-his-war-on-the-federal-reserve
+**Key Highlights:**
+  • 🏛️ Federal Reserve policy developments
+  • 📰 Economic and financial news update
+**Summary:** 
+        There is little precedent: no Fed governor has been dismissed for cause before
+      ...
+
+### 4. 
+        Americans can still get a 2% mortgage
+      
+**Source:** Economist RSS (free)
+**Published:** Thu, 17 Jul 2025 09:33:09 +0000
+**URL:** https://www.economist.com/finance-and-economics/2025/07/17/americans-can-still-get-a-2-mortgage
+**Key Highlights:**
+  • 🏛️ Federal Reserve policy developments
+  • 📰 Economic and financial news update
+**Summary:** 
+        At a time of high interest rates, there are bargains to be found
+      ...
+
+### 5. ‘I Wish There Was a Support Group for Spouses of Unemployed People’ - The Cut
+**Source:** Google News (free)
+**Published:** Thu, 06 Nov 2025 13:00:01 GMT
+**URL:** https://news.google.com/rss/articles/CBMimAFBVV95cUxOY2MxVmxTR2UxTENHTEhHX1pucUR2Nk5OcVJkQTR0aVFTaklXOVc0OGxla2JpTGpSa1RhbHRqSGwwTVJGLWtzZGM0TG5YWHJJTHhOc2gwTTRwZ1pIclUweVRVNVFOV2Yxc2UwcXJEQkFvVHpYd0MzYVFxclRmd0Vmb2RBblVZTmtSTThaRkNFMTV5UHRoQTN3TA?oc=5
+**Key Highlights:**
+  • 📰 Economic and financial news update
+**Summary:** ‘I Wish There Was a Support Group for Spouses of Unemployed People’&nbsp;&nbsp;The Cut...
+
+*... and 2 more articles in this category*
+
+## Unemployment & Employment (11 articles)
 
 ### 1. Canada gains a surprise 67,000 jobs in October, beating economists' expectations - CBC
 **Source:** Google News (free)
@@ -128,35 +230,7 @@
   • 📰 Economic and financial news update
 **Summary:** ‘No hire’ job market leaves unemployed in limbo as threats to economy multiply&nbsp;&nbsp;AP News...
 
-*... and 5 more articles in this category*
-
-## General Economic News (3 articles)
-
-### 1. ‘I Wish There Was a Support Group for Spouses of Unemployed People’ - The Cut
-**Source:** Google News (free)
-**Published:** Thu, 06 Nov 2025 13:00:01 GMT
-**URL:** https://news.google.com/rss/articles/CBMimAFBVV95cUxOY2MxVmxTR2UxTENHTEhHX1pucUR2Nk5OcVJkQTR0aVFTaklXOVc0OGxla2JpTGpSa1RhbHRqSGwwTVJGLWtzZGM0TG5YWHJJTHhOc2gwTTRwZ1pIclUweVRVNVFOV2Yxc2UwcXJEQkFvVHpYd0MzYVFxclRmd0Vmb2RBblVZTmtSTThaRkNFMTV5UHRoQTN3TA?oc=5
-**Key Highlights:**
-  • 📰 Economic and financial news update
-**Summary:** ‘I Wish There Was a Support Group for Spouses of Unemployed People’&nbsp;&nbsp;The Cut...
-
-### 2. How everyday savers can use I Bonds to make more money: Where to buy, what's the rate? - Detroit Free Press
-**Source:** Google News (free)
-**Published:** Thu, 06 Nov 2025 12:07:49 GMT
-**URL:** https://news.google.com/rss/articles/CBMi4AFBVV95cUxQc3c1Uk1zTy1zZy1COGNzcHpyVDF4SUdVemkyWDZVY215WEpSc3JiTFE1X2MtYjN3RkFuc3RTSndmUkZUbHdLTkR2QVBBdkhxd2VnOWMtN1ZLNHd1VzJlaXdkVlNzZ1VfWE92aGhBV08wOXRPMjcyMzRWMF84YlZsNFpKaWQ5ZXRMM1Z1NU1GUGluTjdnMmRsNVNnYUhrNHdCWlN4Z3BpLW9Vdk1NQXZCWnl4TWVBNXdPd3hZMERfbmJMNWFmVk94Q2JiRFVPMjN0N1ltelZ1NGNhLS1kcDM5WQ?oc=5
-**Key Highlights:**
-  • 📰 Economic and financial news update
-**Summary:** How everyday savers can use I Bonds to make more money: Where to buy, what's the rate?&nbsp;&nbsp;Detroit Free Press...
-
-### 3. The Fed’s Recent Rate Decisions Have Been Divisive. It Is Likely to Get Worse. - The New York Times
-**Source:** Google News (free)
-**Published:** Fri, 07 Nov 2025 10:02:49 GMT
-**URL:** https://news.google.com/rss/articles/CBMifEFVX3lxTE5IZjhoTUI0ODZueWhXZnJudkZPVjRkN3N2eGZvREliaUVXN0NQRXpYUzJzX2dxNF9ITm5MT2xQVlh3ZFNpRDU2VWNJZ1p4ZmZRb18zQmpIdUFKdlVRU0RYT2YxSFp5el92UUd2WGxpaDVfd3JCWDlUQnI4ZnQ?oc=5
-**Key Highlights:**
-  • 🏛️ Federal Reserve policy developments
-  • 📰 Economic and financial news update
-**Summary:** The Fed’s Recent Rate Decisions Have Been Divisive. It Is Likely to Get Worse.&nbsp;&nbsp;The New York Times...
-
+*... and 6 more articles in this category*
 
 ## Market Risk (8 articles)
 

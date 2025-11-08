@@ -1,580 +1,461 @@
 {
-  "collection_date": "2025-10-24T20:49:29.635251",
-  "total_articles": 70,
+  "collection_date": "2025-11-08T00:20:18.109213",
+  "total_articles": 33,
   "topics": {
-    "Unemployment & Employment": [
-      {
-        "title": "US weekly jobless claims increase, more people collecting unemployment checks, economists estimate - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPWXI2VldIRnd6bWZEWElqdV80eEpjOWkwZzZfcDBtbzJCNjJhSnZDVFFxU3c3Q3d5dFJDMm81SXZtSW9TRlBTT3gyT1h3TFFIRU5qM083b0lVU1R5UVM0WTJWR2RxY012WmJ5WWUxQzZoaUl3RXpESk1RY2JaUEJnWHFiUkZWYkZERi1pS25YOGxEcF9WZlZ1Q1FvaHJWa1dlT0V5bzJ6MGI3SHNjNGswdU15dFJhTG84akdPM25XMFF5NXN5ejVNNWhTbGVKLTRNTzZPS1VCa1JuaDloYVlaU1o1SXRNOXF2cXoxTi1B?oc=5",
-        "published": "Thu, 23 Oct 2025 23:06:29 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMi7gFBVV95cUxPWXI2VldIRnd6bWZEWElqdV80eEpjOWkwZzZfcDBtbzJCNjJhSnZDVFFxU3c3Q3d5dFJDMm81SXZtSW9TRlBTT3gyT1h3TFFIRU5qM083b0lVU1R5UVM0WTJWR2RxY012WmJ5WWUxQzZoaUl3RXpESk1RY2JaUEJnWHFiUkZWYkZERi1pS25YOGxEcF9WZlZ1Q1FvaHJWa1dlT0V5bzJ6MGI3SHNjNGswdU15dFJhTG84akdPM25XMFF5NXN5ejVNNWhTbGVKLTRNTzZPS1VCa1JuaDloYVlaU1o1SXRNOXF2cXoxTi1B?oc=5\" target=\"_blank\">US weekly jobless claims increase, more people collecting unemployment checks, economists estimate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-        "source": "Google News",
-        "keyword": "unemployment"
-      },
-      {
-        "title": "Australia\u2019s surprise unemployment spike suggests an economy not overheating but in need of stimulus | Greg Jericho - The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVkJtSWJIcDZNd1lBZzN5V3JGZVlRZkx1VGhOWGJGc2RXa3BmakxYTHB1ZUN4bVRSREhsQVVxdEJPeE5sOVpBREV6M1lObEc3MFNwUV9nYkpfQ3JtbDgya21JTGRkcEt1QnpjbHI1NmFYV0g5SDdZVkZSOU1pNmJZVXVCa3J4QnZyZHNPMWxIMzgzdFJuWktBbjBtUlM0bUx6T3FnMXFuTTBsS09haWhjNDh1TEJ4X1hnZXg5dm5CaWJwd2loQVRkdmpnS0NVTFNWeV9LeFZrclc3Zl9XeWkweW92RUdnN2lXUDJESXVHVGg?oc=5",
-        "published": "Thu, 23 Oct 2025 03:23:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVkJtSWJIcDZNd1lBZzN5V3JGZVlRZkx1VGhOWGJGc2RXa3BmakxYTHB1ZUN4bVRSREhsQVVxdEJPeE5sOVpBREV6M1lObEc3MFNwUV9nYkpfQ3JtbDgya21JTGRkcEt1QnpjbHI1NmFYV0g5SDdZVkZSOU1pNmJZVXVCa3J4QnZyZHNPMWxIMzgzdFJuWktBbjBtUlM0bUx6T3FnMXFuTTBsS09haWhjNDh1TEJ4X1hnZXg5dm5CaWJwd2loQVRkdmpnS0NVTFNWeV9LeFZrclc3Zl9XeWkweW92RUdnN2lXUDJESXVHVGg?oc=5\" target=\"_blank\">Australia\u2019s surprise unemployment spike suggests an economy not overheating but in need of stimulus | Greg Jericho</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
-        "source": "Google News",
-        "keyword": "unemployment"
-      },
-      {
-        "title": "China woos foreign tech talent, fanning its graduates\u2019 unemployment fears - NBC News",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUnlBSVZOb29fVEhYc2RUS3MtOG9rOTdwbk1OMjB6aUFENFU3dGY4aEpJcmhlLVFwdXl3RERxTjE4cFJ6bTRZSDFrWHVlREo2TU5QOU9LSEd1UXFiRmZMMElvalF6S205VzFTVS1OaWttSFdBUWg4clEwU3ljRmVmMHdQazlaOFpENHlsTThnZTczRzE0bHc4a25ZSWJBZGNQV2Y5U2RuZlRiaTI3dmM4T25YTdIBVkFVX3lxTE1hTW15U0preUVPbWR4MmFLTmRqUTZRVkV4RzJ2LUxLQzVsQWE3c0xRN0ZtaWFoWTdQR3Y0Q1dnM3YwQndQMHVBNDFXOVUxbzl6azNBY1pn?oc=5",
-        "published": "Thu, 23 Oct 2025 09:00:40 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOUnlBSVZOb29fVEhYc2RUS3MtOG9rOTdwbk1OMjB6aUFENFU3dGY4aEpJcmhlLVFwdXl3RERxTjE4cFJ6bTRZSDFrWHVlREo2TU5QOU9LSEd1UXFiRmZMMElvalF6S205VzFTVS1OaWttSFdBUWg4clEwU3ljRmVmMHdQazlaOFpENHlsTThnZTczRzE0bHc4a25ZSWJBZGNQV2Y5U2RuZlRiaTI3dmM4T25YTdIBVkFVX3lxTE1hTW15U0preUVPbWR4MmFLTmRqUTZRVkV4RzJ2LUxLQzVsQWE3c0xRN0ZtaWFoWTdQR3Y0Q1dnM3YwQndQMHVBNDFXOVUxbzl6azNBY1pn?oc=5\" target=\"_blank\">China woos foreign tech talent, fanning its graduates\u2019 unemployment fears</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font>",
-        "source": "Google News",
-        "keyword": "unemployment"
-      },
-      {
-        "title": "Port St. Lucie woman waits months for unemployment decision as eviction looms - WPTV",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNY3Z4THFYZTNMSXFBQk9GcGQyNTVIZWx1X2NULTNZOUY0aG5sMFJiWm1JRVpCWWRnU2p6V0VxOUkxZEhBQ1U1SlhWaXJGeFBfRGpFakJReVBiazFPOFlFYU1aWjFnZmlucU9hNlVEdVc0a2dFa3dmUDE1OXFlWHlCdVVQUEFaM1RVR0dERUZnOXI3V0NOaV9uNklCcFZ0aVNURE13eUkzNTlHTjBPV1VfejhiakxTZw?oc=5",
-        "published": "Thu, 23 Oct 2025 19:13:56 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNY3Z4THFYZTNMSXFBQk9GcGQyNTVIZWx1X2NULTNZOUY0aG5sMFJiWm1JRVpCWWRnU2p6V0VxOUkxZEhBQ1U1SlhWaXJGeFBfRGpFakJReVBiazFPOFlFYU1aWjFnZmlucU9hNlVEdVc0a2dFa3dmUDE1OXFlWHlCdVVQUEFaM1RVR0dERUZnOXI3V0NOaV9uNklCcFZ0aVNURE13eUkzNTlHTjBPV1VfejhiakxTZw?oc=5\" target=\"_blank\">Port St. Lucie woman waits months for unemployment decision as eviction looms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WPTV</font>",
-        "source": "Google News",
-        "keyword": "unemployment"
-      },
-      {
-        "title": "Records: DES delayed launch of new unemployment system by a year because of \u2018issues\u2019 - ABC15 Arizona",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPT1dOOTJXZzR2cDFYaHdvZFgzdlBCQ2s1UkV4QnBFV2ZXRkRQeU9SeUpNRnR2VHNIQVYtR01qbXRWTmdsdGppWkNoajFZcTNEMUg2bGRmc0kyaGc0TkJzNlJQbHRRd0dZeFNpLVB0RFFHR3NjRk5VdTZGRlVlbVFpcS1HLUpiNmJNNjFhdmpJUmhhVXBwOVZleW5EbzJ2S3JtMVZ6M0swMXNpMjd2SUdfQ2d5U0Y2SzIxYjdhZExQRExkeTZwd1pKdTQ5MkpaNkU?oc=5",
-        "published": "Fri, 24 Oct 2025 02:12:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPT1dOOTJXZzR2cDFYaHdvZFgzdlBCQ2s1UkV4QnBFV2ZXRkRQeU9SeUpNRnR2VHNIQVYtR01qbXRWTmdsdGppWkNoajFZcTNEMUg2bGRmc0kyaGc0TkJzNlJQbHRRd0dZeFNpLVB0RFFHR3NjRk5VdTZGRlVlbVFpcS1HLUpiNmJNNjFhdmpJUmhhVXBwOVZleW5EbzJ2S3JtMVZ6M0swMXNpMjd2SUdfQ2d5U0Y2SzIxYjdhZExQRExkeTZwd1pKdTQ5MkpaNkU?oc=5\" target=\"_blank\">Records: DES delayed launch of new unemployment system by a year because of \u2018issues\u2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC15 Arizona</font>",
-        "source": "Google News",
-        "keyword": "unemployment"
-      },
-      {
-        "title": "Louisiana initial unemployment claims drop - Baton Rouge Business Report",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbDh5b1gzNHlpRDRzU01RMGZpS2g1ZXIyOUoybTlBVmRuQkNmXy1YbUd6RklJN0kwaW9XdWJ4bjV6clZ1b1RGS0dZQ2V3NWx1TklzYV9ackVWWllaNTUxRy0zem44ZFZEQm04bExlVzNpUFZvQ1dIVVdmY1BpY050ZUR4M3pwMWM2eHfSAZIBQVVfeXFMTkVUTkliZkRCcEpFUExiMWpzaGI1dUhoOTdsWWp6dDhnRU9lMWkyRGZuRFdYS2lpY0ltM25hZkFPWHBWTGlSMGdfVjYxMjc0SHZjamlibGEtV1pDd1VoeW5NVHlzOVNwN0lvcGN4Tk9tU1MwWnV1b25DSkhaN3dvaWJMMEtlRklwWHRiekZLenpOTnc?oc=5",
-        "published": "Fri, 24 Oct 2025 20:05:20 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQbDh5b1gzNHlpRDRzU01RMGZpS2g1ZXIyOUoybTlBVmRuQkNmXy1YbUd6RklJN0kwaW9XdWJ4bjV6clZ1b1RGS0dZQ2V3NWx1TklzYV9ackVWWllaNTUxRy0zem44ZFZEQm04bExlVzNpUFZvQ1dIVVdmY1BpY050ZUR4M3pwMWM2eHfSAZIBQVVfeXFMTkVUTkliZkRCcEpFUExiMWpzaGI1dUhoOTdsWWp6dDhnRU9lMWkyRGZuRFdYS2lpY0ltM25hZkFPWHBWTGlSMGdfVjYxMjc0SHZjamlibGEtV1pDd1VoeW5NVHlzOVNwN0lvcGN4Tk9tU1MwWnV1b25DSkhaN3dvaWJMMEtlRklwWHRiekZLenpOTnc?oc=5\" target=\"_blank\">Louisiana initial unemployment claims drop</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Baton Rouge Business Report</font>",
-        "source": "Google News",
-        "keyword": "unemployment"
-      },
-      {
-        "title": "The one economic risk that could trigger an unemployment spike - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWVA2Z1kwVThMdW9hU21aSzlQRmlQTkphTGFkcFpUZlBySkFnUHVhTVpYdU1tX0RtdUFEMXp0T0txYjZMeFpfNWJLdm10cU9MeDVEcXNrS0xPWnZ5ZTgwZmRJLXI0cVhwQW1wT3ZsZExaMTFCcnIxeGcyU29mdnpjcmlERHM?oc=5",
-        "published": "Fri, 24 Oct 2025 11:30:54 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQWVA2Z1kwVThMdW9hU21aSzlQRmlQTkphTGFkcFpUZlBySkFnUHVhTVpYdU1tX0RtdUFEMXp0T0txYjZMeFpfNWJLdm10cU9MeDVEcXNrS0xPWnZ5ZTgwZmRJLXI0cVhwQW1wT3ZsZExaMTFCcnIxeGcyU29mdnpjcmlERHM?oc=5\" target=\"_blank\">The one economic risk that could trigger an unemployment spike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
-        "source": "Google News",
-        "keyword": "unemployment"
-      },
-      {
-        "title": "Charted: Long-Term Unemployment in the U.S. (2005\u20132025) - Visual Capitalist",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUU02SUtLS19ScFFxd0RiZnpaVzJRM2xubG9vMGhRaXhxOS1YSVZwT0NLNk5jYXVrOUVCcktSeW9hM3RUS1lZNFJrWXFuMFZ0ZzhGMTBFby11UVRCY2NGLXlPazRjanlZd2ZTbXdkWWFvc3hfbXI1ZHNUenJsOS1FaXRFX2lOTl9zMUdqcWJTZWZ5T1U4cTdUWXhYeElKQQ?oc=5",
-        "published": "Fri, 24 Oct 2025 16:12:54 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQUU02SUtLS19ScFFxd0RiZnpaVzJRM2xubG9vMGhRaXhxOS1YSVZwT0NLNk5jYXVrOUVCcktSeW9hM3RUS1lZNFJrWXFuMFZ0ZzhGMTBFby11UVRCY2NGLXlPazRjanlZd2ZTbXdkWWFvc3hfbXI1ZHNUenJsOS1FaXRFX2lOTl9zMUdqcWJTZWZ5T1U4cTdUWXhYeElKQQ?oc=5\" target=\"_blank\">Charted: Long-Term Unemployment in the U.S. (2005\u20132025)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Visual Capitalist</font>",
-        "source": "Google News",
-        "keyword": "unemployment"
-      },
-      {
-        "title": "Unemployment claims surge as Washington's federal workers face delays and challenges - KOMO",
-        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPQUlIb2lKYUFqN2g0MWZiZjNGN3UxSE80RkFvUVotNFRlMFpjemFGU196LWtuUUJWMVUxQS1LVFBvR1JhbUwzZWc3YUE3WjZac3N4TDdqdVdCdDI0b25SXzNmNnhuS0F5RkpuaDZlbmcxbnlFbjdpelUtcEhsbkRQZVJwT1d2RzRDMnBQa243blNRYlY2ejgxanNJV2RNWHc2aExjZ3NNU2xWTWhndmJ5cEYyNUN0bHhLVDV1Y3I3NDVLaGd1UFppUU5tZ0xjY3BCY0d0MVZSUnYzX2ZmR2l3Wmo1R0hINk83M1BSRE1jYW91OFBUUmxseUZEMmd1Z3Q0Q3A3SEEyZVBoc1U?oc=5",
-        "published": "Wed, 22 Oct 2025 23:51:15 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwJBVV95cUxPQUlIb2lKYUFqN2g0MWZiZjNGN3UxSE80RkFvUVotNFRlMFpjemFGU196LWtuUUJWMVUxQS1LVFBvR1JhbUwzZWc3YUE3WjZac3N4TDdqdVdCdDI0b25SXzNmNnhuS0F5RkpuaDZlbmcxbnlFbjdpelUtcEhsbkRQZVJwT1d2RzRDMnBQa243blNRYlY2ejgxanNJV2RNWHc2aExjZ3NNU2xWTWhndmJ5cEYyNUN0bHhLVDV1Y3I3NDVLaGd1UFppUU5tZ0xjY3BCY0d0MVZSUnYzX2ZmR2l3Wmo1R0hINk83M1BSRE1jYW91OFBUUmxseUZEMmd1Z3Q0Q3A3SEEyZVBoc1U?oc=5\" target=\"_blank\">Unemployment claims surge as Washington's federal workers face delays and challenges</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KOMO</font>",
-        "source": "Google News",
-        "keyword": "unemployment"
-      },
-      {
-        "title": "Bank boss says the Gen Z job crisis is real\u2014they did what society asked, got degrees, and still face rejection: 'They\u2019re not built to withstand that' - Fortune",
-        "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQZnhYVi1BbmlsaS1YMmc1QTJaMDJhLUtiaExWemFJQk5pTjdTSFRWWEdzNE9NLUhRUjBZdEtveWNNSG96cVVlUldhOUJQRWlMY2Y5bUd4MGViV21wYWRkSzBRVHE5NXNiaVNhaHpuLW5wdmdQa3NrUFpmOGtDZjBiQ2dZU1lFYTRBRmo2Ty1tbmlDeHl1UEtsY3hiRUpFT0lCNVVSbTB6UGVYb3haRjhKd015ajNSUGI0d0lPWVlFa1F3X1ZHQ0hreml3S2U5TXhfNGhrMFBmelhFamExYVlUVlZUeC1RY3pIM2ZTMnREQ1NYOFFnOVlpVkh3Z2xLOTBrRmN3ekNwY1FLUDI5WWdVekQ3Q2p1RXFpVjdUTWNzeEg4X041Sno2bVRBMndPRENDVXc?oc=5",
-        "published": "Thu, 23 Oct 2025 13:56:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMisgJBVV95cUxQZnhYVi1BbmlsaS1YMmc1QTJaMDJhLUtiaExWemFJQk5pTjdTSFRWWEdzNE9NLUhRUjBZdEtveWNNSG96cVVlUldhOUJQRWlMY2Y5bUd4MGViV21wYWRkSzBRVHE5NXNiaVNhaHpuLW5wdmdQa3NrUFpmOGtDZjBiQ2dZU1lFYTRBRmo2Ty1tbmlDeHl1UEtsY3hiRUpFT0lCNVVSbTB6UGVYb3haRjhKd015ajNSUGI0d0lPWVlFa1F3X1ZHQ0hreml3S2U5TXhfNGhrMFBmelhFamExYVlUVlZUeC1RY3pIM2ZTMnREQ1NYOFFnOVlpVkh3Z2xLOTBrRmN3ekNwY1FLUDI5WWdVekQ3Q2p1RXFpVjdUTWNzeEg4X041Sno2bVRBMndPRENDVXc?oc=5\" target=\"_blank\">Bank boss says the Gen Z job crisis is real\u2014they did what society asked, got degrees, and still face rejection: 'They\u2019re not built to withstand that'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fortune</font>",
-        "source": "Google News",
-        "keyword": "banking"
-      },
-      {
-        "title": "The real trouble with the Fed's jobs data turmoil - Axios",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GaVVwN3BqcW85TEJUdHZQQ0hUYUFrZTJodFVpclhmTUQyY1hKS3hqZzI4VlNva3A3bnI5eTNrU3VDM0tzc0dGUk9ja3pyNVIxNE1DNF9TeE11M0N5R0xjcG9YNXdzQlU1cXc?oc=5",
-        "published": "Fri, 24 Oct 2025 11:56:04 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE5GaVVwN3BqcW85TEJUdHZQQ0hUYUFrZTJodFVpclhmTUQyY1hKS3hqZzI4VlNva3A3bnI5eTNrU3VDM0tzc0dGUk9ja3pyNVIxNE1DNF9TeE11M0N5R0xjcG9YNXdzQlU1cXc?oc=5\" target=\"_blank\">The real trouble with the Fed's jobs data turmoil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Axios</font>",
-        "source": "Google News",
-        "keyword": "federal reserve"
-      }
-    ],
-    "General Economic News": [
-      {
-        "title": "Iowa city worker fired for the alleged theft of residents\u2019 utility payments - KCCI",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX3Q4X1FrUmtjbDhEeV9DWjBMUUlJNWJJUWlZUVl4SWNNR21Odm0xRFNQeVlyQktfM0JGT2U0WmZ5S2Z4M1NmTlo3bmxXdUpiTkhNOFN3YVZGWlVpSnRsRUFoZ2hNckp2R1hUSllfaUEtZ0NCeFNZRUkzOFlvSlR5RVhCZXJ0ZGFnWGFQR0lNR19nazhxZFpJ?oc=5",
-        "published": "Fri, 24 Oct 2025 02:49:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNX3Q4X1FrUmtjbDhEeV9DWjBMUUlJNWJJUWlZUVl4SWNNR21Odm0xRFNQeVlyQktfM0JGT2U0WmZ5S2Z4M1NmTlo3bmxXdUpiTkhNOFN3YVZGWlVpSnRsRUFoZ2hNckp2R1hUSllfaUEtZ0NCeFNZRUkzOFlvSlR5RVhCZXJ0ZGFnWGFQR0lNR19nazhxZFpJ?oc=5\" target=\"_blank\">Iowa city worker fired for the alleged theft of residents\u2019 utility payments</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KCCI</font>",
-        "source": "Google News",
-        "keyword": "unemployment"
-      },
-      {
-        "title": "Social Security 2026 COLA is 2.8%, but seniors will still fall into poverty. Here's why - USA Today",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMG5xcDZWTUZlMzBhSzV0TzRvWFhJaGlBWW1BZ0diTTY1WGs0WlVNSEpuR3FqVGFmSXBrR0JHel9qSEhjTlY2MGtTZmhNSWwtMkliWTN4a3hGMDVZcmVrYVFTeHg4VmpxTV9pMHphMkdsUmJ5UHJwbjhPMHNrbFc5WEhIN0hDNThRNm12MkdraThFYnlYNFVBSlNDRXpNbWV3RG10SXhYS09OaWFnN2FFNC1ubEtBSHVxX1NLS0lOcklrS0ZHUmhoT093?oc=5",
-        "published": "Fri, 24 Oct 2025 14:20:34 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxNMG5xcDZWTUZlMzBhSzV0TzRvWFhJaGlBWW1BZ0diTTY1WGs0WlVNSEpuR3FqVGFmSXBrR0JHel9qSEhjTlY2MGtTZmhNSWwtMkliWTN4a3hGMDVZcmVrYVFTeHg4VmpxTV9pMHphMkdsUmJ5UHJwbjhPMHNrbFc5WEhIN0hDNThRNm12MkdraThFYnlYNFVBSlNDRXpNbWV3RG10SXhYS09OaWFnN2FFNC1ubEtBSHVxX1NLS0lOcklrS0ZHUmhoT093?oc=5\" target=\"_blank\">Social Security 2026 COLA is 2.8%, but seniors will still fall into poverty. Here's why</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">USA Today</font>",
-        "source": "Google News",
-        "keyword": "inflation"
-      },
-      {
-        "title": "From Control to Contagion: The Market Cost of Political Dominance - NAI500",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRlFxVlZlZkVvR1VjX0FDRGQ0c2s2bkpEX0JVNkhDellIVHVsTk05R1kwMUxNWFRfZk9OejVOM1ZnbWZ1MDZQQWZGRnBsMmItVDdDYXA1TmdKT0pBVUQ3OUdJZ0ZabW5ndUtyMnYwdEEzZWNkdmpyb1NsNTRXYjQ2c1dOcHcxSWI3WW44VDJ0THZ3VUoybkZmUmNPSFlVQQ?oc=5",
-        "published": "Fri, 24 Oct 2025 18:59:47 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQRlFxVlZlZkVvR1VjX0FDRGQ0c2s2bkpEX0JVNkhDellIVHVsTk05R1kwMUxNWFRfZk9OejVOM1ZnbWZ1MDZQQWZGRnBsMmItVDdDYXA1TmdKT0pBVUQ3OUdJZ0ZabW5ndUtyMnYwdEEzZWNkdmpyb1NsNTRXYjQ2c1dOcHcxSWI3WW44VDJ0THZ3VUoybkZmUmNPSFlVQQ?oc=5\" target=\"_blank\">From Control to Contagion: The Market Cost of Political Dominance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NAI500</font>",
-        "source": "Google News",
-        "keyword": "market risk"
-      },
-      {
-        "title": "Federal Reserve Watch: Working Out - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1eHBYODd6TGIwcEZwNENDSlF5RTUtSlhiZFJWdi0yZVhxSlcydkg4aXR6d0w2bFFKVm5kNTU3ZDJyTU5pXy0zQnBtdmtGTmFnMUZEd1hDRldnSDN3WkRmOURIY1FjUEI5Y0xEU1dxd0JiSk1MeVNTVVVRTkpZcEE?oc=5",
-        "published": "Fri, 24 Oct 2025 18:21:14 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFA1eHBYODd6TGIwcEZwNENDSlF5RTUtSlhiZFJWdi0yZVhxSlcydkg4aXR6d0w2bFFKVm5kNTU3ZDJyTU5pXy0zQnBtdmtGTmFnMUZEd1hDRldnSDN3WkRmOURIY1FjUEI5Y0xEU1dxd0JiSk1MeVNTVVVRTkpZcEE?oc=5\" target=\"_blank\">Federal Reserve Watch: Working Out</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seeking Alpha</font>",
-        "source": "Google News",
-        "keyword": "federal reserve"
-      },
-      {
-        "title": "Federal Reserve Preview: Inching Closer To Neutral - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUXpBREg5QXhia2s1dFJLMUg2MTFGMWlkaFhDd1NLUjVfTUFLejl2bWZrbVNMNnVrVmtBckpJRzI0cVdTQ0lFQlJjOEJvYkdFVmZvOWo5ZVZUMDAyS29LMlh0cXdVd1JROURCSEh4RnJxbnBzYkVTNENzUXdSTkZvZFd6T1BjaWpvbExMOWtfUGdlZUNW?oc=5",
-        "published": "Fri, 24 Oct 2025 18:30:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNUXpBREg5QXhia2s1dFJLMUg2MTFGMWlkaFhDd1NLUjVfTUFLejl2bWZrbVNMNnVrVmtBckpJRzI0cVdTQ0lFQlJjOEJvYkdFVmZvOWo5ZVZUMDAyS29LMlh0cXdVd1JROURCSEh4RnJxbnBzYkVTNENzUXdSTkZvZFd6T1BjaWpvbExMOWtfUGdlZUNW?oc=5\" target=\"_blank\">Federal Reserve Preview: Inching Closer To Neutral</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seeking Alpha</font>",
-        "source": "Google News",
-        "keyword": "federal reserve"
-      },
-      {
-        "title": "Opening remarks by Governor Waller at the Payments Innovation Conference - Federal Reserve Board (.gov)",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAxMlJXR29pRV93MjNJTW9xUGFZT2RRb3lYNVZ3S2l2bFN0ZnJtUHRPc0VHbmVIaGtiZl95VkFXTGJQQ1BuWDI0N1kyLS1RQU9MLURrSEJ4S1lSTGxOcHpTVVZZenpPbS16WEdDd084ZEJXdWZpQlB3?oc=5",
-        "published": "Tue, 21 Oct 2025 13:03:47 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFAxMlJXR29pRV93MjNJTW9xUGFZT2RRb3lYNVZ3S2l2bFN0ZnJtUHRPc0VHbmVIaGtiZl95VkFXTGJQQ1BuWDI0N1kyLS1RQU9MLURrSEJ4S1lSTGxOcHpTVVZZenpPbS16WEdDd084ZEJXdWZpQlB3?oc=5\" target=\"_blank\">Opening remarks by Governor Waller at the Payments Innovation Conference</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Federal Reserve Board (.gov)</font>",
-        "source": "Google News",
-        "keyword": "federal reserve"
-      },
-      {
-        "title": "What will next Fed rate cut mean for mortgages, credit cards and car loans? - Detroit Free Press",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdERmT3BBTm1KNDBKdjE2RjI3VkRDenI0WThtODdnbF9IZ2U0M3NmNUE4Z043RHdIclFEbVVPY25nN3IyaVZkbm5zU1Q2VkozdVNfQ25tOE5pQkVjOHFTSnp3V25YYktQWENWTFdVaVMtVGd1akxBOFMxajEyUjNBaV9NMVNFbWFiY1FfY0dQSG8xclNDWGdQWWVRWm0tWDR4N0NHMEI3YUlSMFVaazh0eU5GQnFFRWk0ZkJsUmwtV3BPbkxnbm5KNmlFdkNKc3E2NHNuZE1ROTZPWElWYXFCUHNibk05N2p5?oc=5",
-        "published": "Thu, 23 Oct 2025 13:30:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdERmT3BBTm1KNDBKdjE2RjI3VkRDenI0WThtODdnbF9IZ2U0M3NmNUE4Z043RHdIclFEbVVPY25nN3IyaVZkbm5zU1Q2VkozdVNfQ25tOE5pQkVjOHFTSnp3V25YYktQWENWTFdVaVMtVGd1akxBOFMxajEyUjNBaV9NMVNFbWFiY1FfY0dQSG8xclNDWGdQWWVRWm0tWDR4N0NHMEI3YUlSMFVaazh0eU5GQnFFRWk0ZkJsUmwtV3BPbkxnbm5KNmlFdkNKc3E2NHNuZE1ROTZPWElWYXFCUHNibk05N2p5?oc=5\" target=\"_blank\">What will next Fed rate cut mean for mortgages, credit cards and car loans?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Detroit Free Press</font>",
-        "source": "Google News",
-        "keyword": "federal reserve"
-      },
-      {
-        "title": "Waller Welcomes \u2018New Era\u2019 for Federal Reserve in Payments - Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMXJRZGhVeGhxX3RfdGxiZ1gwV3V6T0RfN1Z4SzZBNllaRHQ5NDVYdm1yQ2c5Q0N1SGhzQkR4U0tsV2dad3c5azBpa21IMEg0dHliOUpvN1pDNUl4Qnh6a3JOaGFXSnVOLUxydjRkSXBHeTJKWmJ4Yms2MFFXQ0ZER1NZRFdDcE1BLTBKNzhrQzRtUDd4bmpSRjBCdTdSakFmS05CM3ZmaEt5dw?oc=5",
-        "published": "Tue, 21 Oct 2025 13:00:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMXJRZGhVeGhxX3RfdGxiZ1gwV3V6T0RfN1Z4SzZBNllaRHQ5NDVYdm1yQ2c5Q0N1SGhzQkR4U0tsV2dad3c5azBpa21IMEg0dHliOUpvN1pDNUl4Qnh6a3JOaGFXSnVOLUxydjRkSXBHeTJKWmJ4Yms2MFFXQ0ZER1NZRFdDcE1BLTBKNzhrQzRtUDd4bmpSRjBCdTdSakFmS05CM3ZmaEt5dw?oc=5\" target=\"_blank\">Waller Welcomes \u2018New Era\u2019 for Federal Reserve in Payments</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-        "source": "Google News",
-        "keyword": "federal reserve"
-      },
-      {
-        "title": "Mortgage rates are the lowest in a year. Should you refinance? - NBC News",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQa1Bjd3ZNM0dPUWc4UDhHdnpBcnVyUnNyT3RGcEFTY2paVWZqZnJBYXJEN0RYWWRWUDRBMUlBOTFLS0VjdEw3RFYyeWIzWUgxWWwzejhUbVBSUDBzaVVwZ05lZ2pEV0Z5QVFGSjJ5aDFudFhaVE5kT3VrYmJVbW01dHdQbXhnd2preVU3UVVwZ9IBVkFVX3lxTFBNajVhNzVlLWpWcFpGY1ZHNEg2WXFkOEpTam5qR2Zac1lNUU9lRDJ6dVNtaURvMGdNUVowaUluYTdxRUVOZWEwQ0gxUzZaX1RFd3NhUjRB?oc=5",
-        "published": "Thu, 23 Oct 2025 20:00:40 GMT",
-        "description": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQa1Bjd3ZNM0dPUWc4UDhHdnpBcnVyUnNyT3RGcEFTY2paVWZqZnJBYXJEN0RYWWRWUDRBMUlBOTFLS0VjdEw3RFYyeWIzWUgxWWwzejhUbVBSUDBzaVVwZ05lZ2pEV0Z5QVFGSjJ5aDFudFhaVE5kT3VrYmJVbW01dHdQbXhnd2preVU3UVVwZ9IBVkFVX3lxTFBNajVhNzVlLWpWcFpGY1ZHNEg2WXFkOEpTam5qR2Zac1lNUU9lRDJ6dVNtaURvMGdNUVowaUluYTdxRUVOZWEwQ0gxUzZaX1RFd3NhUjRB?oc=5\" target=\"_blank\">Mortgage rates are the lowest in a year. Should you refinance?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font></li><li><a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZTRpRHpmSUN5dHBBdFZqdXN5Wi1XZTJQblFSU1V1akx3MElKSG5sWnY5WWUzSG90ZVFpWWMyMG1QV1ZHVGVPaTFRLVNmSm9Ka1V1aFhmREJoeGI4eXRVWDBRb3RoeXdaZVJXTGdDczlEcE40bFJ3OUctZzUwcm1tMTBMcmR4eXFnc3RuVmx2MHlfSm9Pa2Q5WEYxNUFITTdzSy05TkdwWHF2WGF6Q3ZTNjdFWFU1VEFGZUVQVVdqZmxXc2Z4Nm5acE5UMTQ1SlhvYXFVWg?oc=5\" target=\"_blank\">Mortgage and refinance interest rates today, October 24, 2025: Now at a more than a one-year low</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font></li><li><a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQY2dkc2pBeVRjRXl1VXRKampUWExMZmVkR1pTMG5MOXotNWVmU0Z3VzZKVmpfMVdPcVFDSGx2ZDNzdTh2V2VvbkF6WHhlSXBHZmVFOFViWE9nemticEM4NDVlNWNpalRkY2c3Q2g1OGVaMDRvcmtNRE5LV1lic0lkZ3k1YXdub284ek1ROWJHLXhIb3E5UVZWdXQyMGtLUQ?oc=5\" target=\"_blank\">Everything to know about mortgage interest rates before the October Fed meeting</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBS News</font></li></ol>",
-        "source": "Google News",
-        "keyword": "interest rates"
-      },
-      {
-        "title": "BOJ poised to hike interest rates in Q4, majority of economists say: Reuters poll - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObllQLTcxUWJnUXFMYzVOeDRycVRUM19nNzVJLWszNlp2TlptM2QwZEFjZUZ5VFdiNnJOT1dIY1ZiTDliREZlN3JSWFhVbTRCT2lsNXRfTWtYbFZQcGpFZGtaYlZCUElYZEx4TWdqUDBUUEtBUDRyWmNaQVQxS3VSUWF4dUE0Z1p2aXNIcnVSdjRmdXQ5aTZkV3NlUDREOW8wengtWExvTGlHVi1jSDhGRHN3?oc=5",
-        "published": "Wed, 22 Oct 2025 04:13:08 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxObllQLTcxUWJnUXFMYzVOeDRycVRUM19nNzVJLWszNlp2TlptM2QwZEFjZUZ5VFdiNnJOT1dIY1ZiTDliREZlN3JSWFhVbTRCT2lsNXRfTWtYbFZQcGpFZGtaYlZCUElYZEx4TWdqUDBUUEtBUDRyWmNaQVQxS3VSUWF4dUE0Z1p2aXNIcnVSdjRmdXQ5aTZkV3NlUDREOW8wengtWExvTGlHVi1jSDhGRHN3?oc=5\" target=\"_blank\">BOJ poised to hike interest rates in Q4, majority of economists say: Reuters poll</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-        "source": "Google News",
-        "keyword": "interest rates"
-      },
-      {
-        "title": "Comparing Savings Accounts and CDs Before the Fed Looks at a Possible Rate Cut - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWlBDWUpFaGRRMjJqMlVydU1ZdUdfaVpKQmlmTkJ0WE95QWRWRmRLNDJZeXF2Tmo5NUFqTmZuS3pEdXJzVjhhT1EwYXJrTmhzUk5qRUMyV1lYaWlkZUJTaUtEdkZSMEdrUHdEcldYSElPSmdQRGpmM1cwSVREUXJqbUx4SnRIeEo4akEtTw?oc=5",
-        "published": "Fri, 24 Oct 2025 13:00:07 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOWlBDWUpFaGRRMjJqMlVydU1ZdUdfaVpKQmlmTkJ0WE95QWRWRmRLNDJZeXF2Tmo5NUFqTmZuS3pEdXJzVjhhT1EwYXJrTmhzUk5qRUMyV1lYaWlkZUJTaUtEdkZSMEdrUHdEcldYSElPSmdQRGpmM1cwSVREUXJqbUx4SnRIeEo4akEtTw?oc=5\" target=\"_blank\">Comparing Savings Accounts and CDs Before the Fed Looks at a Possible Rate Cut</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
-        "source": "Google News",
-        "keyword": "interest rates"
-      },
-      {
-        "title": "ECB to Hold Interest Rates at 2% for Next Two Years, Poll Shows - Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSW5UX1RWRjhGWmNodWluZER4Tk9qbENnVWlJZTd3cmNSOC12VURPNFozcVkxVThSMTlDc1lnMVNrSW9uZGVISktnQTluWUZvbnBYQld3OTd2M2c1Uy1SSjRFeUszT29fS2xRcEdBUVJyYXJwRTRmQXVjWE9GNzQzWmJKVVRfd01kTDJ0NFdFWElFVjYzVDVMbFNVYXdfN1lzS09YWmZoRFZpTndVNGlTT0tn?oc=5",
-        "published": "Fri, 24 Oct 2025 04:00:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQSW5UX1RWRjhGWmNodWluZER4Tk9qbENnVWlJZTd3cmNSOC12VURPNFozcVkxVThSMTlDc1lnMVNrSW9uZGVISktnQTluWUZvbnBYQld3OTd2M2c1Uy1SSjRFeUszT29fS2xRcEdBUVJyYXJwRTRmQXVjWE9GNzQzWmJKVVRfd01kTDJ0NFdFWElFVjYzVDVMbFNVYXdfN1lzS09YWmZoRFZpTndVNGlTT0tn?oc=5\" target=\"_blank\">ECB to Hold Interest Rates at 2% for Next Two Years, Poll Shows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-        "source": "Google News",
-        "keyword": "interest rates"
-      },
-      {
-        "title": "How recent interest rate drop is affecting northern Nevada housing market - KOLO | 8 News Now",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVmhvZXNkT3JjTXRMS2xSeUJZZVpGTFRRdDMtRjVsS1Z2N3lBVzlVdk45UXo3dnYwX2YzNzJXME9TdTJOYTZXTDBXNVhEeGFFMDZPTzhPelNqZkpHcWd1eWVZQWNuNGNxVGJZRXhaTUVtc2Uyc1FGc3M1RlVmc2V2Ny1JUWxjS0ZBN0Nvc2pRTWhpTzNpNVRESkFn0gGuAUFVX3lxTE01XzZrbjBudVVxbndwS3BLUHBDbjhSY3dQcEtYNzNlSFZXV19OSkNZaFFaUDZRMzhyMUlTdGJCTUd2R3NLdFdqMEhvVF9yZUpYVVVFc2JaTlZ2S1hCQXBISU1zSkt1ZVdCVVlRUnFudlpTNmp5emIxRHNpd0kzNW1YU0t0ZjMxMjUycG03WDNMR2xscklwcWdQUU0ydzU3M1FEMXdKZ0NYaGdPdUJDdw?oc=5",
-        "published": "Fri, 24 Oct 2025 00:22:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOVmhvZXNkT3JjTXRMS2xSeUJZZVpGTFRRdDMtRjVsS1Z2N3lBVzlVdk45UXo3dnYwX2YzNzJXME9TdTJOYTZXTDBXNVhEeGFFMDZPTzhPelNqZkpHcWd1eWVZQWNuNGNxVGJZRXhaTUVtc2Uyc1FGc3M1RlVmc2V2Ny1JUWxjS0ZBN0Nvc2pRTWhpTzNpNVRESkFn0gGuAUFVX3lxTE01XzZrbjBudVVxbndwS3BLUHBDbjhSY3dQcEtYNzNlSFZXV19OSkNZaFFaUDZRMzhyMUlTdGJCTUd2R3NLdFdqMEhvVF9yZUpYVVVFc2JaTlZ2S1hCQXBISU1zSkt1ZVdCVVlRUnFudlpTNmp5emIxRHNpd0kzNW1YU0t0ZjMxMjUycG03WDNMR2xscklwcWdQUU0ydzU3M1FEMXdKZ0NYaGdPdUJDdw?oc=5\" target=\"_blank\">How recent interest rate drop is affecting northern Nevada housing market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KOLO | 8 News Now</font>",
-        "source": "Google News",
-        "keyword": "interest rates"
-      },
-      {
-        "title": "Russia, warning of tepid growth, cuts key interest rate - Courthouse News",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNkdRbDBFQWl4Nmp0MUxldFMzTnR0eEZCMW1zbkR2TFZSMmYwdXlmenN2M0tEaUNjbjB6SkVlMjBuOHN1N1AxV2FGa2RrWGFYOFh6Tjh3Mm5XalVHMGtNOFJzNzBibm1yRks1aGtaLTNMX0xVUlZIR0xaamlhb2pEcUVidjk0d3pNbnhzellR?oc=5",
-        "published": "Fri, 24 Oct 2025 18:09:58 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNNkdRbDBFQWl4Nmp0MUxldFMzTnR0eEZCMW1zbkR2TFZSMmYwdXlmenN2M0tEaUNjbjB6SkVlMjBuOHN1N1AxV2FGa2RrWGFYOFh6Tjh3Mm5XalVHMGtNOFJzNzBibm1yRks1aGtaLTNMX0xVUlZIR0xaamlhb2pEcUVidjk0d3pNbnhzellR?oc=5\" target=\"_blank\">Russia, warning of tepid growth, cuts key interest rate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Courthouse News</font>",
-        "source": "Google News",
-        "keyword": "interest rates"
-      },
-      {
-        "title": "What To Expect From Wednesday's Interest Rate Decision - Investopedia",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLUE5ZVo1ZEFFTW5QZjhtY3dIY3ZEZlpZRnJUZUVmTGxKelVvcWRDOXNCTzZFYjlHRUxTRjhlYTg0R3ZKNlI4SWVJM1NtaEFuWUExTzZzc2tQVU9ZMEhtVGVfb3Ywb1J6Undvb1lzTnExSHVzRk9xOVI3VGF6a2ZYZmVGYjV6c2ZG?oc=5",
-        "published": "Fri, 24 Oct 2025 19:52:03 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLUE5ZVo1ZEFFTW5QZjhtY3dIY3ZEZlpZRnJUZUVmTGxKelVvcWRDOXNCTzZFYjlHRUxTRjhlYTg0R3ZKNlI4SWVJM1NtaEFuWUExTzZzc2tQVU9ZMEhtVGVfb3Ywb1J6Undvb1lzTnExSHVzRk9xOVI3VGF6a2ZYZmVGYjV6c2ZG?oc=5\" target=\"_blank\">What To Expect From Wednesday's Interest Rate Decision</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investopedia</font>",
-        "source": "Google News",
-        "keyword": "interest rates"
-      },
-      {
-        "title": "\"Relatively Stable\" 2026 Economic Outlook Bodes Well for CRE - Connect CRE",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbjVuRWU0TXlUM0hnNHBDN1B3TXc2LVBycnN2Qmowb211MzFmejM2TU5UZzBySFZqWGhJZDAwX1RyYjl6VTVIa0VTcE9TZEJCR3dHbXR1MFc0MFV2aGlrRjRidGU2NUF4UnRjVVVzSkd0TERqX18wN3poYzJYRlpLR2Z3OUlvRmpjR3ZXakJpaUNremtYUGw4XzVn?oc=5",
-        "published": "Thu, 23 Oct 2025 13:19:21 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNbjVuRWU0TXlUM0hnNHBDN1B3TXc2LVBycnN2Qmowb211MzFmejM2TU5UZzBySFZqWGhJZDAwX1RyYjl6VTVIa0VTcE9TZEJCR3dHbXR1MFc0MFV2aGlrRjRidGU2NUF4UnRjVVVzSkd0TERqX18wN3poYzJYRlpLR2Z3OUlvRmpjR3ZXakJpaUNremtYUGw4XzVn?oc=5\" target=\"_blank\">\"Relatively Stable\" 2026 Economic Outlook Bodes Well for CRE</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Connect CRE</font>",
-        "source": "Google News",
-        "keyword": "economic outlook"
-      },
-      {
-        "title": "World Economic Outlook, October 2025: Global Economy in Flux, Prospects Remain Dim - International Monetary Fund (IMF)",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVDlkNjF3bGFSLUZJVjdrN3NNRE81ei1NaHRuMnBTc3paekFya2VVYkVoOENrYThlWTdHUWdVNmw5X1o5Sm5mWjRJc1ZxMUtTbFBocU1VbnNzWU1qWjJCQzNKWmp0eDRLRnVXZWdmVVhZV1FNUnJUSFdsY2ZwWGd0ODlpcnIwRnF1aktObjZXN0VkZHpRNmNWaQ?oc=5",
-        "published": "Fri, 24 Oct 2025 18:20:35 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPVDlkNjF3bGFSLUZJVjdrN3NNRE81ei1NaHRuMnBTc3paekFya2VVYkVoOENrYThlWTdHUWdVNmw5X1o5Sm5mWjRJc1ZxMUtTbFBocU1VbnNzWU1qWjJCQzNKWmp0eDRLRnVXZWdmVVhZV1FNUnJUSFdsY2ZwWGd0ODlpcnIwRnF1aktObjZXN0VkZHpRNmNWaQ?oc=5\" target=\"_blank\">World Economic Outlook, October 2025: Global Economy in Flux, Prospects Remain Dim</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">International Monetary Fund (IMF)</font>",
-        "source": "Google News",
-        "keyword": "economic outlook"
-      },
-      {
-        "title": "US-China trade war clouds global economic outlook as 'new normal' emerges - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSlA2R2xoSURqTWs3MVVNd284aTA1bzNRdnlMTEVROWhUYVNKRk5FM2ZpTWxoVEJ3SHFhc0ViYS16X1ZlM01wWUJNbmRyajY4eDJtTFB5bE5aSDNabC1sa0JFOFFuUDlXOFlaUzZvSGZxUHV4amViSU9ENVRsdEtxcGlfZnFNRmRiNDN2QlQ5am4xQTlUZkxibjMxYkhYbkxVTWxua1drRGFmY0p6WmtYdmJneTRKd0k?oc=5",
-        "published": "Sun, 19 Oct 2025 10:05:32 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPSlA2R2xoSURqTWs3MVVNd284aTA1bzNRdnlMTEVROWhUYVNKRk5FM2ZpTWxoVEJ3SHFhc0ViYS16X1ZlM01wWUJNbmRyajY4eDJtTFB5bE5aSDNabC1sa0JFOFFuUDlXOFlaUzZvSGZxUHV4amViSU9ENVRsdEtxcGlfZnFNRmRiNDN2QlQ5am4xQTlUZkxibjMxYkhYbkxVTWxua1drRGFmY0p6WmtYdmJneTRKd0k?oc=5\" target=\"_blank\">US-China trade war clouds global economic outlook as 'new normal' emerges</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-        "source": "Google News",
-        "keyword": "economic outlook"
-      },
-      {
-        "title": "Global Growth Remains Sluggish as Tariff Threats Loom - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeXNEdWlNVGFMUlh1NjBYbGpaX0lwUHhSZmtjVkdqS3dpOWtPTkU3Y28tcjMzQUNIa0hjS3pwSDZPVFFjajRJc2w0WFdtX2lVNnFicjZTc2ZJR2wwckhIWEhpOThIVXNrRUUtbzBwUjVUakZPc250QVIzTmEtME8yTFBLQWJlMDdQQ1Aw?oc=5",
-        "published": "Tue, 14 Oct 2025 07:00:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeXNEdWlNVGFMUlh1NjBYbGpaX0lwUHhSZmtjVkdqS3dpOWtPTkU3Y28tcjMzQUNIa0hjS3pwSDZPVFFjajRJc2w0WFdtX2lVNnFicjZTc2ZJR2wwckhIWEhpOThIVXNrRUUtbzBwUjVUakZPc250QVIzTmEtME8yTFBLQWJlMDdQQ1Aw?oc=5\" target=\"_blank\">Global Growth Remains Sluggish as Tariff Threats Loom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
-        "source": "Google News",
-        "keyword": "economic outlook"
-      },
-      {
-        "title": "Q4 2025 Stock Market Outlook: No Margin for Error - Morningstar",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOX2JqeEZmdXpwenpFNnh1VDA3czYtNHZGcFFpTnUzN3Z5NWVDTm1CYjNmQ0FrM3UyREhZU1B3N1g1QllmOVNqUUlnbnQ1Q2w0ME04dlVJS1Y1RTRlSnFvUnhCUGt3S3VXRG42QWw2dFJIa2R5bFZBZlNiQ1Qtb2lZUlN5UUZ2b0k?oc=5",
-        "published": "Fri, 03 Oct 2025 07:00:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOX2JqeEZmdXpwenpFNnh1VDA3czYtNHZGcFFpTnUzN3Z5NWVDTm1CYjNmQ0FrM3UyREhZU1B3N1g1QllmOVNqUUlnbnQ1Q2w0ME04dlVJS1Y1RTRlSnFvUnhCUGt3S3VXRG42QWw2dFJIa2R5bFZBZlNiQ1Qtb2lZUlN5UUZ2b0k?oc=5\" target=\"_blank\">Q4 2025 Stock Market Outlook: No Margin for Error</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Morningstar</font>",
-        "source": "Google News",
-        "keyword": "economic outlook"
-      },
-      {
-        "title": "Global economic outlook weakens as policy uncertainty weighs on demand - OECD",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQVpFbVNlbXVwTm1iZzlxVWV1eHlzVWdmZjBGbUFjOFp4N3A0cy1jcDhjQkl3OFJRRllVZWZfZ3pNU0cwcm14TmMtZG1JVXBCcTM1TC1qQTVLdDY1MnRtdk1GNlpYY2lHaFFUc0NwNUIxT19pY1FtQ2lTSmx3RzRVRnNidjJIZ3p3RlVCWU5WcjV0Qnl0emY5eTZ6Q1R0X2dYak1EX3BycmY1R3dIU3VPY2NrSDBENFdmU3BEdWxtWjhPVFE5WjVES3R1WGdnZw?oc=5",
-        "published": "Tue, 23 Sep 2025 07:00:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxOQVpFbVNlbXVwTm1iZzlxVWV1eHlzVWdmZjBGbUFjOFp4N3A0cy1jcDhjQkl3OFJRRllVZWZfZ3pNU0cwcm14TmMtZG1JVXBCcTM1TC1qQTVLdDY1MnRtdk1GNlpYY2lHaFFUc0NwNUIxT19pY1FtQ2lTSmx3RzRVRnNidjJIZ3p3RlVCWU5WcjV0Qnl0emY5eTZ6Q1R0X2dYak1EX3BycmY1R3dIU3VPY2NrSDBENFdmU3BEdWxtWjhPVFE5WjVES3R1WGdnZw?oc=5\" target=\"_blank\">Global economic outlook weakens as policy uncertainty weighs on demand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OECD</font>",
-        "source": "Google News",
-        "keyword": "economic outlook"
-      },
-      {
-        "title": "Trump administration, Federal Reserve, and CBO release conflicting economic forecasts for next four years - Fox Business",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQTU4aWFOSlZJZUJkSHh3ZzVmX21JaWk2d1hiNmwzYy12RzRoVmhjMUlIcXVwd2JIdFBXVUxoOE9CSHYxVWVtb0o2UmxyQTdOcW5zYXBiSVdBeFROT3JydklZS29QaDI4VHFNYUx2RWVqSzVKaFlVckkxNzkwUGdHV2hSbENVOEJzVHVrWTBvc0J3UmxxLWhvSllON1hQWEkxLVUyOGVmSWg2bV9zeGc3bHRWWHJZdS10N0ZHX3BQWHNkNDQ5ZHBSVWNEUdIB0AFBVV95cUxNaTV0WnA0eG9SY2hwSl9ST1hXYWFLeDRMV1FzWmNnN2JOT3ZYY1pVNExDRThIMFljVzd2QXdUc1o4ZURzV1N0dlJJeVZqUmFPbDZuM0hXYXRhVF9FZFhqME9keHFuU0h4RXNnY1FjczFuZU9ETWNoMHgtY1V5NmVRazJPTkdxSDR3T3VEZmNCOHMwRXdld2pGUE1Kc1JFd29qSDg3MFUtR3JtZ1hiNzVZZjk2ZUpoZEpjSGJMMzhlWlQ3bWJzckUyRU13YTBhMnRo?oc=5",
-        "published": "Tue, 30 Sep 2025 07:00:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPQTU4aWFOSlZJZUJkSHh3ZzVmX21JaWk2d1hiNmwzYy12RzRoVmhjMUlIcXVwd2JIdFBXVUxoOE9CSHYxVWVtb0o2UmxyQTdOcW5zYXBiSVdBeFROT3JydklZS29QaDI4VHFNYUx2RWVqSzVKaFlVckkxNzkwUGdHV2hSbENVOEJzVHVrWTBvc0J3UmxxLWhvSllON1hQWEkxLVUyOGVmSWg2bV9zeGc3bHRWWHJZdS10N0ZHX3BQWHNkNDQ5ZHBSVWNEUdIB0AFBVV95cUxNaTV0WnA0eG9SY2hwSl9ST1hXYWFLeDRMV1FzWmNnN2JOT3ZYY1pVNExDRThIMFljVzd2QXdUc1o4ZURzV1N0dlJJeVZqUmFPbDZuM0hXYXRhVF9FZFhqME9keHFuU0h4RXNnY1FjczFuZU9ETWNoMHgtY1V5NmVRazJPTkdxSDR3T3VEZmNCOHMwRXdld2pGUE1Kc1JFd29qSDg3MFUtR3JtZ1hiNzVZZjk2ZUpoZEpjSGJMMzhlWlQ3bWJzckUyRU13YTBhMnRo?oc=5\" target=\"_blank\">Trump administration, Federal Reserve, and CBO release conflicting economic forecasts for next four years</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fox Business</font>",
-        "source": "Google News",
-        "keyword": "economic outlook"
-      },
-      {
-        "title": "Fannie Mae predicts major mortgage rate change coming soon - TheStreet",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZGg3YmJqNkdwb240NU0tODdHNGszQ29hMDZseGJWODFVeUZ5X09wM1dtNmRtdXZ6dGpEeWh5bm55R3hRY2pvdmxuRlFERWxvSnpFamNTdEpEZzZPeWF2Z2dLdVIwN3MwNzBTSjhRN2NfSTA0RWM0b295WGJzTWo4bDUzWGZSVUp5WGpwNVJiWFlYMmF0LTdxV3lmOA?oc=5",
-        "published": "Wed, 01 Oct 2025 07:00:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQZGg3YmJqNkdwb240NU0tODdHNGszQ29hMDZseGJWODFVeUZ5X09wM1dtNmRtdXZ6dGpEeWh5bm55R3hRY2pvdmxuRlFERWxvSnpFamNTdEpEZzZPeWF2Z2dLdVIwN3MwNzBTSjhRN2NfSTA0RWM0b295WGJzTWo4bDUzWGZSVUp5WGpwNVJiWFlYMmF0LTdxV3lmOA?oc=5\" target=\"_blank\">Fannie Mae predicts major mortgage rate change coming soon</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TheStreet</font>",
-        "source": "Google News",
-        "keyword": "economic outlook"
-      },
-      {
-        "title": "Regional Economic Outlook for Sub-Saharan Africa, October 2025 - International Monetary Fund (IMF)",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU2dJbjh3VkpJUmZ2bDJuRzFwRVplTVpqZklVLVFXMDNOZWNDQWxNd3NyQTI1M0dpVmVjZlA3aU9xN3FSRG8yNmdnU01RNXMxM1Nrcmtja3A4UEZxbnZ2UXFZNTUxOGkxc2pESW0tRWd6TEROczZUV28wb1ZzMjVVeEdxS0p4UVVvNFRrUm5vYlM3UWNJazRBbk9VYlJYZUVpUkhRWkRnWHF5aXFVTjFfenRtYzBoTlg0UEx2ZEZsY1M?oc=5",
-        "published": "Fri, 24 Oct 2025 00:21:41 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU2dJbjh3VkpJUmZ2bDJuRzFwRVplTVpqZklVLVFXMDNOZWNDQWxNd3NyQTI1M0dpVmVjZlA3aU9xN3FSRG8yNmdnU01RNXMxM1Nrcmtja3A4UEZxbnZ2UXFZNTUxOGkxc2pESW0tRWd6TEROczZUV28wb1ZzMjVVeEdxS0p4UVVvNFRrUm5vYlM3UWNJazRBbk9VYlJYZUVpUkhRWkRnWHF5aXFVTjFfenRtYzBoTlg0UEx2ZEZsY1M?oc=5\" target=\"_blank\">Regional Economic Outlook for Sub-Saharan Africa, October 2025</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">International Monetary Fund (IMF)</font>",
-        "source": "Google News",
-        "keyword": "economic outlook"
-      }
-    ],
     "Inflation": [
       {
-        "title": "CPI Report Live Updates: Inflation Edged Higher in September - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fcDVhV1NaM3FnUzhMcGNKNUhIOEM5T2Q3LXd1TkQxVU5ydmUwSGx0dy1zbkt0cVY4bW55Yk9mQmdOV3RncGl4bXlNcnJEMzIteGhrSUk2a2xCRlkzdDJBSnFUUHVYZ05QSWxXYWtTYmhzSGpJMGhoclFEb1BsSzQ?oc=5",
-        "published": "Fri, 24 Oct 2025 20:26:55 GMT",
-        "description": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE5fcDVhV1NaM3FnUzhMcGNKNUhIOEM5T2Q3LXd1TkQxVU5ydmUwSGx0dy1zbkt0cVY4bW55Yk9mQmdOV3RncGl4bXlNcnJEMzIteGhrSUk2a2xCRlkzdDJBSnFUUHVYZ05QSWxXYWtTYmhzSGpJMGhoclFEb1BsSzQ?oc=5\" target=\"_blank\">CPI Report Live Updates: Inflation Edged Higher in September</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font></li><li><a href=\"https://news.google.com/rss/articles/CBMikANBVV95cUxQaVFneDl4TGFMMEpiek1pbmIwSGgxM0NKcDVybUt5aWdHb2l5cm1Gd0xua3lQVnA1TlotZGNDZGxsWllYN0hkTWtKOFFOSW5fR1JNb0dVRGxmUjRBZ3N5bV90T2huSm5MSkFtSmcxSGVoLTI5U3dGMGdGUlJMb0VSQ2RTcEZ6NlpqbDhzLU51TURTRFowS0VqMTdMS0daY2lEZEdhR19CS2dXMGVsWEJQVnBXRU1aRkN4YXpTNTZMaFBCaThoTmxoS0d4X25uWEFtaTkyRElIZWJPWnBnem04YUVUemZKYWRiN2ZzSTNHVjNranFfeG5GbFFsbzRWRDJVZGhBdjRlUDVYME5acmYwUTVaSXdicU9ZZFdibF94QWhFWlJfbWZtSVlBOFFCbHdwTWhzQnloRGtQWFJsVjFwNjE3QUMzd0YwUmhWX3ZZVGhqUGdQZUF0RWhyV2RZcTRGNS1obmZXZ2Y5bjVpa1UzTDZMUDBiTFBYQXJidDk3Zmh4Z0tQUnZMcUJDWWNRUEJk?oc=5\" target=\"_blank\">Stock Market Today: Dow, Nasdaq Hit New Highs After Inflation Report \u2014 Live Updates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Wall Street Journal</font></li><li><a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE8zcUJYMTRGVVRSWXQtSjdfRDVTb1dOdndwZHV4UUE0RjRYMDIwWWs1M3ppemVUU2phMURjYnpJWkxFTGVkUS1FZ1Z0Sm1BbUJ3Tkxqdll4ZEw0eUl1QktPLWN2dGI3bUk5ZEVwbk04Z1UyMC1uTDl6TGR0WQ?oc=5\" target=\"_blank\">Stocks jump after US inflation data; US dollar nearly flat</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font></li></ol>",
-        "source": "Google News",
-        "keyword": "inflation"
+        "title": "Bank says inflation has 'peaked' as it holds interest rates",
+        "url": "https://www.bbc.com/news/articles/c77zkg5504eo?at_medium=RSS&at_campaign=rss",
+        "published": "Thu, 06 Nov 2025 17:35:34 GMT",
+        "description": "Rates are left unchanged after a tight vote ahead of the Budget later this month.",
+        "source": "BBC Business",
+        "source_type": "free_rss",
+        "keyword": "RSS Feed",
+        "highlights": [
+          "\ud83d\udcca Inflation data and price trends updated",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments",
+          "\ud83c\udfe6 Banking sector and financial institution news",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "What today's inflation report says about the economy \u2014 and Social Security checks - NPR",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVlJid2x0NmI1RTl5Rmw0TVk4RkZfX1NqbmQ5dG5BWHhXbVh3RWRISXJ1U3ZtR1ZKLVhFVEl4NkZkOUpyemhkMkh6cGpPUGFHZTlwS3FkZS1yQW9kYWNHbmx5VGhWMGgwTzl2UVJqelNrUzBTX1ZKV2xlcnBIMXM4NnhILUM5V2xpM3VJaGRZN21YaldCbXprSG9SZElWM0V2U1J4SHIyOEhENElid25NNURsVTYwX21RUVFvaHJRcUI?oc=5",
-        "published": "Fri, 24 Oct 2025 20:25:14 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVlJid2x0NmI1RTl5Rmw0TVk4RkZfX1NqbmQ5dG5BWHhXbVh3RWRISXJ1U3ZtR1ZKLVhFVEl4NkZkOUpyemhkMkh6cGpPUGFHZTlwS3FkZS1yQW9kYWNHbmx5VGhWMGgwTzl2UVJqelNrUzBTX1ZKV2xlcnBIMXM4NnhILUM5V2xpM3VJaGRZN21YaldCbXprSG9SZElWM0V2U1J4SHIyOEhENElid25NNURsVTYwX21RUVFvaHJRcUI?oc=5\" target=\"_blank\">What today's inflation report says about the economy \u2014 and Social Security checks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NPR</font>",
-        "source": "Google News",
-        "keyword": "inflation"
+        "title": "Why is UK inflation still high?",
+        "url": "https://www.bbc.com/news/articles/c17rgd8e9gjo?at_medium=RSS&at_campaign=rss",
+        "published": "Thu, 06 Nov 2025 14:48:06 GMT",
+        "description": "UK Inflation has fallen from record highs but remains above the Bank of England's 2% target.",
+        "source": "BBC Business",
+        "source_type": "free_rss",
+        "keyword": "RSS Feed",
+        "highlights": [
+          "\ud83d\udcb2 Price pressures showing signs of easing",
+          "\ud83c\udfe6 Banking sector and financial institution news",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "Social Security increase is in line with inflation but trails key expenses - The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUXdTRFJqeXNkRWVXVkpDWnhlbkd2SGVOX3JGZURNXzJnLTdMTE5oQl9ydlMxc3pXLXdTaEpoR3lmWUFLcVdWQ0ZtdTgyQlQxRGxFcEVVZUhiY0FvTWJTUUZLRG94cTlqX0ZJcTBNYWtmNVlDcUt6OWxSeEk0SXNGUjFRWVhFYUQzd3ByekswbThZVUJh?oc=5",
-        "published": "Fri, 24 Oct 2025 20:38:28 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNUXdTRFJqeXNkRWVXVkpDWnhlbkd2SGVOX3JGZURNXzJnLTdMTE5oQl9ydlMxc3pXLXdTaEpoR3lmWUFLcVdWQ0ZtdTgyQlQxRGxFcEVVZUhiY0FvTWJTUUZLRG94cTlqX0ZJcTBNYWtmNVlDcUt6OWxSeEk0SXNGUjFRWVhFYUQzd3ByekswbThZVUJh?oc=5\" target=\"_blank\">Social Security increase is in line with inflation but trails key expenses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Washington Post</font>",
+        "title": "Inflation is so bad Americans are counting on Black Friday just to afford groceries and everyday essentials - Fortune",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOXVvM2dQaXhpQjFUbFFxRm9jaUpyNWVVb0x1NzFWNVFoU3lMaV9DdUdrMjVYcVR3WDZhZWc0QlR3dnFkTWVFX29LSUl3ZElqcjlHU2x4U2FYTnByRzg5WHFKSWIyQlBRNXpKdnZfS2syWnJsSUNoVmJvSjdqUkp3ekVtMmRuTDEyd1N5UWRjcWxwQ1E0TzBXTEY4bDBEYUh6NWhaNA?oc=5",
+        "published": "Wed, 05 Nov 2025 18:58:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPOXVvM2dQaXhpQjFUbFFxRm9jaUpyNWVVb0x1NzFWNVFoU3lMaV9DdUdrMjVYcVR3WDZhZWc0QlR3dnFkTWVFX29LSUl3ZElqcjlHU2x4U2FYTnByRzg5WHFKSWIyQlBRNXpKdnZfS2syWnJsSUNoVmJvSjdqUkp3ekVtMmRuTDEyd1N5UWRjcWxwQ1E0TzBXTEY4bDBEYUh6NWhaNA?oc=5\" target=\"_blank\">Inflation is so bad Americans are counting on Black Friday just to afford groceries and everyday essentials</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fortune</font>",
         "source": "Google News",
-        "keyword": "inflation"
+        "keyword": "inflation",
+        "highlights": [
+          "\ud83d\udcca Inflation data and price trends updated",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "White House says government shutdown could eliminate next inflation report despite optimistic numbers - Fox News",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOS3A1NExIQ2hWNzRMWGo1YTNTa19KNmhYcXlPa2NxQTRDQW5UU20tWWRsdmZFYnFDMUdjR3JVSDUtRnVDRUdKT19sRVpMSXdBRGg2Z1pOeFEtdHRNdTJXbWRRbDRkX0JTZG11Q2RuN3NuYTJZTTlsUEE2ZFNVY2VHeFBSQjNqNTVkb0dxX1U3UG50dlUwODZvMFRjY1Bfdnp4TUUtWVI2WXF1R3pWSV9kTTVESUJmRlZzYVVBTEJ0X0h5OTRiWWcxV3ZuMFM2bFXSAdQBQVVfeXFMTTZ6c0NWMHh2V1hTamVrZXNwT25hUWt1N1o2NlVjVTF6Yjh6M2MxdjNBZG5rSDdsVkVHWjMxclhJZ1ZyVjdiLVQ2cVhqdTJSV2h6MVV1NHZSNm91YW1WVXl6Ni1Sbm5UQ3A1ZndtZ19NYXluLXBqamhuSTJXVWhkRkk1SzEyWGpyZHl4VHowZER6WFR0VjRpNHBPcVVnNzJXYVladk92X2VXOVZ6d29YWUc0RjE1QnJsenFjalItaWt3NGJpWDdlNDlodDR3WlJJMXZ1VmQ?oc=5",
-        "published": "Fri, 24 Oct 2025 20:01:49 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxOS3A1NExIQ2hWNzRMWGo1YTNTa19KNmhYcXlPa2NxQTRDQW5UU20tWWRsdmZFYnFDMUdjR3JVSDUtRnVDRUdKT19sRVpMSXdBRGg2Z1pOeFEtdHRNdTJXbWRRbDRkX0JTZG11Q2RuN3NuYTJZTTlsUEE2ZFNVY2VHeFBSQjNqNTVkb0dxX1U3UG50dlUwODZvMFRjY1Bfdnp4TUUtWVI2WXF1R3pWSV9kTTVESUJmRlZzYVVBTEJ0X0h5OTRiWWcxV3ZuMFM2bFXSAdQBQVVfeXFMTTZ6c0NWMHh2V1hTamVrZXNwT25hUWt1N1o2NlVjVTF6Yjh6M2MxdjNBZG5rSDdsVkVHWjMxclhJZ1ZyVjdiLVQ2cVhqdTJSV2h6MVV1NHZSNm91YW1WVXl6Ni1Sbm5UQ3A1ZndtZ19NYXluLXBqamhuSTJXVWhkRkk1SzEyWGpyZHl4VHowZER6WFR0VjRpNHBPcVVnNzJXYVladk92X2VXOVZ6d29YWUc0RjE1QnJsenFjalItaWt3NGJpWDdlNDlodDR3WlJJMXZ1VmQ?oc=5\" target=\"_blank\">White House says government shutdown could eliminate next inflation report despite optimistic numbers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fox News</font>",
+        "title": "Chipotle Isn\u2019t Serving Tariff Inflation \u2014 for Now - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZzBfRVl3aVZTMUF3aVJWQkFMbXFVSmoyM1VVMk9XdUYzQk5uZGwwWkNpSlhCdEFMalFrWTdVYVM1dkxxeW5vRFB3Rk5TemRoTVBpWVl2Y2ZCdGRZMlhFcE1wejREVWVYZ1ZtYUhucFJaS2VLNkhmQ0NIU2ozZ1pDdjRRNjUyd2loQUFjZS1sMzZSdGFsMjVJSXNLTm1fVmx5dGY4?oc=5",
+        "published": "Fri, 07 Nov 2025 11:30:04 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOZzBfRVl3aVZTMUF3aVJWQkFMbXFVSmoyM1VVMk9XdUYzQk5uZGwwWkNpSlhCdEFMalFrWTdVYVM1dkxxeW5vRFB3Rk5TemRoTVBpWVl2Y2ZCdGRZMlhFcE1wejREVWVYZ1ZtYUhucFJaS2VLNkhmQ0NIU2ozZ1pDdjRRNjUyd2loQUFjZS1sMzZSdGFsMjVJSXNLTm1fVmx5dGY4?oc=5\" target=\"_blank\">Chipotle Isn\u2019t Serving Tariff Inflation \u2014 for Now</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
         "source": "Google News",
-        "keyword": "inflation"
+        "keyword": "inflation",
+        "highlights": [
+          "\ud83d\udcca Inflation data and price trends updated",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "Shutdown Could Cancel Next Inflation Report - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPekQxUkFuc3VCOW9hUEFxM0E0OHNRNnJKMUI2VWpyV1lLc1J0NmlJa2hkYmhyU1l6eG9IYTB0OWVvOFJHeHdnbmRrb0hyNXlNYl9Hcm5QcXBYLUNWamNNWnRBYXNwQXlZTVl6ZGh0Yk1PMEhtSXJQcDNhaGh1cGltRkJubng1VWd5OGkzQV9hYw?oc=5",
-        "published": "Fri, 24 Oct 2025 13:35:21 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPekQxUkFuc3VCOW9hUEFxM0E0OHNRNnJKMUI2VWpyV1lLc1J0NmlJa2hkYmhyU1l6eG9IYTB0OWVvOFJHeHdnbmRrb0hyNXlNYl9Hcm5QcXBYLUNWamNNWnRBYXNwQXlZTVl6ZGh0Yk1PMEhtSXJQcDNhaGh1cGltRkJubng1VWd5OGkzQV9hYw?oc=5\" target=\"_blank\">Shutdown Could Cancel Next Inflation Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
+        "title": "Inflation-Protected Bonds Fail a Key Test: They Don\u2019t Help When Inflation Is High - The Wall Street Journal",
+        "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxPZm8zdWFqNm1Cb2lZUC10Nk9lQmJHSTl1dVlUTzk2MGZDclhqdGhGNThOWEI3RXlqRTNCZVlEMTNOSXRTMHA1M2RKV05iZU16UkM5dDg2QzZxb0VYWUN6V3o4aDZzNkNhTVZyM1hiSWNyYV9LYUVqYXV4Y2NGckhtcy12N0d2Q2hiMTlMVEk5emRTaktCVkpzX3FaSmJweEN3R01lMmNxWnNEOTVCN3NSanNnbGpVVDd6OVdUdFFYVzBNWlNaay1WaE1oMWttRXBwY0Q1VWdGVl9SUW1Tc05PeTk3Umd2LWg2TE9yRmVhOTdZUVFPdGNtemdBZ2NhVGJHRXdTWmZ1cnk2RlB4WlN4UHZKNjNBZWZEcVdLRFFpd3hXVnk4SXlVNW1sdUtPa292SmM1bmJzN09fSnN1WG5jNnpVS1dVTmtiRnV1UzhhQ1Z4NldaaHFqS01nVkJmcU9xTFhTRlh0cnMwNjBaX0FUSVRhdw?oc=5",
+        "published": "Thu, 06 Nov 2025 15:00:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMi8wJBVV95cUxPZm8zdWFqNm1Cb2lZUC10Nk9lQmJHSTl1dVlUTzk2MGZDclhqdGhGNThOWEI3RXlqRTNCZVlEMTNOSXRTMHA1M2RKV05iZU16UkM5dDg2QzZxb0VYWUN6V3o4aDZzNkNhTVZyM1hiSWNyYV9LYUVqYXV4Y2NGckhtcy12N0d2Q2hiMTlMVEk5emRTaktCVkpzX3FaSmJweEN3R01lMmNxWnNEOTVCN3NSanNnbGpVVDd6OVdUdFFYVzBNWlNaay1WaE1oMWttRXBwY0Q1VWdGVl9SUW1Tc05PeTk3Umd2LWg2TE9yRmVhOTdZUVFPdGNtemdBZ2NhVGJHRXdTWmZ1cnk2RlB4WlN4UHZKNjNBZWZEcVdLRFFpd3hXVnk4SXlVNW1sdUtPa292SmM1bmJzN09fSnN1WG5jNnpVS1dVTmtiRnV1UzhhQ1Z4NldaaHFqS01nVkJmcU9xTFhTRlh0cnMwNjBaX0FUSVRhdw?oc=5\" target=\"_blank\">Inflation-Protected Bonds Fail a Key Test: They Don\u2019t Help When Inflation Is High</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Wall Street Journal</font>",
         "source": "Google News",
-        "keyword": "inflation"
+        "keyword": "inflation",
+        "highlights": [
+          "\ud83d\udcca Inflation data and price trends updated",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "White House says October inflation data unlikely to be released next month - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOUdkMGhtZ1BCSGJCeDRpUU93S09yeUZSbF9mZVEydUpRTmZEUTRhNnp6dWFUeFNqZ0tlWFR3Q2xlb1JvdWpuSkhhWVJsZFAtZnBrSk5WNmZXV28yb1QyeDFFTU1SQUJ2d3BzUE9MOEJ3UHMxSE4wdWVpQy1VN2JHbHhkQ1hyei04RmF2SzFjbktEclJiZmR5M1BCOHAzQVRNUFpfUGxHTFA?oc=5",
-        "published": "Fri, 24 Oct 2025 17:00:47 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOUdkMGhtZ1BCSGJCeDRpUU93S09yeUZSbF9mZVEydUpRTmZEUTRhNnp6dWFUeFNqZ0tlWFR3Q2xlb1JvdWpuSkhhWVJsZFAtZnBrSk5WNmZXV28yb1QyeDFFTU1SQUJ2d3BzUE9MOEJ3UHMxSE4wdWVpQy1VN2JHbHhkQ1hyei04RmF2SzFjbktEclJiZmR5M1BCOHAzQVRNUFpfUGxHTFA?oc=5\" target=\"_blank\">White House says October inflation data unlikely to be released next month</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+        "title": "Iran\u2019s Pezeshkian blames own government for soaring inflation - The Times of Israel",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVGh4RHVKeDNMU0lMems0VkJCbUhQYmp6bnJjald0dHlJTVBfb00xWFEyR0hoTEw0TnYtSjlKcWRGX0dXS2ZVTlpvQU9tdGh3MjhfX1R0N0JKcUVjZUdraGdhQ2RrQjVqVDBnbzAwTGxEdnhqQ1htdnFWUzVTdm5JS3VxZVhyOERfbzZFbDRLYkZHdUZuTjB5aXZpVTJ6cUVFbmfSAacBQVVfeXFMT2xzZ0ZLRnNaTUw0UEVpdUpUNHpnNWNLODd3ZkVsS3AxV0pBNGhYaWhiekN0QmJBNF9ZTUZxRlVERk93WHU5QU1QY2JUWDFDR1kzRUpIOE9XSHhjcUpoaWlpUzFJMlhIdHVDNzJqU29tQnhidXlFNWVKSXgycmFFdnRvQmhhbG5FVncxVksxYXFlZFYyaGdsb3N6MTQ3dFhzdTRCcmQxSWs?oc=5",
+        "published": "Thu, 06 Nov 2025 16:49:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQVGh4RHVKeDNMU0lMems0VkJCbUhQYmp6bnJjald0dHlJTVBfb00xWFEyR0hoTEw0TnYtSjlKcWRGX0dXS2ZVTlpvQU9tdGh3MjhfX1R0N0JKcUVjZUdraGdhQ2RrQjVqVDBnbzAwTGxEdnhqQ1htdnFWUzVTdm5JS3VxZVhyOERfbzZFbDRLYkZHdUZuTjB5aXZpVTJ6cUVFbmfSAacBQVVfeXFMT2xzZ0ZLRnNaTUw0UEVpdUpUNHpnNWNLODd3ZkVsS3AxV0pBNGhYaWhiekN0QmJBNF9ZTUZxRlVERk93WHU5QU1QY2JUWDFDR1kzRUpIOE9XSHhjcUpoaWlpUzFJMlhIdHVDNzJqU29tQnhidXlFNWVKSXgycmFFdnRvQmhhbG5FVncxVksxYXFlZFYyaGdsb3N6MTQ3dFhzdTRCcmQxSWs?oc=5\" target=\"_blank\">Iran\u2019s Pezeshkian blames own government for soaring inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Times of Israel</font>",
         "source": "Google News",
-        "keyword": "inflation"
+        "keyword": "inflation",
+        "highlights": [
+          "\ud83d\udcca Inflation data and price trends updated",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "Tame inflation report keeps Fed rate cut on track - Politico",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOV1V5c2FKUUNoa0xMOGxsU0xLdHJVWlp4cmJJdVlUTWU2MWg3SVNidFVJQWJtSWRiNDh1SDJlbFRtNFN1VThDVDlWcWlsSGN6TGY1ZnY3WFRwOVJPR1U3a0lZMm9YelJENC1YclVWRHhPekx3eW5TSGZpTTB5ZXVkU29yWkJfLWlGRzJMN2cyb21QdGotVG5tb0VHaU5NZXlU?oc=5",
-        "published": "Fri, 24 Oct 2025 13:47:47 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOV1V5c2FKUUNoa0xMOGxsU0xLdHJVWlp4cmJJdVlUTWU2MWg3SVNidFVJQWJtSWRiNDh1SDJlbFRtNFN1VThDVDlWcWlsSGN6TGY1ZnY3WFRwOVJPR1U3a0lZMm9YelJENC1YclVWRHhPekx3eW5TSGZpTTB5ZXVkU29yWkJfLWlGRzJMN2cyb21QdGotVG5tb0VHaU5NZXlU?oc=5\" target=\"_blank\">Tame inflation report keeps Fed rate cut on track</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Politico</font>",
+        "title": "Trump argues Democrats\u2019 \u2018affordability\u2019 issue is \u2018DEAD\u2019 as inflation holds steady - The Hill",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mZjVxdVQ1bzRObjJhbE5GZUpvN2YzU2NtVzBsODlRQWxyOFFoYzhxT3BwR1lYRVVlWGFhUTlqMzJITXhKN3NOYVRfenJLR2FWUzRfaTREVndZMGNmOHVrX1ZPN0l6VF92M2RaWjZGYTVPRzdlUVNhZ1lFSdIBgAFBVV95cUxQZmNzcDl5c1hpQmxoWGptYmd0OG5wblp4T1g0MnFuc1ZUWGlOaXNtbFFEQmJmMU5SUW1pd1JISWZROTJUckZ2M2NLc0k3bjFqeVdLMTRjZnhwSmUwUmVvTXBQbmJGbTZOU0xuMVdfRDM2aU1mNVFyXzNxQ3BLRzZyTQ?oc=5",
+        "published": "Thu, 06 Nov 2025 15:22:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE9mZjVxdVQ1bzRObjJhbE5GZUpvN2YzU2NtVzBsODlRQWxyOFFoYzhxT3BwR1lYRVVlWGFhUTlqMzJITXhKN3NOYVRfenJLR2FWUzRfaTREVndZMGNmOHVrX1ZPN0l6VF92M2RaWjZGYTVPRzdlUVNhZ1lFSdIBgAFBVV95cUxQZmNzcDl5c1hpQmxoWGptYmd0OG5wblp4T1g0MnFuc1ZUWGlOaXNtbFFEQmJmMU5SUW1pd1JISWZROTJUckZ2M2NLc0k3bjFqeVdLMTRjZnhwSmUwUmVvTXBQbmJGbTZOU0xuMVdfRDM2aU1mNVFyXzNxQ3BLRzZyTQ?oc=5\" target=\"_blank\">Trump argues Democrats\u2019 \u2018affordability\u2019 issue is \u2018DEAD\u2019 as inflation holds steady</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Hill</font>",
         "source": "Google News",
-        "keyword": "inflation"
+        "keyword": "inflation",
+        "highlights": [
+          "\ud83d\udcca Inflation data and price trends updated",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "ECB to pause rates at least until 2027 on steady inflation and growth outlook - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOanRIYWFpNHhzVGxSQTRIX1QxWm5nMi0zMjAxeGh2dXZMWXFEN1ZQeDdQSmYxTzFqT0JMQWhqWVloZzlvOU1reG90aG12ZlFsY1JHM3NxaGVNYkpicU5RUDV2WWtDb1dSWnR5cGFKR0hPZHV1bjR2ZzVYY0NyM2NCYWdkVy1TMlVaSGZ2YVRtVzI3cEIwS1hOeThPZ1lFbW9xdjlUYWhUVzNIcDNqMEE?oc=5",
-        "published": "Wed, 22 Oct 2025 10:51:07 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOanRIYWFpNHhzVGxSQTRIX1QxWm5nMi0zMjAxeGh2dXZMWXFEN1ZQeDdQSmYxTzFqT0JMQWhqWVloZzlvOU1reG90aG12ZlFsY1JHM3NxaGVNYkpicU5RUDV2WWtDb1dSWnR5cGFKR0hPZHV1bjR2ZzVYY0NyM2NCYWdkVy1TMlVaSGZ2YVRtVzI3cEIwS1hOeThPZ1lFbW9xdjlUYWhUVzNIcDNqMEE?oc=5\" target=\"_blank\">ECB to pause rates at least until 2027 on steady inflation and growth outlook</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+        "title": "India CPI inflation likely fell to multi-year low of 0.48% in October: Reuters poll - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcVhuWEs4NldDeEdCamtwN2dZMDRJRkdXRFlNLWQ4YklpWHJaZFltRDl3Mjh1YmVHUEhzVzg1anBfYXU1b2FFMjVtb3htNFJfajBqdTNEY2pYUExHdXpjaG9TOVdrWGdVZHhJazhONWRqUlUxSkZ5Zmo2cmtOdnlLUTFBalRCREpBaXB3dVhKU2F3SzUtYnNvMXVfbFBVVm93RURQUUNMRC16Zw?oc=5",
+        "published": "Fri, 07 Nov 2025 11:20:12 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcVhuWEs4NldDeEdCamtwN2dZMDRJRkdXRFlNLWQ4YklpWHJaZFltRDl3Mjh1YmVHUEhzVzg1anBfYXU1b2FFMjVtb3htNFJfajBqdTNEY2pYUExHdXpjaG9TOVdrWGdVZHhJazhONWRqUlUxSkZ5Zmo2cmtOdnlLUTFBalRCREpBaXB3dVhKU2F3SzUtYnNvMXVfbFBVVm93RURQUUNMRC16Zw?oc=5\" target=\"_blank\">India CPI inflation likely fell to multi-year low of 0.48% in October: Reuters poll</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
         "source": "Google News",
-        "keyword": "inflation"
+        "keyword": "inflation",
+        "highlights": [
+          "\ud83d\udcca Inflation data and price trends updated",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "Signs of peak inflation open door to earlier Bank of England interest rate cuts - The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNajluNThXTFo3OHk4bS1tZWpNRno1eUpIQmtreDRuakM4TDY5ZDFVSFlUN0Q5WEx1bXpoOWRabXI4T05mSFRGeTdNMHk1eXJ4c0hMbV9xaG1GWnNpZmpJZWN5dl9qR3AwTUVJSEQwR2ZlaVhXZmNHSlJ2amFUZ2VCcVQ5bUdXTGoweEtSQUhzQ1FHTkZud2Z4enM2WmE2bHhqNDRfLWNJSlVTYUx2dVVLS19RSQ?oc=5",
-        "published": "Wed, 22 Oct 2025 08:21:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNajluNThXTFo3OHk4bS1tZWpNRno1eUpIQmtreDRuakM4TDY5ZDFVSFlUN0Q5WEx1bXpoOWRabXI4T05mSFRGeTdNMHk1eXJ4c0hMbV9xaG1GWnNpZmpJZWN5dl9qR3AwTUVJSEQwR2ZlaVhXZmNHSlJ2amFUZ2VCcVQ5bUdXTGoweEtSQUhzQ1FHTkZud2Z4enM2WmE2bHhqNDRfLWNJSlVTYUx2dVVLS19RSQ?oc=5\" target=\"_blank\">Signs of peak inflation open door to earlier Bank of England interest rate cuts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+        "title": "National Retail Federation : holiday sales to increase 3.7% to 4.2% despite concerns over inflation - abcnews.go.com",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRWdkeVVGM1V1dEZCS2hZMm42UFJBRnBWODNrTU1UU29ZeERwbXktQ0dmcGU4Q3NwV0s4dnhGZXZMYk9vcWhDdWliZXZIalh0RTY5eDVTaEFZeGFjMXl5Ukd1QUIwa3NWWVdyX08zU3NuVW1BSEtvLUxKTzlHdXEtV0ZDbkJBc1A3VDUweURwTFN1SnpIT1AydmFtOXplamhpZEd2VHhCa0NyWmfSAbABQVVfeXFMT0l1ZVlLd1FZck44b2pDWHd2LXpuTE5NNTdLWVFVWFdGU2VGcVBuT2t2UklRNTF6XzZUTXhTTjVabVA0Q1hMZjg1LUpWVS1xMFJld1VoVTBvc3BwWExRSDN2ajRkVF90MkFydVh5M0pWQzlMZTYyLUszeWtCTEN6em1DNmp4ai1WSTJUZkRiWW4xRjRrei1pUUtsNjBjeTNXQ3NUN3U0dng5UFdZUVEtV0w?oc=5",
+        "published": "Thu, 06 Nov 2025 16:45:34 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRWdkeVVGM1V1dEZCS2hZMm42UFJBRnBWODNrTU1UU29ZeERwbXktQ0dmcGU4Q3NwV0s4dnhGZXZMYk9vcWhDdWliZXZIalh0RTY5eDVTaEFZeGFjMXl5Ukd1QUIwa3NWWVdyX08zU3NuVW1BSEtvLUxKTzlHdXEtV0ZDbkJBc1A3VDUweURwTFN1SnpIT1AydmFtOXplamhpZEd2VHhCa0NyWmfSAbABQVVfeXFMT0l1ZVlLd1FZck44b2pDWHd2LXpuTE5NNTdLWVFVWFdGU2VGcVBuT2t2UklRNTF6XzZUTXhTTjVabVA0Q1hMZjg1LUpWVS1xMFJld1VoVTBvc3BwWExRSDN2ajRkVF90MkFydVh5M0pWQzlMZTYyLUszeWtCTEN6em1DNmp4ai1WSTJUZkRiWW4xRjRrei1pUUtsNjBjeTNXQ3NUN3U0dng5UFdZUVEtV0w?oc=5\" target=\"_blank\">National Retail Federation : holiday sales to increase 3.7% to 4.2% despite concerns over inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">abcnews.go.com</font>",
         "source": "Google News",
-        "keyword": "inflation"
+        "keyword": "inflation",
+        "highlights": [
+          "\ud83d\udcb0 Inflationary pressures intensifying",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "Is Gen Digital Inc. stock resilient to inflation - Market Risk Analysis & Verified Stock Trade Ideas - nchmf.gov.vn",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYUthRGw4V21YVGdUZGdVbkhNQTliOVVXU1ZiQmU1SVloRWlkcEZTZzVtcE1wdlhpWjE3YlNyUi1ibkh2OXJ0RVVmaFFoVkQwczNkSXdaVWgyR294QVdTTDRpbHN4ZkhEM3BMUUYtNFlvbjlnaVZzNm1RY280S2ZOOVktMF96WGVnTzRfTw?oc=5",
-        "published": "Fri, 24 Oct 2025 13:03:27 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOYUthRGw4V21YVGdUZGdVbkhNQTliOVVXU1ZiQmU1SVloRWlkcEZTZzVtcE1wdlhpWjE3YlNyUi1ibkh2OXJ0RVVmaFFoVkQwczNkSXdaVWgyR294QVdTTDRpbHN4ZkhEM3BMUUYtNFlvbjlnaVZzNm1RY280S2ZOOVktMF96WGVnTzRfTw?oc=5\" target=\"_blank\">Is Gen Digital Inc. stock resilient to inflation - Market Risk Analysis & Verified Stock Trade Ideas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nchmf.gov.vn</font>",
+        "title": "Is FIX stock undervalued at current price - Market Risk Analysis & Scalable Portfolio Growth Methods - newser.com",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNblIyNUlBOWFrRXVwd2hEMUZxWjQ5aGptRm1sMzVEbGZPY2FublJpRWVIMlVvYXZWTmxXMHZELUp4amRyOWRqX2Zlb29hcFk4ZExLN1Rva1R3MDlJOXRGeXVyVXIzZGEwVkRvYmNFLS04OFo0cm13b3RKUlRYcUpJeXFUMA?oc=5",
+        "published": "Thu, 06 Nov 2025 04:44:43 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxNblIyNUlBOWFrRXVwd2hEMUZxWjQ5aGptRm1sMzVEbGZPY2FublJpRWVIMlVvYXZWTmxXMHZELUp4amRyOWRqX2Zlb29hcFk4ZExLN1Rva1R3MDlJOXRGeXVyVXIzZGEwVkRvYmNFLS04OFo0cm13b3RKUlRYcUpJeXFUMA?oc=5\" target=\"_blank\">Is FIX stock undervalued at current price - Market Risk Analysis & Scalable Portfolio Growth Methods</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">newser.com</font>",
         "source": "Google News",
-        "keyword": "market risk"
-      },
-      {
-        "title": "Inflation In Focus: What Market Data Tells Us - Real Investment Advice",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdUt6UHAyQmRxR25BRkRaVVJaQTZhVDdEZGl4OTNjTEJQdm9GdW1EN3pMTW1la1llRWtBQVgzVmJYMW9pMFlCQi1PblI1VnBsSi1xOHV6ZXZtU0drZFpjVzJndG0yUHhJdm84WEtISDhKYnNPNGxWbzJ5QTg4aHltalVZenVVN1EwYkdSWTFQS2Frbi1ZV0pUWg?oc=5",
-        "published": "Fri, 24 Oct 2025 09:07:25 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNdUt6UHAyQmRxR25BRkRaVVJaQTZhVDdEZGl4OTNjTEJQdm9GdW1EN3pMTW1la1llRWtBQVgzVmJYMW9pMFlCQi1PblI1VnBsSi1xOHV6ZXZtU0drZFpjVzJndG0yUHhJdm84WEtISDhKYnNPNGxWbzJ5QTg4aHltalVZenVVN1EwYkdSWTFQS2Frbi1ZV0pUWg?oc=5\" target=\"_blank\">Inflation In Focus: What Market Data Tells Us</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Real Investment Advice</font>",
-        "source": "Google News",
-        "keyword": "market risk"
-      },
-      {
-        "title": "Lower-Than-Expected Inflation Keeps Fed On Track For October Rate Cut - Investopedia",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb25xaldKcDZ4MmVWMGs5OWNxNnc3WmRSOHZGQ2ZzNDhxeTNRV2pmVGp3dkdIcERqbzlab3hxSjNEUjhEdjZVS0tJZ3BoWjlkcHVkVjBYZHE2bkEwN2tUTGlSQ0xRMnBaTWNHZENxVEFVVDZuX2NlZVhIVXFBMVlybmZ3VHVBYmw1Y1drVjFwODQwRE0zanpVRVlGbGRaNk9xalY1d0hCWVNMMHM?oc=5",
-        "published": "Fri, 24 Oct 2025 13:32:13 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb25xaldKcDZ4MmVWMGs5OWNxNnc3WmRSOHZGQ2ZzNDhxeTNRV2pmVGp3dkdIcERqbzlab3hxSjNEUjhEdjZVS0tJZ3BoWjlkcHVkVjBYZHE2bkEwN2tUTGlSQ0xRMnBaTWNHZENxVEFVVDZuX2NlZVhIVXFBMVlybmZ3VHVBYmw1Y1drVjFwODQwRE0zanpVRVlGbGRaNk9xalY1d0hCWVNMMHM?oc=5\" target=\"_blank\">Lower-Than-Expected Inflation Keeps Fed On Track For October Rate Cut</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investopedia</font>",
-        "source": "Google News",
-        "keyword": "interest rates"
-      },
-      {
-        "title": "Inflation just rose again. Here's how that could impact mortgage interest rates. - CBS News",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOUllOWp6QjlWSkk0ejF1ckhEdDZTMm8ydFJGQjlmSjVxemQ1UWhYVG5abXd5RXI0U1Z1V1VfY1NKamIyWmlKdTRHdUpNZkFBYmptc2xObTBlbU82VlZBRDQ4c1dQY0dnRDJRaXQ2S3ZDWjZSTkhwUnhYUkpoalBJSg?oc=5",
-        "published": "Fri, 24 Oct 2025 15:39:18 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNOUllOWp6QjlWSkk0ejF1ckhEdDZTMm8ydFJGQjlmSjVxemQ1UWhYVG5abXd5RXI0U1Z1V1VfY1NKamIyWmlKdTRHdUpNZkFBYmptc2xObTBlbU82VlZBRDQ4c1dQY0dnRDJRaXQ2S3ZDWjZSTkhwUnhYUkpoalBJSg?oc=5\" target=\"_blank\">Inflation just rose again. Here's how that could impact mortgage interest rates.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBS News</font>",
-        "source": "Google News",
-        "keyword": "interest rates"
-      },
-      {
-        "title": "Inflation hit 3% in September, reflecting stubborn price pressures on U.S. consumers",
-        "url": "https://www.nbcnews.com/business/economy/trump-administration-set-release-key-september-inflation-data-governme-rcna239519",
-        "published": "Fri, 24 Oct 2025 09:30:39 GMT",
-        "description": "The Bureau of Labor Statistics is slated to release September's Consumer Price Index report of inflation, which was delayed by the government shutdown.",
-        "source": "NBC Business",
-        "keyword": "RSS Feed"
-      },
-      {
-        "title": "Graphic: Track grocery price trends",
-        "url": "https://www.nbcnews.com/data-graphics/grocery-price-tracker-inflation-trends-eggs-bread-trump-administration-rcna239569",
-        "published": "Fri, 24 Oct 2025 14:06:43 GMT",
-        "description": "Learn where grocery prices stand during the Trump administration. See how inflation is affecting the cost of eggs, bread, chicken, ground beef and more.",
-        "source": "NBC Business",
-        "keyword": "RSS Feed"
-      }
-    ],
-    "Market Risk": [
-      {
-        "title": "Manage Market Risks By Using This Simple Indicator Twice - Investor's Business Daily",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwcXhvRVVqcGhhVFktX1lqLW56VF9sVDRNYXRCZC1IcHF1VFNZVlpFdklxN2lqYkVJdElKcnZjc09xWFI0UkhOd2ZrQjlxSllha1pIRi1RdVo2eXJhdk1aSEl4b2lsYk51U3JkMTFqdGJhdWExaHRNMHF3MmxnRGc?oc=5",
-        "published": "Fri, 24 Oct 2025 19:58:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFBwcXhvRVVqcGhhVFktX1lqLW56VF9sVDRNYXRCZC1IcHF1VFNZVlpFdklxN2lqYkVJdElKcnZjc09xWFI0UkhOd2ZrQjlxSllha1pIRi1RdVo2eXJhdk1aSEl4b2lsYk51U3JkMTFqdGJhdWExaHRNMHF3MmxnRGc?oc=5\" target=\"_blank\">Manage Market Risks By Using This Simple Indicator Twice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investor's Business Daily</font>",
-        "source": "Google News",
-        "keyword": "market risk"
-      },
-      {
-        "title": "With stock market concentration risk at peak, 'it's cash, precious metals, and then crypto' as new normal - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUGtoQUhIMGZLdXFpSGstWlExMXk5RnMwOUFQLVZJTW1VR2dvb2k4R1hSZFJlYUJlWDlaUllVakhEM1hwMUc0YWppbUlQb3RncHExSnU1MlFDNzhSMG5ZUHdxZFJCSVpLdHdPMFdEYzFZcVhJVlRYelI4NFNNWktxNWFJS0laUmVtOXBhQVdnQmdieGtFekx3T2ZhTG1DZHJ1bkNVRVV30gGrAUFVX3lxTE4wWlJvTm41Q01tMi1Wa0o2SDIxanNfLXFTMkpCYTI0dmxHSTZ6TDYwbC1rZ1JwMHByd0VPb0pEbFlXYUppM3owMFpDRWlDZXBiVjRaU19LQWpDbVpjaElhZjEzak1sUnJvNU5yamdjaG1vMVJjeFRZMkFRVnpLNktoYW5aQjBnLTZsTkl5TXJDWFl5MlM2MHZXdG1qRWVPTUpUWkNkaUZHSlVCUQ?oc=5",
-        "published": "Thu, 23 Oct 2025 16:42:33 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNUGtoQUhIMGZLdXFpSGstWlExMXk5RnMwOUFQLVZJTW1VR2dvb2k4R1hSZFJlYUJlWDlaUllVakhEM1hwMUc0YWppbUlQb3RncHExSnU1MlFDNzhSMG5ZUHdxZFJCSVpLdHdPMFdEYzFZcVhJVlRYelI4NFNNWktxNWFJS0laUmVtOXBhQVdnQmdieGtFekx3T2ZhTG1DZHJ1bkNVRVV30gGrAUFVX3lxTE4wWlJvTm41Q01tMi1Wa0o2SDIxanNfLXFTMkpCYTI0dmxHSTZ6TDYwbC1rZ1JwMHByd0VPb0pEbFlXYUppM3owMFpDRWlDZXBiVjRaU19LQWpDbVpjaElhZjEzak1sUnJvNU5yamdjaG1vMVJjeFRZMkFRVnpLNktoYW5aQjBnLTZsTkl5TXJDWFl5MlM2MHZXdG1qRWVPTUpUWkNkaUZHSlVCUQ?oc=5\" target=\"_blank\">With stock market concentration risk at peak, 'it's cash, precious metals, and then crypto' as new normal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-        "source": "Google News",
-        "keyword": "market risk"
-      },
-      {
-        "title": "United Airlines to assume full market risk for Gillette air service in 2026 - County 17",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdXU2emcwN3Blakg2NXRLMzJfZUptVnVZZ3pUeXdOWHc3RGV4WWFtWXdVM0RCY0ZJMS1uRm9kbldnbGxXMkpkQUU3WTFPMnkwSXMtdFp5N0plVHVjV0EzR3JzUjZlNlhqeF8xaTRNdGRldGlWdV9CcGlOZlpPbENUbEoxZUc2Tkp0WlFKQnJmWUlTS3JBTTY2ZHEyNWxfWDVPSDVOYnJ6dXZ0V3Q3?oc=5",
-        "published": "Thu, 23 Oct 2025 22:50:50 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOdXU2emcwN3Blakg2NXRLMzJfZUptVnVZZ3pUeXdOWHc3RGV4WWFtWXdVM0RCY0ZJMS1uRm9kbldnbGxXMkpkQUU3WTFPMnkwSXMtdFp5N0plVHVjV0EzR3JzUjZlNlhqeF8xaTRNdGRldGlWdV9CcGlOZlpPbENUbEoxZUc2Tkp0WlFKQnJmWUlTS3JBTTY2ZHEyNWxfWDVPSDVOYnJ6dXZ0V3Q3?oc=5\" target=\"_blank\">United Airlines to assume full market risk for Gillette air service in 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">County 17</font>",
-        "source": "Google News",
-        "keyword": "market risk"
-      },
-      {
-        "title": "Solana: Can Strong Fundamentals Triumph Over the Market Risk? - Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX3llZ1Z4ajVmUTNCcDdMZVlpSXQxYV9tTUNzcHJreGtWTGVPbW5kM01qMVBqMEM0UEpnYXRhTWYtN2t3NWZWSTFUelRfMnNtZEU4bVpvVUR4OWFrQjZIcE9nNFpUMjVJdklRNm03TTN5VTYtTHNCZUZsVnp3WEI1Mk84Q0FQT2lKY3p3QjJqTjFmRGFadGF1Vk1SZVYwRUU4Y05r?oc=5",
-        "published": "Thu, 23 Oct 2025 09:57:50 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQX3llZ1Z4ajVmUTNCcDdMZVlpSXQxYV9tTUNzcHJreGtWTGVPbW5kM01qMVBqMEM0UEpnYXRhTWYtN2t3NWZWSTFUelRfMnNtZEU4bVpvVUR4OWFrQjZIcE9nNFpUMjVJdklRNm03TTN5VTYtTHNCZUZsVnp3WEI1Mk84Q0FQT2lKY3p3QjJqTjFmRGFadGF1Vk1SZVYwRUU4Y05r?oc=5\" target=\"_blank\">Solana: Can Strong Fundamentals Triumph Over the Market Risk?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>",
-        "source": "Google News",
-        "keyword": "market risk"
-      },
-      {
-        "title": "Mitigating voluntary carbon market risks: Insurance strategies for corporate climate goals - Marsh",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa3hwU2lwWExnQUhJaWJybXY3cTJYTHVMbkp3WGgxVk1JeUJzemZlTTl3bGpEWmtDNmJSOEYyWG9IMlk2ZVhJTjZNYTVvTUtvMHc4MWV4ZmlMRkhlZUZzYm9naGhWYTg2V1JNMmplR29RNDBBekdtYW96ZUFINkRYQjQ0ZmRMdjFmbWJmTTNLRFFYU2J6ajM2NjFlVjRFamRkZmxUVWpMeWM2dw?oc=5",
-        "published": "Thu, 23 Oct 2025 12:55:21 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa3hwU2lwWExnQUhJaWJybXY3cTJYTHVMbkp3WGgxVk1JeUJzemZlTTl3bGpEWmtDNmJSOEYyWG9IMlk2ZVhJTjZNYTVvTUtvMHc4MWV4ZmlMRkhlZUZzYm9naGhWYTg2V1JNMmplR29RNDBBekdtYW96ZUFINkRYQjQ0ZmRMdjFmbWJmTTNLRFFYU2J6ajM2NjFlVjRFamRkZmxUVWpMeWM2dw?oc=5\" target=\"_blank\">Mitigating voluntary carbon market risks: Insurance strategies for corporate climate goals</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Marsh</font>",
-        "source": "Google News",
-        "keyword": "market risk"
-      },
-      {
-        "title": "Fed rate cuts: why they could be the next big market risk - Axios",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9Wal9xN0FaWDhTRHh1NHBwcmszd053TlExT0JxVFFrOFNMcVUtZlVqVlJ2SFBsOHRHQVhOZU1Veld5ZHBIVnVob3BaX2d3dzF6a2NmNWFvd0Z5R3NtU3FoZUlPN2tpX3Q3dFZ2dzE5MUF0NUgzYjRR?oc=5",
-        "published": "Thu, 02 Oct 2025 07:00:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE9Wal9xN0FaWDhTRHh1NHBwcmszd053TlExT0JxVFFrOFNMcVUtZlVqVlJ2SFBsOHRHQVhOZU1Veld5ZHBIVnVob3BaX2d3dzF6a2NmNWFvd0Z5R3NtU3FoZUlPN2tpX3Q3dFZ2dzE5MUF0NUgzYjRR?oc=5\" target=\"_blank\">Fed rate cuts: why they could be the next big market risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Axios</font>",
-        "source": "Google News",
-        "keyword": "market risk"
-      },
-      {
-        "title": "Charles Payne warns of investors' 'far greater risk' in the stock market - Fox Business",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uYnVkUVVGVkJ1dm5OTTZmX3BXU0FYMEoxX1JRY25aRWlXX2laYzBaM0twc1EtSEZPSElBZE04TmstZmJ0aG8zazB0VXJyamlnVEdHb1ctNXdiS0U?oc=5",
-        "published": "Thu, 23 Oct 2025 18:51:28 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uYnVkUVVGVkJ1dm5OTTZmX3BXU0FYMEoxX1JRY25aRWlXX2laYzBaM0twc1EtSEZPSElBZE04TmstZmJ0aG8zazB0VXJyamlnVEdHb1ctNXdiS0U?oc=5\" target=\"_blank\">Charles Payne warns of investors' 'far greater risk' in the stock market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fox Business</font>",
-        "source": "Google News",
-        "keyword": "market risk"
-      },
-      {
-        "title": "Risks facing global economic outlook \"significant,\" Citi says - Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb3RGRmN2aVVYemtvc2FkUkhUYkhCcFZFY2RJcWtiU3lqcXNsbndOeFIwVHp5QnlJQk04bUoybTk1cF9iR3p2LWR4NkZaVVVUSDVlcUN0Vk9lMzZFcmNtUUFOWUJqelZpSnc4RUk1X29sOHp4bGpmNGpkQ0hseXgwVTVFdzdfZEpsSmw5TmVvbEhiWURzVW53VkF4WUV2QXozbEo0TU9JNWhDNkYtRTY0?oc=5",
-        "published": "Fri, 24 Oct 2025 10:36:24 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOb3RGRmN2aVVYemtvc2FkUkhUYkhCcFZFY2RJcWtiU3lqcXNsbndOeFIwVHp5QnlJQk04bUoybTk1cF9iR3p2LWR4NkZaVVVUSDVlcUN0Vk9lMzZFcmNtUUFOWUJqelZpSnc4RUk1X29sOHp4bGpmNGpkQ0hseXgwVTVFdzdfZEpsSmw5TmVvbEhiWURzVW53VkF4WUV2QXozbEo0TU9JNWhDNkYtRTY0?oc=5\" target=\"_blank\">Risks facing global economic outlook \"significant,\" Citi says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>",
-        "source": "Google News",
-        "keyword": "economic outlook"
+        "keyword": "market risk",
+        "highlights": [
+          "\ud83d\udcca Inflation data and price trends updated",
+          "\ud83d\udcc8 Market conditions and trading activity",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       }
     ],
     "Banking & Finance": [
       {
-        "title": "Fed hands banks a win with vote to advance 'stress test' overhaul - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSjFGV1NabG9fQ1prU3NGSGl0MnUyMVJicThrVDAtM3kyX2ZYd2VoTzJqQ2ZuaFBvSFJTbXROcHFYMXVWT3Vsa0MteUtyaW81a3J0WENUY1NlT3FzUWRRX0tyZ0tmR1E5RXNGWHBEQXR0Rm1VcWM5TkdqbmYwd014VUNwNzlDbWcwUFVFQWI0VnZ5UTJOUzNWUjItdks5REF6d2lEYnFrNnFGTUllZ0lMRUpjcjNFVy1HdnhxRjNfRERpRXdobmgyYg?oc=5",
-        "published": "Fri, 24 Oct 2025 20:06:40 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSjFGV1NabG9fQ1prU3NGSGl0MnUyMVJicThrVDAtM3kyX2ZYd2VoTzJqQ2ZuaFBvSFJTbXROcHFYMXVWT3Vsa0MteUtyaW81a3J0WENUY1NlT3FzUWRRX0tyZ0tmR1E5RXNGWHBEQXR0Rm1VcWM5TkdqbmYwd014VUNwNzlDbWcwUFVFQWI0VnZ5UTJOUzNWUjItdks5REF6d2lEYnFrNnFGTUllZ0lMRUpjcjNFVy1HdnhxRjNfRERpRXdobmgyYg?oc=5\" target=\"_blank\">Fed hands banks a win with vote to advance 'stress test' overhaul</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-        "source": "Google News",
-        "keyword": "banking"
+        "title": "Will Bank of England governor play Santa or Scrooge on interest rates?",
+        "url": "https://www.bbc.com/news/articles/cy0y34dxl7lo?at_medium=RSS&at_campaign=rss",
+        "published": "Thu, 06 Nov 2025 15:16:35 GMT",
+        "description": "The interest rate decision was made by the narrowest of margins, meaning all eyes are now on the Bank's December meeting.",
+        "source": "BBC Business",
+        "source_type": "free_rss",
+        "keyword": "RSS Feed",
+        "highlights": [
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments",
+          "\ud83c\udfe6 Banking sector and financial institution news",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "Fed Prepares Bank-Friendly Changes to Annual Stress Tests - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQR25UQThBZUNDVmU4anJXb24zTjRJLVdEQnpiU1g1SGRQbEJpVTNObk1pSFJROUVaakF3QS1NdXlMdnVIM0VHTW1VSGdPSW1RYy1XTGN6TnZtZW9faFFzcnpTS2U2QVp3N2o2SGJuRmF0dzl6elVXZHR5S1hkZXE0aHhWdHI1WnhSY01B?oc=5",
-        "published": "Fri, 24 Oct 2025 20:07:55 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQR25UQThBZUNDVmU4anJXb24zTjRJLVdEQnpiU1g1SGRQbEJpVTNObk1pSFJROUVaakF3QS1NdXlMdnVIM0VHTW1VSGdPSW1RYy1XTGN6TnZtZW9faFFzcnpTS2U2QVp3N2o2SGJuRmF0dzl6elVXZHR5S1hkZXE0aHhWdHI1WnhSY01B?oc=5\" target=\"_blank\">Fed Prepares Bank-Friendly Changes to Annual Stress Tests</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
+        "title": "BCBS dashboards - Bank for International Settlements",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5mSVBXNzVFdkNGMlhMZzlKUDFSVmpYV3hlQUVtblhCMnIyekZEcThid3RvQzNVRWV4NXVYN1hjanZUelJyU080UFQ4Q2ktOVF5?oc=5",
+        "published": "Thu, 23 Oct 2025 07:00:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE5mSVBXNzVFdkNGMlhMZzlKUDFSVmpYV3hlQUVtblhCMnIyekZEcThid3RvQzNVRWV4NXVYN1hjanZUelJyU080UFQ4Q2ktOVF5?oc=5\" target=\"_blank\">BCBS dashboards</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bank for International Settlements</font>",
         "source": "Google News",
-        "keyword": "banking"
+        "keyword": "market risk",
+        "highlights": [
+          "\ud83c\udfe6 Banking sector and financial institution news",
+          "\ud83c\udf0d Global economic impact",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
+      }
+    ],
+    "Unemployment & Employment": [
+      {
+        "title": "Canada gains a surprise 67,000 jobs in October, beating economists' expectations - CBC",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUUtOaVZsbW5RREhlV3JnMmVZVWFUdWc5dmZSaWRhX21yVkFRSTNNSWE5TzJ6bE9qWkNuWTk0ajQyY3dNM0FiamRfbVpEdEE3YjZpdnBxTGs2WnRvM2tFQnRtMGtYTmxJVU5FaHZXcDRKTXc3RDJubTVxdTBSejhWcG5pRC1mZWV0ZUE?oc=5",
+        "published": "Fri, 07 Nov 2025 17:04:45 GMT",
+        "description": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQUUtOaVZsbW5RREhlV3JnMmVZVWFUdWc5dmZSaWRhX21yVkFRSTNNSWE5TzJ6bE9qWkNuWTk0ajQyY3dNM0FiamRfbVpEdEE3YjZpdnBxTGs2WnRvM2tFQnRtMGtYTmxJVU5FaHZXcDRKTXc3RDJubTVxdTBSejhWcG5pRC1mZWV0ZUE?oc=5\" target=\"_blank\">Canada gains a surprise 67,000 jobs in October, beating economists' expectations</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBC</font></li><li><a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxOdl9CUGMzcnd4Ql9Hd0lCZFYya0g5bnNMQnBtUzV3SjAybGduMDcwUTlQREtKU0pwdEZhZ1JWbHBLdFBCd2RxZjRsaUxBb3UyTXB2WWN4WGQ1Uk9EaUVLSUotUS1LbVRwejAwcnVtYXhLc013dkRHNTRRV0xFVzNNUGY3b3NyWEpKdlNQRjJsSXNXQUJ2bldORnVHT0RSOGlLdUNvMWFmZ0dhT01RSDVmaTNwQlZJc2xkRDVEM19aT0tPTWNEZnNZ?oc=5\" target=\"_blank\">Canada's 67K jobs gain and lower unemployment bolster case for BoC to hold rates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo! Finance Canada</font></li><li><a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxPOFo3TnJ1REJOTy1ZWFNWQjJCZlpnU3FacW9kTXpzUTdiRklXNFNZd01DNFZYS0E1Z25VM2tGdldRZS13eHJHZy03RlFTdjR3RWphdXFDN2FobWNFX0QxUnVVNHRXWS1PRWw5aTR1MUFwVHpjaVg1LVZONmhJQ05LcVNHMVdmOUtNMWpqaU9jTXRBUXNYaGJJUi1USUZTc0trREtpQUZuWHk0R3pTS0pFdUkwbnJ4dXhGcHJfLW14MkNueUZwNVRiT1M2V2VyaURScjIwTHc0N0RJY0lLaUswdg?oc=5\" target=\"_blank\">Canada's job market posts surprise expansion in October, unemployment falls</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font></li></ol>",
+        "source": "Google News",
+        "keyword": "unemployment",
+        "highlights": [
+          "\ud83d\udcc8 Unemployment/employment metrics showing upward trend",
+          "\ud83d\udcc8 Market conditions and trading activity",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "Federal Reserve makes US bank stress tests less onerous - Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96S1hRNl9mVHFzd0hNeUZQbWlIYTNZUGZaNy1tMzNpaDlCQWJCZ1BWbE5tNVZoNGVHS3Rmd2tYajR0TDhUUzYwakhmTnpHRUJqV1FaazhjOWxQWTRsU1pvTE1XS2diLTNlUDF2NEtHU3k?oc=5",
-        "published": "Fri, 24 Oct 2025 17:54:53 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE96S1hRNl9mVHFzd0hNeUZQbWlIYTNZUGZaNy1tMzNpaDlCQWJCZ1BWbE5tNVZoNGVHS3Rmd2tYajR0TDhUUzYwakhmTnpHRUJqV1FaazhjOWxQWTRsU1pvTE1XS2diLTNlUDF2NEtHU3k?oc=5\" target=\"_blank\">Federal Reserve makes US bank stress tests less onerous</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+        "title": "The Job Market Is Cooling but Not Collapsing, According to Private Data - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMVFPdWdDendCbC1UXzlsOTJsSW9rZnBsLXBYeENCSlB4akdSVEswNS1CdWI1WkRyT1o4YnRSWnItajBFcmlSSkhOZkxrUmpmTlQ0cTh3ZnZYdkxtQkZIZmJGZ3NiLURLVnBxclhIdTFkdExfVkhKeUFwWURZUmFPXzlxQktDNl9oTXc?oc=5",
+        "published": "Fri, 07 Nov 2025 10:02:51 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOMVFPdWdDendCbC1UXzlsOTJsSW9rZnBsLXBYeENCSlB4akdSVEswNS1CdWI1WkRyT1o4YnRSWnItajBFcmlSSkhOZkxrUmpmTlQ0cTh3ZnZYdkxtQkZIZmJGZ3NiLURLVnBxclhIdTFkdExfVkhKeUFwWURZUmFPXzlxQktDNl9oTXc?oc=5\" target=\"_blank\">The Job Market Is Cooling but Not Collapsing, According to Private Data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
         "source": "Google News",
-        "keyword": "banking"
+        "keyword": "unemployment",
+        "highlights": [
+          "\ud83d\udcc8 Market conditions and trading activity",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "US firm collapses ringing 'alarm bells', says Bank of England chief - BBC",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE82dkstS2cyQy16aDVWTVlxUVR5VWt6SHVwTmp2d2VvSFgtMTk5UVJweVZ1WUtMZWhGTS1HVjMwVm1xX3VFa0ZKdVZOWDU2NW81RjFkaGtaSS16d9IBX0FVX3lxTE9zc0lwSjRXMDhSY0hfaTlOMDBzY255RmNBaU41Mi1mLUpxTkNkRzByVk81Q1h6NnZtaDFrckFVSEtGRlpBcU5OYWQza29UeF9pTk5DRXdrS2lZaW12X1Bv?oc=5",
-        "published": "Tue, 21 Oct 2025 15:32:56 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE82dkstS2cyQy16aDVWTVlxUVR5VWt6SHVwTmp2d2VvSFgtMTk5UVJweVZ1WUtMZWhGTS1HVjMwVm1xX3VFa0ZKdVZOWDU2NW81RjFkaGtaSS16d9IBX0FVX3lxTE9zc0lwSjRXMDhSY0hfaTlOMDBzY255RmNBaU41Mi1mLUpxTkNkRzByVk81Q1h6NnZtaDFrckFVSEtGRlpBcU5OYWQza29UeF9pTk5DRXdrS2lZaW12X1Bv?oc=5\" target=\"_blank\">US firm collapses ringing 'alarm bells', says Bank of England chief</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+        "title": "Unemployment benefits in jeopardy in shutdown, but not as dire as SNAP - Axios",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUzB3Nms4UWhDZndiWXFwaXV4S0gwdzU1OHBGaU5GMk1kRFFNTjNoR2E2b1JkeEhXaUVDSHVPcmZET1hQNE5xd1JHdzRSM0RzTkNyS1ZIMFJBM1duMnh4aFh6YlFrNmI5ZHNGendhU2xMRzRjQTVMV21nNGhZVm1DbncxcDk0N0VV?oc=5",
+        "published": "Wed, 05 Nov 2025 16:53:42 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUzB3Nms4UWhDZndiWXFwaXV4S0gwdzU1OHBGaU5GMk1kRFFNTjNoR2E2b1JkeEhXaUVDSHVPcmZET1hQNE5xd1JHdzRSM0RzTkNyS1ZIMFJBM1duMnh4aFh6YlFrNmI5ZHNGendhU2xMRzRjQTVMV21nNGhZVm1DbncxcDk0N0VV?oc=5\" target=\"_blank\">Unemployment benefits in jeopardy in shutdown, but not as dire as SNAP</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Axios</font>",
         "source": "Google News",
-        "keyword": "banking"
+        "keyword": "unemployment",
+        "highlights": [
+          "\ud83d\udcc9 Employment situation showing improvement",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "Big Banks Enter Stablecoin Era by Taking Zelle International - The Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxOU3V1aVpPb2pwWUs2LVVmcGxPOWJXdFFMd1ZKYnE1RHlKcElsamNIY2hManIxVFdaZHMxR2xtSWRHUlRFdUMxLUFYel9BZFpUbURJTjJVandVdWk1My14X2JQTDNDTkJ6NVdkTUxkdTVxc0ZmMVdoWjl0SXgzV2ROT0xQUkJNUFc1dWVBazJydTd2SEpyWmZWNE5TYzFmUTJuS1VFQTJ5ZzNzWS1QZGlQYXFpZ1EyQWkyanJYeWJzdjlHdnpqdXJNXy1ETEN1NVhsTmUzQUR6UUNtM25iNENGZHVNdmFYaVJWYnVsY1had25QYmhDMHJSTzRvUmg5QVlNeFZLbjRCZnljOVUyZDF6eHlSczd6YjBuZ0RiM3BfelRvbVJKcF80WC1udTB3YWRqTnhKS2k2UDh4amJSRzBhQk5FNjVZUGdTX2N4ajlkTzQtWjVxZUNMamRXN1l2RWVNY3ItZTJjdkVjTjlLSnk4b3JFc3c1eDdQREMyY2V5SnJzV19hX2VOSU1yRQ?oc=5",
-        "published": "Fri, 24 Oct 2025 15:38:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwNBVV95cUxOU3V1aVpPb2pwWUs2LVVmcGxPOWJXdFFMd1ZKYnE1RHlKcElsamNIY2hManIxVFdaZHMxR2xtSWRHUlRFdUMxLUFYel9BZFpUbURJTjJVandVdWk1My14X2JQTDNDTkJ6NVdkTUxkdTVxc0ZmMVdoWjl0SXgzV2ROT0xQUkJNUFc1dWVBazJydTd2SEpyWmZWNE5TYzFmUTJuS1VFQTJ5ZzNzWS1QZGlQYXFpZ1EyQWkyanJYeWJzdjlHdnpqdXJNXy1ETEN1NVhsTmUzQUR6UUNtM25iNENGZHVNdmFYaVJWYnVsY1had25QYmhDMHJSTzRvUmg5QVlNeFZLbjRCZnljOVUyZDF6eHlSczd6YjBuZ0RiM3BfelRvbVJKcF80WC1udTB3YWRqTnhKS2k2UDh4amJSRzBhQk5FNjVZUGdTX2N4ajlkTzQtWjVxZUNMamRXN1l2RWVNY3ItZTJjdkVjTjlLSnk4b3JFc3c1eDdQREMyY2V5SnJzV19hX2VOSU1yRQ?oc=5\" target=\"_blank\">Big Banks Enter Stablecoin Era by Taking Zelle International</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Wall Street Journal</font>",
+        "title": "Shutdown means another missed jobs report Friday. Here's what it probably would have shown - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeGg0c3NWOFcxM1hnZF9KMUhOeHlJTEVFbmYwcU1zcjRqd2lKd2c2WXptREV6VzJvTGIzckFGcXFDU09HYW4ybXduNlNSSkt4NnhzVWE4amtaZnJaNDhzbHNKZ2wtX0FUdVhmQm9QYXA2VnRVbGJoRk5zcU1fR0U4c1dVSEVrcm92WkNNengxeTByUDVsOTVPc1hxZy1xSjJhV3ZtMDdzemFoS0p5RXNYb9IBtgFBVV95cUxQUWl4SVo1d1hQNWhBVjBMYkVLcjZCdmpyWWU2N0tUSzNCaVFSQmJFM0lMZUJfUjdDZVJyMVduRmtHblduRDNCOUkzMUxUakVyTlI3ZWE2LVM3amJvaTJWLWQtcTFPS3g4enRCVHZhckROSTVEdG5SN3hWM0dFRjlsTlZFNERmajhUaXV4bzRDVDN6SHc2NWxnZ3FhUUJTX0xSOXZqaF9xSnlYWHltNXFUSVd4b21wdw?oc=5",
+        "published": "Fri, 07 Nov 2025 14:00:40 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNeGg0c3NWOFcxM1hnZF9KMUhOeHlJTEVFbmYwcU1zcjRqd2lKd2c2WXptREV6VzJvTGIzckFGcXFDU09HYW4ybXduNlNSSkt4NnhzVWE4amtaZnJaNDhzbHNKZ2wtX0FUdVhmQm9QYXA2VnRVbGJoRk5zcU1fR0U4c1dVSEVrcm92WkNNengxeTByUDVsOTVPc1hxZy1xSjJhV3ZtMDdzemFoS0p5RXNYb9IBtgFBVV95cUxQUWl4SVo1d1hQNWhBVjBMYkVLcjZCdmpyWWU2N0tUSzNCaVFSQmJFM0lMZUJfUjdDZVJyMVduRmtHblduRDNCOUkzMUxUakVyTlI3ZWE2LVM3amJvaTJWLWQtcTFPS3g4enRCVHZhckROSTVEdG5SN3hWM0dFRjlsTlZFNERmajhUaXV4bzRDVDN6SHc2NWxnZ3FhUUJTX0xSOXZqaF9xSnlYWHltNXFUSVd4b21wdw?oc=5\" target=\"_blank\">Shutdown means another missed jobs report Friday. Here's what it probably would have shown</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
         "source": "Google News",
-        "keyword": "banking"
+        "keyword": "unemployment",
+        "highlights": [
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "Bank of Canada to cut interest rate once more on October 29, say economists - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWjJxdzJ5amluX09IdXduSGttSDMwbEtNME55aWxjSnJueVZ1R2hVWmZfZ3hEVFU0NE5ESnVMVy1iM2tFN2habnBiRGRLM1FVM1Z1MVVyUDRZZFh1N09WeGt0S05Xa0V6RkRRMTdlTlIzOHg0OElPaFBoRDJ0dGNfbW1EaWVtS3p6Yms4amkxQmJBRDU4V05fOHN0VUJUX1UwXzVxLUNwTTlTWXhvaWYxVXM3Ul93cFU?oc=5",
-        "published": "Fri, 24 Oct 2025 11:57:56 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOWjJxdzJ5amluX09IdXduSGttSDMwbEtNME55aWxjSnJueVZ1R2hVWmZfZ3hEVFU0NE5ESnVMVy1iM2tFN2habnBiRGRLM1FVM1Z1MVVyUDRZZFh1N09WeGt0S05Xa0V6RkRRMTdlTlIzOHg0OElPaFBoRDJ0dGNfbW1EaWVtS3p6Yms4amkxQmJBRDU4V05fOHN0VUJUX1UwXzVxLUNwTTlTWXhvaWYxVXM3Ul93cFU?oc=5\" target=\"_blank\">Bank of Canada to cut interest rate once more on October 29, say economists</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+        "title": "\u2018No hire\u2019 job market leaves unemployed in limbo as threats to economy multiply - AP News",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM2taNFVTSWZaVW94N3JhdHVzRC1xQ1Q3cW45VEVtdy1uRDNjTGJTSUQtNmYtWko5ME1vamxUaDRITGozUnhWQkQ3eU1kZEVmbG1PMExxZC1zSWcyZlYyeGlGcU1mSTVrOXpIWE9TMDJOcVFUWjBabFJDMFpzbW1zNHk1VnN4QQ?oc=5",
+        "published": "Fri, 07 Nov 2025 18:22:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQM2taNFVTSWZaVW94N3JhdHVzRC1xQ1Q3cW45VEVtdy1uRDNjTGJTSUQtNmYtWko5ME1vamxUaDRITGozUnhWQkQ3eU1kZEVmbG1PMExxZC1zSWcyZlYyeGlGcU1mSTVrOXpIWE9TMDJOcVFUWjBabFJDMFpzbW1zNHk1VnN4QQ?oc=5\" target=\"_blank\">\u2018No hire\u2019 job market leaves unemployed in limbo as threats to economy multiply</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
         "source": "Google News",
-        "keyword": "banking"
+        "keyword": "unemployment",
+        "highlights": [
+          "\ud83d\udcc8 Market conditions and trading activity",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "The World Bank Group Reorganization: A Retreat from Research Quality? - Center for Global Development",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONUZzUUVLWGNqYzhqVzZXeUFvZnZhaG8wTk5OS0tKblA2eWtaUWFLWGFOcGo0N3Y1c0szbGtBZTYtVEMydGYwLWFuR3o1WTQ0R0s0UEczb2l3NkRQQlAxS3BEOGhobHdZc3ZJMU1JZkpvZHpIR0gtOUQ1cVFldGhUejlmSGlaNjFkMXNJ?oc=5",
-        "published": "Fri, 24 Oct 2025 15:42:22 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxONUZzUUVLWGNqYzhqVzZXeUFvZnZhaG8wTk5OS0tKblA2eWtaUWFLWGFOcGo0N3Y1c0szbGtBZTYtVEMydGYwLWFuR3o1WTQ0R0s0UEczb2l3NkRQQlAxS3BEOGhobHdZc3ZJMU1JZkpvZHpIR0gtOUQ1cVFldGhUejlmSGlaNjFkMXNJ?oc=5\" target=\"_blank\">The World Bank Group Reorganization: A Retreat from Research Quality?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Center for Global Development</font>",
+        "title": "Louisiana initial unemployment claims show little fluctuation - Baton Rouge Business Report",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbzhvRktUaGswSkcwNkhGRno0Z01LdDR6UFR3T0JaTmxDeGtPQUNDQmhwSFRpRkl0SFNTbVRGbWVWR19TOTRfVDUwdFZvUzhrb2JwelAzU2gtSnVDdUR2ZW5GdHV3QlZkeUFPTXEtd2IwU0czb19mN2dFZEJJZzFXOVVGV1gxdTVicm1zZ0RLUFh6a0RmdnBJeXJ0Zm9Qd1BWVGw40gGrAUFVX3lxTFBfMDRlQ09faExfcXdPYnlFc01yTTE2bEptX0tmdmtDdHVNYVN3UThBSlFaR3hmNDUtMG51QTNzczdyejZzZzZkRlVWcEFvU1c4b1dmcjhjOEMzb1g0MS1XQmp3eEdZU2ZuRHNrWlhXOFE1eW5Jckh0U1VJemt6U01pUGhzZnY2aG1LUzhkSGVNMkVEbHk2aTQweEZwV2paZUJKVl9xMHR0NnJuWQ?oc=5",
+        "published": "Fri, 07 Nov 2025 20:57:28 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQbzhvRktUaGswSkcwNkhGRno0Z01LdDR6UFR3T0JaTmxDeGtPQUNDQmhwSFRpRkl0SFNTbVRGbWVWR19TOTRfVDUwdFZvUzhrb2JwelAzU2gtSnVDdUR2ZW5GdHV3QlZkeUFPTXEtd2IwU0czb19mN2dFZEJJZzFXOVVGV1gxdTVicm1zZ0RLUFh6a0RmdnBJeXJ0Zm9Qd1BWVGw40gGrAUFVX3lxTFBfMDRlQ09faExfcXdPYnlFc01yTTE2bEptX0tmdmtDdHVNYVN3UThBSlFaR3hmNDUtMG51QTNzczdyejZzZzZkRlVWcEFvU1c4b1dmcjhjOEMzb1g0MS1XQmp3eEdZU2ZuRHNrWlhXOFE1eW5Jckh0U1VJemt6U01pUGhzZnY2aG1LUzhkSGVNMkVEbHk2aTQweEZwV2paZUJKVl9xMHR0NnJuWQ?oc=5\" target=\"_blank\">Louisiana initial unemployment claims show little fluctuation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Baton Rouge Business Report</font>",
         "source": "Google News",
-        "keyword": "banking"
+        "keyword": "unemployment",
+        "highlights": [
+          "\ud83d\udcbc Employment market developments reported",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "Crypto Banks Forced To Innovate as JPMorgan Encroaches on Their Turf - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQzhCSlZQX0xGLVVXUkNhSTBBa2sweEI5cVhEekZuNGltNGtoRWoyMFg2aHV6VnBBZWx0cV9DSGExN1liZHRzUUJVUENvQmFsUzJ0NDkwcldZZHRHMmk1N1VpWlNQX0o1bVZVOFhfVXVkUXJVTmJBY0pyVFhsTGNJUWVQcmxXRmF0M3Bj?oc=5",
-        "published": "Fri, 24 Oct 2025 15:37:15 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQzhCSlZQX0xGLVVXUkNhSTBBa2sweEI5cVhEekZuNGltNGtoRWoyMFg2aHV6VnBBZWx0cV9DSGExN1liZHRzUUJVUENvQmFsUzJ0NDkwcldZZHRHMmk1N1VpWlNQX0o1bVZVOFhfVXVkUXJVTmJBY0pyVFhsTGNJUWVQcmxXRmF0M3Bj?oc=5\" target=\"_blank\">Crypto Banks Forced To Innovate as JPMorgan Encroaches on Their Turf</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+        "title": "Ontario predicts grim economic outlook with rising unemployment and lower job creation - Global News",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Lb3pVVml0VVZwSHhRM3hTS1dTbHZWa3JKR2pZVXdfcXl3UUxZQ21UV1RSc2RKdG9ZOGs5dnQ1aFJxSTZHUVJ3ellTR2FnYlNUSWZYaEFXRkRqQUF4dFlRZnRvaXZRZ3RmVXNTTzNZRUNWWDB6dXl1cVA1c3JuQdIBgwFBVV95cUxPSWM3Q3BIOU5VY1p1RzRsdkdubF9UR0tyTXlSUU1feVJHM01vMXctdnFKUnlTUVpEMGVLRkhNMDdKZnJ3WXE1aXdyajZOWjdDSTlfRTVYOXZlOVdaSGNuNnlLWGdkVUhBY3I3Z2RNU0NjRkgxZ3p6X2lNT3VRVzRIaXhoRQ?oc=5",
+        "published": "Thu, 06 Nov 2025 11:00:03 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE5Lb3pVVml0VVZwSHhRM3hTS1dTbHZWa3JKR2pZVXdfcXl3UUxZQ21UV1RSc2RKdG9ZOGs5dnQ1aFJxSTZHUVJ3ellTR2FnYlNUSWZYaEFXRkRqQUF4dFlRZnRvaXZRZ3RmVXNTTzNZRUNWWDB6dXl1cVA1c3JuQdIBgwFBVV95cUxPSWM3Q3BIOU5VY1p1RzRsdkdubF9UR0tyTXlSUU1feVJHM01vMXctdnFKUnlTUVpEMGVLRkhNMDdKZnJ3WXE1aXdyajZOWjdDSTlfRTVYOXZlOVdaSGNuNnlLWGdkVUhBY3I3Z2RNU0NjRkgxZ3p6X2lNT3VRVzRIaXhoRQ?oc=5\" target=\"_blank\">Ontario predicts grim economic outlook with rising unemployment and lower job creation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Global News</font>",
         "source": "Google News",
-        "keyword": "banking"
+        "keyword": "unemployment",
+        "highlights": [
+          "\ud83d\udcbc Employment market developments reported",
+          "\ud83d\udcca Economic indicators and trends",
+          "\ud83c\udf0d Global economic impact",
+          "\ud83c\udf0d Global economic impact"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "Seaford bank robbery suspect arrested - WBOC TV",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTWNjQ1BReUk3VFZaU1NIZnZNVzU0S2JGZXVhcFB4ZXI2TFgzUndfYVNnVHNTVVN0TTFYVGFodTJsMndpUU92UWp0d3V4cmw5Sk85VGx1eUhtc3dNOEY1OFdFZmYxNHJsQkdaTVM1ZnpoWmZXUG05eEJoWGROeF9jYnVpMTFwZHRVaFIxS0R4djBJRF82anNpVVdYbXRGazExc0VxS2NuTEpOaEdITUY4am1GQQ?oc=5",
-        "published": "Fri, 24 Oct 2025 13:30:44 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPTWNjQ1BReUk3VFZaU1NIZnZNVzU0S2JGZXVhcFB4ZXI2TFgzUndfYVNnVHNTVVN0TTFYVGFodTJsMndpUU92UWp0d3V4cmw5Sk85VGx1eUhtc3dNOEY1OFdFZmYxNHJsQkdaTVM1ZnpoWmZXUG05eEJoWGROeF9jYnVpMTFwZHRVaFIxS0R4djBJRF82anNpVVdYbXRGazExc0VxS2NuTEpOaEdITUY4am1GQQ?oc=5\" target=\"_blank\">Seaford bank robbery suspect arrested</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WBOC TV</font>",
+        "title": "There\u2019s no jobs report today. Here\u2019s what it might\u2019ve shown. - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWW54eGxrOHl4VXFrdV9OSDIxY01JV24xdDFpWFhnM2E4OE9FU29hejUzcUpIN1VEWTRBVlJhazNfUVhuWElsWDFhRjJtZXhNWC1DWmxLTl9TUk9SNzNBSEtMSlJfT01jelFDNTVZR1VrSV9GS2o3Uzc0UGkzaGZHVGtpLWVVTjktNl9ubndEd080b3AzSWpPSjljMml2eUZVcVNZ?oc=5",
+        "published": "Fri, 07 Nov 2025 13:30:19 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPWW54eGxrOHl4VXFrdV9OSDIxY01JV24xdDFpWFhnM2E4OE9FU29hejUzcUpIN1VEWTRBVlJhazNfUVhuWElsWDFhRjJtZXhNWC1DWmxLTl9TUk9SNzNBSEtMSlJfT01jelFDNTVZR1VrSV9GS2o3Uzc0UGkzaGZHVGtpLWVVTjktNl9ubndEd080b3AzSWpPSjljMml2eUZVcVNZ?oc=5\" target=\"_blank\">There\u2019s no jobs report today. Here\u2019s what it might\u2019ve shown.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
         "source": "Google News",
-        "keyword": "banking"
+        "keyword": "unemployment",
+        "highlights": [
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "Atlanta Fed Taylor Rule Utility Updated - Federal Reserve Bank of Atlanta",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB3amZwUkM2dVN2YUNKdWExTGFKd0FocjBXQ3YzSXNEMDdGamYtbllJckV3cVVvUG5ZMGJqMlg0NXY5YkxkTzFGTUhRR3hfQmVpYVBSWUtSZVRPNGR6LU5fUWp3NEh5TnlET0tVa1QyRQ?oc=5",
-        "published": "Fri, 24 Oct 2025 17:30:32 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFB3amZwUkM2dVN2YUNKdWExTGFKd0FocjBXQ3YzSXNEMDdGamYtbllJckV3cVVvUG5ZMGJqMlg0NXY5YkxkTzFGTUhRR3hfQmVpYVBSWUtSZVRPNGR6LU5fUWp3NEh5TnlET0tVa1QyRQ?oc=5\" target=\"_blank\">Atlanta Fed Taylor Rule Utility Updated</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Federal Reserve Bank of Atlanta</font>",
+        "title": "\u2018A job is like finding a needle in a haystack\u2019: how Dudley became centre of UK\u2019s youth jobs crisis - The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNzhJcGNuZ3dKcDF3TFF6TmtWSWFqMlBGM2xZaVpjQnVIUkdfQkstLTJfaWhKbE0xdXVOLVZyaTQySjV6eHVzUHNTblRHaGhXYi1RSmI0c2YtZkc5MHN6WFFVU1JPYnozU0tZRWkwNmtnUXl6dGx3OHV3bDlLRVBEd1lfb3BHeEFHN0R5TF9qWmFuSXZ3MDVneG01NkhwR3c?oc=5",
+        "published": "Fri, 07 Nov 2025 16:00:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPNzhJcGNuZ3dKcDF3TFF6TmtWSWFqMlBGM2xZaVpjQnVIUkdfQkstLTJfaWhKbE0xdXVOLVZyaTQySjV6eHVzUHNTblRHaGhXYi1RSmI0c2YtZkc5MHN6WFFVU1JPYnozU0tZRWkwNmtnUXl6dGx3OHV3bDlLRVBEd1lfb3BHeEFHN0R5TF9qWmFuSXZ3MDVneG01NkhwR3c?oc=5\" target=\"_blank\">\u2018A job is like finding a needle in a haystack\u2019: how Dudley became centre of UK\u2019s youth jobs crisis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
         "source": "Google News",
-        "keyword": "federal reserve"
+        "keyword": "unemployment",
+        "highlights": [
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "Speech by Governor Barr on financial inclusion - Federal Reserve Board (.gov)",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9LVlpDR3NBS3dfNUtWNkRhX3Y2dEppZ3NIZi02YXBzOTlxMGhVQjE1N3lxLV8xTWgtd0Yyc1lOb09QN2hFUmR5RThSVmJyVTVpdl8tY3JkdG5HbUtRTGk3bHZUQnM2MjhETU45QlZrckRJU1RN?oc=5",
-        "published": "Wed, 22 Oct 2025 20:04:48 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE9LVlpDR3NBS3dfNUtWNkRhX3Y2dEppZ3NIZi02YXBzOTlxMGhVQjE1N3lxLV8xTWgtd0Yyc1lOb09QN2hFUmR5RThSVmJyVTVpdl8tY3JkdG5HbUtRTGk3bHZUQnM2MjhETU45QlZrckRJU1RN?oc=5\" target=\"_blank\">Speech by Governor Barr on financial inclusion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Federal Reserve Board (.gov)</font>",
+        "title": "Bank of England says UK inflation has peaked after leaving rates at 4%; US job cuts jump as firms turn to AI \u2013 as it happened - The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQU3l4bUhFN0R0SEkwWGRZYVBldVlLZEJhM0JMUl9iVHRUZzdPc1BoVzNqTkdHVGU4LVotMDQ3YmdUcW9yZXBRZHB3VlVHUll5YTc1Qk5EZlJ5NGd4RWFkOEI3aEpTZXF5NGVXR1Q3dmVpN19yQXdzMDE5Uk04a2FWTGlWWnBaLXZpTlpFV1NNQWxia2NfLWtVX0ZhMk9ETFhWQ3lRc1hIcVNCSHc5QjhKWUY1VF8yN1RydW5MclkyVEI3T0l0LXRVVXVLN21UaTBlSFNkRWpDblZJU05X?oc=5",
+        "published": "Thu, 06 Nov 2025 07:20:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxQU3l4bUhFN0R0SEkwWGRZYVBldVlLZEJhM0JMUl9iVHRUZzdPc1BoVzNqTkdHVGU4LVotMDQ3YmdUcW9yZXBRZHB3VlVHUll5YTc1Qk5EZlJ5NGd4RWFkOEI3aEpTZXF5NGVXR1Q3dmVpN19yQXdzMDE5Uk04a2FWTGlWWnBaLXZpTlpFV1NNQWxia2NfLWtVX0ZhMk9ETFhWQ3lRc1hIcVNCSHc5QjhKWUY1VF8yN1RydW5MclkyVEI3T0l0LXRVVXVLN21UaTBlSFNkRWpDblZJU05X?oc=5\" target=\"_blank\">Bank of England says UK inflation has peaked after leaving rates at 4%; US job cuts jump as firms turn to AI \u2013 as it happened</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
         "source": "Google News",
-        "keyword": "federal reserve"
+        "keyword": "inflation",
+        "highlights": [
+          "\ud83d\udcca Inflation data and price trends updated",
+          "\ud83c\udfe6 Banking sector and financial institution news",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
+      }
+    ],
+    "General Economic News": [
+      {
+        "title": "\u2018I Wish There Was a Support Group for Spouses of Unemployed People\u2019 - The Cut",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY2MxVmxTR2UxTENHTEhHX1pucUR2Nk5OcVJkQTR0aVFTaklXOVc0OGxla2JpTGpSa1RhbHRqSGwwTVJGLWtzZGM0TG5YWHJJTHhOc2gwTTRwZ1pIclUweVRVNVFOV2Yxc2UwcXJEQkFvVHpYd0MzYVFxclRmd0Vmb2RBblVZTmtSTThaRkNFMTV5UHRoQTN3TA?oc=5",
+        "published": "Thu, 06 Nov 2025 13:00:01 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOY2MxVmxTR2UxTENHTEhHX1pucUR2Nk5OcVJkQTR0aVFTaklXOVc0OGxla2JpTGpSa1RhbHRqSGwwTVJGLWtzZGM0TG5YWHJJTHhOc2gwTTRwZ1pIclUweVRVNVFOV2Yxc2UwcXJEQkFvVHpYd0MzYVFxclRmd0Vmb2RBblVZTmtSTThaRkNFMTV5UHRoQTN3TA?oc=5\" target=\"_blank\">\u2018I Wish There Was a Support Group for Spouses of Unemployed People\u2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Cut</font>",
+        "source": "Google News",
+        "keyword": "unemployment",
+        "highlights": [
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       },
       {
-        "title": "Nigel Farage seeks influence over Bank of England in same vein as Trump and US Federal Reserve - The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcW9sU1dfS2dSYVNFRjZtOVc4VFY3MzItdzlyc3EtMzhGU1JjdzM0SVlfbUljRlc5OXdob2VleVZscnpON0hCdHdJMDRUbC1XaklrTGZtUWR4YWE2SXVUcG9McHY2T3NhR1JDWUxPS25wOGtCcVNqWmI5TkY0TEwxNnZxdTJGU1pyaHoxaExaWQ?oc=5",
-        "published": "Fri, 24 Oct 2025 17:43:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPcW9sU1dfS2dSYVNFRjZtOVc4VFY3MzItdzlyc3EtMzhGU1JjdzM0SVlfbUljRlc5OXdob2VleVZscnpON0hCdHdJMDRUbC1XaklrTGZtUWR4YWE2SXVUcG9McHY2T3NhR1JDWUxPS25wOGtCcVNqWmI5TkY0TEwxNnZxdTJGU1pyaHoxaExaWQ?oc=5\" target=\"_blank\">Nigel Farage seeks influence over Bank of England in same vein as Trump and US Federal Reserve</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+        "title": "How everyday savers can use I Bonds to make more money: Where to buy, what's the rate? - Detroit Free Press",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQc3c1Uk1zTy1zZy1COGNzcHpyVDF4SUdVemkyWDZVY215WEpSc3JiTFE1X2MtYjN3RkFuc3RTSndmUkZUbHdLTkR2QVBBdkhxd2VnOWMtN1ZLNHd1VzJlaXdkVlNzZ1VfWE92aGhBV08wOXRPMjcyMzRWMF84YlZsNFpKaWQ5ZXRMM1Z1NU1GUGluTjdnMmRsNVNnYUhrNHdCWlN4Z3BpLW9Vdk1NQXZCWnl4TWVBNXdPd3hZMERfbmJMNWFmVk94Q2JiRFVPMjN0N1ltelZ1NGNhLS1kcDM5WQ?oc=5",
+        "published": "Thu, 06 Nov 2025 12:07:49 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxQc3c1Uk1zTy1zZy1COGNzcHpyVDF4SUdVemkyWDZVY215WEpSc3JiTFE1X2MtYjN3RkFuc3RTSndmUkZUbHdLTkR2QVBBdkhxd2VnOWMtN1ZLNHd1VzJlaXdkVlNzZ1VfWE92aGhBV08wOXRPMjcyMzRWMF84YlZsNFpKaWQ5ZXRMM1Z1NU1GUGluTjdnMmRsNVNnYUhrNHdCWlN4Z3BpLW9Vdk1NQXZCWnl4TWVBNXdPd3hZMERfbmJMNWFmVk94Q2JiRFVPMjN0N1ltelZ1NGNhLS1kcDM5WQ?oc=5\" target=\"_blank\">How everyday savers can use I Bonds to make more money: Where to buy, what's the rate?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Detroit Free Press</font>",
         "source": "Google News",
-        "keyword": "federal reserve"
+        "keyword": "inflation",
+        "highlights": [
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
+      },
+      {
+        "title": "The Fed\u2019s Recent Rate Decisions Have Been Divisive. It Is Likely to Get Worse. - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5IZjhoTUI0ODZueWhXZnJudkZPVjRkN3N2eGZvREliaUVXN0NQRXpYUzJzX2dxNF9ITm5MT2xQVlh3ZFNpRDU2VWNJZ1p4ZmZRb18zQmpIdUFKdlVRU0RYT2YxSFp5el92UUd2WGxpaDVfd3JCWDlUQnI4ZnQ?oc=5",
+        "published": "Fri, 07 Nov 2025 10:02:49 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5IZjhoTUI0ODZueWhXZnJudkZPVjRkN3N2eGZvREliaUVXN0NQRXpYUzJzX2dxNF9ITm5MT2xQVlh3ZFNpRDU2VWNJZ1p4ZmZRb18zQmpIdUFKdlVRU0RYT2YxSFp5el92UUd2WGxpaDVfd3JCWDlUQnI4ZnQ?oc=5\" target=\"_blank\">The Fed\u2019s Recent Rate Decisions Have Been Divisive. It Is Likely to Get Worse.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
+        "source": "Google News",
+        "keyword": "inflation",
+        "highlights": [
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
+      }
+    ],
+    "Market Risk": [
+      {
+        "title": "US money market risks new bout of stress, Wall Street banks say - Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTWEdJTV9SblQzcHRqcl9waWs3LWRFQnNyRHpXQlJKRXZPa2tPVlptZUk4MDkzczRYbkk4cmhiLVBXc0JfRGt6OVdqWnNQSVYyeDVkRzh5V3BCaTVrTDJnUWZOQlhmSGMwekw2c2V3LXo?oc=5",
+        "published": "Thu, 06 Nov 2025 23:04:51 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFBTWEdJTV9SblQzcHRqcl9waWs3LWRFQnNyRHpXQlJKRXZPa2tPVlptZUk4MDkzczRYbkk4cmhiLVBXc0JfRGt6OVdqWnNQSVYyeDVkRzh5V3BCaTVrTDJnUWZOQlhmSGMwekw2c2V3LXo?oc=5\" target=\"_blank\">US money market risks new bout of stress, Wall Street banks say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+        "source": "Google News",
+        "keyword": "market risk",
+        "highlights": [
+          "\ud83d\udcc8 Market conditions and trading activity",
+          "\ud83c\udfe6 Banking sector and financial institution news",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
+      },
+      {
+        "title": "Fed points to market froth as leading stability risk - American Banker",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRm1Jd2M3bnZJUnhrcld4cjExQ091Qm5fcFMyaGJpVF9NZTJJUVJWNzRJWlpCd2VlS01uVFZ0VndKMmp0dVBUUGlnX3hMSFFXSFlRYmRyd3pfRldnUlJPWkp1UmVWOF90Z05URFpNVmFPUDdYNVhUUjVnbnhJLTF1QnFVVl8tT3NNTTg0aVNpVFBmZw?oc=5",
+        "published": "Fri, 07 Nov 2025 22:51:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPRm1Jd2M3bnZJUnhrcld4cjExQ091Qm5fcFMyaGJpVF9NZTJJUVJWNzRJWlpCd2VlS01uVFZ0VndKMmp0dVBUUGlnX3hMSFFXSFlRYmRyd3pfRldnUlJPWkp1UmVWOF90Z05URFpNVmFPUDdYNVhUUjVnbnhJLTF1QnFVVl8tT3NNTTg0aVNpVFBmZw?oc=5\" target=\"_blank\">Fed points to market froth as leading stability risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">American Banker</font>",
+        "source": "Google News",
+        "keyword": "market risk",
+        "highlights": [
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments",
+          "\ud83d\udcc8 Market conditions and trading activity",
+          "\ud83c\udfe6 Banking sector and financial institution news",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
+      },
+      {
+        "title": "Has Market Risk Created an Opportunity in Capital Southwest After Five Years of 130% Growth? - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNDZ4U2xYclY5ZzB4c2JqSV9obGE1ZllNMlRYa0VMRTZ3cFlwR25lUXV1eUVFWldIYTMtMGRaeVBLb1lIMGdmSFVfSzdOa0l4ZUl6Rm1qU2Z3a1RvZjNDd1pHeXlNTGMxc0N0cHNsYkpGZ21zSFpuaWlkeGVrTl9oNjd3X1AzbFN3VDllZ0poWnViRnV2Umt3djdnaTU5VUNJNDBwMWh4NUpCS2FTdC1DWXJNTnF1T0lPQTlYTHdKVl80eUVkV2EtdmU3dnR0ZnMxNkUtZkhEa01aZkc4aHVqemFjONIB6AFBVV95cUxOMVVpUDhtQWZ0QVJkT3ZfaE9oNnVsWkNtVjNId2t3ekl1cDRTQ3ZrYk1NbkxPNlN2cFExTmhuT1Z4VDV4M01UMnNYU2NnM1NWWVdpVVplMFVKcW16eHNwNzFBYjgyWU1qZkRMcmhuNGx3dE1wd2tLSHNPNGVadUZ6V1JCUHBkYVAzV2tyeGtyMnhUeGVFN1JTN1VvZ2J3Y2RwcjJGb3VqZGVUdG8yTElYOXI5bTFOMzMtVzR0ejc3dWU1bG9FeTJZcF94a3VoOWg1UHExVVRIS05oY2NYMnY4Rk80OUlCYUlT?oc=5",
+        "published": "Thu, 06 Nov 2025 11:22:27 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNDZ4U2xYclY5ZzB4c2JqSV9obGE1ZllNMlRYa0VMRTZ3cFlwR25lUXV1eUVFWldIYTMtMGRaeVBLb1lIMGdmSFVfSzdOa0l4ZUl6Rm1qU2Z3a1RvZjNDd1pHeXlNTGMxc0N0cHNsYkpGZ21zSFpuaWlkeGVrTl9oNjd3X1AzbFN3VDllZ0poWnViRnV2Umt3djdnaTU5VUNJNDBwMWh4NUpCS2FTdC1DWXJNTnF1T0lPQTlYTHdKVl80eUVkV2EtdmU3dnR0ZnMxNkUtZkhEa01aZkc4aHVqemFjONIB6AFBVV95cUxOMVVpUDhtQWZ0QVJkT3ZfaE9oNnVsWkNtVjNId2t3ekl1cDRTQ3ZrYk1NbkxPNlN2cFExTmhuT1Z4VDV4M01UMnNYU2NnM1NWWVdpVVplMFVKcW16eHNwNzFBYjgyWU1qZkRMcmhuNGx3dE1wd2tLSHNPNGVadUZ6V1JCUHBkYVAzV2tyeGtyMnhUeGVFN1JTN1VvZ2J3Y2RwcjJGb3VqZGVUdG8yTElYOXI5bTFOMzMtVzR0ejc3dWU1bG9FeTJZcF94a3VoOWg1UHExVVRIS05oY2NYMnY4Rk80OUlCYUlT?oc=5\" target=\"_blank\">Has Market Risk Created an Opportunity in Capital Southwest After Five Years of 130% Growth?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">simplywall.st</font>",
+        "source": "Google News",
+        "keyword": "market risk",
+        "highlights": [
+          "\ud83d\udcc8 Market conditions and trading activity",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
+      },
+      {
+        "title": "Downtrends in BTC, ETH and SOL as risk returns to market - Blockworks",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SN0RYdEpyV3RoY05FWnZ6LUN3bTg3Zk92ZkJDbzk4T280ckFhOTNlQ0RXZDJVRmw4OFAyeXpTZjJCQ2paSklySDEtUUlNNm5QbklSYjRCQlAyVE1jbVE?oc=5",
+        "published": "Thu, 06 Nov 2025 23:10:06 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SN0RYdEpyV3RoY05FWnZ6LUN3bTg3Zk92ZkJDbzk4T280ckFhOTNlQ0RXZDJVRmw4OFAyeXpTZjJCQ2paSklySDEtUUlNNm5QbklSYjRCQlAyVE1jbVE?oc=5\" target=\"_blank\">Downtrends in BTC, ETH and SOL as risk returns to market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Blockworks</font>",
+        "source": "Google News",
+        "keyword": "market risk",
+        "highlights": [
+          "\ud83d\udcc8 Market conditions and trading activity",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
+      },
+      {
+        "title": "Three Risks Hiding Behind U.S. Stocks\u2019 Performance - Morgan Stanley",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZjZSU1VUYXdpQW01Y0NJYUY3YUJtalBsV0QyU0RsVGZpSmhKT3BrMkp1d3F3Nm10eHVWdnQ2UnZqcUFjQ0NmOHJwbmZIUHl4aHZBOW5maTc3al9TcDdpR0Vrc3FTMDZqX3hjNko1UlJTZW1tNG9JUFMyRjBSd1JiM0xWSEQxMThocW1mSWUtbTE?oc=5",
+        "published": "Wed, 13 Aug 2025 07:00:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPZjZSU1VUYXdpQW01Y0NJYUY3YUJtalBsV0QyU0RsVGZpSmhKT3BrMkp1d3F3Nm10eHVWdnQ2UnZqcUFjQ0NmOHJwbmZIUHl4aHZBOW5maTc3al9TcDdpR0Vrc3FTMDZqX3hjNko1UlJTZW1tNG9JUFMyRjBSd1JiM0xWSEQxMThocW1mSWUtbTE?oc=5\" target=\"_blank\">Three Risks Hiding Behind U.S. Stocks\u2019 Performance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Morgan Stanley</font>",
+        "source": "Google News",
+        "keyword": "market risk",
+        "highlights": [
+          "\ud83d\udcc8 Market conditions and trading activity",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
+      },
+      {
+        "title": "Will the Stock Market Crash in 2025? 4 Risk Factors | Investing - US News Money",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWk5OQUItYlZ0a3dDV0lIWVJZcVNhSm5sQXpKY052RGJNd1lwX25IZ2JJVW50WG44WGRLYXR3cG12bUF5NThuZlFMTkdGbHBONkdJYXpMSjVXeEJsMks1RnZXa3U2SC1PdmtYZ0ZJVEdaTDVXRFVCcWY1cDd0OUNRN0ZfYlI4NkRDRlpiZQ?oc=5",
+        "published": "Mon, 27 Oct 2025 07:00:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOWk5OQUItYlZ0a3dDV0lIWVJZcVNhSm5sQXpKY052RGJNd1lwX25IZ2JJVW50WG44WGRLYXR3cG12bUF5NThuZlFMTkdGbHBONkdJYXpMSjVXeEJsMks1RnZXa3U2SC1PdmtYZ0ZJVEdaTDVXRFVCcWY1cDd0OUNRN0ZfYlI4NkRDRlpiZQ?oc=5\" target=\"_blank\">Will the Stock Market Crash in 2025? 4 Risk Factors | Investing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">US News Money</font>",
+        "source": "Google News",
+        "keyword": "market risk",
+        "highlights": [
+          "\ud83d\udcc8 Market conditions and trading activity",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
+      },
+      {
+        "title": "Navigating volatility, AI and geopolitical uncertainty - Risk.net",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbi1tdmxXaU9KUzNyRE9QeXdxZXB3TU5YdHNYZm44MXZUN0s3N3hVUU1vTTR4Nk9TWjJuZjdtWlVSNHkxSHVLNTRuWUJCVnhwdDhYZFkxMlhQTDRwVjBTRnlVRmdDcDhzcG41YzBMeGVKVlJxTXh3cGVHZk9ZbmVqR2VhMkNHN3liWF8zZUNnOWRMcVFhdXc?oc=5",
+        "published": "Wed, 05 Nov 2025 12:50:09 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQbi1tdmxXaU9KUzNyRE9QeXdxZXB3TU5YdHNYZm44MXZUN0s3N3hVUU1vTTR4Nk9TWjJuZjdtWlVSNHkxSHVLNTRuWUJCVnhwdDhYZFkxMlhQTDRwVjBTRnlVRmdDcDhzcG41YzBMeGVKVlJxTXh3cGVHZk9ZbmVqR2VhMkNHN3liWF8zZUNnOWRMcVFhdXc?oc=5\" target=\"_blank\">Navigating volatility, AI and geopolitical uncertainty</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Risk.net</font>",
+        "source": "Google News",
+        "keyword": "market risk",
+        "highlights": [
+          "\ud83d\udcc8 Market conditions and trading activity",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
+      },
+      {
+        "title": "Why analysts remain bullish on Bandwidth Inc. stock - Market Risk Analysis & Fast Exit and Entry Trade Guides - fcp.pa.gov.br",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcmpTQ1VxaWJWUW0wR3gyZkUtbGxmNXBzMHEzRWR2Zk1lbEpTZU5RVGx1cUNuQUxObi01bENLS3F2Um9Ra2ZaZUFBMmNjQ3loS2l4YUNCM1g4MHoyQ2ZwSWdtYWNBSk81YkxQMG5jeEctSEJEeGE0ZkRCcXRzb2ZfbUpmeVJiQWU4ZE4wT2E2cFo?oc=5",
+        "published": "Thu, 06 Nov 2025 12:17:49 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQcmpTQ1VxaWJWUW0wR3gyZkUtbGxmNXBzMHEzRWR2Zk1lbEpTZU5RVGx1cUNuQUxObi01bENLS3F2Um9Ra2ZaZUFBMmNjQ3loS2l4YUNCM1g4MHoyQ2ZwSWdtYWNBSk81YkxQMG5jeEctSEJEeGE0ZkRCcXRzb2ZfbUpmeVJiQWU4ZE4wT2E2cFo?oc=5\" target=\"_blank\">Why analysts remain bullish on Bandwidth Inc. stock - Market Risk Analysis & Fast Exit and Entry Trade Guides</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">fcp.pa.gov.br</font>",
+        "source": "Google News",
+        "keyword": "market risk",
+        "highlights": [
+          "\ud83d\udcc8 Market conditions and trading activity",
+          "\ud83d\udcf0 Economic and financial news update"
+        ],
+        "source_category": "free"
       }
     ]
   },
   "sources_covered": [
-    "NBC Business",
+    "BBC Business",
     "Google News"
   ]
 }

@@ -1,0 +1,140 @@
+{
+  "free_sources": [
+    {
+      "name": "Reuters Business",
+      "url": "https://www.reuters.com/business/finance/rss",
+      "source_type": "free_rss",
+      "category": "free",
+      "api_key": null,
+      "headers": {},
+      "rate_limit": 1.0,
+      "max_articles": 15,
+      "active": true
+    },
+    {
+      "name": "AP Business",
+      "url": "https://feeds.apnews.com/rss/apf-business",
+      "source_type": "free_rss",
+      "category": "free",
+      "api_key": null,
+      "headers": {},
+      "rate_limit": 1.0,
+      "max_articles": 10,
+      "active": true
+    },
+    {
+      "name": "NBC Business",
+      "url": "https://feeds.nbcnews.com/nbcnews/public/business",
+      "source_type": "free_rss",
+      "category": "free",
+      "api_key": null,
+      "headers": {},
+      "rate_limit": 1.0,
+      "max_articles": 10,
+      "active": true
+    },
+    {
+      "name": "BBC Business",
+      "url": "http://feeds.bbci.co.uk/news/business/rss.xml",
+      "source_type": "free_rss",
+      "category": "free",
+      "api_key": null,
+      "headers": {},
+      "rate_limit": 1.0,
+      "max_articles": 12,
+      "active": true
+    },
+    {
+      "name": "CNN Business",
+      "url": "http://rss.cnn.com/rss/money_latest.rss",
+      "source_type": "free_rss",
+      "category": "free",
+      "api_key": null,
+      "headers": {},
+      "rate_limit": 1.0,
+      "max_articles": 10,
+      "active": true
+    },
+    {
+      "name": "MarketWatch",
+      "url": "https://feeds.marketwatch.com/marketwatch/topstories/",
+      "source_type": "free_rss",
+      "category": "free",
+      "api_key": null,
+      "headers": {},
+      "rate_limit": 1.0,
+      "max_articles": 8,
+      "active": true
+    },
+    {
+      "name": "TechCrunch Finance",
+      "url": "https://techcrunch.com/category/fintech/feed/",
+      "source_type": "free_rss",
+      "category": "free",
+      "api_key": null,
+      "headers": {},
+      "rate_limit": 1.5,
+      "max_articles": 8,
+      "active": true
+    }
+  ],
+  "subscription_sources": [
+    {
+      "name": "Wall Street Journal",
+      "url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "subscription_rss",
+      "category": "subscription",
+      "api_key": null,
+      "headers": {},
+      "rate_limit": 1.0,
+      "max_articles": 15,
+      "active": false
+    },
+    {
+      "name": "Financial Times",
+      "url": "https://www.ft.com/rss/home/us",
+      "source_type": "subscription_rss",
+      "category": "subscription",
+      "api_key": null,
+      "headers": {},
+      "rate_limit": 1.0,
+      "max_articles": 12,
+      "active": false
+    },
+    {
+      "name": "Bloomberg Terminal",
+      "url": "https://api.bloomberg.com/news",
+      "source_type": "api",
+      "category": "subscription",
+      "api_key": null,
+      "headers": {},
+      "rate_limit": 1.0,
+      "max_articles": 20,
+      "active": false
+    },
+    {
+      "name": "Yahoo Finance",
+      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline",
+      "source_type": "free_rss",
+      "category": "free",
+      "api_key": null,
+      "headers": {},
+      "rate_limit": 1.0,
+      "max_articles": 10,
+      "active": true
+    },
+    {
+      "name": "Alpha Vantage News",
+      "url": "https://www.alphavantage.co/query",
+      "source_type": "api",
+      "category": "subscription",
+      "api_key": "YOUR_API_KEY_HERE",
+      "headers": {
+        "User-Agent": "NewsAggregator/1.0"
+      },
+      "rate_limit": 2.0,
+      "max_articles": 15,
+      "active": false
+    }
+  ]
+}

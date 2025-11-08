@@ -1,19 +1,23 @@
 
 # Daily News Brief - Economic & Financial News Aggregator
 
-An automated tool for collecting, analyzing, and curating economic and financial news from major sources including Bloomberg, Reuters, Fox News, NBC, AP News, WSJ, and LinkedIn.
+A powerful and easy-to-use automated tool for collecting, analyzing, and curating economic and financial news from major sources including Bloomberg, Reuters, Fox News, NBC, AP News, WSJ, and LinkedIn.
 
 ## 🚀 Features
 
-- **Automated News Collection**: Aggregates articles from multiple RSS feeds and Google News
+- **Flexible Source Management**: Configurable free and subscription-based news sources
+- **Automated News Collection**: Aggregates articles from multiple RSS feeds, APIs, and Google News
 - **Smart Categorization**: Automatically categorizes articles by topic (Unemployment, Inflation, Market Risk, Banking)
+- **Article Highlights**: Generates 4-5 key bullet points for each article automatically
 - **Multiple Output Formats**: Generates HTML reports, Markdown summaries, and JSON data
 - **Web Dashboard**: Interactive HTML dashboard for viewing curated news
 - **Executive Summary**: Comprehensive analysis with key insights and recommendations
+- **Dynamic Source Control**: Add, remove, activate/deactivate sources on the fly
+- **Configuration Management**: Save and load source configurations from JSON files
 
 ## 📊 Latest Report Summary
 
-**Collection Period**: October 17-24, 2025 (Past 7 Days)  
+**Collection Period**: October 17-24, 2024 (Past 7 Days)  
 **Total Articles**: 70  
 **Categories**: 5 topic areas  
 **Sources**: Major news outlets and RSS feeds
@@ -28,6 +32,7 @@ An automated tool for collecting, analyzing, and curating economic and financial
 ## 🛠 Installation & Setup
 
 ### Prerequisites
+Make sure you have Python 3.6+ installed, then install the required packages:
 ```bash
 pip install requests lxml beautifulsoup4 flask
 ```
@@ -65,31 +70,79 @@ daily_news_brief/
 
 ## 🔧 Usage
 
-### 1. Collect News Articles
+### 1. Basic News Collection
 ```bash
 python3 news_aggregator.py
 ```
-This script:
-- Searches Google News for economic keywords
-- Fetches from RSS feeds (Reuters, AP, NBC Business)
+This enhanced script:
+- Fetches from all active free and subscription sources
+- Searches Google News for additional coverage
+- Generates 4-5 key highlights for each article
 - Removes duplicates and categorizes articles
-- Saves data to `articles_data.json`
+- Saves data to [`articles_data.json`](articles_data.json)
 
-### 2. Generate Reports
+### 2. Source Management
+```bash
+# List all configured sources
+python3 news_aggregator.py --list-sources
+
+# Activate/deactivate sources
+python3 news_aggregator.py --activate "Reuters Business"
+python3 news_aggregator.py --deactivate "BBC Business"
+
+# Use custom configuration
+python3 news_aggregator.py --config news_sources_config.json
+
+# Save current configuration
+python3 news_aggregator.py --save-config my_config.json
+```
+
+### 3. Generate Reports
 ```bash
 python3 generate_html_report.py
 ```
 Creates:
-- Interactive HTML dashboard (`economic_news_report.html`)
+- Interactive HTML dashboard ([`economic_news_report.html`](economic_news_report.html))
 - Formatted with responsive design and categorized sections
 
-### 3. Start Web Dashboard
+### 4. Start Web Dashboard
 ```bash
 python3 dashboard.py
 ```
-- Launches Flask web server on port 51487
+- Launches Flask web server on port 5000 (configurable)
 - Provides interactive web interface
 - API endpoints for data access
+
+### 5. Adding Custom Sources
+```python
+from news_aggregator import NewsAggregator, NewsSource
+
+# Initialize aggregator
+aggregator = NewsAggregator()
+
+# Add a free RSS source
+new_source = NewsSource(
+    name="Custom Financial News",
+    url="https://example.com/rss",
+    source_type="free_rss",
+    category="free",
+    max_articles=15,
+    active=True
+)
+aggregator.add_free_source(new_source)
+
+# Add a subscription API source
+api_source = NewsSource(
+    name="Premium News API",
+    url="https://api.example.com/news",
+    source_type="api",
+    category="subscription",
+    api_key="your_api_key",
+    max_articles=25,
+    active=True
+)
+aggregator.add_subscription_source(api_source)
+```
 
 ## 📈 Data Sources
 
@@ -110,6 +163,21 @@ python3 dashboard.py
 
 ## 🎯 Key Features
 
+### Flexible Source Management
+- **Free Sources**: Reuters, BBC, NBC, CNN, MarketWatch, and more
+- **Subscription Sources**: Bloomberg Terminal, Financial Times, WSJ (with API keys)
+- **Dynamic Control**: Activate/deactivate sources without code changes
+- **Custom Sources**: Easily add new RSS feeds, APIs, or web scraping sources
+- **Configuration Files**: Save and load source configurations as JSON
+
+### Article Highlights Generation
+Each article automatically gets 4-5 key highlights:
+- 📈 **Employment Trends**: Unemployment metrics and job market indicators
+- 💰 **Inflation Signals**: Price pressures and monetary policy impacts  
+- 🏛️ **Federal Reserve**: Policy developments and interest rate changes
+- 🏦 **Banking Sector**: Financial institution news and regulatory changes
+- 📊 **Economic Indicators**: GDP, market conditions, and forecasts
+
 ### Automated Categorization
 Articles are automatically sorted into:
 - **Unemployment & Employment**: Job market trends, claims data
@@ -119,16 +187,17 @@ Articles are automatically sorted into:
 - **General Economic News**: Broader economic indicators and analysis
 
 ### Multiple Output Formats
-1. **JSON Data** (`articles_data.json`): Raw structured data
-2. **HTML Report** (`economic_news_report.html`): Interactive web report
-3. **Markdown Report** (`economic_news_report.md`): Text-based summary
-4. **Executive Summary** (`executive_summary.md`): Strategic analysis
-5. **Curated List** (`curated_articles_list.md`): Prioritized articles
+1. **JSON Data** ([`articles_data.json`](articles_data.json)): Raw structured data with highlights
+2. **HTML Report** ([`economic_news_report.html`](economic_news_report.html)): Interactive web report
+3. **Markdown Report** ([`economic_news_report.md`](economic_news_report.md)): Text-based summary with highlights
+4. **Executive Summary** ([`executive_summary.md`](executive_summary.md)): Strategic analysis
+5. **Curated List** ([`curated_articles_list.md`](curated_articles_list.md)): Prioritized articles
 
 ### Smart Filtering
 - Removes duplicate articles based on title similarity
 - Filters by economic keywords and relevance
 - Prioritizes articles by source reliability and impact
+- Rate limiting and respectful API usage
 
 ## 🔍 API Endpoints
 
@@ -157,6 +226,47 @@ When running the dashboard (`python3 dashboard.py`):
 - **Tier 2**: USA Today, Washington Post, Fox News, Guardian
 - **Tier 3**: Specialized/Regional outlets
 
+## ⚙️ Configuration File Format
+
+The news aggregator uses JSON configuration files to manage sources. Here's the structure:
+
+```json
+{
+  "free_sources": [
+    {
+      "name": "Source Name",
+      "url": "https://example.com/rss",
+      "source_type": "free_rss",
+      "category": "free",
+      "max_articles": 10,
+      "rate_limit": 1.0,
+      "active": true
+    }
+  ],
+  "subscription_sources": [
+    {
+      "name": "Premium Source",
+      "url": "https://api.example.com/news",
+      "source_type": "api",
+      "category": "subscription",
+      "api_key": "your_api_key_here",
+      "headers": {
+        "Authorization": "Bearer TOKEN"
+      },
+      "max_articles": 20,
+      "rate_limit": 0.5,
+      "active": false
+    }
+  ]
+}
+```
+
+### Source Types
+- **`free_rss`**: Public RSS feeds (no authentication required)
+- **`subscription_rss`**: Premium RSS feeds (may require API keys/headers)
+- **`api`**: REST API endpoints (requires API key)
+- **`web_scraping`**: Web scraping sources (placeholder for future implementation)
+
 ## 🚀 Future Enhancements
 
 - [ ] Real-time news streaming
@@ -166,31 +276,61 @@ When running the dashboard (`python3 dashboard.py`):
 - [ ] Machine learning categorization
 - [ ] Social media integration (Twitter/X)
 - [ ] Mobile app development
+- [ ] Advanced web scraping capabilities
+- [ ] Custom highlight templates
+- [ ] Multi-language support
 
 ## 📝 Sample Output
 
-### Executive Summary Extract
-```
+### Executive Summary Extract with Highlights
+```markdown
 ## Key Findings & Trends
 
 ### 🔴 UNEMPLOYMENT & EMPLOYMENT (11 Articles)
-- US Weekly Jobless Claims Increase (Reuters)
-- Australia's Unemployment Spike (The Guardian)
-- China's Graduate Unemployment Crisis (NBC News)
+
+#### 1. US Weekly Jobless Claims Increase
+**Source:** Reuters (free)
+**Key Highlights:**
+  • 📈 Unemployment/employment metrics showing upward trend
+  • 📊 Economic indicators and trends
+  • 🏛️ Policy implications and regulatory changes
+  • 📰 Economic and financial news update
+
+#### 2. Australia's Unemployment Spike
+**Source:** The Guardian (free)
+**Key Highlights:**
+  • 📈 Unemployment/employment metrics showing upward trend
+  • 🌍 Global economic impact
+  • 📊 Economic indicators and trends
+  • 📰 Economic and financial news update
 
 ### 📈 INFLATION (15 Articles)  
-- CPI Report Shows September Inflation Rise (NYT)
-- Social Security COLA Set at 2.8% (USA Today)
-- Government Shutdown Risk (Fox News)
+
+#### 1. CPI Report Shows September Inflation Rise
+**Source:** NYT (free)
+**Key Highlights:**
+  • 💰 Inflationary pressures intensifying
+  • 🏛️ Federal Reserve policy developments
+  • 📊 Economic indicators and trends
+  • 🔮 Economic outlook and forecasts
 ```
 
 ## 🤝 Contributing
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/enhancement`)
-3. Commit changes (`git commit -am 'Add new feature'`)
-4. Push to branch (`git push origin feature/enhancement`)
-5. Create Pull Request
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature/enhancement
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -am 'Add new feature'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/enhancement
+   ```
+5. Create a Pull Request
 
 ## 📄 License
 
@@ -202,14 +342,15 @@ This tool aggregates publicly available news for analysis purposes. The informat
 
 ## 📞 Support
 
-For issues, questions, or contributions:
-- Open an issue on GitHub
-- Review the generated reports for data quality
-- Check RSS feed availability for source connectivity
+Need help or have questions? We're here to assist:
+- **Issues & Bug Reports**: [Open an issue on GitHub](../../issues)
+- **Data Quality**: Review the generated reports and let us know if you notice any inconsistencies
+- **Connectivity Problems**: Check RSS feed availability if you're experiencing source connectivity issues
+- **Feature Requests**: We welcome suggestions for new features and improvements!
 
 ---
 
-**Last Updated**: October 24, 2025  
+**Last Updated**: October 24, 2024  
 **Version**: 1.0.0  
 **Maintainer**: Economic Analysis Team
 
