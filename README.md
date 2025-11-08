@@ -177,7 +177,7 @@ aggregator.add_subscription_source(api_source)
 - **Configuration Files**: Save and load source configurations as JSON
 
 ### Article Highlights Generation
-Each article automatically gets 4-5 key highlights:
+Each article automatically gets exactly 4 key highlights:
 - 🎙️ **Fed Officials**: Quotes and statements from Jerome Powell and Fed personnel
 - 📋 **FOMC Decisions**: Meeting outcomes, rate decisions, and policy changes
 - 💼 **Monetary Policy**: Strategy implementation and economic outlook

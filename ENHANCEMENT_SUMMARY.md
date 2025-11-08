@@ -16,7 +16,7 @@
 - **Configuration Files**: JSON-based configuration for easy management
 
 ### 3. Enhanced Article Highlights Generation
-- **Automatic Highlights**: Each article gets 4-5 key bullet points
+- **Automatic Highlights**: Each article gets exactly 4 key bullet points
 - **Smart Analysis**: Context-aware highlights based on content analysis
 - **Fed-Priority Highlights**: Special detection for Fed official quotes and statements ⭐ NEW
 - **Emoji Icons**: Visual indicators for different types of economic news

@@ -197,7 +197,7 @@ class NewsAggregator:
         print(f"Configuration saved to {config_file}")
     
     def generate_highlights(self, article: Dict[str, Any]) -> List[str]:
-        """Generate 4-5 key highlights for an article based on title and description"""
+        """Generate exactly 4 key highlights for an article based on title and description"""
         highlights = []
         title = article.get('title', '').lower()
         description = article.get('description', '').lower()
@@ -245,21 +245,39 @@ class NewsAggregator:
         if any(word in content for word in ['banking', 'bank', 'financial institution']):
             highlights.append("🏦 Banking sector and financial institution news")
         
-        # Add generic highlights if we don't have enough specific ones
-        while len(highlights) < 4:
-            if 'economic' in content and "📊 Economic indicators and trends" not in highlights:
-                highlights.append("📊 Economic indicators and trends")
-            elif 'policy' in content and "🏛️ Policy implications and regulatory changes" not in highlights:
-                highlights.append("🏛️ Policy implications and regulatory changes")
-            elif 'global' in content or 'international' in content and "🌍 Global economic impact" not in highlights:
-                highlights.append("🌍 Global economic impact")
-            elif 'forecast' in content or 'outlook' in content and "🔮 Economic outlook and forecasts" not in highlights:
-                highlights.append("🔮 Economic outlook and forecasts")
-            else:
-                highlights.append("📰 Economic and financial news update")
-                break
+        # Remove duplicates while preserving order
+        highlights = list(dict.fromkeys(highlights))
         
-        return highlights[:5]  # Limit to 5 highlights max
+        # Ensure exactly 4 highlights by adding generic ones if needed
+        generic_highlights = [
+            "📊 Economic indicators and trends",
+            "🏛️ Policy implications and regulatory changes", 
+            "🌍 Global economic impact",
+            "🔮 Economic outlook and forecasts",
+            "📰 Economic and financial news update",
+            "💼 Business and financial sector developments",
+            "📈 Market and economic analysis",
+            "🏢 Corporate and industry news"
+        ]
+        
+        for generic in generic_highlights:
+            if len(highlights) >= 4:
+                break
+            if generic not in highlights:
+                # Check if the generic highlight is relevant to content
+                if generic == "📊 Economic indicators and trends" and 'economic' in content:
+                    highlights.append(generic)
+                elif generic == "🏛️ Policy implications and regulatory changes" and 'policy' in content:
+                    highlights.append(generic)
+                elif generic == "🌍 Global economic impact" and ('global' in content or 'international' in content):
+                    highlights.append(generic)
+                elif generic == "🔮 Economic outlook and forecasts" and ('forecast' in content or 'outlook' in content):
+                    highlights.append(generic)
+                elif len(highlights) < 4:  # Add remaining generic highlights if still needed
+                    highlights.append(generic)
+        
+        # Return exactly 4 highlights
+        return highlights[:4]
         
     def search_google_news(self, query: str, days_back: int = 7) -> List[Dict]:
         """Search Google News for articles with specific keywords"""
