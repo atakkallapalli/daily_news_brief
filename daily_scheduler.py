@@ -86,20 +86,23 @@ class DailyDigestScheduler:
         output_dir.mkdir(exist_ok=True)
         return output_dir
     
-    def generate_daily_digest(self):
-        """Generate a daily news digest"""
+    def generate_daily_digest(self, target_date: datetime = None):
+        """Generate a daily news digest for the specified date"""
         try:
-            logger.info("Starting daily digest generation...")
+            if target_date is None:
+                target_date = datetime.now()
+                
+            logger.info(f"Starting daily digest generation for {target_date.strftime('%Y-%m-%d')}...")
             
             # Setup output directory
             output_dir = self.setup_output_directory()
             
             # Generate timestamp for this digest
             timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
-            date_str = datetime.now().strftime("%Y-%m-%d")
+            date_str = target_date.strftime("%Y-%m-%d")
             
-            # Run news aggregation
-            self.aggregator.collect_articles()
+            # Run news aggregation with date filtering
+            self.aggregator.collect_articles(target_date)
             
             # Generate digest files
             digest_files = {}

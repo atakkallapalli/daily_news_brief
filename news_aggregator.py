@@ -514,13 +514,99 @@ class NewsAggregator:
         
         return all_articles
     
-    def collect_articles(self) -> List[Dict]:
-        """Collect articles from all sources"""
+    def is_article_recent(self, article: Dict, target_date: datetime = None) -> bool:
+        """Check if article was published on target date or day before"""
+        if target_date is None:
+            target_date = datetime.now()
+        
+        # Define the date range (target date and day before)
+        day_before = target_date - timedelta(days=1)
+        
+        published_str = article.get('published', '')
+        if not published_str:
+            # If no publish date, assume it's recent
+            return True
+        
+        try:
+            # Try to parse various date formats
+            date_formats = [
+                '%a, %d %b %Y %H:%M:%S %Z',  # RFC 2822 format
+                '%a, %d %b %Y %H:%M:%S %z',  # RFC 2822 with timezone
+                '%Y-%m-%dT%H:%M:%S%z',       # ISO format
+                '%Y-%m-%d %H:%M:%S',         # Simple format
+                '%Y-%m-%d',                  # Date only
+                '%d %b %Y',                  # Day Month Year
+                '%b %d, %Y',                 # Month Day, Year
+            ]
+            
+            article_date = None
+            for fmt in date_formats:
+                try:
+                    article_date = datetime.strptime(published_str.strip(), fmt)
+                    break
+                except ValueError:
+                    continue
+            
+            if article_date is None:
+                # Try parsing partial dates (like "Thu, 06 No" from RSS feeds)
+                import re
+                date_match = re.search(r'(\w{3}),?\s*(\d{1,2})\s*(\w{2,3})', published_str)
+                if date_match:
+                    day_name, day_num, month_abbr = date_match.groups()
+                    # Assume current year and try to match with target date range
+                    current_year = target_date.year
+                    
+                    # Map month abbreviations
+                    month_map = {
+                        'jan': 1, 'feb': 2, 'mar': 3, 'apr': 4, 'may': 5, 'jun': 6,
+                        'jul': 7, 'aug': 8, 'sep': 9, 'oct': 10, 'nov': 11, 'dec': 12,
+                        'ja': 1, 'fe': 2, 'mr': 3, 'ap': 4, 'my': 5, 'jn': 6,
+                        'jl': 7, 'au': 8, 'se': 9, 'oc': 10, 'no': 11, 'de': 12
+                    }
+                    
+                    month_num = month_map.get(month_abbr.lower()[:2])
+                    if month_num:
+                        try:
+                            article_date = datetime(current_year, month_num, int(day_num))
+                        except ValueError:
+                            pass
+            
+            if article_date:
+                # Remove timezone info for comparison
+                if article_date.tzinfo:
+                    article_date = article_date.replace(tzinfo=None)
+                
+                # Check if article date is within our range (target date or day before)
+                target_date_only = target_date.replace(hour=0, minute=0, second=0, microsecond=0)
+                day_before_only = day_before.replace(hour=0, minute=0, second=0, microsecond=0)
+                article_date_only = article_date.replace(hour=0, minute=0, second=0, microsecond=0)
+                
+                return day_before_only <= article_date_only <= target_date_only
+            
+        except Exception as e:
+            print(f"Error parsing date '{published_str}': {e}")
+        
+        # If we can't parse the date, assume it's recent
+        return True
+
+    def collect_articles(self, target_date: datetime = None) -> List[Dict]:
+        """Collect articles from all sources, filtered by date"""
+        if target_date is None:
+            target_date = datetime.now()
+            
         print("Collecting articles from various sources...")
         
         # Fetch from all configured sources
         source_articles = self.fetch_all_sources()
-        self.articles.extend(source_articles)
+        
+        # Filter articles by date before adding to collection
+        recent_source_articles = []
+        for article in source_articles:
+            if self.is_article_recent(article, target_date):
+                recent_source_articles.append(article)
+        
+        print(f"Filtered {len(source_articles)} source articles to {len(recent_source_articles)} recent articles")
+        self.articles.extend(recent_source_articles)
         
         # Search Google News for each keyword (as backup/additional source)
         print("Searching Google News for additional coverage...")
@@ -531,18 +617,23 @@ class NewsAggregator:
         ]
         for keyword in priority_keywords:
             print(f"Searching for: {keyword}")
-            articles = self.search_google_news(keyword)
-            # Add highlights to Google News articles
+            articles = self.search_google_news(keyword, days_back=2)  # Search last 2 days
+            
+            # Filter Google News articles by date
+            recent_google_articles = []
             for article in articles:
-                article['highlights'] = self.generate_highlights(article)
-                article['source_category'] = 'free'
-            self.articles.extend(articles)
+                if self.is_article_recent(article, target_date):
+                    article['highlights'] = self.generate_highlights(article)
+                    article['source_category'] = 'free'
+                    recent_google_articles.append(article)
+            
+            self.articles.extend(recent_google_articles)
             time.sleep(1)  # Be respectful with requests
         
         # Remove duplicates based on title similarity
         self.articles = self.remove_duplicates(self.articles)
         
-        print(f"Collected {len(self.articles)} unique articles")
+        print(f"Collected {len(self.articles)} unique recent articles")
         return self.articles
     
     def remove_duplicates(self, articles: List[Dict]) -> List[Dict]:
