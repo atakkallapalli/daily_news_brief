@@ -43,10 +43,19 @@ pip install requests lxml beautifulsoup4 flask
 git clone https://github.com/atakkallapalli/daily_news_brief.git
 cd daily_news_brief
 
-# Run the news aggregator
+# Install dependencies
+pip install schedule
+
+# Run the news aggregator (one-time)
 python3 news_aggregator.py
 
-# Generate HTML report
+# Generate daily digest (recommended)
+python3 daily_scheduler.py --run-once
+
+# Start automated daily scheduling
+python3 daily_scheduler.py --schedule
+
+# Generate HTML report (optional)
 python3 generate_html_report.py
 
 # Start web dashboard (optional)
@@ -58,13 +67,21 @@ python3 dashboard.py
 ```
 daily_news_brief/
 ├── news_aggregator.py          # Main news collection script
+├── daily_scheduler.py          # Daily digest scheduler
+├── scheduler_config.json       # Scheduler configuration
 ├── dashboard.py                # Web dashboard application
 ├── generate_html_report.py     # HTML report generator
+├── daily-news-digest.service   # Systemd service file
+├── crontab_example.txt         # Cron job examples
+├── daily_digests/              # Generated daily digests
+│   ├── daily_digest_YYYY-MM-DD_HH-MM.md
+│   └── latest_digest.markdown
 ├── economic_news_report.html   # Generated HTML report
 ├── economic_news_report.md     # Markdown report
 ├── executive_summary.md        # Executive summary with insights
 ├── curated_articles_list.md    # Prioritized article list
 ├── articles_data.json          # Raw collected data
+├── daily_digest.log            # Scheduler log file
 └── README.md                   # This file
 ```
 
@@ -184,6 +201,73 @@ Each article automatically gets exactly 4 key highlights:
 - 📈 **Employment Trends**: Unemployment metrics and job market indicators
 - 💰 **Inflation Signals**: Price pressures and monetary policy impacts  
 - 🏦 **Banking Sector**: Financial institution news and regulatory changes
+
+## 📅 Daily Digest & Scheduling
+
+### Automated Daily Digests
+The system generates comprehensive daily digests with:
+- **Executive Summary**: Article counts by category and top sources
+- **Categorized Articles**: Fed-priority organization with exactly 4 highlights each
+- **Multiple Formats**: Markdown, HTML, and JSON outputs
+- **Archive Management**: Automatic cleanup of old digests (30-day retention)
+
+### Scheduling Options
+
+#### 1. One-Time Generation
+```bash
+# Generate digest immediately
+python3 daily_scheduler.py --run-once
+
+# Custom schedule times
+python3 daily_scheduler.py --run-once --times "08:00" "14:00" "20:00"
+```
+
+#### 2. Continuous Scheduler
+```bash
+# Start continuous scheduler (default: 7:00, 12:00, 18:00)
+python3 daily_scheduler.py --schedule
+
+# View current configuration
+python3 daily_scheduler.py
+```
+
+#### 3. Cron Jobs (Linux/Mac)
+```bash
+# Add to crontab (crontab -e)
+0 7 * * * cd /path/to/daily_news_brief && python3 daily_scheduler.py --run-once
+0 12 * * * cd /path/to/daily_news_brief && python3 daily_scheduler.py --run-once  
+0 18 * * * cd /path/to/daily_news_brief && python3 daily_scheduler.py --run-once
+```
+
+#### 4. System Service (Linux)
+```bash
+# Copy service file
+sudo cp daily-news-digest.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable daily-news-digest
+sudo systemctl start daily-news-digest
+```
+
+### Configuration
+Edit `scheduler_config.json` to customize:
+```json
+{
+  "schedule_times": ["07:00", "12:00", "18:00"],
+  "output_directory": "daily_digests",
+  "archive_days": 30,
+  "digest_settings": {
+    "max_articles_per_category": 10,
+    "include_highlights": true,
+    "generate_summary": true,
+    "format": "markdown"
+  }
+}
+```
+
+### Output Files
+- `daily_digests/daily_digest_YYYY-MM-DD_HH-MM.md` - Timestamped digest
+- `daily_digests/latest_digest.markdown` - Always points to latest
+- `daily_digest.log` - Scheduler activity log
 - 📊 **Economic Indicators**: GDP, market conditions, and forecasts
 
 ### Automated Categorization

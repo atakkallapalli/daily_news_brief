@@ -1,0 +1,16 @@
+
+# Daily News Digest Cron Jobs
+# Add these lines to your crontab (crontab -e)
+
+# Generate digest at 7:00 AM daily
+0 7 * * * cd /path/to/daily_news_brief && /usr/bin/python3 daily_scheduler.py --run-once >> /var/log/daily_digest.log 2>&1
+
+# Generate digest at 12:00 PM daily  
+0 12 * * * cd /path/to/daily_news_brief && /usr/bin/python3 daily_scheduler.py --run-once >> /var/log/daily_digest.log 2>&1
+
+# Generate digest at 6:00 PM daily
+0 18 * * * cd /path/to/daily_news_brief && /usr/bin/python3 daily_scheduler.py --run-once >> /var/log/daily_digest.log 2>&1
+
+# Alternative: Run continuous scheduler (choose one approach)
+# @reboot cd /path/to/daily_news_brief && /usr/bin/python3 daily_scheduler.py --schedule >> /var/log/daily_digest_scheduler.log 2>&1
+

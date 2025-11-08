@@ -1,0 +1,24 @@
+{
+  "schedule_times": [
+    "07:00",
+    "12:00",
+    "18:00"
+  ],
+  "timezone": "UTC",
+  "output_directory": "daily_digests",
+  "archive_days": 30,
+  "email_notifications": {
+    "enabled": false,
+    "recipients": [],
+    "smtp_server": "",
+    "smtp_port": 587,
+    "username": "",
+    "password": ""
+  },
+  "digest_settings": {
+    "max_articles_per_category": 10,
+    "include_highlights": true,
+    "generate_summary": true,
+    "format": "all"
+  }
+}

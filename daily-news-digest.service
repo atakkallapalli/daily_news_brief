@@ -1,0 +1,17 @@
+
+[Unit]
+Description=Daily News Digest Scheduler
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/path/to/daily_news_brief
+ExecStart=/usr/bin/python3 /path/to/daily_news_brief/daily_scheduler.py --schedule
+Restart=always
+RestartSec=10
+Environment=PYTHONPATH=/path/to/daily_news_brief
+
+[Install]
+WantedBy=multi-user.target
+
