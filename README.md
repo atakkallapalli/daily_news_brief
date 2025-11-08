@@ -146,20 +146,26 @@ aggregator.add_subscription_source(api_source)
 
 ## 📈 Data Sources
 
-### Primary Sources
+### Federal Reserve Sources
+- **Federal Reserve News**: Official Fed press releases and announcements
+- **Fed Economic Data (FRED)**: St. Louis Fed economic data releases
+- **FOMC Meeting Coverage**: Via major news outlets and Google News
+
+### Primary Financial News Sources
 - **Google News RSS**: Aggregated news from multiple outlets
 - **Reuters Business**: Direct RSS feed
 - **NBC Business**: Direct RSS feed  
-- **AP Business**: RSS feed (when available)
+- **BBC Business**: Direct RSS feed
+- **CNN Business**: Direct RSS feed
+- **MarketWatch**: Direct RSS feed
 
-### Covered Outlets
+### Additional Covered Outlets
 - Bloomberg (via Google News)
-- Reuters (direct + Google News)
-- Fox News (via Google News)
-- NBC News (direct + Google News)
-- AP News (RSS + Google News)
 - Wall Street Journal (via Google News)
-- LinkedIn (via Google News)
+- AP News (RSS + Google News)
+- Financial Times (subscription)
+- CNBC (via configuration)
+- Forbes Business (via configuration)
 
 ## 🎯 Key Features
 
@@ -172,16 +178,19 @@ aggregator.add_subscription_source(api_source)
 
 ### Article Highlights Generation
 Each article automatically gets 4-5 key highlights:
+- 🎙️ **Fed Officials**: Quotes and statements from Jerome Powell and Fed personnel
+- 📋 **FOMC Decisions**: Meeting outcomes, rate decisions, and policy changes
+- 💼 **Monetary Policy**: Strategy implementation and economic outlook
 - 📈 **Employment Trends**: Unemployment metrics and job market indicators
 - 💰 **Inflation Signals**: Price pressures and monetary policy impacts  
-- 🏛️ **Federal Reserve**: Policy developments and interest rate changes
 - 🏦 **Banking Sector**: Financial institution news and regulatory changes
 - 📊 **Economic Indicators**: GDP, market conditions, and forecasts
 
 ### Automated Categorization
 Articles are automatically sorted into:
-- **Unemployment & Employment**: Job market trends, claims data
-- **Inflation**: CPI reports, price pressures, policy impacts
+- **Federal Reserve & Monetary Policy**: Fed speeches, FOMC meetings, policy decisions, official statements
+- **Unemployment & Employment**: Job market trends, claims data, labor statistics
+- **Inflation**: CPI reports, price pressures, policy impacts, PCE data
 - **Market Risk**: Volatility, concentration risks, investment strategies
 - **Banking & Finance**: Regulatory changes, stress tests, digital currencies
 - **General Economic News**: Broader economic indicators and analysis
@@ -286,33 +295,33 @@ The news aggregator uses JSON configuration files to manage sources. Here's the 
 ```markdown
 ## Key Findings & Trends
 
-### 🔴 UNEMPLOYMENT & EMPLOYMENT (11 Articles)
+### 🏛️ FEDERAL RESERVE & MONETARY POLICY (45 Articles)
 
-#### 1. US Weekly Jobless Claims Increase
-**Source:** Reuters (free)
+#### 1. Federal Reserve Board issues enforcement actions with Belt Valley Bank
+**Source:** Federal Reserve News (free)
 **Key Highlights:**
-  • 📈 Unemployment/employment metrics showing upward trend
-  • 📊 Economic indicators and trends
-  • 🏛️ Policy implications and regulatory changes
+  • 🎙️ Federal Reserve official statements and quotes
+  • 🏦 Banking sector and financial institution news
+  • 🏛️ Federal Reserve interest rate policy developments
   • 📰 Economic and financial news update
 
-#### 2. Australia's Unemployment Spike
-**Source:** The Guardian (free)
+#### 2. Bank says inflation has 'peaked' as it holds interest rates
+**Source:** BBC Business (free)
 **Key Highlights:**
-  • 📈 Unemployment/employment metrics showing upward trend
-  • 🌍 Global economic impact
-  • 📊 Economic indicators and trends
-  • 📰 Economic and financial news update
-
-### 📈 INFLATION (15 Articles)  
-
-#### 1. CPI Report Shows September Inflation Rise
-**Source:** NYT (free)
-**Key Highlights:**
+  • 📋 FOMC meeting outcomes and policy decisions
   • 💰 Inflationary pressures intensifying
-  • 🏛️ Federal Reserve policy developments
+  • 🏛️ Federal Reserve interest rate policy developments
   • 📊 Economic indicators and trends
-  • 🔮 Economic outlook and forecasts
+
+### 📈 INFLATION (7 Articles)  
+
+#### 1. Why is UK inflation still high?
+**Source:** BBC Business (free)
+**Key Highlights:**
+  • 💲 Price pressures showing signs of easing
+  • 🏦 Banking sector and financial institution news
+  • 📊 Inflation data and price trends updated
+  • 📰 Economic and financial news update
 ```
 
 ## 🤝 Contributing

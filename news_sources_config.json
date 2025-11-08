@@ -26,6 +26,42 @@
       "max_articles": 10,
       "rate_limit": 2.0,
       "active": true
+    },
+    {
+      "name": "Federal Reserve News",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "source_type": "free_rss",
+      "category": "free",
+      "max_articles": 20,
+      "rate_limit": 2.0,
+      "active": true
+    },
+    {
+      "name": "Fed Economic Data (FRED)",
+      "url": "https://fred.stlouisfed.org/releases/rss",
+      "source_type": "free_rss",
+      "category": "free",
+      "max_articles": 15,
+      "rate_limit": 2.0,
+      "active": true
+    },
+    {
+      "name": "Federal Reserve News",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "source_type": "free_rss",
+      "category": "free",
+      "max_articles": 20,
+      "rate_limit": 2.0,
+      "active": true
+    },
+    {
+      "name": "Fed Economic Data (FRED)",
+      "url": "https://fred.stlouisfed.org/releases/rss",
+      "source_type": "free_rss",
+      "category": "free",
+      "max_articles": 15,
+      "rate_limit": 2.0,
+      "active": true
     }
   ],
   "subscription_sources": [

@@ -34,7 +34,10 @@ class NewsAggregator:
         self.keywords = [
             'unemployment', 'inflation', 'market risk', 'banking', 
             'federal reserve', 'interest rates', 'economic outlook',
-            'GDP', 'recession', 'monetary policy', 'fiscal policy'
+            'GDP', 'recession', 'monetary policy', 'fiscal policy',
+            'fed', 'jerome powell', 'fomc', 'federal open market committee',
+            'fed chair', 'fed governor', 'fed official', 'fed policy',
+            'fed meeting', 'fed minutes', 'fed speech', 'fed testimony'
         ]
         
         # Initialize with default sources
@@ -95,6 +98,20 @@ class NewsAggregator:
                 source_type='free_rss',
                 category='free',
                 max_articles=8
+            ),
+            NewsSource(
+                name='Federal Reserve News',
+                url='https://www.federalreserve.gov/feeds/press_all.xml',
+                source_type='free_rss',
+                category='free',
+                max_articles=20
+            ),
+            NewsSource(
+                name='Fed Economic Data (FRED)',
+                url='https://fred.stlouisfed.org/releases/rss',
+                source_type='free_rss',
+                category='free',
+                max_articles=15
             )
         ]
     
@@ -186,8 +203,24 @@ class NewsAggregator:
         description = article.get('description', '').lower()
         content = f"{title} {description}"
         
-        # Economic indicators highlights
-        if any(word in content for word in ['unemployment', 'jobless', 'employment']):
+        # Fed-related highlights (highest priority)
+        fed_keywords = ['federal reserve', 'fed', 'fomc', 'jerome powell', 'fed chair', 'fed governor', 'fed official']
+        if any(keyword in content for keyword in fed_keywords):
+            if 'powell says' in content or 'fed says' in content or 'fed chair' in content:
+                highlights.append("🎙️ Federal Reserve official statements and quotes")
+            if 'rate cut' in content or 'cut rates' in content:
+                highlights.append("📉 Fed considering or implementing rate cuts")
+            elif 'rate hike' in content or 'raise rates' in content or 'increase rates' in content:
+                highlights.append("📈 Fed considering or implementing rate increases")
+            elif 'interest rate' in content or 'fed rate' in content:
+                highlights.append("🏛️ Federal Reserve interest rate policy developments")
+            if 'fomc' in content or 'fed meeting' in content or 'fed minutes' in content:
+                highlights.append("📋 FOMC meeting outcomes and policy decisions")
+            if 'monetary policy' in content:
+                highlights.append("💼 Monetary policy strategy and implementation")
+        
+        # Employment indicators
+        if any(word in content for word in ['unemployment', 'jobless', 'employment', 'labor']):
             if 'increase' in content or 'rise' in content or 'up' in content:
                 highlights.append("📈 Unemployment/employment metrics showing upward trend")
             elif 'decrease' in content or 'fall' in content or 'down' in content:
@@ -195,7 +228,8 @@ class NewsAggregator:
             else:
                 highlights.append("💼 Employment market developments reported")
         
-        if any(word in content for word in ['inflation', 'cpi', 'price']):
+        # Inflation indicators
+        if any(word in content for word in ['inflation', 'cpi', 'price', 'pce']):
             if 'increase' in content or 'rise' in content or 'surge' in content:
                 highlights.append("💰 Inflationary pressures intensifying")
             elif 'decrease' in content or 'fall' in content or 'decline' in content:
@@ -203,12 +237,11 @@ class NewsAggregator:
             else:
                 highlights.append("📊 Inflation data and price trends updated")
         
-        if any(word in content for word in ['federal reserve', 'fed', 'interest rate']):
-            highlights.append("🏛️ Federal Reserve policy developments")
-        
+        # Market conditions
         if any(word in content for word in ['market', 'stock', 'trading', 'volatility']):
             highlights.append("📈 Market conditions and trading activity")
         
+        # Banking sector
         if any(word in content for word in ['banking', 'bank', 'financial institution']):
             highlights.append("🏦 Banking sector and financial institution news")
         
@@ -407,7 +440,12 @@ class NewsAggregator:
         
         # Search Google News for each keyword (as backup/additional source)
         print("Searching Google News for additional coverage...")
-        for keyword in self.keywords[:3]:  # Limit to avoid rate limiting
+        # Prioritize Fed-related searches
+        priority_keywords = [
+            'unemployment', 'inflation', 'market risk', 
+            'federal reserve', 'jerome powell', 'fed policy'
+        ]
+        for keyword in priority_keywords:
             print(f"Searching for: {keyword}")
             articles = self.search_google_news(keyword)
             # Add highlights to Google News articles
@@ -446,15 +484,27 @@ class NewsAggregator:
         for article in self.articles:
             title_lower = article['title'].lower()
             desc_lower = (article.get('description', '') or '').lower()
+            content = f"{title_lower} {desc_lower}"
             
-            # Categorize articles
-            if any(word in title_lower or word in desc_lower for word in ['unemployment', 'job', 'employment']):
+            # Fed-related keywords for comprehensive detection
+            fed_keywords = [
+                'federal reserve', 'fed', 'fomc', 'jerome powell', 'fed chair', 
+                'fed governor', 'fed official', 'fed policy', 'fed meeting', 
+                'fed minutes', 'fed speech', 'fed testimony', 'federal open market committee',
+                'monetary policy', 'interest rate', 'rate cut', 'rate hike', 'rate decision',
+                'powell says', 'fed says', 'central bank', 'fed fund', 'fed rate'
+            ]
+            
+            # Categorize articles with Fed priority
+            if any(keyword in content for keyword in fed_keywords):
+                topic = 'Federal Reserve & Monetary Policy'
+            elif any(word in content for word in ['unemployment', 'job', 'employment', 'jobless', 'labor']):
                 topic = 'Unemployment & Employment'
-            elif any(word in title_lower or word in desc_lower for word in ['inflation', 'price', 'cpi']):
+            elif any(word in content for word in ['inflation', 'price', 'cpi', 'deflation', 'pce']):
                 topic = 'Inflation'
-            elif any(word in title_lower or word in desc_lower for word in ['market risk', 'volatility', 'risk']):
+            elif any(word in content for word in ['market risk', 'volatility', 'risk', 'market crash', 'correction']):
                 topic = 'Market Risk'
-            elif any(word in title_lower or word in desc_lower for word in ['banking', 'bank', 'financial']):
+            elif any(word in content for word in ['banking', 'bank', 'financial institution', 'credit']):
                 topic = 'Banking & Finance'
             else:
                 topic = 'General Economic News'

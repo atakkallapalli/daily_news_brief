@@ -2,20 +2,30 @@
 
 ## 🎯 Completed Enhancements
 
-### 1. Flexible Source Management System
+### 1. Federal Reserve Focus Integration ⭐ NEW
+- **Dedicated Fed Category**: "Federal Reserve & Monetary Policy" as priority category
+- **Fed-Specific Sources**: Official Federal Reserve News and FRED data feeds
+- **Enhanced Keywords**: Comprehensive Fed-related search terms including Jerome Powell, FOMC, Fed officials
+- **Fed Highlights**: Specialized highlights for Fed speeches, policy decisions, and official statements
+- **Priority Search**: Fed-related Google News searches prioritized
+
+### 2. Flexible Source Management System
 - **Configurable Sources**: Separated free and subscription-based news sources
 - **Dynamic Control**: Add, remove, activate/deactivate sources without code changes
 - **Source Types**: Support for RSS feeds, APIs, and web scraping (extensible)
 - **Configuration Files**: JSON-based configuration for easy management
 
-### 2. Article Highlights Generation
+### 3. Enhanced Article Highlights Generation
 - **Automatic Highlights**: Each article gets 4-5 key bullet points
 - **Smart Analysis**: Context-aware highlights based on content analysis
+- **Fed-Priority Highlights**: Special detection for Fed official quotes and statements ⭐ NEW
 - **Emoji Icons**: Visual indicators for different types of economic news
 - **Categories Covered**:
+  - 🎙️ Fed official statements and quotes ⭐ NEW
+  - 📋 FOMC meeting outcomes and policy decisions ⭐ NEW
+  - 💼 Monetary policy strategy and implementation ⭐ NEW
   - 📈 Employment/Unemployment trends
   - 💰 Inflation and price pressures
-  - 🏛️ Federal Reserve policy developments
   - 🏦 Banking sector news
   - 📊 Economic indicators and forecasts
 
