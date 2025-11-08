@@ -13,6 +13,7 @@ from urllib.parse import urljoin, urlparse
 import time
 from typing import List, Dict, Any, Optional
 import os
+from bs4 import BeautifulSoup
 from dataclasses import dataclass, field
 from abc import ABC, abstractmethod
 
@@ -196,88 +197,153 @@ class NewsAggregator:
             json.dump(config, f, indent=2)
         print(f"Configuration saved to {config_file}")
     
+    def fetch_article_content(self, url: str) -> str:
+        """Fetch full article content from URL"""
+        try:
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            }
+            response = requests.get(url, headers=headers, timeout=10)
+            if response.status_code == 200:
+                soup = BeautifulSoup(response.content, 'html.parser')
+                
+                # Remove script and style elements
+                for script in soup(["script", "style"]):
+                    script.decompose()
+                
+                # Try common article content selectors
+                content_selectors = [
+                    'article', '.article-content', '.story-body', '.entry-content',
+                    '.post-content', '.content', '.article-body', 'main'
+                ]
+                
+                for selector in content_selectors:
+                    content_elem = soup.select_one(selector)
+                    if content_elem:
+                        # Get text and clean it
+                        text = content_elem.get_text(separator=' ', strip=True)
+                        # Limit to first 2000 characters to avoid too much content
+                        return text[:2000] if len(text) > 2000 else text
+                
+                # Fallback: get all paragraph text
+                paragraphs = soup.find_all('p')
+                if paragraphs:
+                    text = ' '.join([p.get_text(strip=True) for p in paragraphs[:10]])
+                    return text[:2000] if len(text) > 2000 else text
+                    
+        except Exception as e:
+            print(f"Error fetching content from {url}: {e}")
+        
+        return ""
+
+    def extract_quotes(self, text: str) -> List[str]:
+        """Extract quotes from article text"""
+        quotes = []
+        
+        # Find text in quotes
+        import re
+        quote_patterns = [
+            r'"([^"]{20,200})"',  # Double quotes
+            r"'([^']{20,200})'",  # Single quotes
+            r'"([^"]{20,200})"',  # Curly quotes
+        ]
+        
+        for pattern in quote_patterns:
+            matches = re.findall(pattern, text)
+            quotes.extend(matches[:3])  # Limit to 3 quotes per pattern
+        
+        return quotes[:5]  # Return max 5 quotes
+
     def generate_highlights(self, article: Dict[str, Any]) -> List[str]:
-        """Generate exactly 4 key highlights for an article based on title and description"""
+        """Generate 4-5 content-based highlights with quotes from the article"""
         highlights = []
-        title = article.get('title', '').lower()
-        description = article.get('description', '').lower()
-        content = f"{title} {description}"
+        title = article.get('title', '')
+        description = article.get('description', '')
+        url = article.get('url', '')
         
-        # Fed-related highlights (highest priority)
-        fed_keywords = ['federal reserve', 'fed', 'fomc', 'jerome powell', 'fed chair', 'fed governor', 'fed official']
-        if any(keyword in content for keyword in fed_keywords):
-            if 'powell says' in content or 'fed says' in content or 'fed chair' in content:
-                highlights.append("🎙️ Federal Reserve official statements and quotes")
-            if 'rate cut' in content or 'cut rates' in content:
-                highlights.append("📉 Fed considering or implementing rate cuts")
-            elif 'rate hike' in content or 'raise rates' in content or 'increase rates' in content:
-                highlights.append("📈 Fed considering or implementing rate increases")
-            elif 'interest rate' in content or 'fed rate' in content:
-                highlights.append("🏛️ Federal Reserve interest rate policy developments")
-            if 'fomc' in content or 'fed meeting' in content or 'fed minutes' in content:
-                highlights.append("📋 FOMC meeting outcomes and policy decisions")
-            if 'monetary policy' in content:
-                highlights.append("💼 Monetary policy strategy and implementation")
+        # Fetch full article content
+        full_content = self.fetch_article_content(url)
         
-        # Employment indicators
-        if any(word in content for word in ['unemployment', 'jobless', 'employment', 'labor']):
-            if 'increase' in content or 'rise' in content or 'up' in content:
-                highlights.append("📈 Unemployment/employment metrics showing upward trend")
-            elif 'decrease' in content or 'fall' in content or 'down' in content:
-                highlights.append("📉 Employment situation showing improvement")
-            else:
-                highlights.append("💼 Employment market developments reported")
+        # Combine all available text
+        all_text = f"{title} {description} {full_content}"
         
-        # Inflation indicators
-        if any(word in content for word in ['inflation', 'cpi', 'price', 'pce']):
-            if 'increase' in content or 'rise' in content or 'surge' in content:
-                highlights.append("💰 Inflationary pressures intensifying")
-            elif 'decrease' in content or 'fall' in content or 'decline' in content:
-                highlights.append("💲 Price pressures showing signs of easing")
-            else:
-                highlights.append("📊 Inflation data and price trends updated")
+        # Extract quotes from the content
+        quotes = self.extract_quotes(all_text)
         
-        # Market conditions
-        if any(word in content for word in ['market', 'stock', 'trading', 'volatility']):
-            highlights.append("📈 Market conditions and trading activity")
+        # Generate content-based highlights
+        sentences = all_text.split('.')
+        key_sentences = []
         
-        # Banking sector
-        if any(word in content for word in ['banking', 'bank', 'financial institution']):
-            highlights.append("🏦 Banking sector and financial institution news")
+        # Look for key economic indicators and statements
+        economic_keywords = [
+            'federal reserve', 'fed', 'inflation', 'unemployment', 'interest rate',
+            'monetary policy', 'economic growth', 'gdp', 'market', 'banking'
+        ]
+        
+        for sentence in sentences:
+            sentence = sentence.strip()
+            if len(sentence) > 30 and len(sentence) < 150:  # Good length for highlights
+                if any(keyword in sentence.lower() for keyword in economic_keywords):
+                    key_sentences.append(sentence)
+        
+        # Create highlights from key sentences and quotes
+        highlight_count = 0
+        
+        # Add quotes as highlights (prioritize these)
+        for quote in quotes[:2]:  # Max 2 quotes
+            if highlight_count < 5:
+                highlights.append(f'💬 "{quote}"')
+                highlight_count += 1
+        
+        # Add key sentences as highlights
+        for sentence in key_sentences[:3]:  # Max 3 key sentences
+            if highlight_count < 5:
+                # Clean up the sentence
+                clean_sentence = sentence.replace('\n', ' ').replace('\r', ' ')
+                clean_sentence = ' '.join(clean_sentence.split())  # Remove extra whitespace
+                if len(clean_sentence) > 20:
+                    highlights.append(f'📊 {clean_sentence}')
+                    highlight_count += 1
+        
+        # If we don't have enough highlights, add generic ones based on content analysis
+        if highlight_count < 4:
+            content_lower = all_text.lower()
+            
+            if 'federal reserve' in content_lower or 'fed' in content_lower:
+                highlights.append("🏛️ Federal Reserve policy developments discussed")
+                highlight_count += 1
+            
+            if highlight_count < 4 and ('inflation' in content_lower or 'price' in content_lower):
+                highlights.append("💰 Inflation and pricing trends analyzed")
+                highlight_count += 1
+            
+            if highlight_count < 4 and ('employment' in content_lower or 'job' in content_lower):
+                highlights.append("💼 Employment market conditions reported")
+                highlight_count += 1
+            
+            if highlight_count < 4 and ('market' in content_lower or 'economic' in content_lower):
+                highlights.append("📈 Economic and market developments covered")
+                highlight_count += 1
         
         # Remove duplicates while preserving order
         highlights = list(dict.fromkeys(highlights))
         
-        # Ensure exactly 4 highlights by adding generic ones if needed
-        generic_highlights = [
-            "📊 Economic indicators and trends",
-            "🏛️ Policy implications and regulatory changes", 
-            "🌍 Global economic impact",
-            "🔮 Economic outlook and forecasts",
-            "📰 Economic and financial news update",
-            "💼 Business and financial sector developments",
-            "📈 Market and economic analysis",
-            "🏢 Corporate and industry news"
-        ]
-        
-        for generic in generic_highlights:
-            if len(highlights) >= 4:
-                break
-            if generic not in highlights:
-                # Check if the generic highlight is relevant to content
-                if generic == "📊 Economic indicators and trends" and 'economic' in content:
-                    highlights.append(generic)
-                elif generic == "🏛️ Policy implications and regulatory changes" and 'policy' in content:
-                    highlights.append(generic)
-                elif generic == "🌍 Global economic impact" and ('global' in content or 'international' in content):
-                    highlights.append(generic)
-                elif generic == "🔮 Economic outlook and forecasts" and ('forecast' in content or 'outlook' in content):
-                    highlights.append(generic)
-                elif len(highlights) < 4:  # Add remaining generic highlights if still needed
+        # Ensure we have exactly 4-5 highlights
+        if len(highlights) < 4:
+            # Add more generic highlights if needed
+            generic_highlights = [
+                "📊 Economic indicators and market analysis",
+                "🏛️ Policy implications and regulatory updates", 
+                "🌍 Global economic impact assessment",
+                "🔮 Economic outlook and forecasts"
+            ]
+            
+            for generic in generic_highlights:
+                if len(highlights) < 4 and generic not in highlights:
                     highlights.append(generic)
         
-        # Return exactly 4 highlights
-        return highlights[:4]
+        # Limit to maximum 5 highlights
+        return highlights[:5]
         
     def search_google_news(self, query: str, days_back: int = 7) -> List[Dict]:
         """Search Google News for articles with specific keywords"""

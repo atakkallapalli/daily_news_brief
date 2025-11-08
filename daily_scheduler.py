@@ -169,20 +169,41 @@ class DailyDigestScheduler:
                 f.write(f"## {category} ({len(articles)} articles)\n\n")
                 
                 for i, article in enumerate(display_articles, 1):
+                    # Custom format: headline, 1 sentence TL;DR, highlights in 4 bullet points, tags/annotations
                     f.write(f"### {i}. {article['title']}\n")
-                    f.write(f"**Source:** {article['source']} ({article.get('source_category', 'free')})\n")
-                    if article.get('published'):
-                        f.write(f"**Published:** {article['published']}\n")
-                    f.write(f"**URL:** {article['url']}\n")
                     
+                    # TL;DR - Extract first sentence or create concise summary
+                    description = article.get('description', '')
+                    if description:
+                        # Get first sentence or first 100 chars as TL;DR
+                        tldr = description.split('.')[0][:100] + "..." if len(description) > 100 else description.split('.')[0] + "."
+                    else:
+                        tldr = "Economic news update with market implications."
+                    f.write(f"**TL;DR:** {tldr}\n")
+                    
+                    # 4 bullet point highlights
                     if self.config["digest_settings"]["include_highlights"] and article.get('highlights'):
                         f.write("**Key Highlights:**\n")
-                        for highlight in article['highlights']:
+                        for highlight in article['highlights'][:4]:  # Ensure exactly 4
                             f.write(f"  • {highlight}\n")
                     
-                    if article.get('description'):
-                        f.write(f"**Summary:** {article['description'][:200]}...\n")
+                    # Tags/Annotations
+                    tags = []
+                    # Add source tag
+                    tags.append(f"Source: {article['source']}")
+                    # Add category tag
+                    if article.get('source_category'):
+                        tags.append(f"Type: {article.get('source_category')}")
+                    # Add date tag if available
+                    if article.get('published'):
+                        pub_date = article['published'][:10] if len(article['published']) > 10 else article['published']
+                        tags.append(f"Date: {pub_date}")
+                    # Add keyword tag if available
+                    if article.get('keyword'):
+                        tags.append(f"Keyword: {article['keyword']}")
                     
+                    f.write(f"**Tags:** {' | '.join(tags)}\n")
+                    f.write(f"**URL:** {article['url']}\n")
                     f.write("\n")
                 
                 if len(articles) > max_articles:
@@ -205,8 +226,10 @@ class DailyDigestScheduler:
         .header {{ background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 30px; }}
         .category {{ margin-bottom: 40px; }}
         .article {{ border-left: 4px solid #007bff; padding-left: 15px; margin-bottom: 25px; }}
+        .tldr {{ background: #e3f2fd; padding: 8px; border-radius: 4px; margin: 8px 0; font-style: italic; }}
         .highlights {{ background: #f8f9fa; padding: 10px; border-radius: 4px; margin: 10px 0; }}
         .highlight-item {{ margin: 5px 0; }}
+        .tags {{ background: #fff3e0; padding: 8px; border-radius: 4px; margin: 8px 0; font-size: 0.9em; }}
         .meta {{ color: #666; font-size: 0.9em; }}
         .summary {{ margin-top: 10px; }}
         h1 {{ color: #333; }}
@@ -246,21 +269,34 @@ class DailyDigestScheduler:
             for i, article in enumerate(display_articles, 1):
                 html_content += f'<div class="article">'
                 html_content += f'<h3>{i}. <a href="{article["url"]}" target="_blank">{article["title"]}</a></h3>'
-                html_content += f'<div class="meta">'
-                html_content += f'<strong>Source:</strong> {article["source"]} ({article.get("source_category", "free")})'
-                if article.get('published'):
-                    html_content += f' | <strong>Published:</strong> {article["published"]}'
-                html_content += '</div>'
                 
+                # TL;DR
+                description = article.get('description', '')
+                if description:
+                    tldr = description.split('.')[0][:100] + "..." if len(description) > 100 else description.split('.')[0] + "."
+                else:
+                    tldr = "Economic news update with market implications."
+                html_content += f'<div class="tldr"><strong>TL;DR:</strong> {tldr}</div>'
+                
+                # 4 bullet point highlights
                 if self.config["digest_settings"]["include_highlights"] and article.get('highlights'):
                     html_content += '<div class="highlights"><strong>Key Highlights:</strong>'
-                    for highlight in article['highlights']:
+                    for highlight in article['highlights'][:4]:
                         html_content += f'<div class="highlight-item">• {highlight}</div>'
                     html_content += '</div>'
                 
-                if article.get('description'):
-                    html_content += f'<div class="summary"><strong>Summary:</strong> {article["description"][:200]}...</div>'
+                # Tags/Annotations
+                tags = []
+                tags.append(f"Source: {article['source']}")
+                if article.get('source_category'):
+                    tags.append(f"Type: {article.get('source_category')}")
+                if article.get('published'):
+                    pub_date = article['published'][:10] if len(article['published']) > 10 else article['published']
+                    tags.append(f"Date: {pub_date}")
+                if article.get('keyword'):
+                    tags.append(f"Keyword: {article['keyword']}")
                 
+                html_content += f'<div class="tags"><strong>Tags:</strong> {" | ".join(tags)}</div>'
                 html_content += '</div>'
             
             if len(articles) > max_articles:
