@@ -186,23 +186,57 @@ class DailyDigestScheduler:
                 f.write(f"## {category} ({len(articles)} articles)\n\n")
                 
                 for i, article in enumerate(display_articles, 1):
-                    # Custom format: headline, 1 sentence TL;DR, highlights in 4 bullet points, tags/annotations
-                    f.write(f"### {i}. {article['title']}\n")
+                    # Enhanced format using structured analysis
+                    topic_headline = article.get('topic_headline', article['title'])
+                    f.write(f"### {i}. {topic_headline}\n")
                     
-                    # TL;DR - Extract first sentence or create concise summary
-                    description = article.get('description', '')
-                    if description:
-                        # Get first sentence or first 100 chars as TL;DR
+                    # TL;DR - Use LLM summary if available, otherwise fallback
+                    if article.get('llm_summary'):
+                        tldr = article['llm_summary']
+                    elif article.get('description'):
+                        description = article['description']
                         tldr = description.split('.')[0][:100] + "..." if len(description) > 100 else description.split('.')[0] + "."
                     else:
                         tldr = "Economic news update with market implications."
                     f.write(f"**TL;DR:** {tldr}\n")
                     
-                    # 4 bullet point highlights
-                    if self.config["digest_settings"]["include_highlights"] and article.get('highlights'):
+                    # Summary Highlights (4 bullet points using structured analysis)
+                    if self.config["digest_settings"]["include_highlights"]:
                         f.write("**Key Highlights:**\n")
-                        for highlight in article['highlights'][:4]:  # Ensure exactly 4
+                        
+                        # Use structured analysis highlights if available
+                        if article.get('summary_highlights'):
+                            highlights = article['summary_highlights'][:4]
+                        elif article.get('highlights'):
+                            highlights = article['highlights'][:4]
+                        else:
+                            # Fallback highlights
+                            highlights = [
+                                f"📊 {article['title'][:80]}...",
+                                "💼 Economic implications under analysis",
+                                "📈 Market impact being assessed",
+                                "🔍 Further details in full article"
+                            ]
+                        
+                        for highlight in highlights:
                             f.write(f"  • {highlight}\n")
+                    
+                    # Notable Quotes (if available from structured analysis)
+                    if article.get('notable_quotes') and len(article['notable_quotes']) > 0:
+                        f.write("**Notable Quotes:**\n")
+                        for quote in article['notable_quotes'][:2]:  # Limit to 2 quotes
+                            f.write(f"  > {quote}\n")
+                    
+                    # Context & Implications (if available)
+                    if article.get('context_implications'):
+                        f.write("**Context & Implications:**\n")
+                        f.write(f"  {article['context_implications']}\n")
+                    
+                    # Sentiment Analysis (if available)
+                    if article.get('sentiment_analysis'):
+                        sentiment = article['sentiment_analysis']
+                        f.write("**Market Sentiment:**\n")
+                        f.write(f"  📊 {sentiment.get('sentiment', 'N/A').title()} ({sentiment.get('economic_tone', 'N/A').title()}) - Confidence: {sentiment.get('confidence', 0):.2f}\n")
                     
                     # Tags/Annotations
                     tags = []

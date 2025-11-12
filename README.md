@@ -109,9 +109,38 @@ Create or modify `scheduler_config.json` to configure LLM settings:
 #### Test LLM Integration
 
 ```bash
-# Test LLM functionality
+# Test basic LLM functionality
 python3 test_llm_integration.py
+
+# Test structured analysis with comprehensive prompt
+python3 test_structured_analysis.py
 ```
+
+#### Structured Analysis Format
+
+The LLM integration now uses a comprehensive prompt format that generates:
+
+**For each major news article:**
+- **Topic/Headline**: Enhanced title extraction and focus identification
+- **Summary Highlights (4 Bullet Points)**:
+  - Key developments, data, and notable changes
+  - Important quotes from influential figures (officials, CEOs, economists)
+  - Economic or political implications
+  - Market reactions and predictions
+- **Notable Quotes**: Relevant quotes from major stakeholders
+- **Context & Implications**: Broader economic and market impact analysis
+- **Market Sentiment**: AI-powered sentiment analysis with confidence scores
+
+**Topic Categories Covered:**
+- Generative AI (GenAI): Innovations, launches, regulatory updates, industry trends
+- Tariffs & International Trade: Trade negotiations, supply chain impacts
+- Presidential Administration: Executive actions, policy moves, economic impact
+- Federal Reserve & Monetary Policy: Interest rates, economic outlook, inflation policy
+- Economic Policies & Stimulus: Fiscal policy, government spending, recovery impact
+- Unemployment & Labor Market: Employment data, job trends, wage analysis
+- Housing Market: Price trends, affordability, mortgage rates, market conditions
+- Financial Markets: Market movements, earnings reports, investment outlooks
+- Inflation: CPI data, sector-specific prices, central bank responses
 
 # Generate daily digest (recommended)
 python3 daily_scheduler.py --run-once

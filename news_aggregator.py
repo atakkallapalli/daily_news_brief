@@ -196,15 +196,27 @@ class LLMService:
             return self._rule_based_insights(text)
     
     def _openai_insights(self, text: str) -> List[str]:
-        """Extract insights using OpenAI"""
+        """Extract insights using OpenAI with structured prompt"""
         try:
+            structured_prompt = """
+You are a financial news analyst. For the given article, provide a structured analysis with:
+
+Summary Highlights (4 Bullet Points):
+- Concisely summarize key points focusing on main developments, key data, and notable changes
+- Include important quotes from influential figures (government officials, CEOs, economists)
+- Highlight potential economic or political implications
+- Mention market reactions or predictions (stock market, interest rates, public sentiment)
+
+Format each bullet point clearly and focus on actionable insights.
+"""
+            
             response = self.client.ChatCompletion.create(
                 model="gpt-3.5-turbo",
                 messages=[
-                    {"role": "system", "content": "You are a financial analyst. Extract 3-4 key insights from this economic news article. Focus on concrete facts, quotes, and economic implications. Format each insight as a bullet point."},
-                    {"role": "user", "content": f"Extract key insights from: {text[:2000]}"}
+                    {"role": "system", "content": structured_prompt},
+                    {"role": "user", "content": f"Analyze this article: {text[:2000]}"}
                 ],
-                max_tokens=200,
+                max_tokens=300,
                 temperature=0.2
             )
             
@@ -338,6 +350,140 @@ class LLMService:
             "confidence": confidence,
             "economic_tone": economic_tone,
             "reasoning": f"Based on {pos_count} positive and {neg_count} negative indicators"
+        }
+    
+    def generate_structured_analysis(self, article: dict, article_content: str = None) -> dict:
+        """Generate comprehensive structured analysis using the detailed prompt format"""
+        if not self.available:
+            return self._rule_based_structured_analysis(article, article_content)
+        
+        try:
+            if self.provider == "openai":
+                return self._openai_structured_analysis(article, article_content)
+            elif self.provider == "anthropic":
+                return self._anthropic_structured_analysis(article, article_content)
+            elif self.provider == "local":
+                return self._local_structured_analysis(article, article_content)
+        except Exception as e:
+            print(f"Error generating structured analysis: {e}")
+            return self._rule_based_structured_analysis(article, article_content)
+    
+    def _openai_structured_analysis(self, article: dict, article_content: str = None) -> dict:
+        """Generate structured analysis using OpenAI with comprehensive prompt"""
+        try:
+            content = article_content or article.get('description', '') or article.get('title', '')
+            
+            structured_prompt = """
+You are a financial news analyst. For the given article, provide a comprehensive structured analysis with:
+
+Topic/Headline: Title of the news article or main focus of the story.
+
+Summary Highlights (4 Bullet Points):
+- Concisely summarize key points focusing on main developments, key data, and notable changes
+- Include important quotes from influential figures (government officials, CEOs, economists)
+- Highlight potential economic or political implications
+- Mention market reactions or predictions (stock market, interest rates, public sentiment)
+
+Notable Quotes:
+- Include relevant quotes from major stakeholders (President, Federal Reserve Chair, CEOs, economists, market experts)
+- Ensure quotes reflect differing perspectives or key insights
+
+Context & Implications:
+- Provide brief context on why this issue is important
+- Highlight potential broader impact on economy, financial markets, or political landscape
+- Mention potential consequences (policy shifts, market volatility, consumer behavior changes)
+
+Format your response as JSON with keys: topic_headline, summary_highlights, notable_quotes, context_implications
+"""
+            
+            response = self.client.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": structured_prompt},
+                    {"role": "user", "content": f"Article Title: {article.get('title', '')}\nContent: {content[:2000]}"}
+                ],
+                max_tokens=600,
+                temperature=0.2
+            )
+            
+            result = json.loads(response.choices[0].message.content.strip())
+            return result
+        except Exception as e:
+            print(f"OpenAI structured analysis error: {e}")
+            return self._rule_based_structured_analysis(article, article_content)
+    
+    def _anthropic_structured_analysis(self, article: dict, article_content: str = None) -> dict:
+        """Generate structured analysis using Anthropic Claude"""
+        try:
+            content = article_content or article.get('description', '') or article.get('title', '')
+            
+            prompt = f"""
+Analyze this financial news article and provide a structured analysis in JSON format:
+
+Article Title: {article.get('title', '')}
+Content: {content[:2000]}
+
+Provide analysis with these keys:
+- topic_headline: Main focus of the story
+- summary_highlights: Array of 4 bullet points covering key developments, quotes, implications, and market reactions
+- notable_quotes: Array of relevant quotes from stakeholders
+- context_implications: Brief context and potential broader impacts
+
+Format as valid JSON.
+"""
+            
+            response = self.client.messages.create(
+                model="claude-3-haiku-20240307",
+                max_tokens=600,
+                messages=[{"role": "user", "content": prompt}]
+            )
+            
+            result = json.loads(response.content[0].text.strip())
+            return result
+        except Exception as e:
+            print(f"Anthropic structured analysis error: {e}")
+            return self._rule_based_structured_analysis(article, article_content)
+    
+    def _local_structured_analysis(self, article: dict, article_content: str = None) -> dict:
+        """Generate structured analysis using local model (simplified)"""
+        # Local models are primarily for summarization, so provide a simplified structure
+        content = article_content or article.get('description', '') or article.get('title', '')
+        summary = self._local_summarize(content, max_length=200)
+        
+        return {
+            "topic_headline": article.get('title', 'Economic News Update'),
+            "summary_highlights": [
+                f"Key development: {summary[:100]}...",
+                "Economic implications under analysis",
+                "Market impact being assessed",
+                "Further developments expected"
+            ],
+            "notable_quotes": ["Analysis based on available information"],
+            "context_implications": f"This development relates to ongoing economic trends. {summary}"
+        }
+    
+    def _rule_based_structured_analysis(self, article: dict, article_content: str = None) -> dict:
+        """Fallback rule-based structured analysis"""
+        content = article_content or article.get('description', '') or article.get('title', '')
+        
+        # Extract key phrases and create structured response
+        key_phrases = []
+        economic_terms = ['federal reserve', 'interest rate', 'inflation', 'unemployment', 'gdp', 'market', 'economy']
+        
+        for term in economic_terms:
+            if term in content.lower():
+                key_phrases.append(term.title())
+        
+        return {
+            "topic_headline": article.get('title', 'Economic News Update'),
+            "summary_highlights": [
+                f"Article covers: {', '.join(key_phrases[:3]) if key_phrases else 'economic developments'}",
+                "Key economic indicators and trends discussed",
+                "Policy implications and market impact analyzed", 
+                "Ongoing monitoring of economic conditions"
+            ],
+            "notable_quotes": ["Detailed quotes available in full article"],
+            "context_implications": f"This development is part of broader economic trends affecting {'key areas: ' + ', '.join(key_phrases) if key_phrases else 'the financial markets'}."
         }
 
 class NewsAggregator:
@@ -742,6 +888,78 @@ class NewsAggregator:
             enhanced_article['llm_enhanced'] = False
         
         return enhanced_article
+    
+    def generate_structured_article_analysis(self, article: Dict[str, Any]) -> Dict[str, Any]:
+        """Generate comprehensive structured analysis for an article using the detailed prompt format"""
+        enhanced_article = article.copy()
+        
+        if not self.use_llm:
+            return self._generate_fallback_structured_analysis(article)
+        
+        try:
+            # Get full content for analysis
+            title = article.get('title', '')
+            description = article.get('description', '')
+            url = article.get('url', '')
+            full_content = self.fetch_article_content(url)
+            all_text = f"{title} {description} {full_content}"
+            
+            if len(all_text.strip()) > 100:
+                # Generate structured analysis using the comprehensive prompt
+                structured_analysis = self.llm_service.generate_structured_analysis(article, all_text)
+                
+                # Merge structured analysis into article
+                enhanced_article.update({
+                    'structured_analysis': structured_analysis,
+                    'topic_headline': structured_analysis.get('topic_headline', title),
+                    'summary_highlights': structured_analysis.get('summary_highlights', []),
+                    'notable_quotes': structured_analysis.get('notable_quotes', []),
+                    'context_implications': structured_analysis.get('context_implications', ''),
+                    'llm_enhanced': True
+                })
+                
+                # Also add traditional analysis for compatibility
+                sentiment_data = self.llm_service.analyze_sentiment(all_text)
+                enhanced_article['sentiment_analysis'] = sentiment_data
+            
+        except Exception as e:
+            print(f"Structured article analysis failed: {e}")
+            return self._generate_fallback_structured_analysis(article)
+        
+        return enhanced_article
+    
+    def _generate_fallback_structured_analysis(self, article: Dict[str, Any]) -> Dict[str, Any]:
+        """Generate fallback structured analysis when LLM is not available"""
+        enhanced_article = article.copy()
+        title = article.get('title', 'Economic News Update')
+        description = article.get('description', '')
+        
+        # Create basic structured analysis
+        enhanced_article.update({
+            'structured_analysis': {
+                'topic_headline': title,
+                'summary_highlights': [
+                    f"Article title: {title}",
+                    f"Key content: {description[:100]}..." if description else "Economic development reported",
+                    "Market implications under analysis",
+                    "Further details available in full article"
+                ],
+                'notable_quotes': ["Full quotes available in original article"],
+                'context_implications': f"This development relates to ongoing economic trends. {description[:200]}..." if description else "Economic significance being assessed."
+            },
+            'topic_headline': title,
+            'summary_highlights': [
+                f"📊 {title}",
+                "💼 Economic implications discussed",
+                "📈 Market impact being assessed",
+                "🔍 Further analysis ongoing"
+            ],
+            'notable_quotes': ["Detailed analysis available in full article"],
+            'context_implications': f"Economic development: {description[:150]}..." if description else "Ongoing economic situation requires monitoring.",
+            'llm_enhanced': False
+        })
+        
+        return enhanced_article
         
     def search_google_news(self, query: str, days_back: int = 7) -> List[Dict]:
         """Search Google News for articles with specific keywords"""
@@ -1052,9 +1270,27 @@ class NewsAggregator:
         if not self.articles:
             return {"error": "No articles collected"}
         
-        # Group articles by keyword/topic
+        # Group articles by keyword/topic and apply structured analysis
         topics = {}
-        for article in self.articles:
+        processed_articles = []
+        
+        print(f"Applying structured analysis to {len(self.articles)} articles...")
+        
+        for i, article in enumerate(self.articles):
+            # Apply structured analysis to each article
+            try:
+                enhanced_article = self.generate_structured_article_analysis(article)
+                processed_articles.append(enhanced_article)
+                
+                if (i + 1) % 10 == 0:
+                    print(f"Processed {i + 1}/{len(self.articles)} articles...")
+                    
+            except Exception as e:
+                print(f"Error processing article {i+1}: {e}")
+                processed_articles.append(article)  # Use original if processing fails
+        
+        # Now categorize the processed articles
+        for article in processed_articles:
             title_lower = article['title'].lower()
             desc_lower = (article.get('description', '') or '').lower()
             content = f"{title_lower} {desc_lower}"
