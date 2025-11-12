@@ -5,6 +5,7 @@ A powerful and easy-to-use automated tool for collecting, analyzing, and curatin
 
 ## 🚀 Features
 
+### Core Features
 - **Flexible Source Management**: Configurable free and subscription-based news sources
 - **Automated News Collection**: Aggregates articles from multiple RSS feeds, APIs, and Google News
 - **Smart Categorization**: Automatically categorizes articles by topic (Unemployment, Inflation, Market Risk, Banking)
@@ -14,6 +15,14 @@ A powerful and easy-to-use automated tool for collecting, analyzing, and curatin
 - **Executive Summary**: Comprehensive analysis with key insights and recommendations
 - **Dynamic Source Control**: Add, remove, activate/deactivate sources on the fly
 - **Configuration Management**: Save and load source configurations from JSON files
+
+### 🤖 LLM-Powered Analysis (NEW!)
+- **AI-Enhanced Summaries**: Generate intelligent TL;DR summaries using OpenAI, Anthropic, or local models
+- **Smart Insights Extraction**: Automatically identify key economic insights and quotes from articles
+- **Sentiment Analysis**: Analyze economic sentiment and market tone (bullish/bearish/neutral)
+- **Enhanced Highlights**: LLM-generated bullet points with deeper content understanding
+- **Multi-Provider Support**: Works with OpenAI GPT, Anthropic Claude, or local Transformers models
+- **Fallback Protection**: Gracefully falls back to rule-based analysis if LLM is unavailable
 
 ## 📊 Latest Report Summary
 
@@ -32,22 +41,77 @@ A powerful and easy-to-use automated tool for collecting, analyzing, and curatin
 ## 🛠 Installation & Setup
 
 ### Prerequisites
-Make sure you have Python 3.6+ installed, then install the required packages:
+Make sure you have Python 3.8+ installed, then install the required packages:
 ```bash
-pip install requests lxml beautifulsoup4 flask
+pip install -r requirements.txt
 ```
 
-### Quick Start
+### Basic Installation
 ```bash
 # Clone the repository
 git clone https://github.com/atakkallapalli/daily_news_brief.git
 cd daily_news_brief
 
-# Install dependencies
-pip install schedule
+# Install core dependencies
+pip install requests lxml beautifulsoup4 flask schedule
 
 # Run the news aggregator (one-time)
 python3 news_aggregator.py
+```
+
+### 🤖 LLM Integration Setup (Optional)
+
+For enhanced AI-powered analysis, install LLM dependencies:
+
+```bash
+# Install LLM packages (choose one or more)
+pip install openai>=1.0.0          # For OpenAI GPT models
+pip install anthropic>=0.7.0       # For Anthropic Claude models
+pip install transformers torch     # For local models
+```
+
+#### API Key Configuration
+
+Set your API keys as environment variables:
+
+```bash
+# For OpenAI
+export OPENAI_API_KEY="your-openai-api-key"
+
+# For Anthropic Claude
+export ANTHROPIC_API_KEY="your-anthropic-api-key"
+
+# Or set in your shell profile for persistence
+echo 'export OPENAI_API_KEY="your-key"' >> ~/.bashrc
+```
+
+#### LLM Configuration Options
+
+Create or modify `scheduler_config.json` to configure LLM settings:
+
+```json
+{
+  "llm_settings": {
+    "provider": "auto",           // auto, openai, anthropic, local
+    "api_key": null,             // or set directly (not recommended)
+    "enabled": true,
+    "fallback_to_rule_based": true,
+    "features": {
+      "sentiment_analysis": true,
+      "key_insights": true,
+      "enhanced_summaries": true,
+      "economic_tone_analysis": true
+    }
+  }
+}
+```
+
+#### Test LLM Integration
+
+```bash
+# Test LLM functionality
+python3 test_llm_integration.py
+```
 
 # Generate daily digest (recommended)
 python3 daily_scheduler.py --run-once

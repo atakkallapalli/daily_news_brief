@@ -3,6 +3,7 @@
 Enhanced News Aggregator for Economic and Financial News
 Configurable news sources with free and subscription-based feeds
 Includes article highlights and flexible source management
+Now with LLM-powered analysis and summarization
 """
 
 import requests
@@ -17,6 +18,28 @@ from bs4 import BeautifulSoup
 from dataclasses import dataclass, field
 from abc import ABC, abstractmethod
 
+# LLM Integration imports
+try:
+    import openai
+    OPENAI_AVAILABLE = True
+except ImportError:
+    OPENAI_AVAILABLE = False
+    print("OpenAI not available. Install with: pip install openai")
+
+try:
+    import anthropic
+    ANTHROPIC_AVAILABLE = True
+except ImportError:
+    ANTHROPIC_AVAILABLE = False
+    print("Anthropic not available. Install with: pip install anthropic")
+
+try:
+    from transformers import pipeline
+    TRANSFORMERS_AVAILABLE = True
+except ImportError:
+    TRANSFORMERS_AVAILABLE = False
+    print("Transformers not available. Install with: pip install transformers torch")
+
 @dataclass
 class NewsSource:
     """Configuration for a news source"""
@@ -30,8 +53,295 @@ class NewsSource:
     max_articles: int = 10
     active: bool = True
 
+class LLMService:
+    """Service for LLM-powered content analysis and generation"""
+    
+    def __init__(self, provider: str = "auto", api_key: Optional[str] = None):
+        self.provider = provider
+        self.api_key = api_key or os.getenv('OPENAI_API_KEY') or os.getenv('ANTHROPIC_API_KEY')
+        self.client = None
+        self.local_model = None
+        
+        # Initialize based on available providers
+        if provider == "auto":
+            self._auto_initialize()
+        elif provider == "openai" and OPENAI_AVAILABLE:
+            self._init_openai()
+        elif provider == "anthropic" and ANTHROPIC_AVAILABLE:
+            self._init_anthropic()
+        elif provider == "local" and TRANSFORMERS_AVAILABLE:
+            self._init_local()
+        else:
+            print(f"Provider {provider} not available or not installed")
+    
+    def _auto_initialize(self):
+        """Automatically choose the best available LLM provider"""
+        if OPENAI_AVAILABLE and (os.getenv('OPENAI_API_KEY') or self.api_key):
+            self._init_openai()
+            self.provider = "openai"
+        elif ANTHROPIC_AVAILABLE and (os.getenv('ANTHROPIC_API_KEY') or self.api_key):
+            self._init_anthropic()
+            self.provider = "anthropic"
+        elif TRANSFORMERS_AVAILABLE:
+            self._init_local()
+            self.provider = "local"
+        else:
+            print("No LLM providers available. Install openai, anthropic, or transformers")
+    
+    def _init_openai(self):
+        """Initialize OpenAI client"""
+        try:
+            openai.api_key = self.api_key or os.getenv('OPENAI_API_KEY')
+            self.client = openai
+            print("Initialized OpenAI LLM service")
+        except Exception as e:
+            print(f"Failed to initialize OpenAI: {e}")
+    
+    def _init_anthropic(self):
+        """Initialize Anthropic client"""
+        try:
+            self.client = anthropic.Anthropic(api_key=self.api_key or os.getenv('ANTHROPIC_API_KEY'))
+            print("Initialized Anthropic LLM service")
+        except Exception as e:
+            print(f"Failed to initialize Anthropic: {e}")
+    
+    def _init_local(self):
+        """Initialize local transformer model"""
+        try:
+            # Use a lightweight model for summarization
+            self.local_model = pipeline("summarization", model="facebook/bart-large-cnn")
+            print("Initialized local BART model for summarization")
+        except Exception as e:
+            print(f"Failed to initialize local model: {e}")
+    
+    def generate_summary(self, text: str, max_length: int = 100) -> str:
+        """Generate a concise summary of the text"""
+        if not text or len(text.strip()) < 50:
+            return text
+        
+        try:
+            if self.provider == "openai" and self.client:
+                return self._openai_summarize(text, max_length)
+            elif self.provider == "anthropic" and self.client:
+                return self._anthropic_summarize(text, max_length)
+            elif self.provider == "local" and self.local_model:
+                return self._local_summarize(text, max_length)
+            else:
+                # Fallback to simple truncation
+                return text[:max_length] + "..." if len(text) > max_length else text
+        except Exception as e:
+            print(f"Error generating summary: {e}")
+            return text[:max_length] + "..." if len(text) > max_length else text
+    
+    def _openai_summarize(self, text: str, max_length: int) -> str:
+        """Summarize using OpenAI"""
+        try:
+            response = self.client.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": "You are a financial news analyst. Summarize the following article in one clear, concise sentence focusing on the key economic impact."},
+                    {"role": "user", "content": f"Summarize this article: {text[:1500]}"}
+                ],
+                max_tokens=50,
+                temperature=0.3
+            )
+            return response.choices[0].message.content.strip()
+        except Exception as e:
+            print(f"OpenAI summarization error: {e}")
+            return text[:max_length] + "..."
+    
+    def _anthropic_summarize(self, text: str, max_length: int) -> str:
+        """Summarize using Anthropic Claude"""
+        try:
+            response = self.client.messages.create(
+                model="claude-3-haiku-20240307",
+                max_tokens=50,
+                messages=[
+                    {"role": "user", "content": f"Summarize this economic news article in one clear sentence: {text[:1500]}"}
+                ]
+            )
+            return response.content[0].text.strip()
+        except Exception as e:
+            print(f"Anthropic summarization error: {e}")
+            return text[:max_length] + "..."
+    
+    def _local_summarize(self, text: str, max_length: int) -> str:
+        """Summarize using local BART model"""
+        try:
+            # BART works better with longer text, so ensure minimum length
+            if len(text) < 100:
+                return text
+            
+            summary = self.local_model(text[:1024], max_length=max_length//2, min_length=20, do_sample=False)
+            return summary[0]['summary_text']
+        except Exception as e:
+            print(f"Local summarization error: {e}")
+            return text[:max_length] + "..."
+    
+    def extract_key_insights(self, text: str) -> List[str]:
+        """Extract key insights and highlights from article text"""
+        if not text or len(text.strip()) < 100:
+            return []
+        
+        try:
+            if self.provider == "openai" and self.client:
+                return self._openai_insights(text)
+            elif self.provider == "anthropic" and self.client:
+                return self._anthropic_insights(text)
+            else:
+                # Fallback to rule-based extraction
+                return self._rule_based_insights(text)
+        except Exception as e:
+            print(f"Error extracting insights: {e}")
+            return self._rule_based_insights(text)
+    
+    def _openai_insights(self, text: str) -> List[str]:
+        """Extract insights using OpenAI"""
+        try:
+            response = self.client.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": "You are a financial analyst. Extract 3-4 key insights from this economic news article. Focus on concrete facts, quotes, and economic implications. Format each insight as a bullet point."},
+                    {"role": "user", "content": f"Extract key insights from: {text[:2000]}"}
+                ],
+                max_tokens=200,
+                temperature=0.2
+            )
+            
+            insights_text = response.choices[0].message.content.strip()
+            # Split by bullet points or newlines
+            insights = [insight.strip().lstrip('•-*').strip() for insight in insights_text.split('\n') if insight.strip()]
+            return insights[:4]
+        except Exception as e:
+            print(f"OpenAI insights error: {e}")
+            return []
+    
+    def _anthropic_insights(self, text: str) -> List[str]:
+        """Extract insights using Anthropic Claude"""
+        try:
+            response = self.client.messages.create(
+                model="claude-3-haiku-20240307",
+                max_tokens=200,
+                messages=[
+                    {"role": "user", "content": f"Extract 3-4 key economic insights from this article as bullet points: {text[:2000]}"}
+                ]
+            )
+            
+            insights_text = response.content[0].text.strip()
+            insights = [insight.strip().lstrip('•-*').strip() for insight in insights_text.split('\n') if insight.strip()]
+            return insights[:4]
+        except Exception as e:
+            print(f"Anthropic insights error: {e}")
+            return []
+    
+    def _rule_based_insights(self, text: str) -> List[str]:
+        """Fallback rule-based insight extraction"""
+        insights = []
+        sentences = text.split('.')
+        
+        # Look for sentences with key economic indicators
+        key_patterns = [
+            r'(inflation|unemployment|gdp|interest rate|federal reserve|fed).{10,100}',
+            r'(said|stated|announced|reported).{10,100}',
+            r'(\d+\.?\d*%|\$\d+|\d+\s*(billion|million|trillion)).{10,100}',
+        ]
+        
+        for sentence in sentences:
+            sentence = sentence.strip()
+            if 50 <= len(sentence) <= 150:
+                for pattern in key_patterns:
+                    if re.search(pattern, sentence, re.IGNORECASE):
+                        insights.append(sentence)
+                        break
+                if len(insights) >= 4:
+                    break
+        
+        return insights[:4]
+    
+    def analyze_sentiment(self, text: str) -> Dict[str, Any]:
+        """Analyze sentiment and economic tone of the article"""
+        if not text:
+            return {"sentiment": "neutral", "confidence": 0.0, "economic_tone": "neutral"}
+        
+        try:
+            if self.provider == "openai" and self.client:
+                return self._openai_sentiment(text)
+            elif self.provider == "anthropic" and self.client:
+                return self._anthropic_sentiment(text)
+            else:
+                return self._rule_based_sentiment(text)
+        except Exception as e:
+            print(f"Error analyzing sentiment: {e}")
+            return {"sentiment": "neutral", "confidence": 0.0, "economic_tone": "neutral"}
+    
+    def _openai_sentiment(self, text: str) -> Dict[str, Any]:
+        """Analyze sentiment using OpenAI"""
+        try:
+            response = self.client.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": "Analyze the economic sentiment of this article. Respond with JSON: {\"sentiment\": \"positive/negative/neutral\", \"confidence\": 0.0-1.0, \"economic_tone\": \"bullish/bearish/neutral\", \"reasoning\": \"brief explanation\"}"},
+                    {"role": "user", "content": f"Analyze sentiment: {text[:1000]}"}
+                ],
+                max_tokens=100,
+                temperature=0.1
+            )
+            
+            result = json.loads(response.choices[0].message.content.strip())
+            return result
+        except Exception as e:
+            print(f"OpenAI sentiment error: {e}")
+            return {"sentiment": "neutral", "confidence": 0.0, "economic_tone": "neutral"}
+    
+    def _anthropic_sentiment(self, text: str) -> Dict[str, Any]:
+        """Analyze sentiment using Anthropic Claude"""
+        try:
+            response = self.client.messages.create(
+                model="claude-3-haiku-20240307",
+                max_tokens=100,
+                messages=[
+                    {"role": "user", "content": f"Analyze the economic sentiment of this article and respond with JSON format: {{\"sentiment\": \"positive/negative/neutral\", \"confidence\": 0.0-1.0, \"economic_tone\": \"bullish/bearish/neutral\"}}. Article: {text[:1000]}"}
+                ]
+            )
+            
+            result = json.loads(response.content[0].text.strip())
+            return result
+        except Exception as e:
+            print(f"Anthropic sentiment error: {e}")
+            return {"sentiment": "neutral", "confidence": 0.0, "economic_tone": "neutral"}
+    
+    def _rule_based_sentiment(self, text: str) -> Dict[str, Any]:
+        """Fallback rule-based sentiment analysis"""
+        text_lower = text.lower()
+        
+        positive_words = ['growth', 'increase', 'rise', 'gain', 'improve', 'strong', 'robust', 'positive', 'optimistic']
+        negative_words = ['decline', 'fall', 'drop', 'decrease', 'weak', 'concern', 'risk', 'negative', 'pessimistic']
+        
+        pos_count = sum(1 for word in positive_words if word in text_lower)
+        neg_count = sum(1 for word in negative_words if word in text_lower)
+        
+        if pos_count > neg_count:
+            sentiment = "positive"
+            economic_tone = "bullish"
+            confidence = min(0.8, (pos_count - neg_count) / 10)
+        elif neg_count > pos_count:
+            sentiment = "negative"
+            economic_tone = "bearish"
+            confidence = min(0.8, (neg_count - pos_count) / 10)
+        else:
+            sentiment = "neutral"
+            economic_tone = "neutral"
+            confidence = 0.5
+        
+        return {
+            "sentiment": sentiment,
+            "confidence": confidence,
+            "economic_tone": economic_tone,
+            "reasoning": f"Based on {pos_count} positive and {neg_count} negative indicators"
+        }
+
 class NewsAggregator:
-    def __init__(self, config_file: Optional[str] = None):
+    def __init__(self, config_file: Optional[str] = None, llm_provider: str = "auto", llm_api_key: Optional[str] = None):
         self.keywords = [
             'unemployment', 'inflation', 'market risk', 'banking', 
             'federal reserve', 'interest rates', 'economic outlook',
@@ -40,6 +350,15 @@ class NewsAggregator:
             'fed chair', 'fed governor', 'fed official', 'fed policy',
             'fed meeting', 'fed minutes', 'fed speech', 'fed testimony'
         ]
+        
+        # Initialize LLM service for enhanced analysis
+        self.llm_service = LLMService(provider=llm_provider, api_key=llm_api_key)
+        self.use_llm = self.llm_service.client is not None or self.llm_service.local_model is not None
+        
+        if self.use_llm:
+            print(f"✅ LLM-powered analysis enabled using {self.llm_service.provider}")
+        else:
+            print("⚠️  LLM not available, using rule-based analysis")
         
         # Initialize with default sources
         self.free_sources = self._get_default_free_sources()
@@ -255,7 +574,7 @@ class NewsAggregator:
         return quotes[:5]  # Return max 5 quotes
 
     def generate_highlights(self, article: Dict[str, Any]) -> List[str]:
-        """Generate 4-5 content-based highlights with quotes from the article"""
+        """Generate 4-5 content-based highlights with LLM-powered analysis"""
         highlights = []
         title = article.get('title', '')
         description = article.get('description', '')
@@ -267,63 +586,77 @@ class NewsAggregator:
         # Combine all available text
         all_text = f"{title} {description} {full_content}"
         
-        # Extract quotes from the content
-        quotes = self.extract_quotes(all_text)
+        # Use LLM for enhanced analysis if available
+        if self.use_llm and len(all_text.strip()) > 100:
+            try:
+                # Get LLM-powered insights
+                llm_insights = self.llm_service.extract_key_insights(all_text)
+                
+                # Add LLM insights as highlights
+                for insight in llm_insights[:3]:  # Max 3 LLM insights
+                    if insight and len(insight.strip()) > 20:
+                        highlights.append(f'🧠 {insight.strip()}')
+                
+                # Get sentiment analysis
+                sentiment_data = self.llm_service.analyze_sentiment(all_text)
+                if sentiment_data.get('sentiment') != 'neutral':
+                    sentiment_emoji = '📈' if sentiment_data.get('economic_tone') == 'bullish' else '📉' if sentiment_data.get('economic_tone') == 'bearish' else '📊'
+                    highlights.append(f'{sentiment_emoji} Economic sentiment: {sentiment_data.get("sentiment", "neutral").title()} ({sentiment_data.get("confidence", 0):.1f} confidence)')
+                
+            except Exception as e:
+                print(f"LLM analysis failed for article, falling back to rule-based: {e}")
+                self.use_llm = False  # Temporarily disable for this session
         
-        # Generate content-based highlights
-        sentences = all_text.split('.')
-        key_sentences = []
+        # Fallback to rule-based analysis or supplement LLM results
+        if not self.use_llm or len(highlights) < 3:
+            # Extract quotes from the content
+            quotes = self.extract_quotes(all_text)
+            
+            # Add quotes as highlights (prioritize these)
+            for quote in quotes[:2]:  # Max 2 quotes
+                if len(highlights) < 5:
+                    highlights.append(f'💬 "{quote}"')
+            
+            # Generate content-based highlights using rule-based approach
+            sentences = all_text.split('.')
+            key_sentences = []
+            
+            # Look for key economic indicators and statements
+            economic_keywords = [
+                'federal reserve', 'fed', 'inflation', 'unemployment', 'interest rate',
+                'monetary policy', 'economic growth', 'gdp', 'market', 'banking'
+            ]
+            
+            for sentence in sentences:
+                sentence = sentence.strip()
+                if len(sentence) > 30 and len(sentence) < 150:  # Good length for highlights
+                    if any(keyword in sentence.lower() for keyword in economic_keywords):
+                        key_sentences.append(sentence)
+            
+            # Add key sentences as highlights
+            for sentence in key_sentences[:2]:  # Max 2 key sentences to leave room for LLM insights
+                if len(highlights) < 5:
+                    # Clean up the sentence
+                    clean_sentence = sentence.replace('\n', ' ').replace('\r', ' ')
+                    clean_sentence = ' '.join(clean_sentence.split())  # Remove extra whitespace
+                    if len(clean_sentence) > 20:
+                        highlights.append(f'📊 {clean_sentence}')
         
-        # Look for key economic indicators and statements
-        economic_keywords = [
-            'federal reserve', 'fed', 'inflation', 'unemployment', 'interest rate',
-            'monetary policy', 'economic growth', 'gdp', 'market', 'banking'
-        ]
-        
-        for sentence in sentences:
-            sentence = sentence.strip()
-            if len(sentence) > 30 and len(sentence) < 150:  # Good length for highlights
-                if any(keyword in sentence.lower() for keyword in economic_keywords):
-                    key_sentences.append(sentence)
-        
-        # Create highlights from key sentences and quotes
-        highlight_count = 0
-        
-        # Add quotes as highlights (prioritize these)
-        for quote in quotes[:2]:  # Max 2 quotes
-            if highlight_count < 5:
-                highlights.append(f'💬 "{quote}"')
-                highlight_count += 1
-        
-        # Add key sentences as highlights
-        for sentence in key_sentences[:3]:  # Max 3 key sentences
-            if highlight_count < 5:
-                # Clean up the sentence
-                clean_sentence = sentence.replace('\n', ' ').replace('\r', ' ')
-                clean_sentence = ' '.join(clean_sentence.split())  # Remove extra whitespace
-                if len(clean_sentence) > 20:
-                    highlights.append(f'📊 {clean_sentence}')
-                    highlight_count += 1
-        
-        # If we don't have enough highlights, add generic ones based on content analysis
-        if highlight_count < 4:
+        # If we still don't have enough highlights, add generic ones based on content analysis
+        if len(highlights) < 4:
             content_lower = all_text.lower()
             
             if 'federal reserve' in content_lower or 'fed' in content_lower:
                 highlights.append("🏛️ Federal Reserve policy developments discussed")
-                highlight_count += 1
             
-            if highlight_count < 4 and ('inflation' in content_lower or 'price' in content_lower):
+            if len(highlights) < 4 and ('inflation' in content_lower or 'price' in content_lower):
                 highlights.append("💰 Inflation and pricing trends analyzed")
-                highlight_count += 1
             
-            if highlight_count < 4 and ('employment' in content_lower or 'job' in content_lower):
+            if len(highlights) < 4 and ('employment' in content_lower or 'job' in content_lower):
                 highlights.append("💼 Employment market conditions reported")
-                highlight_count += 1
             
-            if highlight_count < 4 and ('market' in content_lower or 'economic' in content_lower):
+            if len(highlights) < 4 and ('market' in content_lower or 'economic' in content_lower):
                 highlights.append("📈 Economic and market developments covered")
-                highlight_count += 1
         
         # Remove duplicates while preserving order
         highlights = list(dict.fromkeys(highlights))
@@ -344,6 +677,71 @@ class NewsAggregator:
         
         # Limit to maximum 5 highlights
         return highlights[:5]
+    
+    def generate_llm_summary(self, article: Dict[str, Any]) -> str:
+        """Generate an LLM-powered TL;DR summary for the article"""
+        if not self.use_llm:
+            # Fallback to simple truncation
+            description = article.get('description', '')
+            return description[:100] + "..." if len(description) > 100 else description
+        
+        title = article.get('title', '')
+        description = article.get('description', '')
+        url = article.get('url', '')
+        
+        # Fetch full article content for better summarization
+        full_content = self.fetch_article_content(url)
+        
+        # Combine all available text
+        all_text = f"{title} {description} {full_content}"
+        
+        if len(all_text.strip()) < 100:
+            return description or title
+        
+        try:
+            # Generate LLM-powered summary
+            summary = self.llm_service.generate_summary(all_text, max_length=150)
+            return summary if summary else (description[:100] + "..." if len(description) > 100 else description)
+        except Exception as e:
+            print(f"LLM summary generation failed: {e}")
+            # Fallback to description
+            return description[:100] + "..." if len(description) > 100 else description
+    
+    def enhance_article_with_llm(self, article: Dict[str, Any]) -> Dict[str, Any]:
+        """Enhance article with LLM-powered analysis"""
+        enhanced_article = article.copy()
+        
+        if not self.use_llm:
+            return enhanced_article
+        
+        try:
+            # Get full content for analysis
+            title = article.get('title', '')
+            description = article.get('description', '')
+            url = article.get('url', '')
+            full_content = self.fetch_article_content(url)
+            all_text = f"{title} {description} {full_content}"
+            
+            if len(all_text.strip()) > 100:
+                # Add sentiment analysis
+                sentiment_data = self.llm_service.analyze_sentiment(all_text)
+                enhanced_article['sentiment_analysis'] = sentiment_data
+                
+                # Add LLM-generated summary
+                enhanced_article['llm_summary'] = self.llm_service.generate_summary(all_text, max_length=200)
+                
+                # Add key insights
+                insights = self.llm_service.extract_key_insights(all_text)
+                enhanced_article['key_insights'] = insights
+                
+                # Mark as LLM-enhanced
+                enhanced_article['llm_enhanced'] = True
+            
+        except Exception as e:
+            print(f"Article enhancement failed: {e}")
+            enhanced_article['llm_enhanced'] = False
+        
+        return enhanced_article
         
     def search_google_news(self, query: str, days_back: int = 7) -> List[Dict]:
         """Search Google News for articles with specific keywords"""

@@ -29,7 +29,13 @@ class DailyDigestScheduler:
     def __init__(self, config_file: str = "scheduler_config.json"):
         self.config_file = config_file
         self.config = self.load_config()
-        self.aggregator = NewsAggregator()
+        
+        # Initialize aggregator with LLM settings from config
+        llm_config = self.config.get('llm_settings', {})
+        self.aggregator = NewsAggregator(
+            llm_provider=llm_config.get('provider', 'auto'),
+            llm_api_key=llm_config.get('api_key')
+        )
         
     def load_config(self) -> dict:
         """Load scheduler configuration"""
@@ -51,6 +57,14 @@ class DailyDigestScheduler:
                 "include_highlights": True,
                 "generate_summary": True,
                 "format": "markdown"  # markdown, html, json
+            },
+            "llm_settings": {
+                "provider": "auto",  # auto, openai, anthropic, local
+                "api_key": None,  # Set via environment variable or here
+                "enabled": True,
+                "fallback_to_rule_based": True,
+                "max_tokens": 200,
+                "temperature": 0.3
             }
         }
         
