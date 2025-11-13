@@ -1,24 +1,24 @@
 {
-  "schedule_times": [
-    "07:00",
-    "12:00",
-    "18:00"
-  ],
-  "timezone": "UTC",
+  "llm_settings": {
+    "provider": "openai",
+    "api_key": "your-openai-api-key-here",
+    "enabled": true,
+    "fallback_to_rule_based": true,
+    "features": {
+      "sentiment_analysis": true,
+      "key_insights": true,
+      "enhanced_summaries": true,
+      "economic_tone_analysis": true,
+      "structured_analysis": true
+    }
+  },
+  "schedule_times": ["07:00", "12:00", "18:00"],
   "output_directory": "daily_digests",
   "archive_days": 30,
-  "email_notifications": {
-    "enabled": false,
-    "recipients": [],
-    "smtp_server": "",
-    "smtp_port": 587,
-    "username": "",
-    "password": ""
-  },
   "digest_settings": {
     "max_articles_per_category": 10,
     "include_highlights": true,
     "generate_summary": true,
-    "format": "all"
+    "format": "markdown"
   }
 }

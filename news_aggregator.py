@@ -694,27 +694,72 @@ Format as valid JSON only.
         }
     
     def _rule_based_structured_analysis(self, article: dict, article_content: str = None) -> dict:
-        """Fallback rule-based structured analysis"""
-        content = article_content or article.get('description', '') or article.get('title', '')
+        """Enhanced rule-based structured analysis with detailed bullet points"""
+        title = article.get('title', '')
+        description = article.get('description', '')
+        content = article_content or description or title
         
-        # Extract key phrases and create structured response
-        key_phrases = []
-        economic_terms = ['federal reserve', 'interest rate', 'inflation', 'unemployment', 'gdp', 'market', 'economy']
+        # Clean HTML from description
+        import re
+        clean_content = re.sub(r'<[^>]+>', '', content)
         
-        for term in economic_terms:
-            if term in content.lower():
-                key_phrases.append(term.title())
+        # Extract detailed information
+        highlights = []
+        
+        # Analyze title for key information
+        title_lower = title.lower()
+        if 'fed' in title_lower or 'federal reserve' in title_lower:
+            if 'rate' in title_lower:
+                highlights.append(f"Federal Reserve interest rate policy: {title}")
+            elif 'powell' in title_lower:
+                highlights.append(f"Fed Chair Jerome Powell statement: {title}")
+            else:
+                highlights.append(f"Federal Reserve development: {title}")
+        elif 'inflation' in title_lower:
+            highlights.append(f"Inflation update: {title}")
+        elif 'unemployment' in title_lower or 'job' in title_lower:
+            highlights.append(f"Employment market news: {title}")
+        elif 'market' in title_lower:
+            highlights.append(f"Market development: {title}")
+        else:
+            highlights.append(f"Economic news: {title}")
+        
+        # Extract key sentences from description
+        if clean_content and len(clean_content) > 50:
+            sentences = clean_content.split('.')
+            for sentence in sentences[:3]:
+                sentence = sentence.strip()
+                if len(sentence) > 30 and len(sentence) < 200:  # Increased max length
+                    # Look for sentences with economic keywords
+                    if any(word in sentence.lower() for word in ['said', 'announced', 'reported', 'expects', 'forecast']):
+                        highlights.append(f"Key statement: {sentence}")
+                    elif any(word in sentence.lower() for word in ['percent', '%', 'billion', 'million', 'trillion']):
+                        highlights.append(f"Economic data: {sentence}")
+                    elif len(highlights) < 3:
+                        highlights.append(f"Context: {sentence}")
+        
+        # Add source and timing information
+        source = article.get('source', 'Unknown')
+        published = article.get('published', '')
+        if published:
+            highlights.append(f"Source: {source} - Published: {published[:20]}")
+        else:
+            highlights.append(f"Source: {source} - Recent publication")
+        
+        # Ensure we have 4 highlights
+        while len(highlights) < 4:
+            if len(highlights) == 1:
+                highlights.append("Economic implications and market impact being analyzed")
+            elif len(highlights) == 2:
+                highlights.append("Policy decisions and regulatory changes under review")
+            else:
+                highlights.append("Continued monitoring of economic developments expected")
         
         return {
-            "topic_headline": article.get('title', 'Economic News Update'),
-            "summary_highlights": [
-                f"Article covers: {', '.join(key_phrases[:3]) if key_phrases else 'economic developments'}",
-                "Key economic indicators and trends discussed",
-                "Policy implications and market impact analyzed", 
-                "Ongoing monitoring of economic conditions"
-            ],
-            "notable_quotes": ["Detailed quotes available in full article"],
-            "context_implications": f"This development is part of broader economic trends affecting {'key areas: ' + ', '.join(key_phrases) if key_phrases else 'the financial markets'}."
+            "topic_headline": title,
+            "summary_highlights": highlights[:4],
+            "notable_quotes": ["Full article contains detailed quotes and analysis"],
+            "context_implications": f"This {article.get('keyword', 'economic')} development has potential implications for monetary policy, market conditions, and economic outlook."
         }
 
 class NewsAggregator:
@@ -733,9 +778,9 @@ class NewsAggregator:
         self.use_llm = self.llm_service.client is not None or self.llm_service.local_model is not None
         
         if self.use_llm:
-            print(f"✅ LLM-powered analysis enabled using {self.llm_service.provider}")
+            print(f"[OK] LLM-powered analysis enabled using {self.llm_service.provider}")
         else:
-            print("⚠️  LLM not available, using rule-based analysis")
+            print("[WARNING] LLM not available, using rule-based analysis")
         
         # Initialize with default sources
         self.free_sources = self._get_default_free_sources()
@@ -1160,33 +1205,18 @@ class NewsAggregator:
         return enhanced_article
     
     def _generate_fallback_structured_analysis(self, article: Dict[str, Any]) -> Dict[str, Any]:
-        """Generate fallback structured analysis when LLM is not available"""
+        """Generate enhanced fallback structured analysis when LLM is not available"""
         enhanced_article = article.copy()
-        title = article.get('title', 'Economic News Update')
-        description = article.get('description', '')
         
-        # Create basic structured analysis
+        # Use the improved rule-based analysis
+        structured_data = self._rule_based_structured_analysis(article)
+        
         enhanced_article.update({
-            'structured_analysis': {
-                'topic_headline': title,
-                'summary_highlights': [
-                    f"Article title: {title}",
-                    f"Key content: {description[:100]}..." if description else "Economic development reported",
-                    "Market implications under analysis",
-                    "Further details available in full article"
-                ],
-                'notable_quotes': ["Full quotes available in original article"],
-                'context_implications': f"This development relates to ongoing economic trends. {description[:200]}..." if description else "Economic significance being assessed."
-            },
-            'topic_headline': title,
-            'summary_highlights': [
-                f"📊 {title}",
-                "💼 Economic implications discussed",
-                "📈 Market impact being assessed",
-                "🔍 Further analysis ongoing"
-            ],
-            'notable_quotes': ["Detailed analysis available in full article"],
-            'context_implications': f"Economic development: {description[:150]}..." if description else "Ongoing economic situation requires monitoring.",
+            'structured_analysis': structured_data,
+            'topic_headline': structured_data['topic_headline'],
+            'summary_highlights': structured_data['summary_highlights'],
+            'notable_quotes': structured_data['notable_quotes'],
+            'context_implications': structured_data['context_implications'],
             'llm_enhanced': False
         })
         
@@ -1613,15 +1643,15 @@ class NewsAggregator:
         """List all configured sources"""
         print("\n=== FREE SOURCES ===")
         for i, source in enumerate(self.free_sources, 1):
-            status = "✅ Active" if source.active else "❌ Inactive"
+            status = "[ACTIVE]" if source.active else "[INACTIVE]"
             print(f"{i}. {source.name} ({source.source_type}) - {status}")
             print(f"   URL: {source.url}")
             print(f"   Max Articles: {source.max_articles}")
         
         print("\n=== SUBSCRIPTION SOURCES ===")
         for i, source in enumerate(self.subscription_sources, 1):
-            status = "✅ Active" if source.active else "❌ Inactive"
-            api_status = "🔑 API Key Set" if source.api_key else "🔓 No API Key"
+            status = "[ACTIVE]" if source.active else "[INACTIVE]"
+            api_status = "[API KEY SET]" if source.api_key else "[NO API KEY]"
             print(f"{i}. {source.name} ({source.source_type}) - {status} - {api_status}")
             print(f"   URL: {source.url}")
             print(f"   Max Articles: {source.max_articles}")
@@ -1706,9 +1736,9 @@ def main():
     with open('articles_data.json', 'w', encoding='utf-8') as f:
         json.dump(summary, f, indent=2, default=str)
     
-    print("✅ Report saved to economic_news_report.md")
-    print("✅ Raw data saved to articles_data.json")
-    print(f"📊 Collected {len(articles)} articles from {len(summary['sources_covered'])} sources")
+    print("[OK] Report saved to economic_news_report.md")
+    print("[OK] Raw data saved to articles_data.json")
+    print(f"[INFO] Collected {len(articles)} articles from {len(summary['sources_covered'])} sources")
     
     return report
 
