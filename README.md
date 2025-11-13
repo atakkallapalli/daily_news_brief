@@ -17,11 +17,13 @@ A powerful and easy-to-use automated tool for collecting, analyzing, and curatin
 - **Configuration Management**: Save and load source configurations from JSON files
 
 ### 🤖 LLM-Powered Analysis (NEW!)
-- **AI-Enhanced Summaries**: Generate intelligent TL;DR summaries using OpenAI, Anthropic, or local models
+- **AI-Enhanced Summaries**: Generate intelligent TL;DR summaries using multiple LLM providers
 - **Smart Insights Extraction**: Automatically identify key economic insights and quotes from articles
 - **Sentiment Analysis**: Analyze economic sentiment and market tone (bullish/bearish/neutral)
 - **Enhanced Highlights**: LLM-generated bullet points with deeper content understanding
-- **Multi-Provider Support**: Works with OpenAI GPT, Anthropic Claude, or local Transformers models
+- **Multi-Provider Support**: Works with OpenAI GPT, Anthropic Claude, LiteLLM proxy, or local Transformers models
+- **LiteLLM Integration**: Support for Claude Sonnet 4 and other models via LiteLLM proxy
+- **Structured Analysis**: Comprehensive analysis with topic extraction, 4-5 detailed bullet points (~100 words each), notable quotes, and market sentiment
 - **Fallback Protection**: Gracefully falls back to rule-based analysis if LLM is unavailable
 
 ## 📊 Latest Report Summary
@@ -67,6 +69,7 @@ For enhanced AI-powered analysis, install LLM dependencies:
 # Install LLM packages (choose one or more)
 pip install openai>=1.0.0          # For OpenAI GPT models
 pip install anthropic>=0.7.0       # For Anthropic Claude models
+pip install litellm>=1.0.0         # For LiteLLM proxy (supports Claude Sonnet 4)
 pip install transformers torch     # For local models
 ```
 
@@ -81,8 +84,12 @@ export OPENAI_API_KEY="your-openai-api-key"
 # For Anthropic Claude
 export ANTHROPIC_API_KEY="your-anthropic-api-key"
 
+# For LiteLLM proxy (supports Claude Sonnet 4)
+export LITELLM_API_KEY="your-litellm-api-key"
+
 # Or set in your shell profile for persistence
 echo 'export OPENAI_API_KEY="your-key"' >> ~/.bashrc
+echo 'export LITELLM_API_KEY="your-litellm-key"' >> ~/.bashrc
 ```
 
 #### LLM Configuration Options
@@ -92,7 +99,8 @@ Create or modify `scheduler_config.json` to configure LLM settings:
 ```json
 {
   "llm_settings": {
-    "provider": "auto",           // auto, openai, anthropic, local
+    "provider": "auto",           // auto, openai, anthropic, litellm, local
+    "model": "claude-3-5-sonnet-20241022",  // for litellm provider
     "api_key": null,             // or set directly (not recommended)
     "enabled": true,
     "fallback_to_rule_based": true,
@@ -100,7 +108,8 @@ Create or modify `scheduler_config.json` to configure LLM settings:
       "sentiment_analysis": true,
       "key_insights": true,
       "enhanced_summaries": true,
-      "economic_tone_analysis": true
+      "economic_tone_analysis": true,
+      "structured_analysis": true
     }
   }
 }
@@ -114,6 +123,30 @@ python3 test_llm_integration.py
 
 # Test structured analysis with comprehensive prompt
 python3 test_structured_analysis.py
+
+# Test LiteLLM integration with Claude Sonnet 4
+python3 test_litellm_integration.py
+```
+
+#### LiteLLM Usage Examples
+
+```python
+# Initialize with LiteLLM and Claude Sonnet 4
+from news_aggregator import LLMService
+
+llm = LLMService(
+    provider="litellm",
+    model="claude-3-5-sonnet-20241022",
+    api_key="your-litellm-api-key"
+)
+
+# Generate structured analysis with your specific format
+analysis = llm.generate_structured_analysis(article)
+# Returns: topic_headline, 4-5 bullet points (~100 words each), notable_quotes, context_implications
+
+# Generate summary with enhanced insights
+summary = llm.extract_key_insights(article_content)
+# Returns: 4-5 detailed bullet points with quotes and market implications
 ```
 
 #### Structured Analysis Format

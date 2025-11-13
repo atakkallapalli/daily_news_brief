@@ -40,6 +40,13 @@ except ImportError:
     TRANSFORMERS_AVAILABLE = False
     print("Transformers not available. Install with: pip install transformers torch")
 
+try:
+    import litellm
+    LITELLM_AVAILABLE = True
+except ImportError:
+    LITELLM_AVAILABLE = False
+    print("LiteLLM not available. Install with: pip install litellm")
+
 @dataclass
 class NewsSource:
     """Configuration for a news source"""
@@ -56,9 +63,10 @@ class NewsSource:
 class LLMService:
     """Service for LLM-powered content analysis and generation"""
     
-    def __init__(self, provider: str = "auto", api_key: Optional[str] = None):
+    def __init__(self, provider: str = "auto", api_key: Optional[str] = None, model: str = None):
         self.provider = provider
-        self.api_key = api_key or os.getenv('OPENAI_API_KEY') or os.getenv('ANTHROPIC_API_KEY')
+        self.model = model
+        self.api_key = api_key or os.getenv('OPENAI_API_KEY') or os.getenv('ANTHROPIC_API_KEY') or os.getenv('LITELLM_API_KEY')
         self.client = None
         self.local_model = None
         
@@ -69,6 +77,8 @@ class LLMService:
             self._init_openai()
         elif provider == "anthropic" and ANTHROPIC_AVAILABLE:
             self._init_anthropic()
+        elif provider == "litellm" and LITELLM_AVAILABLE:
+            self._init_litellm()
         elif provider == "local" and TRANSFORMERS_AVAILABLE:
             self._init_local()
         else:
@@ -76,7 +86,10 @@ class LLMService:
     
     def _auto_initialize(self):
         """Automatically choose the best available LLM provider"""
-        if OPENAI_AVAILABLE and (os.getenv('OPENAI_API_KEY') or self.api_key):
+        if LITELLM_AVAILABLE and (os.getenv('LITELLM_API_KEY') or self.api_key):
+            self._init_litellm()
+            self.provider = "litellm"
+        elif OPENAI_AVAILABLE and (os.getenv('OPENAI_API_KEY') or self.api_key):
             self._init_openai()
             self.provider = "openai"
         elif ANTHROPIC_AVAILABLE and (os.getenv('ANTHROPIC_API_KEY') or self.api_key):
@@ -86,7 +99,20 @@ class LLMService:
             self._init_local()
             self.provider = "local"
         else:
-            print("No LLM providers available. Install openai, anthropic, or transformers")
+            print("No LLM providers available. Install openai, anthropic, litellm, or transformers")
+    
+    @property
+    def available(self) -> bool:
+        """Check if LLM service is available and properly initialized"""
+        if self.provider == "openai":
+            return self.client is not None and OPENAI_AVAILABLE
+        elif self.provider == "anthropic":
+            return self.client is not None and ANTHROPIC_AVAILABLE
+        elif self.provider == "litellm":
+            return self.client is not None and LITELLM_AVAILABLE
+        elif self.provider == "local":
+            return self.local_model is not None and TRANSFORMERS_AVAILABLE
+        return False
     
     def _init_openai(self):
         """Initialize OpenAI client"""
@@ -104,6 +130,24 @@ class LLMService:
             print("Initialized Anthropic LLM service")
         except Exception as e:
             print(f"Failed to initialize Anthropic: {e}")
+    
+    def _init_litellm(self):
+        """Initialize LiteLLM client"""
+        try:
+            # Set up LiteLLM configuration
+            if self.api_key:
+                litellm.api_key = self.api_key
+            
+            # Set default model if not specified
+            if not self.model:
+                self.model = "litellm_proxy/ClaudeSonnet4"
+            
+            # Test the connection
+            litellm.set_verbose = False  # Reduce logging
+            self.client = litellm
+            print(f"Initialized LiteLLM service with model: {self.model}")
+        except Exception as e:
+            print(f"Failed to initialize LiteLLM: {e}")
     
     def _init_local(self):
         """Initialize local transformer model"""
@@ -124,6 +168,8 @@ class LLMService:
                 return self._openai_summarize(text, max_length)
             elif self.provider == "anthropic" and self.client:
                 return self._anthropic_summarize(text, max_length)
+            elif self.provider == "litellm" and self.client:
+                return self._litellm_summarize(text, max_length)
             elif self.provider == "local" and self.local_model:
                 return self._local_summarize(text, max_length)
             else:
@@ -165,6 +211,21 @@ class LLMService:
             print(f"Anthropic summarization error: {e}")
             return text[:max_length] + "..."
     
+    def _litellm_summarize(self, text: str, max_length: int) -> str:
+        """Summarize using LiteLLM"""
+        try:
+            response = self.client.completion(
+                model=self.model,
+                messages=[
+                    {"role": "user", "content": f"Summarize this economic news article in one clear sentence: {text[:1500]}"}
+                ],
+                max_tokens=50
+            )
+            return response.choices[0].message.content.strip()
+        except Exception as e:
+            print(f"LiteLLM summarization error: {e}")
+            return text[:max_length] + "..."
+    
     def _local_summarize(self, text: str, max_length: int) -> str:
         """Summarize using local BART model"""
         try:
@@ -188,6 +249,8 @@ class LLMService:
                 return self._openai_insights(text)
             elif self.provider == "anthropic" and self.client:
                 return self._anthropic_insights(text)
+            elif self.provider == "litellm" and self.client:
+                return self._litellm_insights(text)
             else:
                 # Fallback to rule-based extraction
                 return self._rule_based_insights(text)
@@ -246,6 +309,74 @@ Format each bullet point clearly and focus on actionable insights.
             print(f"Anthropic insights error: {e}")
             return []
     
+    def _litellm_insights(self, text: str) -> List[str]:
+        """Extract insights using LiteLLM with your specific format"""
+        try:
+            # Your specific format: Topic/headline extraction, Summary in 4-5 bullets ~100 words each, including notable quotes
+            structured_prompt = """
+You are a financial news analyst. For the given article, provide:
+
+1. Topic/Headline: Extract the main economic topic and create a clear, focused headline
+2. Summary: Create 4-5 bullet points, each approximately 100 words, covering:
+   - Key economic developments and data points
+   - Important quotes from officials, CEOs, or economists (include actual quotes)
+   - Market implications and reactions
+   - Policy or regulatory impacts
+   - Future outlook or predictions
+
+Format your response as:
+TOPIC: [Clear headline]
+SUMMARY:
+• [Bullet point 1 - ~100 words with quotes if available]
+• [Bullet point 2 - ~100 words with quotes if available]
+• [Bullet point 3 - ~100 words with quotes if available]
+• [Bullet point 4 - ~100 words with quotes if available]
+• [Bullet point 5 - ~100 words with quotes if available] (if needed)
+
+Article text: {text}
+"""
+            
+            response = self.client.completion(
+                model=self.model,
+                messages=[
+                    {"role": "user", "content": structured_prompt.format(text=text[:2500])}
+                ],
+                max_tokens=800
+            )
+            
+            content = response.choices[0].message.content.strip()
+            
+            # Parse the structured response
+            lines = content.split('\n')
+            topic = ""
+            summary_bullets = []
+            
+            current_section = None
+            for line in lines:
+                line = line.strip()
+                if line.startswith('TOPIC:'):
+                    topic = line.replace('TOPIC:', '').strip()
+                elif line.startswith('SUMMARY:'):
+                    current_section = 'summary'
+                elif line.startswith('•') and current_section == 'summary':
+                    bullet = line.lstrip('•').strip()
+                    if bullet:
+                        summary_bullets.append(bullet)
+            
+            # Return structured data as list for compatibility
+            result = []
+            if topic:
+                result.append(f"📊 Topic: {topic}")
+            
+            for i, bullet in enumerate(summary_bullets[:5], 1):
+                result.append(f"🔹 Point {i}: {bullet}")
+            
+            return result
+            
+        except Exception as e:
+            print(f"LiteLLM insights error: {e}")
+            return []
+    
     def _rule_based_insights(self, text: str) -> List[str]:
         """Fallback rule-based insight extraction"""
         insights = []
@@ -280,6 +411,8 @@ Format each bullet point clearly and focus on actionable insights.
                 return self._openai_sentiment(text)
             elif self.provider == "anthropic" and self.client:
                 return self._anthropic_sentiment(text)
+            elif self.provider == "litellm" and self.client:
+                return self._litellm_sentiment(text)
             else:
                 return self._rule_based_sentiment(text)
         except Exception as e:
@@ -322,6 +455,41 @@ Format each bullet point clearly and focus on actionable insights.
             print(f"Anthropic sentiment error: {e}")
             return {"sentiment": "neutral", "confidence": 0.0, "economic_tone": "neutral"}
     
+    def _litellm_sentiment(self, text: str) -> Dict[str, Any]:
+        """Analyze sentiment using LiteLLM"""
+        try:
+            response = self.client.completion(
+                model=self.model,
+                messages=[
+                    {"role": "user", "content": f"Analyze the economic sentiment of this article and respond with JSON format: {{\"sentiment\": \"positive/negative/neutral\", \"confidence\": 0.0-1.0, \"economic_tone\": \"bullish/bearish/neutral\"}}. Article: {text[:1000]}"}
+                ],
+                max_tokens=100
+            )
+            
+            content = response.choices[0].message.content.strip()
+            # Try to extract JSON from the response
+            try:
+                result = json.loads(content)
+                return result
+            except json.JSONDecodeError:
+                # Fallback parsing if JSON is malformed
+                sentiment = "neutral"
+                confidence = 0.5
+                economic_tone = "neutral"
+                
+                if "positive" in content.lower():
+                    sentiment = "positive"
+                    economic_tone = "bullish"
+                elif "negative" in content.lower():
+                    sentiment = "negative"
+                    economic_tone = "bearish"
+                
+                return {"sentiment": sentiment, "confidence": confidence, "economic_tone": economic_tone}
+                
+        except Exception as e:
+            print(f"LiteLLM sentiment error: {e}")
+            return {"sentiment": "neutral", "confidence": 0.0, "economic_tone": "neutral"}
+    
     def _rule_based_sentiment(self, text: str) -> Dict[str, Any]:
         """Fallback rule-based sentiment analysis"""
         text_lower = text.lower()
@@ -362,6 +530,8 @@ Format each bullet point clearly and focus on actionable insights.
                 return self._openai_structured_analysis(article, article_content)
             elif self.provider == "anthropic":
                 return self._anthropic_structured_analysis(article, article_content)
+            elif self.provider == "litellm":
+                return self._litellm_structured_analysis(article, article_content)
             elif self.provider == "local":
                 return self._local_structured_analysis(article, article_content)
         except Exception as e:
@@ -442,6 +612,66 @@ Format as valid JSON.
             return result
         except Exception as e:
             print(f"Anthropic structured analysis error: {e}")
+            return self._rule_based_structured_analysis(article, article_content)
+    
+    def _litellm_structured_analysis(self, article: dict, article_content: str = None) -> dict:
+        """Generate structured analysis using LiteLLM with your specific format requirements"""
+        try:
+            content = article_content or article.get('description', '') or article.get('title', '')
+            
+            # Your specific format: Topic/headline extraction, Summary in 4-5 bullets ~100 words each, including notable quotes
+            prompt = f"""
+Analyze this financial news article and provide a structured analysis in JSON format with your specific requirements:
+
+Article Title: {article.get('title', '')}
+Content: {content[:2500]}
+
+Provide analysis with these exact keys:
+- topic_headline: Extract the main economic topic and create a clear, focused headline
+- summary_highlights: Array of exactly 4-5 bullet points, each approximately 100 words, covering:
+  * Key economic developments and data points
+  * Important quotes from officials, CEOs, or economists (include actual quotes)
+  * Market implications and reactions
+  * Policy or regulatory impacts
+  * Future outlook or predictions
+- notable_quotes: Array of actual quotes from the article with attribution
+- context_implications: Analysis of broader economic impact and market sentiment
+- market_sentiment: Object with sentiment (positive/negative/neutral), confidence (0.0-1.0), and economic_tone (bullish/bearish/neutral)
+
+Each summary highlight should be substantial (~100 words) and include specific details, numbers, and quotes where available.
+
+Format as valid JSON only.
+"""
+            
+            response = self.client.completion(
+                model=self.model,
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=1000
+            )
+            
+            content_response = response.choices[0].message.content.strip()
+            
+            try:
+                result = json.loads(content_response)
+                
+                # Ensure we have the required structure
+                if not isinstance(result.get('summary_highlights'), list):
+                    result['summary_highlights'] = []
+                if not isinstance(result.get('notable_quotes'), list):
+                    result['notable_quotes'] = []
+                
+                # Ensure we have 4-5 summary highlights as requested
+                while len(result['summary_highlights']) < 4:
+                    result['summary_highlights'].append("Additional analysis pending based on available information.")
+                
+                return result
+                
+            except json.JSONDecodeError:
+                print("LiteLLM returned invalid JSON, using fallback structure")
+                return self._rule_based_structured_analysis(article, article_content)
+                
+        except Exception as e:
+            print(f"LiteLLM structured analysis error: {e}")
             return self._rule_based_structured_analysis(article, article_content)
     
     def _local_structured_analysis(self, article: dict, article_content: str = None) -> dict:
