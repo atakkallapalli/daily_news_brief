@@ -1,1153 +1,1690 @@
 {
-  "collection_date": "2025-11-08T00:40:51.652893",
-  "total_articles": 74,
+  "collection_date": "2025-11-13T00:14:17.157028",
+  "total_articles": 37,
   "topics": {
     "Federal Reserve & Monetary Policy": [
       {
-        "title": "What to know about the nationwide FAA-mandated flight reductions",
-        "url": "https://www.nbcnews.com/news/us-news/faa-flights-canceled-airport-cuts-government-shutdown-what-know-rcna242488",
-        "published": "Fri, 07 Nov 2025 11:15:40 GMT",
-        "description": "A routine journey to the skies may result in long lines and a change of plans as airlines abide by a Federal Aviation Administration order to cut flights by 4% in high-traffic airports starting Friday",
+        "title": "White House says key economic reports may not be released",
+        "url": "https://www.nbcnews.com/business/economy/shutdown-jobs-report-inflation-rcna243533",
+        "published": "Wed, 12 Nov 2025 19:27:52 GMT",
+        "description": "The White House said Wednesday it was unlikely that key federal inflation and labor reports impacted by the government shutdown would be released.",
         "source": "NBC Business",
         "source_type": "free_rss",
         "keyword": "RSS Feed",
         "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
+          "\ud83d\udcca Already, policymakers, market participants and economists expect a fog of data after the shutdown ends",
+          "\ud83d\udcca Opinions on how the lack of data could impact the Federal Reserve\u2019s next monetary policy moves are mixed",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcb0 Inflation and pricing trends analyzed"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "White House says key economic reports may not be released",
+          "summary_highlights": [
+            "Article covers: Federal Reserve, Inflation, Market",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Federal Reserve, Inflation, Market, Economy."
+        },
+        "topic_headline": "White House says key economic reports may not be released",
+        "summary_highlights": [
+          "Article covers: Federal Reserve, Inflation, Market",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Federal Reserve, Inflation, Market, Economy.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "The FAA is set to start cutting flights to contend with delays and staffing shortages",
-        "url": "https://www.nbcnews.com/news/us-news/flight-reduction-shutdown-faa-rcna242231",
-        "published": "Wed, 05 Nov 2025 22:05:20 GMT",
-        "description": "The Federal Aviation Administration will begin cutting the number of flights in the \"high traffic\" parts of the country as the government shutdown grinds on and local airports have reported staffing shortages, Transportation Secretary Sean Duffy said Wednesday.\u201cThere is going to be a 10% reduction in capacity at 40 of our locations,\u201d Duffy said.",
+        "title": "FAA keeps flight cancellations at 6% as House is set to vote to end shutdown",
+        "url": "https://www.nbcnews.com/business/travel/faa-keeps-flight-cancellations-6-house-set-vote-end-shutdown-rcna243424",
+        "published": "Wed, 12 Nov 2025 16:40:49 GMT",
+        "description": "For the second day, the Federal Aviation Administration will continue to enforce its mandate to cancel 6% of flights at 40 high-traffic airports, as the U.S.",
         "source": "NBC Business",
         "source_type": "free_rss",
         "keyword": "RSS Feed",
         "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis",
+          "\ud83c\udfdb\ufe0f Policy implications and regulatory updates",
+          "\ud83c\udf0d Global economic impact assessment"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "FAA keeps flight cancellations at 6% as House is set to vote to end shutdown",
+          "summary_highlights": [
+            "Article covers: economic developments",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting the financial markets."
+        },
+        "topic_headline": "FAA keeps flight cancellations at 6% as House is set to vote to end shutdown",
+        "summary_highlights": [
+          "Article covers: economic developments",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting the financial markets.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Bank says inflation has 'peaked' as it holds interest rates",
-        "url": "https://www.bbc.com/news/articles/c77zkg5504eo?at_medium=RSS&at_campaign=rss",
-        "published": "Thu, 06 Nov 2025 17:35:34 GMT",
-        "description": "Rates are left unchanged after a tight vote ahead of the Budget later this month.",
-        "source": "BBC Business",
-        "source_type": "free_rss",
-        "keyword": "RSS Feed",
-        "highlights": [
-          "\ud83d\udcca Inflation data and price trends updated",
-          "\ud83c\udfe6 Banking sector and financial institution news",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Will Bank of England governor play Santa or Scrooge on interest rates?",
-        "url": "https://www.bbc.com/news/articles/cy0y34dxl7lo?at_medium=RSS&at_campaign=rss",
-        "published": "Thu, 06 Nov 2025 15:16:35 GMT",
-        "description": "The interest rate decision was made by the narrowest of margins, meaning all eyes are now on the Bank's December meeting.",
-        "source": "BBC Business",
-        "source_type": "free_rss",
-        "keyword": "RSS Feed",
-        "highlights": [
-          "\ud83c\udfe6 Banking sector and financial institution news",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Federal Reserve Board issues enforcement actions with Belt Valley Bank and The Halstead Bank",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20251106a.htm",
-        "published": "Thu, 6 Nov 2025 16:00:00 GMT",
-        "description": "Federal Reserve Board issues enforcement actions with Belt Valley Bank and The Halstead Bank",
+        "title": "Federal Reserve Board announces approval of application by ID Bank CJSC",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20251112a.htm",
+        "published": "Wed, 12 Nov 2025 22:00:00 GMT",
+        "description": "Federal Reserve Board announces approval of application by ID Bank CJSC",
         "source": "Federal Reserve News",
         "source_type": "free_rss",
         "keyword": "RSS Feed",
         "highlights": [
-          "\ud83c\udfe6 Banking sector and financial institution news",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcc8 Economic and market developments covered",
+          "\ud83d\udcca Economic indicators and market analysis",
+          "\ud83c\udfdb\ufe0f Policy implications and regulatory updates"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Federal Reserve Board announces approval of application by ID Bank CJSC",
+          "summary_highlights": [
+            "Article covers: Federal Reserve, Market",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Federal Reserve, Market."
+        },
+        "topic_headline": "Federal Reserve Board announces approval of application by ID Bank CJSC",
+        "summary_highlights": [
+          "Article covers: Federal Reserve, Market",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Federal Reserve, Market.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Federal Reserve Board finalizes changes to its supervisory rating framework for large bank holding companies",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20251105a.htm",
-        "published": "Wed, 5 Nov 2025 22:00:00 GMT",
-        "description": "Federal Reserve Board finalizes changes to its supervisory rating framework for large bank holding companies",
-        "source": "Federal Reserve News",
-        "source_type": "free_rss",
-        "keyword": "RSS Feed",
-        "highlights": [
-          "\ud83c\udfe6 Banking sector and financial institution news",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Federal Reserve Board announces termination of enforcement actions with Riverbend Financial Corporation, Northwest Bancorporation of Illinois, Inc., and First Citizens Bank of Butte ",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20251104a.htm",
-        "published": "Tue, 4 Nov 2025 16:00:00 GMT",
-        "description": "Federal Reserve Board announces termination of enforcement actions with Riverbend Financial Corporation, Northwest Bancorporation of Illinois, Inc., and First Citizens Bank of Butte ",
-        "source": "Federal Reserve News",
-        "source_type": "free_rss",
-        "keyword": "RSS Feed",
-        "highlights": [
-          "\ud83c\udfe6 Banking sector and financial institution news",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Federal Reserve Board announces approval of application by First Security Bank",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20251031a.htm",
-        "published": "Fri, 31 Oct 2025 20:45:00 GMT",
-        "description": "Federal Reserve Board announces approval of application by First Security Bank",
-        "source": "Federal Reserve News",
-        "source_type": "free_rss",
-        "keyword": "RSS Feed",
-        "highlights": [
-          "\ud83c\udfe6 Banking sector and financial institution news",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Federal Reserve issues FOMC statement",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm",
-        "published": "Wed, 29 Oct 2025 18:00:00 GMT",
-        "description": "Federal Reserve issues FOMC statement",
-        "source": "Federal Reserve News",
-        "source_type": "free_rss",
-        "keyword": "RSS Feed",
-        "highlights": [
-          "\ud83d\udccb FOMC meeting outcomes and policy decisions",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Federal Reserve Board requests comment on proposals to enhance the transparency and public accountability of its annual stress test",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20251024a.htm",
-        "published": "Fri, 24 Oct 2025 19:30:00 GMT",
-        "description": "Federal Reserve Board requests comment on proposals to enhance the transparency and public accountability of its annual stress test",
-        "source": "Federal Reserve News",
-        "source_type": "free_rss",
-        "keyword": "RSS Feed",
-        "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Federal Reserve and FDIC release public sections of resolution plans for several large banking organizations",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20251023a.htm",
-        "published": "Thu, 23 Oct 2025 18:00:00 GMT",
-        "description": "Federal Reserve and FDIC release public sections of resolution plans for several large banking organizations",
-        "source": "Federal Reserve News",
-        "source_type": "free_rss",
-        "keyword": "RSS Feed",
-        "highlights": [
-          "\ud83c\udfe6 Banking sector and financial institution news",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Federal Reserve Board denies application by Canandaigua National Corporation",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20251017a.htm",
-        "published": "Fri, 17 Oct 2025 22:45:00 GMT",
-        "description": "Federal Reserve Board denies application by Canandaigua National Corporation",
-        "source": "Federal Reserve News",
-        "source_type": "free_rss",
-        "keyword": "RSS Feed",
-        "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Federal Reserve Board announces expanded operating days of two large-value payments services, Fedwire\u00ae Funds Service and the National Settlement Service (NSS), to include Sundays and weekday holidays",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20251009a.htm",
-        "published": "Thu, 9 Oct 2025 20:30:00 GMT",
-        "description": "Federal Reserve Board announces expanded operating days of two large-value payments services, Fedwire&reg; Funds Service and the National Settlement Service (NSS), to include Sundays and weekday holidays",
-        "source": "Federal Reserve News",
-        "source_type": "free_rss",
-        "keyword": "RSS Feed",
-        "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Minutes of the Federal Open Market Committee, September 16\u201317, 2025",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251008a.htm",
-        "published": "Wed, 8 Oct 2025 18:00:00 GMT",
-        "description": "Minutes of the Federal Open Market Committee, September 16\u201317, 2025",
-        "source": "Federal Reserve News",
-        "source_type": "free_rss",
-        "keyword": "RSS Feed",
-        "highlights": [
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Federal Reserve Board announces approval of proposal by BancFirst Corporation",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20251003b.htm",
-        "published": "Fri, 3 Oct 2025 18:45:00 GMT",
-        "description": "Federal Reserve Board announces approval of proposal by BancFirst Corporation",
-        "source": "Federal Reserve News",
-        "source_type": "free_rss",
-        "keyword": "RSS Feed",
-        "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Federal Reserve Board modifies Morgan Stanley's stress capital buffer requirement, after the firm requested reconsideration",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20250930a.htm",
-        "published": "Tue, 30 Sep 2025 20:30:00 GMT",
-        "description": "Federal Reserve Board modifies Morgan Stanley&#39;s stress capital buffer requirement, after the firm requested reconsideration",
-        "source": "Federal Reserve News",
-        "source_type": "free_rss",
-        "keyword": "RSS Feed",
-        "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Federal Reserve Board issues enforcement action with former employee of Dacotah Bank",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20250925a.htm",
-        "published": "Thu, 25 Sep 2025 19:00:00 GMT",
-        "description": "Federal Reserve Board issues enforcement action with former employee of Dacotah Bank",
-        "source": "Federal Reserve News",
-        "source_type": "free_rss",
-        "keyword": "RSS Feed",
-        "highlights": [
-          "\ud83c\udfe6 Banking sector and financial institution news",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Federal Reserve Board publishes agenda for its community bank conference, which will take place on Thursday, October 9",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20250919a.htm",
-        "published": "Fri, 19 Sep 2025 16:00:00 GMT",
-        "description": "Federal Reserve Board publishes agenda for its community bank conference, which will take place on Thursday, October 9",
-        "source": "Federal Reserve News",
-        "source_type": "free_rss",
-        "keyword": "RSS Feed",
-        "highlights": [
-          "\ud83c\udfe6 Banking sector and financial institution news",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "US Consumers See Worse Job Market, Muted Inflation in Fed Survey - Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRUdSbzRFNjN4WTBKUHI1WURvSDg5MEFMb2QxeXgwaFRaM1ZWa0FudXk3R3BzRVlONzV4cGJUQmNWbzB0QUlrbFpsUG5IV3EyOVBULVctWGFldVo3bVZwQm53MXVuVWZWekxzbVVGM1hhOTlHN3h2T3NpZElMMWtKOTFrSTd0TWMxc1c2aVAxX0ZmVkFuZUxfQkxVMkotcFJpSnQtWFB5Wnl4aS0tMnN5cGNCMVM?oc=5",
-        "published": "Fri, 07 Nov 2025 16:00:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPRUdSbzRFNjN4WTBKUHI1WURvSDg5MEFMb2QxeXgwaFRaM1ZWa0FudXk3R3BzRVlONzV4cGJUQmNWbzB0QUlrbFpsUG5IV3EyOVBULVctWGFldVo3bVZwQm53MXVuVWZWekxzbVVGM1hhOTlHN3h2T3NpZElMMWtKOTFrSTd0TWMxc1c2aVAxX0ZmVkFuZUxfQkxVMkotcFJpSnQtWFB5Wnl4aS0tMnN5cGNCMVM?oc=5\" target=\"_blank\">US Consumers See Worse Job Market, Muted Inflation in Fed Survey</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+        "title": "Fed\u2019s Collins Favors Holding Rates Steady to Cool Inflation - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSzhra0dkN3lhLWpCRmJXckc2REJvRDF1TkN2b1lMUkQxNmpqVFUyQ0czbGMzUHRCZXZQUFZ3VThmdFVJb0xrOHVITFJkeklZTWFtSER3YzN5X3Z5Mm5kaW4wb3V0RjNRdG51Tm0xWXd2VnlxSWRIYVg1cFRfYmNfTkY5eVY0ZjFlZ0pVekx6MjdvVXJZb0ZodjV0bnZKbS1CTFJJNkhPQ25LTXlYaldr?oc=5",
+        "published": "Wed, 12 Nov 2025 21:00:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQSzhra0dkN3lhLWpCRmJXckc2REJvRDF1TkN2b1lMUkQxNmpqVFUyQ0czbGMzUHRCZXZQUFZ3VThmdFVJb0xrOHVITFJkeklZTWFtSER3YzN5X3Z5Mm5kaW4wb3V0RjNRdG51Tm0xWXd2VnlxSWRIYVg1cFRfYmNfTkY5eVY0ZjFlZ0pVekx6MjdvVXJZb0ZodjV0bnZKbS1CTFJJNkhPQ25LTXlYaldr?oc=5\" target=\"_blank\">Fed\u2019s Collins Favors Holding Rates Steady to Cool Inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
         "source": "Google News",
         "keyword": "inflation",
         "highlights": [
-          "\ud83d\udcca Inflation data and price trends updated",
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes"
+          "\ud83d\udcac \">Fed\u2019s Collins Favors Holding Rates Steady to Cool Inflation</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Fed\u2019s Collins Favors Holding Rates Steady to Cool Inflation - Bloomberg",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Fed\u2019s Collins Favors Holding Rates Steady to Cool Inflation - Bloomberg.com",
+          "summary_highlights": [
+            "Article covers: Inflation",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Inflation."
+        },
+        "topic_headline": "Fed\u2019s Collins Favors Holding Rates Steady to Cool Inflation - Bloomberg.com",
+        "summary_highlights": [
+          "Article covers: Inflation",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Inflation.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "National Retail Federation : holiday sales to increase 3.7% to 4.2% despite concerns over inflation - abcnews.go.com",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRWdkeVVGM1V1dEZCS2hZMm42UFJBRnBWODNrTU1UU29ZeERwbXktQ0dmcGU4Q3NwV0s4dnhGZXZMYk9vcWhDdWliZXZIalh0RTY5eDVTaEFZeGFjMXl5Ukd1QUIwa3NWWVdyX08zU3NuVW1BSEtvLUxKTzlHdXEtV0ZDbkJBc1A3VDUweURwTFN1SnpIT1AydmFtOXplamhpZEd2VHhCa0NyWmfSAbABQVVfeXFMT0l1ZVlLd1FZck44b2pDWHd2LXpuTE5NNTdLWVFVWFdGU2VGcVBuT2t2UklRNTF6XzZUTXhTTjVabVA0Q1hMZjg1LUpWVS1xMFJld1VoVTBvc3BwWExRSDN2ajRkVF90MkFydVh5M0pWQzlMZTYyLUszeWtCTEN6em1DNmp4ai1WSTJUZkRiWW4xRjRrei1pUUtsNjBjeTNXQ3NUN3U0dng5UFdZUVEtV0w?oc=5",
-        "published": "Thu, 06 Nov 2025 16:45:34 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRWdkeVVGM1V1dEZCS2hZMm42UFJBRnBWODNrTU1UU29ZeERwbXktQ0dmcGU4Q3NwV0s4dnhGZXZMYk9vcWhDdWliZXZIalh0RTY5eDVTaEFZeGFjMXl5Ukd1QUIwa3NWWVdyX08zU3NuVW1BSEtvLUxKTzlHdXEtV0ZDbkJBc1A3VDUweURwTFN1SnpIT1AydmFtOXplamhpZEd2VHhCa0NyWmfSAbABQVVfeXFMT0l1ZVlLd1FZck44b2pDWHd2LXpuTE5NNTdLWVFVWFdGU2VGcVBuT2t2UklRNTF6XzZUTXhTTjVabVA0Q1hMZjg1LUpWVS1xMFJld1VoVTBvc3BwWExRSDN2ajRkVF90MkFydVh5M0pWQzlMZTYyLUszeWtCTEN6em1DNmp4ai1WSTJUZkRiWW4xRjRrei1pUUtsNjBjeTNXQ3NUN3U0dng5UFdZUVEtV0w?oc=5\" target=\"_blank\">National Retail Federation : holiday sales to increase 3.7% to 4.2% despite concerns over inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">abcnews.go.com</font>",
-        "source": "Google News",
-        "keyword": "inflation",
-        "highlights": [
-          "\ud83d\udcb0 Inflationary pressures intensifying",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "The Fed\u2019s Recent Rate Decisions Have Been Divisive. It Is Likely to Get Worse. - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5IZjhoTUI0ODZueWhXZnJudkZPVjRkN3N2eGZvREliaUVXN0NQRXpYUzJzX2dxNF9ITm5MT2xQVlh3ZFNpRDU2VWNJZ1p4ZmZRb18zQmpIdUFKdlVRU0RYT2YxSFp5el92UUd2WGxpaDVfd3JCWDlUQnI4ZnQ?oc=5",
-        "published": "Fri, 07 Nov 2025 10:02:49 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5IZjhoTUI0ODZueWhXZnJudkZPVjRkN3N2eGZvREliaUVXN0NQRXpYUzJzX2dxNF9ITm5MT2xQVlh3ZFNpRDU2VWNJZ1p4ZmZRb18zQmpIdUFKdlVRU0RYT2YxSFp5el92UUd2WGxpaDVfd3JCWDlUQnI4ZnQ?oc=5\" target=\"_blank\">The Fed\u2019s Recent Rate Decisions Have Been Divisive. It Is Likely to Get Worse.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
-        "source": "Google News",
-        "keyword": "inflation",
-        "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Fed points to market froth as leading stability risk - American Banker",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRm1Jd2M3bnZJUnhrcld4cjExQ091Qm5fcFMyaGJpVF9NZTJJUVJWNzRJWlpCd2VlS01uVFZ0VndKMmp0dVBUUGlnX3hMSFFXSFlRYmRyd3pfRldnUlJPWkp1UmVWOF90Z05URFpNVmFPUDdYNVhUUjVnbnhJLTF1QnFVVl8tT3NNTTg0aVNpVFBmZw?oc=5",
-        "published": "Fri, 07 Nov 2025 22:51:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPRm1Jd2M3bnZJUnhrcld4cjExQ091Qm5fcFMyaGJpVF9NZTJJUVJWNzRJWlpCd2VlS01uVFZ0VndKMmp0dVBUUGlnX3hMSFFXSFlRYmRyd3pfRldnUlJPWkp1UmVWOF90Z05URFpNVmFPUDdYNVhUUjVnbnhJLTF1QnFVVl8tT3NNTTg0aVNpVFBmZw?oc=5\" target=\"_blank\">Fed points to market froth as leading stability risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">American Banker</font>",
+        "title": "THC ban in federal spending deal puts Kansas hemp market at risk - FOX4KC.com",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdkowWG4xS01pdHJ3c1R5VzdTalNvOC1oUTNwdHJCMHc0VldqaWo2WHppaWZEVTQ3a0E1Y1lGNS1VWUc5Y1pZSTExVWliLS1CdGpxa05xcVJIU3F4dFdCR2hTZVFiNHhackpkUWF3NDRhYzFDNmtPb0hZSkNxbG5jX0pGc3VQektFVE9TNVNlV2FOdUHSAZgBQVVfeXFMTno0LXdWUDNFS3Z2Y3lHcGVrdHozN191SWpaRkJWYkJxRXlJU3VaN09DdTlId1h4X3h4UWFSTHowd2hLOEpCVEdyNVEtMXVaZjNpMTdXWUtVU0pFbGpEUWV0SlB3VU5Gc3htWFZKNUdpUXlqV3VheHdBQldBX1BTM1J6aDdwaXlZR3B1ZjNxOWhEOWZQRnFBM2g?oc=5",
+        "published": "Wed, 12 Nov 2025 23:25:20 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNdkowWG4xS01pdHJ3c1R5VzdTalNvOC1oUTNwdHJCMHc0VldqaWo2WHppaWZEVTQ3a0E1Y1lGNS1VWUc5Y1pZSTExVWliLS1CdGpxa05xcVJIU3F4dFdCR2hTZVFiNHhackpkUWF3NDRhYzFDNmtPb0hZSkNxbG5jX0pGc3VQektFVE9TNVNlV2FOdUHSAZgBQVVfeXFMTno0LXdWUDNFS3Z2Y3lHcGVrdHozN191SWpaRkJWYkJxRXlJU3VaN09DdTlId1h4X3h4UWFSTHowd2hLOEpCVEdyNVEtMXVaZjNpMTdXWUtVU0pFbGpEUWV0SlB3VU5Gc3htWFZKNUdpUXlqV3VheHdBQldBX1BTM1J6aDdwaXlZR3B1ZjNxOWhEOWZQRnFBM2g?oc=5\" target=\"_blank\">THC ban in federal spending deal puts Kansas hemp market at risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FOX4KC.com</font>",
         "source": "Google News",
         "keyword": "market risk",
         "highlights": [
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83c\udfe6 Banking sector and financial institution news",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes"
+          "\ud83d\udcac \">THC ban in federal spending deal puts Kansas hemp market at risk</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca THC ban in federal spending deal puts Kansas hemp market at risk - FOX4KC",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "THC ban in federal spending deal puts Kansas hemp market at risk - FOX4KC.com",
+          "summary_highlights": [
+            "Article covers: Market",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Market."
+        },
+        "topic_headline": "THC ban in federal spending deal puts Kansas hemp market at risk - FOX4KC.com",
+        "summary_highlights": [
+          "Article covers: Market",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Market.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "The Fed\u2019s New Patience Recognizes Reality - Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUkxKMHllb0ExNXRrMm5qLWlWd2JWNFF3UEpKVC10WXI0dm9IRzVPR0ltZ0ZGazk4MFJPa2w3Ql95WldVa1JnM3FleDNTSHRTZzYwaTBJTXp6bFlWNlRvbU1kS2ZUVENyUFE1aGE5YnFjWUdFdkE5VWx6Y2ljTlJ1cDBObGxPTTlIRGZnV2drUWxrSjB1WFRrOHV2czFycVZXZDFKYzM4eVJGSjB3VTl3WTJhUUhBNWt1UzdHSjdB?oc=5",
-        "published": "Thu, 06 Nov 2025 11:00:05 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxNUkxKMHllb0ExNXRrMm5qLWlWd2JWNFF3UEpKVC10WXI0dm9IRzVPR0ltZ0ZGazk4MFJPa2w3Ql95WldVa1JnM3FleDNTSHRTZzYwaTBJTXp6bFlWNlRvbU1kS2ZUVENyUFE1aGE5YnFjWUdFdkE5VWx6Y2ljTlJ1cDBObGxPTTlIRGZnV2drUWxrSjB1WFRrOHV2czFycVZXZDFKYzM4eVJGSjB3VTl3WTJhUUhBNWt1UzdHSjdB?oc=5\" target=\"_blank\">The Fed\u2019s New Patience Recognizes Reality</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+        "title": "Atlanta Fed chair steps down as Trump attacks central bank\u2019s independence - The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQkhoRXFEREdNM2h3djBpaGJUWnRzdWoyNmlraHVJaXpwQVJIMDEzVlZ2RUNicTFudXVuVkdIckhVOWNrRWZqLXNLa3VrWW01T2hoZk02dHd3ZmpSYTlMTDVyVlZNdDZoUW1CdnBwNUxER2ozc2FCbTlKQkpQel9UTlhFSGZZdjZjU3ZKcg?oc=5",
+        "published": "Wed, 12 Nov 2025 16:53:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNQkhoRXFEREdNM2h3djBpaGJUWnRzdWoyNmlraHVJaXpwQVJIMDEzVlZ2RUNicTFudXVuVkdIckhVOWNrRWZqLXNLa3VrWW01T2hoZk02dHd3ZmpSYTlMTDVyVlZNdDZoUW1CdnBwNUxER2ozc2FCbTlKQkpQel9UTlhFSGZZdjZjU3ZKcg?oc=5\" target=\"_blank\">Atlanta Fed chair steps down as Trump attacks central bank\u2019s independence</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
         "source": "Google News",
         "keyword": "federal reserve",
         "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
+          "\ud83d\udcac \">Atlanta Fed chair steps down as Trump attacks central bank\u2019s independence</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Atlanta Fed chair steps down as Trump attacks central bank\u2019s independence - The Guardian <a href=\"https://news",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Atlanta Fed chair steps down as Trump attacks central bank\u2019s independence - The Guardian",
+          "summary_highlights": [
+            "Article covers: economic developments",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting the financial markets."
+        },
+        "topic_headline": "Atlanta Fed chair steps down as Trump attacks central bank\u2019s independence - The Guardian",
+        "summary_highlights": [
+          "Article covers: economic developments",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting the financial markets.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Jamie Dimon says don't worry about Trump's attacks on Federal Reserve - qz.com",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBjTzhpMlh0YW5uVVRWQzZaRkFRSDFtYVk4dUdPQXRZd1RWRFUzV29RR3lJNXV2alk5cDNfVkt6WnpDVDd6dlZqMGFjSjlROThCVDl6bnpWRQ?oc=5",
-        "published": "Thu, 06 Nov 2025 15:54:23 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBjTzhpMlh0YW5uVVRWQzZaRkFRSDFtYVk4dUdPQXRZd1RWRFUzV29RR3lJNXV2alk5cDNfVkt6WnpDVDd6dlZqMGFjSjlROThCVDl6bnpWRQ?oc=5\" target=\"_blank\">Jamie Dimon says don't worry about Trump's attacks on Federal Reserve</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">qz.com</font>",
+        "title": "Atlanta Fed chief Bostic to step down - The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUzdXelUzRGdaTlB3UHBCYmlQektEV2Fla2RGM0VHZXdKWjVnWDljOEJBN0E0cDFFdlByUGc3M3lpT2FJdUFNWnFLRjg3QkFhbl9sb2ZydGpOQi14eldFLXRlTnRBWm9DMkhLS0NkaDd3Z1pqT1JvZHoyRXlsWFlVcndCU2JZUy14dGZzY3RaSQ?oc=5",
+        "published": "Wed, 12 Nov 2025 22:59:19 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQUzdXelUzRGdaTlB3UHBCYmlQektEV2Fla2RGM0VHZXdKWjVnWDljOEJBN0E0cDFFdlByUGc3M3lpT2FJdUFNWnFLRjg3QkFhbl9sb2ZydGpOQi14eldFLXRlTnRBWm9DMkhLS0NkaDd3Z1pqT1JvZHoyRXlsWFlVcndCU2JZUy14dGZzY3RaSQ?oc=5\" target=\"_blank\">Atlanta Fed chief Bostic to step down</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Washington Post</font>",
         "source": "Google News",
         "keyword": "federal reserve",
         "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
+          "\ud83d\udcac \">Atlanta Fed chief Bostic to step down</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Atlanta Fed chief Bostic to step down - The Washington Post <a href=\"https://news",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Atlanta Fed chief Bostic to step down - The Washington Post",
+          "summary_highlights": [
+            "Article covers: economic developments",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting the financial markets."
+        },
+        "topic_headline": "Atlanta Fed chief Bostic to step down - The Washington Post",
+        "summary_highlights": [
+          "Article covers: economic developments",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting the financial markets.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "The Fed Is Forecast to Cut Rates in December as Employment Cools - Goldman Sachs",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYm1ENHlIckgwNTlpcGVzUnQ0cUtuUU9EYWctbUNkX1pKQnJMYWhaQWVxdGVHV25EVUptNjk2ZlZFNHFpaGlyX3QyXzBHZDhubnJZOXhJalE2dWhQbEh6UW1yc2E0LVBiSGl0eHJBZzUtQjdXOXJGZVZMaXV0YnBrSkVyV0tRVmVfZW05VDViT1dhblJjRTVNM3ZSdlJYbTdQa0FnZEZ5NmdtQlNEQmdEXw?oc=5",
-        "published": "Wed, 05 Nov 2025 23:22:28 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNYm1ENHlIckgwNTlpcGVzUnQ0cUtuUU9EYWctbUNkX1pKQnJMYWhaQWVxdGVHV25EVUptNjk2ZlZFNHFpaGlyX3QyXzBHZDhubnJZOXhJalE2dWhQbEh6UW1yc2E0LVBiSGl0eHJBZzUtQjdXOXJGZVZMaXV0YnBrSkVyV0tRVmVfZW05VDViT1dhblJjRTVNM3ZSdlJYbTdQa0FnZEZ5NmdtQlNEQmdEXw?oc=5\" target=\"_blank\">The Fed Is Forecast to Cut Rates in December as Employment Cools</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Goldman Sachs</font>",
+        "title": "President of Atlanta Fed Raphael Bostic announces retirement - AJC.com",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNVNBMDN2REl2S0hqY2VMYzU4dTJqS2JreDBodmNpQWlqaDFOOWNKLWJFRC1sZ0xOeHUtRE1PWENhblI0akJiVG9yYjNwN2RVakd4VE9FTFcwMUNJRklYZDhqTXZoUnFHSzdkMFNBbXk3U1VhYlREUlE2WkFlU094MkhoQjMwYXo2TUpjSXNDbmlXX1ptX3EwMzlBcmdWQkk?oc=5",
+        "published": "Wed, 12 Nov 2025 20:33:20 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQNVNBMDN2REl2S0hqY2VMYzU4dTJqS2JreDBodmNpQWlqaDFOOWNKLWJFRC1sZ0xOeHUtRE1PWENhblI0akJiVG9yYjNwN2RVakd4VE9FTFcwMUNJRklYZDhqTXZoUnFHSzdkMFNBbXk3U1VhYlREUlE2WkFlU094MkhoQjMwYXo2TUpjSXNDbmlXX1ptX3EwMzlBcmdWQkk?oc=5\" target=\"_blank\">President of Atlanta Fed Raphael Bostic announces retirement</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AJC.com</font>",
         "source": "Google News",
         "keyword": "federal reserve",
         "highlights": [
-          "\ud83d\udcc9 Fed considering or implementing rate cuts",
-          "\ud83d\udcc8 Unemployment/employment metrics showing upward trend",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes"
+          "\ud83d\udcac \">President of Atlanta Fed Raphael Bostic announces retirement</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca President of Atlanta Fed Raphael Bostic announces retirement - AJC",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "President of Atlanta Fed Raphael Bostic announces retirement - AJC.com",
+          "summary_highlights": [
+            "Article covers: economic developments",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting the financial markets."
+        },
+        "topic_headline": "President of Atlanta Fed Raphael Bostic announces retirement - AJC.com",
+        "summary_highlights": [
+          "Article covers: economic developments",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting the financial markets.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Federal Reserve Inflation - Billings Gazette",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNS3JhMXlEc2ZCYUJ3RmFQNXRhZ0t6UXoxNWQ2eEhtVF9KVXB0OHRzVUZ6aU9DT0RMcFZMSHdxZUFBbUYxaFFURXNTM0tWR0hac3dGUTV5WUcxMmNjV0tqUTg0Y1dsTHJvNk5BUkZIeXozVW51Y29NUmxqbVJ3bDdWS21IaDYzZmtYSExkRVYyTm9yaWZVazcwb3VaY1NmRWZfTWQ2UGV6Y3E1Nk5iZDZB?oc=5",
-        "published": "Fri, 07 Nov 2025 18:00:06 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNS3JhMXlEc2ZCYUJ3RmFQNXRhZ0t6UXoxNWQ2eEhtVF9KVXB0OHRzVUZ6aU9DT0RMcFZMSHdxZUFBbUYxaFFURXNTM0tWR0hac3dGUTV5WUcxMmNjV0tqUTg0Y1dsTHJvNk5BUkZIeXozVW51Y29NUmxqbVJ3bDdWS21IaDYzZmtYSExkRVYyTm9yaWZVazcwb3VaY1NmRWZfTWQ2UGV6Y3E1Nk5iZDZB?oc=5\" target=\"_blank\">Federal Reserve Inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Billings Gazette</font>",
+        "title": "2 Federal Reserve officials oppose an interest rate cut in December - AP News",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMzIxc1I4Tlo3NHJKMU5mR1R5RGxSbjQxejJfM1g5MW9raUo2WHBycEVyY2JFTGlra1JHeXFrZElWYXU5bUQ2YlBMX2ZJdnQzR2ViczBRZk5PUzR0NXRQR1JYUVVQTVZVX1poa2FLSm96bWJMY2FDN2JhcFBVel9hdEtmUkFyZzhmM3dnNFlLOTVTdElSSmlfWkl4TDAzOFFt?oc=5",
+        "published": "Wed, 12 Nov 2025 22:06:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPMzIxc1I4Tlo3NHJKMU5mR1R5RGxSbjQxejJfM1g5MW9raUo2WHBycEVyY2JFTGlra1JHeXFrZElWYXU5bUQ2YlBMX2ZJdnQzR2ViczBRZk5PUzR0NXRQR1JYUVVQTVZVX1poa2FLSm96bWJMY2FDN2JhcFBVel9hdEtmUkFyZzhmM3dnNFlLOTVTdElSSmlfWkl4TDAzOFFt?oc=5\" target=\"_blank\">2 Federal Reserve officials oppose an interest rate cut in December</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
         "source": "Google News",
         "keyword": "federal reserve",
         "highlights": [
-          "\ud83d\udcca Inflation data and price trends updated",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
+          "\ud83d\udcac \">2 Federal Reserve officials oppose an interest rate cut in December</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca 2 Federal Reserve officials oppose an interest rate cut in December - AP News <a href=\"https://news",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "2 Federal Reserve officials oppose an interest rate cut in December - AP News",
+          "summary_highlights": [
+            "Article covers: Federal Reserve, Interest Rate",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Federal Reserve, Interest Rate."
+        },
+        "topic_headline": "2 Federal Reserve officials oppose an interest rate cut in December - AP News",
+        "summary_highlights": [
+          "Article covers: Federal Reserve, Interest Rate",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Federal Reserve, Interest Rate.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Steve Forbes: This should be the focus of the Federal Reserve - Fox Business",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1UeTduajBRbnBPNy1KdTNKUER0dTdrUC0yazlYMkRBVmt3WUZJSVNQVmpVYnBjSTNscUdhQmlLN1pMYU1hVDlocVpPVmhJZlFyWjJodHR5a3FMVlE?oc=5",
-        "published": "Fri, 07 Nov 2025 23:05:31 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE1UeTduajBRbnBPNy1KdTNKUER0dTdrUC0yazlYMkRBVmt3WUZJSVNQVmpVYnBjSTNscUdhQmlLN1pMYU1hVDlocVpPVmhJZlFyWjJodHR5a3FMVlE?oc=5\" target=\"_blank\">Steve Forbes: This should be the focus of the Federal Reserve</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fox Business</font>",
+        "title": "Fed to cut rates again in December on weakening job market, say most economists: Reuters poll - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeFpPM1c4UFhBVDJlUW43T3JHLVAxMXFXeTlYOHMyVkR2WHR4T1BHYWtLTmhPX0pGckRaV09SVkVOQU5IWWtWU3l6N25DTWZLdXVnQjkzOU5vVkUxRFZCdjNPajV2RXcwdkdvVU1wZlZ3c1p1c1pGYVZIZFA1OWR3RzdHVW5IbVNnN19EdTdid2NtbWl3Y2lRejRBSmtnb2RrVXdsOFJoVXBGRmhhY1k0M2lSZ0Y?oc=5",
+        "published": "Wed, 12 Nov 2025 18:57:44 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNeFpPM1c4UFhBVDJlUW43T3JHLVAxMXFXeTlYOHMyVkR2WHR4T1BHYWtLTmhPX0pGckRaV09SVkVOQU5IWWtWU3l6N25DTWZLdXVnQjkzOU5vVkUxRFZCdjNPajV2RXcwdkdvVU1wZlZ3c1p1c1pGYVZIZFA1OWR3RzdHVW5IbVNnN19EdTdid2NtbWl3Y2lRejRBSmtnb2RrVXdsOFJoVXBGRmhhY1k0M2lSZ0Y?oc=5\" target=\"_blank\">Fed to cut rates again in December on weakening job market, say most economists: Reuters poll</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
         "source": "Google News",
         "keyword": "federal reserve",
         "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
+          "\ud83d\udcac \">Fed to cut rates again in December on weakening job market, say most economists: Reuters poll</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Fed to cut rates again in December on weakening job market, say most economists: Reuters poll - Reuters <a href=\"https://news",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Fed to cut rates again in December on weakening job market, say most economists: Reuters poll - Reuters",
+          "summary_highlights": [
+            "Article covers: Market",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Market."
+        },
+        "topic_headline": "Fed to cut rates again in December on weakening job market, say most economists: Reuters poll - Reuters",
+        "summary_highlights": [
+          "Article covers: Market",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Market.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Federal Reserve announced QT finish 1December and QE will start\ud83d\udd25\ud83d\udd25\ud83d\udd25 - Binance",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1iZzJtcTV6enhhTWhiNEhaWnlEalNWU3JsVmF3b2JJaThLaEZHLUZ0RzVUei14QkhlS3l6ajBGYVd2TmlWbkx0VFlEclJZc1JieXZ2TlZGZjZRZmxSc1RJX1lKTQ?oc=5",
-        "published": "Sat, 01 Nov 2025 20:46:27 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE1iZzJtcTV6enhhTWhiNEhaWnlEalNWU3JsVmF3b2JJaThLaEZHLUZ0RzVUei14QkhlS3l6ajBGYVd2TmlWbkx0VFlEclJZc1JieXZ2TlZGZjZRZmxSc1RJX1lKTQ?oc=5\" target=\"_blank\">Federal Reserve announced QT finish 1December and QE will start\ud83d\udd25\ud83d\udd25\ud83d\udd25</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Binance</font>",
+        "title": "Why the Federal Reserve matters - Mooresville Tribune",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObVRCZXJrS0NtSGkybnFLOUxxUXNHenUyVVBHeDdtMjVOUFlDbnNuR3dRNVp2aUc2eTRYSDFuXzBYeUtTR1RBZ0hLUXNYUW1oMVpJNUxQMklNT3hYS2dMRExIWm1RMktJQ1lPdjdBLVRQWTJ3OG1ldl9wb2h5U19iTkRSYXdhWE5SWllyZ0pUbXNTYzFPS2REaTE0dG5WSm0tQXgtOUdjVHozd0o0WG9UMmM5V2t3SWtkVGJlLVFieTZUUQ?oc=5",
+        "published": "Wed, 12 Nov 2025 17:30:06 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxObVRCZXJrS0NtSGkybnFLOUxxUXNHenUyVVBHeDdtMjVOUFlDbnNuR3dRNVp2aUc2eTRYSDFuXzBYeUtTR1RBZ0hLUXNYUW1oMVpJNUxQMklNT3hYS2dMRExIWm1RMktJQ1lPdjdBLVRQWTJ3OG1ldl9wb2h5U19iTkRSYXdhWE5SWllyZ0pUbXNTYzFPS2REaTE0dG5WSm0tQXgtOUdjVHozd0o0WG9UMmM5V2t3SWtkVGJlLVFieTZUUQ?oc=5\" target=\"_blank\">Why the Federal Reserve matters</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mooresville Tribune</font>",
         "source": "Google News",
         "keyword": "federal reserve",
         "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
+          "\ud83d\udcac \">Why the Federal Reserve matters</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Why the Federal Reserve matters - Mooresville Tribune <a href=\"https://news",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Why the Federal Reserve matters - Mooresville Tribune",
+          "summary_highlights": [
+            "Article covers: Federal Reserve",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Federal Reserve."
+        },
+        "topic_headline": "Why the Federal Reserve matters - Mooresville Tribune",
+        "summary_highlights": [
+          "Article covers: Federal Reserve",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Federal Reserve.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Federal Reserve Watch: Keep Your Eye On The Money Stock - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVlFzY0Z5ZjdwbDhmdjZZQ25FRVVpUUJKWEYxMTdWRi13Q0V1bmNsSnlYcjF0ZE1BN2Zfa1FGOHdyNUJnWUdvWXVoNktmeWNHcmJYT2ZpUGc1MjZXZTRIZnhnN011TDE2NXV5UXI5U1A3Qmd3dVk2MjROV1hoTjgtdHZKSWExcGFSaXZyZFVWN2JDaHJmcWVYd0pVTQ?oc=5",
-        "published": "Fri, 07 Nov 2025 18:22:22 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQVlFzY0Z5ZjdwbDhmdjZZQ25FRVVpUUJKWEYxMTdWRi13Q0V1bmNsSnlYcjF0ZE1BN2Zfa1FGOHdyNUJnWUdvWXVoNktmeWNHcmJYT2ZpUGc1MjZXZTRIZnhnN011TDE2NXV5UXI5U1A3Qmd3dVk2MjROV1hoTjgtdHZKSWExcGFSaXZyZFVWN2JDaHJmcWVYd0pVTQ?oc=5\" target=\"_blank\">Federal Reserve Watch: Keep Your Eye On The Money Stock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seeking Alpha</font>",
-        "source": "Google News",
-        "keyword": "federal reserve",
-        "highlights": [
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Federal Reserve allegedly pumped $29.4B into US banking system. That's not the actual total - Snopes",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVkxKSDRHM3cwR21iN0FHRHAxQ0tnZTJGcmo2UGpoMmtVbzVGYU56QWlaOEc3WWhGUWlYTERtZ3pIMHptVVhSYS15dlhoMEZXakExaEN6SVF4UXJnZHI0QXExNW1oR3k0ZTVzZGs4Xzh2UXpGcjgwZjBoQlE1SjJmbEtjekVCYzEy?oc=5",
-        "published": "Thu, 06 Nov 2025 12:03:59 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVkxKSDRHM3cwR21iN0FHRHAxQ0tnZTJGcmo2UGpoMmtVbzVGYU56QWlaOEc3WWhGUWlYTERtZ3pIMHptVVhSYS15dlhoMEZXakExaEN6SVF4UXJnZHI0QXExNW1oR3k0ZTVzZGs4Xzh2UXpGcjgwZjBoQlE1SjJmbEtjekVCYzEy?oc=5\" target=\"_blank\">Federal Reserve allegedly pumped $29.4B into US banking system. That's not the actual total</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Snopes</font>",
-        "source": "Google News",
-        "keyword": "federal reserve",
-        "highlights": [
-          "\ud83c\udfe6 Banking sector and financial institution news",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Trump's housing chief calls Jerome Powell a 'maniac' who is 'deranged,' arguing high mortgage rates are 'really hurting people' - Fortune",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPX25NYTdqbGtHcTFCX2pGZl83RUpWOVlRSDV2VkQ4cW5yN2U3T0lXWktrVG5WYmJIUWJyTmNURjRoeUVLbGdIMGg0R1RVeENtaFZWS3VQY0ZRMEJtUzE4S2xSbjRjUktuOWtjRU5GUlZLMS1uZHVUUWFScXlGUmxDb256X1NzUTNURHZ0ZURPVktobmlMa3dyak9NcTFaSy1hU3Q5Ulh0OGVobnctd1hOeElUVFFPaFNx?oc=5",
-        "published": "Fri, 07 Nov 2025 16:57:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPX25NYTdqbGtHcTFCX2pGZl83RUpWOVlRSDV2VkQ4cW5yN2U3T0lXWktrVG5WYmJIUWJyTmNURjRoeUVLbGdIMGg0R1RVeENtaFZWS3VQY0ZRMEJtUzE4S2xSbjRjUktuOWtjRU5GUlZLMS1uZHVUUWFScXlGUmxDb256X1NzUTNURHZ0ZURPVktobmlMa3dyak9NcTFaSy1hU3Q5Ulh0OGVobnctd1hOeElUVFFPaFNx?oc=5\" target=\"_blank\">Trump's housing chief calls Jerome Powell a 'maniac' who is 'deranged,' arguing high mortgage rates are 'really hurting people'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fortune</font>",
+        "title": "Hassett Says He Would Accept Fed Chair Job, Wants Lower Rates - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOGtoZjVrYjZQVWMwMENlQWQzSnFNQ1YzdGNvSHZWQnNYYUpMbkU3RVNic3BuZXNtUU1yaUNac1pOUUdiUlgzRW9QMmVoSXZ6aE9zQ1UtNWhidFRFcE8xOGFYNzVDeGptUDRlMmpCYV9ienM2NWc1ZTRpVTkyckZRdGRVZlBibjBuZHZuOXhiNWtTSnBYVFV1RTE4NUJyMXhJd0lhUGR6NWlZc1NsOThqZg?oc=5",
+        "published": "Wed, 12 Nov 2025 18:57:41 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQOGtoZjVrYjZQVWMwMENlQWQzSnFNQ1YzdGNvSHZWQnNYYUpMbkU3RVNic3BuZXNtUU1yaUNac1pOUUdiUlgzRW9QMmVoSXZ6aE9zQ1UtNWhidFRFcE8xOGFYNzVDeGptUDRlMmpCYV9ienM2NWc1ZTRpVTkyckZRdGRVZlBibjBuZHZuOXhiNWtTSnBYVFV1RTE4NUJyMXhJd0lhUGR6NWlZc1NsOThqZg?oc=5\" target=\"_blank\">Hassett Says He Would Accept Fed Chair Job, Wants Lower Rates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
         "source": "Google News",
         "keyword": "jerome powell",
         "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
+          "\ud83d\udcac \">Hassett Says He Would Accept Fed Chair Job, Wants Lower Rates</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Hassett Says He Would Accept Fed Chair Job, Wants Lower Rates - Bloomberg",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Hassett Says He Would Accept Fed Chair Job, Wants Lower Rates - Bloomberg.com",
+          "summary_highlights": [
+            "Article covers: economic developments",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting the financial markets."
+        },
+        "topic_headline": "Hassett Says He Would Accept Fed Chair Job, Wants Lower Rates - Bloomberg.com",
+        "summary_highlights": [
+          "Article covers: economic developments",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting the financial markets.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Mortgage Interest Rates Today: Mortgage Rates Rise to 6.22% After Fed Chair Jerome Powell Signals Tougher Policy - Realtor.com",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNVpILWxYVVUyc2QxR0Fpamg1Y05KZnF2dm84SWRWZWdWSWdDa3dIUlFRZjM4ck9rN2I4eDJMSDR3NmR2TUdzZVJuUU5Talh2d19pVTJEM05kUkZGaEtKMGtoUjFmTC1EdFpDZ2lRWXN0dXJheVhOdkpyaHZPZ3dkNVA0U3Y4azg?oc=5",
-        "published": "Thu, 06 Nov 2025 16:00:37 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxQNVpILWxYVVUyc2QxR0Fpamg1Y05KZnF2dm84SWRWZWdWSWdDa3dIUlFRZjM4ck9rN2I4eDJMSDR3NmR2TUdzZVJuUU5Talh2d19pVTJEM05kUkZGaEtKMGtoUjFmTC1EdFpDZ2lRWXN0dXJheVhOdkpyaHZPZ3dkNVA0U3Y4azg?oc=5\" target=\"_blank\">Mortgage Interest Rates Today: Mortgage Rates Rise to 6.22% After Fed Chair Jerome Powell Signals Tougher Policy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Realtor.com</font>",
+        "title": "Hopes for a December rate cut are fading fast despite labor fears\u2014Jerome Powell will have his work cut out attempting to unite the Fed - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUWhTM2FpREVDbWNsYW04WGVhR05NM0otQmhEM3JIdHdfMnhPMnZuaW5SUlgwSU53Y2NHT0c2OVlQMDV3eS1lajhQbGVqam4wQ0ZxT1lHbW42MHl0VWJiNElKdG5Rc0JBVTZpMjNmcmhhcENSZllSeWxHdFYtajhwN2dB?oc=5",
+        "published": "Wed, 12 Nov 2025 11:49:30 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxOUWhTM2FpREVDbWNsYW04WGVhR05NM0otQmhEM3JIdHdfMnhPMnZuaW5SUlgwSU53Y2NHT0c2OVlQMDV3eS1lajhQbGVqam4wQ0ZxT1lHbW42MHl0VWJiNElKdG5Rc0JBVTZpMjNmcmhhcENSZllSeWxHdFYtajhwN2dB?oc=5\" target=\"_blank\">Hopes for a December rate cut are fading fast despite labor fears\u2014Jerome Powell will have his work cut out attempting to unite the Fed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
         "source": "Google News",
         "keyword": "jerome powell",
         "highlights": [
-          "\ud83c\udf99\ufe0f Federal Reserve official statements and quotes",
-          "\ud83c\udfdb\ufe0f Federal Reserve interest rate policy developments",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes"
+          "\ud83d\udcac \">Hopes for a December rate cut are fading fast despite labor fears\u2014Jerome Powell will have his work cut out attempting to unite the Fed</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis",
+          "\ud83c\udfdb\ufe0f Policy implications and regulatory updates"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Hopes for a December rate cut are fading fast despite labor fears\u2014Jerome Powell will have his work cut out attempting to unite the Fed - Yahoo Finance",
+          "summary_highlights": [
+            "Article covers: economic developments",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting the financial markets."
+        },
+        "topic_headline": "Hopes for a December rate cut are fading fast despite labor fears\u2014Jerome Powell will have his work cut out attempting to unite the Fed - Yahoo Finance",
+        "summary_highlights": [
+          "Article covers: economic developments",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting the financial markets.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "BlackRock\u2019s Rieder Sees Soft Jobs Market, Wants Fed Rate at 3% - Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVUpLWjBYZEJkLXJPMDZBNldLc3FfeDNndUtoWXY2T1hFRDVUSXJpMjliTnZCWUJuTzlzaW0tNDRiRS1BTXZkOEdxZ3pidlRfeGJVNWtKTVF4NU9ubk1KVlV5VG55b1dZWUZ5bVFIOWhualRVRlRYTDFFOU83OWR3ck5RT1NDVTBZdFU0anl6VmZ5MllYSVE3ZC1GMXR4aTZPTVRyOElZdlJPVFdzWUpDSA?oc=5",
-        "published": "Fri, 07 Nov 2025 15:22:34 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNVUpLWjBYZEJkLXJPMDZBNldLc3FfeDNndUtoWXY2T1hFRDVUSXJpMjliTnZCWUJuTzlzaW0tNDRiRS1BTXZkOEdxZ3pidlRfeGJVNWtKTVF4NU9ubk1KVlV5VG55b1dZWUZ5bVFIOWhualRVRlRYTDFFOU83OWR3ck5RT1NDVTBZdFU0anl6VmZ5MllYSVE3ZC1GMXR4aTZPTVRyOElZdlJPVFdzWUpDSA?oc=5\" target=\"_blank\">BlackRock\u2019s Rieder Sees Soft Jobs Market, Wants Fed Rate at 3%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+        "title": "ECB's Lagarde Replaces Fed's Powell on Two Key BIS Committees - US News Money",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObDhNZ29VcERHb2JXOGNVcndMcm1GRWp1c1YxS1RGRGlkbW1tbUdkVlJKWlhKbU05Unk0Ri1DWTM0WHU5WXBUZWRGek5mQmVhSzduRjlzek5QZVdCcFNUM1hFbUs2TVNXWXlEQWVnSFEtWlpHUE9uNkE1WFlyTlNic2JSeFhQUkNGN3I1UXFWeFVQenQ0SVg0WkgxcFpwZ05YWHI2MTVLeFpLYTRfcVRLTUFBc3IzU1hQQzFn?oc=5",
+        "published": "Wed, 12 Nov 2025 12:23:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxObDhNZ29VcERHb2JXOGNVcndMcm1GRWp1c1YxS1RGRGlkbW1tbUdkVlJKWlhKbU05Unk0Ri1DWTM0WHU5WXBUZWRGek5mQmVhSzduRjlzek5QZVdCcFNUM1hFbUs2TVNXWXlEQWVnSFEtWlpHUE9uNkE1WFlyTlNic2JSeFhQUkNGN3I1UXFWeFVQenQ0SVg0WkgxcFpwZ05YWHI2MTVLeFpLYTRfcVRLTUFBc3IzU1hQQzFn?oc=5\" target=\"_blank\">ECB's Lagarde Replaces Fed's Powell on Two Key BIS Committees</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">US News Money</font>",
         "source": "Google News",
         "keyword": "jerome powell",
         "highlights": [
-          "\ud83c\udfdb\ufe0f Federal Reserve interest rate policy developments",
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes"
+          "\ud83d\udcac \">ECB's Lagarde Replaces Fed's Powell on Two Key BIS Committees</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcac \"s Lagarde Replaces Fed\"",
+          "\ud83d\udcca ECB's Lagarde Replaces Fed's Powell on Two Key BIS Committees - US News Money <a href=\"https://news",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "ECB's Lagarde Replaces Fed's Powell on Two Key BIS Committees - US News Money",
+          "summary_highlights": [
+            "Article covers: economic developments",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting the financial markets."
+        },
+        "topic_headline": "ECB's Lagarde Replaces Fed's Powell on Two Key BIS Committees - US News Money",
+        "summary_highlights": [
+          "Article covers: economic developments",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting the financial markets.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Fed divisions threaten Powell's era of consensus - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSWo0VERzRExFVDVLeVNEUFhZdzBEeUV5N3pYRkxLOFNhLXhSV1ZtaUNmZzcweFNZaTY5Tjl5MWVETGc0SFdsdlhVVkNzZl9lb0ltcXkyb0Y2OEgtRk5oWTlmWmdDUklCQmhTZlFYT2dBQ29YeS1Sdm51WVZNVXJaTTU3T3dhejh4YTBlZWQydGpzVmpWb3c?oc=5",
-        "published": "Wed, 05 Nov 2025 01:30:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNSWo0VERzRExFVDVLeVNEUFhZdzBEeUV5N3pYRkxLOFNhLXhSV1ZtaUNmZzcweFNZaTY5Tjl5MWVETGc0SFdsdlhVVkNzZl9lb0ltcXkyb0Y2OEgtRk5oWTlmWmdDUklCQmhTZlFYT2dBQ29YeS1Sdm51WVZNVXJaTTU3T3dhejh4YTBlZWQydGpzVmpWb3c?oc=5\" target=\"_blank\">Fed divisions threaten Powell's era of consensus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-        "source": "Google News",
-        "keyword": "jerome powell",
-        "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Jerome Powell and the Fed Have New Bearish Jobs Data to Mull - CoinDesk",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQTJCV1ZxaWh2a3JSNk9WUUxGSmJpOVhCZGF6VEkzRmpYcUhBV0FuSDM2eEtRem1NdUVBREJBMFBRVFp3MVN0RmEtSm9HZzBtQ2xUQVFDRWRBUFA1OS1CUDREdVJnVk1Pd0hKb1BVLWY3bnFVNEtUdWtyOUhJTGNTdjVOQmY3VlRKMzk2djFhOEFaV1hkQkZsSUJoRk41MmNUY1ZnM2dPcnJBYUQwVlZoc3pqbzg?oc=5",
-        "published": "Thu, 06 Nov 2025 14:31:17 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOQTJCV1ZxaWh2a3JSNk9WUUxGSmJpOVhCZGF6VEkzRmpYcUhBV0FuSDM2eEtRem1NdUVBREJBMFBRVFp3MVN0RmEtSm9HZzBtQ2xUQVFDRWRBUFA1OS1CUDREdVJnVk1Pd0hKb1BVLWY3bnFVNEtUdWtyOUhJTGNTdjVOQmY3VlRKMzk2djFhOEFaV1hkQkZsSUJoRk41MmNUY1ZnM2dPcnJBYUQwVlZoc3pqbzg?oc=5\" target=\"_blank\">Jerome Powell and the Fed Have New Bearish Jobs Data to Mull</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
-        "source": "Google News",
-        "keyword": "jerome powell",
-        "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Fed Officials Bear Out Powell Saying December Rate Cut \u2018Not Foregone Conclusion\u2019 - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQclVNVndPa0FtOXRSU2t6cE9pUV9uTmhqR1FIendyaG02cTB2Zi10czdZRm1saDVrMnAyWEJCMnpKOFNDa3NyR2QzVjBfMGctVWc1amZRVk53RVB3ZTdRY0tVX1M2a0R5MWFoR2o2UmVZQmZ4WE8yM0h4T2FPc2p6WWtZNXJFbWJWUmtIdzFfdWFFMkV3UURNaVp2QlVLTmd5V3VNQ2pLcnpFUm9EcHZUaURzbXhvWUFzUlhWWE5kVXB6TkkyT3ltakc4b0dPSWllUXBJ?oc=5",
-        "published": "Thu, 06 Nov 2025 20:08:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxQclVNVndPa0FtOXRSU2t6cE9pUV9uTmhqR1FIendyaG02cTB2Zi10czdZRm1saDVrMnAyWEJCMnpKOFNDa3NyR2QzVjBfMGctVWc1amZRVk53RVB3ZTdRY0tVX1M2a0R5MWFoR2o2UmVZQmZ4WE8yM0h4T2FPc2p6WWtZNXJFbWJWUmtIdzFfdWFFMkV3UURNaVp2QlVLTmd5V3VNQ2pLcnpFUm9EcHZUaURzbXhvWUFzUlhWWE5kVXB6TkkyT3ltakc4b0dPSWllUXBJ?oc=5\" target=\"_blank\">Fed Officials Bear Out Powell Saying December Rate Cut \u2018Not Foregone Conclusion\u2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>",
-        "source": "Google News",
-        "keyword": "jerome powell",
-        "highlights": [
-          "\ud83d\udcc9 Fed considering or implementing rate cuts",
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "The Fed\u2019s Latest (Sort of) \u2018Mission Accomplished\u2019 - National Review",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcHYyZUpTYlE4VGpLTzJ5Q0E4ajZ2UWc1Z3JWWWxkTE1fOVJDZ1VyMGwwRGtudmRrb0tIeVZ0ZWtyMkp0QkxkXy14S2xseXhNdlVsV19IX2Z6aVduWG51eGFfRVpwYkRMZ2FvRWZ6UzlQdXVkSEJGeWZhVDFqeWZ0c3kxRGhxZVFqbmMwcdIBkgFBVV95cUxNLU0xZW01MlhHc1dlWkJvVFNnR0xCVGc1bGtSTFYyUVVNdnVKU1hNRG1ERzJ3ei0zcGZ2cDBNQkU3RU1YS2I2eDVBRDlYeXNsQk1KNU5KMEVDbDNGTVM5dmc5eklwRVBjTjh1b3p0a3ZLZlZvR0d3anNFUDlrdnJHaUtkUmFKbzBKVktpWUZ6a1dpUQ?oc=5",
-        "published": "Tue, 04 Nov 2025 21:45:42 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQcHYyZUpTYlE4VGpLTzJ5Q0E4ajZ2UWc1Z3JWWWxkTE1fOVJDZ1VyMGwwRGtudmRrb0tIeVZ0ZWtyMkp0QkxkXy14S2xseXhNdlVsV19IX2Z6aVduWG51eGFfRVpwYkRMZ2FvRWZ6UzlQdXVkSEJGeWZhVDFqeWZ0c3kxRGhxZVFqbmMwcdIBkgFBVV95cUxNLU0xZW01MlhHc1dlWkJvVFNnR0xCVGc1bGtSTFYyUVVNdnVKU1hNRG1ERzJ3ei0zcGZ2cDBNQkU3RU1YS2I2eDVBRDlYeXNsQk1KNU5KMEVDbDNGTVM5dmc5eklwRVBjTjh1b3p0a3ZLZlZvR0d3anNFUDlrdnJHaUtkUmFKbzBKVktpWUZ6a1dpUQ?oc=5\" target=\"_blank\">The Fed\u2019s Latest (Sort of) \u2018Mission Accomplished\u2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">National Review</font>",
-        "source": "Google News",
-        "keyword": "jerome powell",
-        "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Policy uncertainty, geopolitical risk are top stability concerns in latest Fed survey - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTTV6OUJSclpUYTZOaTB3bk44VDZJU2FJNDAybnMtUXRBNHh5S19wYVNzVW84MUY2YVdGb0dGVVBSNHJSaHdQMFluUzZBVGxKNC1pV3B2YjhGc0FNUDdQS0xvU3NXXy03aDFsb1Nad25SaXQzaU0xS2hlRFREZi12andCNE5oX1RvNXF4VURmSHpVQnp6Rmk3N29sZ2xyRF9rNnlaSE42MUUtN3UtaXp3T1Z5c00xU1Ixdk9MSW51UXE5UmVUNTNPZUxKUGNwNzZxYkJTdldFM25tZTYzek15WmxvQ2s?oc=5",
-        "published": "Fri, 07 Nov 2025 21:16:56 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTTV6OUJSclpUYTZOaTB3bk44VDZJU2FJNDAybnMtUXRBNHh5S19wYVNzVW84MUY2YVdGb0dGVVBSNHJSaHdQMFluUzZBVGxKNC1pV3B2YjhGc0FNUDdQS0xvU3NXXy03aDFsb1Nad25SaXQzaU0xS2hlRFREZi12andCNE5oX1RvNXF4VURmSHpVQnp6Rmk3N29sZ2xyRF9rNnlaSE42MUUtN3UtaXp3T1Z5c00xU1Ixdk9MSW51UXE5UmVUNTNPZUxKUGNwNzZxYkJTdldFM25tZTYzek15WmxvQ2s?oc=5\" target=\"_blank\">Policy uncertainty, geopolitical risk are top stability concerns in latest Fed survey</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+        "title": "Trump tariff stimulus checks could fuel inflation, complicate Fed policy, economists say - Northeastern University",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQmRNWFdJTEdzQUNMZnBxU3ZYU0RhMzlwVGp2Mm9EYlRrQ05YakMtUENmcVd4Y0VLOGd6LXhhT1dRNnpLU0ZJd1ZQQWg0WVZZM1RHcjhxM3IzUC1FMVk4MEdOSkdidXYxcFdqalJhTzZCckM5c0hrUlQ4dElYWDR6UG90dkYwa0xzNTNpc1VmWUVGUFFORDdVWjhZMU1YRmxNTXdpVlZaVm1HQUxBWVp3Qlpjd00tY3Jf?oc=5",
+        "published": "Wed, 12 Nov 2025 17:29:29 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQmRNWFdJTEdzQUNMZnBxU3ZYU0RhMzlwVGp2Mm9EYlRrQ05YakMtUENmcVd4Y0VLOGd6LXhhT1dRNnpLU0ZJd1ZQQWg0WVZZM1RHcjhxM3IzUC1FMVk4MEdOSkdidXYxcFdqalJhTzZCckM5c0hrUlQ4dElYWDR6UG90dkYwa0xzNTNpc1VmWUVGUFFORDdVWjhZMU1YRmxNTXdpVlZaVm1HQUxBWVp3Qlpjd00tY3Jf?oc=5\" target=\"_blank\">Trump tariff stimulus checks could fuel inflation, complicate Fed policy, economists say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Northeastern University</font>",
         "source": "Google News",
         "keyword": "fed policy",
         "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
+          "\ud83d\udcac \">Trump tariff stimulus checks could fuel inflation, complicate Fed policy, economists say</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Trump tariff stimulus checks could fuel inflation, complicate Fed policy, economists say - Northeastern University <a href=\"https://news",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Trump tariff stimulus checks could fuel inflation, complicate Fed policy, economists say - Northeastern University",
+          "summary_highlights": [
+            "Article covers: Inflation",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Inflation."
+        },
+        "topic_headline": "Trump tariff stimulus checks could fuel inflation, complicate Fed policy, economists say - Northeastern University",
+        "summary_highlights": [
+          "Article covers: Inflation",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Inflation.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Fed\u2019s Miran Says Stablecoins to Put Downward Pressure on Rates - Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNM3Zmb2RKVG1Pd282T19XNW92ZGNtRkpreFd1NXg1RW5lWlVQY2NOcEVUTkVDTUtXb2VYZkViakhkRlByZ0pGdkkzdjhST1VWSVo2TWRxbUpMdmE3UnYyUzhjSFZvZzRNQ1NXRUxCdVYyUEJDalBMVWtaSzVmMG5WWU8xNnh2d2d5TEhYYlYwR01ISENWeUZZSWxjT1pDcU5CaG5kbjFFM0ZoemRlOVpsS3ZNdw?oc=5",
-        "published": "Fri, 07 Nov 2025 20:00:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNM3Zmb2RKVG1Pd282T19XNW92ZGNtRkpreFd1NXg1RW5lWlVQY2NOcEVUTkVDTUtXb2VYZkViakhkRlByZ0pGdkkzdjhST1VWSVo2TWRxbUpMdmE3UnYyUzhjSFZvZzRNQ1NXRUxCdVYyUEJDalBMVWtaSzVmMG5WWU8xNnh2d2d5TEhYYlYwR01ISENWeUZZSWxjT1pDcU5CaG5kbjFFM0ZoemRlOVpsS3ZNdw?oc=5\" target=\"_blank\">Fed\u2019s Miran Says Stablecoins to Put Downward Pressure on Rates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+        "title": "Fed's Miran repeats call for less restrictive monetary policy - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQR2hXMWVqZWRrRS16TFdVenhwdTd1MTYycnc2aHJMUjBWRUZtNnF5MDQ4NGJCUkJWanFfNFFMYk41ajlOWEYwWHltUTBBYWpkYzZzZXk4T1pQd04tb0pxdVN2Tnc3QV96YnpIekZrV19feDNEWHBXWXJWeWNFTUZTREtVeFAzck94U3daWjRPMDdrd0NZNlpMN2g2YzhLTlc1M3lFMzF3?oc=5",
+        "published": "Wed, 12 Nov 2025 19:01:55 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQR2hXMWVqZWRrRS16TFdVenhwdTd1MTYycnc2aHJMUjBWRUZtNnF5MDQ4NGJCUkJWanFfNFFMYk41ajlOWEYwWHltUTBBYWpkYzZzZXk4T1pQd04tb0pxdVN2Tnc3QV96YnpIekZrV19feDNEWHBXWXJWeWNFTUZTREtVeFAzck94U3daWjRPMDdrd0NZNlpMN2g2YzhLTlc1M3lFMzF3?oc=5\" target=\"_blank\">Fed's Miran repeats call for less restrictive monetary policy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
         "source": "Google News",
         "keyword": "fed policy",
         "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
+          "\ud83d\udcac \">Fed's Miran repeats call for less restrictive monetary policy</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Fed's Miran repeats call for less restrictive monetary policy - Reuters <a href=\"https://news",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Fed's Miran repeats call for less restrictive monetary policy - Reuters",
+          "summary_highlights": [
+            "Article covers: economic developments",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting the financial markets."
+        },
+        "topic_headline": "Fed's Miran repeats call for less restrictive monetary policy - Reuters",
+        "summary_highlights": [
+          "Article covers: economic developments",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting the financial markets.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Federal Reserve Calibrates Interest Rate Policy Amid Softer Hiring and Lingering Inflation - U.S. Bank",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa2V2OFo4WjFPclRZRGtjZXJvb3dsaDVUM3FjRnVCTkxfX184eHRyQjJ2NFlDc09TUlZrUDZGUzQzTjgyV1drNG9PSnc2Y0RELWZ5LVktLTlFcGFFa2s0Qm04RzRoYjNRSE9aSGw3aDljNFEyUEZJS1RNa203WlBLdmxxS2lWNmNXT0pRZGdDcGdqdEZ1YmMxN2lhci1RdVRMTEJtWE5wM3RJSFhGMXJjMjdqZw?oc=5",
-        "published": "Sat, 01 Nov 2025 04:18:45 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOa2V2OFo4WjFPclRZRGtjZXJvb3dsaDVUM3FjRnVCTkxfX184eHRyQjJ2NFlDc09TUlZrUDZGUzQzTjgyV1drNG9PSnc2Y0RELWZ5LVktLTlFcGFFa2s0Qm04RzRoYjNRSE9aSGw3aDljNFEyUEZJS1RNa203WlBLdmxxS2lWNmNXT0pRZGdDcGdqdEZ1YmMxN2lhci1RdVRMTEJtWE5wM3RJSFhGMXJjMjdqZw?oc=5\" target=\"_blank\">Federal Reserve Calibrates Interest Rate Policy Amid Softer Hiring and Lingering Inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">U.S. Bank</font>",
+        "title": "Atlanta Fed President Bostic to Retire Ahead of Reappointment Process - The Wall Street Journal",
+        "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxNcFAzQmItYU5mWXg3bXhIcDZVaEpYYkk5aEN4Z1dtZDFmVlpuX1poUG5ZRFhxdExRNUhUVkpOZW5fbGRsSEJZQzc2Yzl2UExqQi16MEs5MVFtN3RLUmZ3ZmkyTFJlbi1pNFJTNGNIMWtnQklZNk9ZOFR5TUIwZWF3dTVudWZVNTJfaEdHSnE4c3pKRE0zYnNnZkRnUWlQWmJVeUN0NlJqOTJpdWRoRDd6RmplMVMzdzc3M0RFUGd5RlBKVnc0X2Rzb2VnTEp4TmFuLUY1VU1vM0FQckNXWkNXZjNXcmE3SWk5Q0ZPMlloZEZReU5NTzF2STRUeU16MGpVRW1kbTV0V2lNZGpiRW9wWm1XMXd5TlV5RXAtTUlRZm54NVFsUWdkMnNXS3ZxLVF5RjJyNGR4WVd5cHVmbEI5OFVxSFF3NmdVZkhDeHA2LXhyWk13WDVyZlFJSUx1dTM4SXV0SDBnLXNqeVlCUDctLVBVVTU0STVQSlk2TUdQS3pqNkI0UURjbWJsYjZRc0d3dThGNjhuMDBaQUhfZzlNdmpZUFNkWE5ta1BHRVhfWjJMUEhTY2U4M0o1TWZiaU9ueTRlcQ?oc=5",
+        "published": "Wed, 12 Nov 2025 20:09:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMixANBVV95cUxNcFAzQmItYU5mWXg3bXhIcDZVaEpYYkk5aEN4Z1dtZDFmVlpuX1poUG5ZRFhxdExRNUhUVkpOZW5fbGRsSEJZQzc2Yzl2UExqQi16MEs5MVFtN3RLUmZ3ZmkyTFJlbi1pNFJTNGNIMWtnQklZNk9ZOFR5TUIwZWF3dTVudWZVNTJfaEdHSnE4c3pKRE0zYnNnZkRnUWlQWmJVeUN0NlJqOTJpdWRoRDd6RmplMVMzdzc3M0RFUGd5RlBKVnc0X2Rzb2VnTEp4TmFuLUY1VU1vM0FQckNXWkNXZjNXcmE3SWk5Q0ZPMlloZEZReU5NTzF2STRUeU16MGpVRW1kbTV0V2lNZGpiRW9wWm1XMXd5TlV5RXAtTUlRZm54NVFsUWdkMnNXS3ZxLVF5RjJyNGR4WVd5cHVmbEI5OFVxSFF3NmdVZkhDeHA2LXhyWk13WDVyZlFJSUx1dTM4SXV0SDBnLXNqeVlCUDctLVBVVTU0STVQSlk2TUdQS3pqNkI0UURjbWJsYjZRc0d3dThGNjhuMDBaQUhfZzlNdmpZUFNkWE5ta1BHRVhfWjJMUEhTY2U4M0o1TWZiaU9ueTRlcQ?oc=5\" target=\"_blank\">Atlanta Fed President Bostic to Retire Ahead of Reappointment Process</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Wall Street Journal</font>",
         "source": "Google News",
         "keyword": "fed policy",
         "highlights": [
-          "\ud83c\udfdb\ufe0f Federal Reserve interest rate policy developments",
-          "\ud83d\udcca Inflation data and price trends updated",
-          "\ud83c\udfe6 Banking sector and financial institution news",
-          "\ud83d\udcca Economic indicators and trends"
+          "\ud83d\udcac \">Atlanta Fed President Bostic to Retire Ahead of Reappointment Process</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Atlanta Fed President Bostic to Retire Ahead of Reappointment Process - The Wall Street Journal <a href=\"https://news",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Atlanta Fed President Bostic to Retire Ahead of Reappointment Process - The Wall Street Journal",
+          "summary_highlights": [
+            "Article covers: economic developments",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting the financial markets."
+        },
+        "topic_headline": "Atlanta Fed President Bostic to Retire Ahead of Reappointment Process - The Wall Street Journal",
+        "summary_highlights": [
+          "Article covers: economic developments",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting the financial markets.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Fed's Jefferson urges proceeding 'slowly' with monetary policy - American Banker",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQc2JWT290OHAzSjdLZDJ5U0lkTDgyS3ItR21FOXVtcHo1S3RBRVN3OUFuakZqa0VUODRoRkhORm1pZS1EbVB1eDI0NzJ4Y3JWWVJfLUs2SFVtQzBqQUpZQ0wtY3pfSDlqVkRuQ0dTem5wMkpORS1RX2FlYzgxWlFROHRXTXJXdUVTaVR4VWhWOVNwLW1Kd0tuTTdEZw?oc=5",
-        "published": "Fri, 07 Nov 2025 16:37:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQc2JWT290OHAzSjdLZDJ5U0lkTDgyS3ItR21FOXVtcHo1S3RBRVN3OUFuakZqa0VUODRoRkhORm1pZS1EbVB1eDI0NzJ4Y3JWWVJfLUs2SFVtQzBqQUpZQ0wtY3pfSDlqVkRuQ0dTem5wMkpORS1RX2FlYzgxWlFROHRXTXJXdUVTaVR4VWhWOVNwLW1Kd0tuTTdEZw?oc=5\" target=\"_blank\">Fed's Jefferson urges proceeding 'slowly' with monetary policy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">American Banker</font>",
+        "title": "Fed Debate Heats Up: Cut Interest Rates to Save Jobs or Hold Firm Against Inflation? - Investopedia",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdEhuQi02cU9CU3hYT3A3U3BIcGQzNDNneUtKQTBUNUNMM0VIN1BwQjl3Nk9jYTQ3TDlGcjJYUzdIZ2tFc0VjaEk3NUdBYTBfVElMa1lhR0gwbnNsQzBlM29EeFd5UmdhMkZiSWo0VmlEOHplTEhkMHlMdHg0WnRUY2FqOURFUjBXZUFhSVI0VzVIM3Z1Sl93?oc=5",
+        "published": "Wed, 12 Nov 2025 22:39:26 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNdEhuQi02cU9CU3hYT3A3U3BIcGQzNDNneUtKQTBUNUNMM0VIN1BwQjl3Nk9jYTQ3TDlGcjJYUzdIZ2tFc0VjaEk3NUdBYTBfVElMa1lhR0gwbnNsQzBlM29EeFd5UmdhMkZiSWo0VmlEOHplTEhkMHlMdHg0WnRUY2FqOURFUjBXZUFhSVI0VzVIM3Z1Sl93?oc=5\" target=\"_blank\">Fed Debate Heats Up: Cut Interest Rates to Save Jobs or Hold Firm Against Inflation?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investopedia</font>",
         "source": "Google News",
         "keyword": "fed policy",
         "highlights": [
-          "\ud83d\udcbc Monetary policy strategy and implementation",
-          "\ud83c\udfe6 Banking sector and financial institution news",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes"
+          "\ud83d\udcac \">Fed Debate Heats Up: Cut Interest Rates to Save Jobs or Hold Firm Against Inflation?</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Fed Debate Heats Up: Cut Interest Rates to Save Jobs or Hold Firm Against Inflation? - Investopedia <a href=\"https://news",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Fed Debate Heats Up: Cut Interest Rates to Save Jobs or Hold Firm Against Inflation? - Investopedia",
+          "summary_highlights": [
+            "Article covers: Interest Rate, Inflation",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Interest Rate, Inflation."
+        },
+        "topic_headline": "Fed Debate Heats Up: Cut Interest Rates to Save Jobs or Hold Firm Against Inflation? - Investopedia",
+        "summary_highlights": [
+          "Article covers: Interest Rate, Inflation",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Interest Rate, Inflation.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Fed policy will be part of what drives equity markets higher, says Morgan Stanley's Chris Toomey - MSN",
-        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNZ3Vmb3dNaFBHeC1lRzRLZVA3M2VIczZJcTIyZ0JVNk9CZFI0RTkwbmI1d0dnUkVBV01jZWxoQjVHRWs5dElaQ1NqSWU0YUNqQ292S0xWZEZvekh1SGFkNUl1QWpKYkFkY3ROU1Znb2lPWGp4ekl0RmcxYm4wVU9wVVBEUFBBUXpLZG9rcUExMS01dmFQWDRCemU5V2JZM2FVM3phNXotQjRKVm8zNkxTMXhHRjZvR1lhb21EVkRFR2NCaW5LUnU5LUNJN0wySTF4bmpKV3YtaExvMWpjNnNfSm5BR01weGxmVkRONHZNd011OV9lS1paZl93ck4yeUU?oc=5",
-        "published": "Fri, 07 Nov 2025 21:37:15 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMi_wFBVV95cUxNZ3Vmb3dNaFBHeC1lRzRLZVA3M2VIczZJcTIyZ0JVNk9CZFI0RTkwbmI1d0dnUkVBV01jZWxoQjVHRWs5dElaQ1NqSWU0YUNqQ292S0xWZEZvekh1SGFkNUl1QWpKYkFkY3ROU1Znb2lPWGp4ekl0RmcxYm4wVU9wVVBEUFBBUXpLZG9rcUExMS01dmFQWDRCemU5V2JZM2FVM3phNXotQjRKVm8zNkxTMXhHRjZvR1lhb21EVkRFR2NCaW5LUnU5LUNJN0wySTF4bmpKV3YtaExvMWpjNnNfSm5BR01weGxmVkRONHZNd011OV9lS1paZl93ck4yeUU?oc=5\" target=\"_blank\">Fed policy will be part of what drives equity markets higher, says Morgan Stanley's Chris Toomey</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>",
+        "title": "Atlanta Fed president Bostic to retire in February - Banking Dive",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQ1pVclp0ZHFsbXQ0OGtNMzZNTUNMUy1xV0d4NDZRbVFOUWd3dk15SWFQT1pEZW9JQkF6a3QzUWVZSk8yR21zbVRrWlJXaVBMWHI4LU9KdzZaNmZ2ekVGTTlRTFc0aHVYdGVvWmJaZXJRSHlWS3U5R1JiUUMyZXo4UVM3WWE0UktQWVgzZ3I3b1NqMEhFMkU1S1Z6dTZ4d1dROEVGQTJKRjREcFduYTlWT0FRVEJoX2p4d3NzVlhHdWZGMFlwLWFsd0E5VGlHZG42?oc=5",
+        "published": "Wed, 12 Nov 2025 17:48:43 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQ1pVclp0ZHFsbXQ0OGtNMzZNTUNMUy1xV0d4NDZRbVFOUWd3dk15SWFQT1pEZW9JQkF6a3QzUWVZSk8yR21zbVRrWlJXaVBMWHI4LU9KdzZaNmZ2ekVGTTlRTFc0aHVYdGVvWmJaZXJRSHlWS3U5R1JiUUMyZXo4UVM3WWE0UktQWVgzZ3I3b1NqMEhFMkU1S1Z6dTZ4d1dROEVGQTJKRjREcFduYTlWT0FRVEJoX2p4d3NzVlhHdWZGMFlwLWFsd0E5VGlHZG42?oc=5\" target=\"_blank\">Atlanta Fed president Bostic to retire in February</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Banking Dive</font>",
         "source": "Google News",
         "keyword": "fed policy",
         "highlights": [
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
+          "\ud83d\udcac \">Atlanta Fed president Bostic to retire in February</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Atlanta Fed president Bostic to retire in February - Banking Dive <a href=\"https://news",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Atlanta Fed president Bostic to retire in February - Banking Dive",
+          "summary_highlights": [
+            "Article covers: economic developments",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting the financial markets."
+        },
+        "topic_headline": "Atlanta Fed president Bostic to retire in February - Banking Dive",
+        "summary_highlights": [
+          "Article covers: economic developments",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting the financial markets.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "U.S. Fed's Miran Says Policy Needs to Adjust to Stablecoin Boom That Could Reach $3T - CoinDesk",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeU9PaTlpamZwSkJsTXRpYjVhZUJlVE5LV1Y1THRyZkg2azRHMnNzTDk2eDhqdkZZal9aYkZTMlVXSG4yRkVNVEIzN09oOFVBc1c0c3BTVW1TWjRGbjRZY0o4TlE3aTFMUnVDQ0ZSenp2Tm1yUTNPdjBSZ0ItOTlzUDZSSUxmdXp0d0JvRjBqZlhnNmRYZVFmZ0Z1NGFla3M1a1o4ajAzc1A1ZWRqYVF5ZEp5UjhHeFNwYXVucHpaYjA4SVNPdlBR?oc=5",
-        "published": "Fri, 07 Nov 2025 22:00:17 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQeU9PaTlpamZwSkJsTXRpYjVhZUJlVE5LV1Y1THRyZkg2azRHMnNzTDk2eDhqdkZZal9aYkZTMlVXSG4yRkVNVEIzN09oOFVBc1c0c3BTVW1TWjRGbjRZY0o4TlE3aTFMUnVDQ0ZSenp2Tm1yUTNPdjBSZ0ItOTlzUDZSSUxmdXp0d0JvRjBqZlhnNmRYZVFmZ0Z1NGFla3M1a1o4ajAzc1A1ZWRqYVF5ZEp5UjhHeFNwYXVucHpaYjA4SVNPdlBR?oc=5\" target=\"_blank\">U.S. Fed's Miran Says Policy Needs to Adjust to Stablecoin Boom That Could Reach $3T</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+        "title": "Miran repeats Fed policy remains 'too restrictive' - MSN",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQVd4R29nZTZWMTNvUkVpdWZoc05ISFNoTjJIMjlMTkFGazhhS1VVcy11YTAwWUNyc1l3Y08tN0ZhMmhoaFhxZGo1eE50TWJTLXlfTTQwUlk1RlJoOHpfMEhSOTNsTGlkVHM2bWdBMUtsVFIzS2ZaRUJjRk9mSVUtcnVDRlJEYzJJbXVpd1UwcDZoczRIam90X3hqVTlwa2xaV1JaQmRKU0VzNmNRN3p3QVBwaHpZekMwWnk3VjkzVTNNS1ht?oc=5",
+        "published": "Wed, 12 Nov 2025 18:14:03 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNQVd4R29nZTZWMTNvUkVpdWZoc05ISFNoTjJIMjlMTkFGazhhS1VVcy11YTAwWUNyc1l3Y08tN0ZhMmhoaFhxZGo1eE50TWJTLXlfTTQwUlk1RlJoOHpfMEhSOTNsTGlkVHM2bWdBMUtsVFIzS2ZaRUJjRk9mSVUtcnVDRlJEYzJJbXVpd1UwcDZoczRIam90X3hqVTlwa2xaV1JaQmRKU0VzNmNRN3p3QVBwaHpZekMwWnk3VjkzVTNNS1ht?oc=5\" target=\"_blank\">Miran repeats Fed policy remains 'too restrictive'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>",
         "source": "Google News",
         "keyword": "fed policy",
         "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
+          "\ud83d\udcac \">Miran repeats Fed policy remains 'too restrictive'</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Miran repeats Fed policy remains 'too restrictive' - MSN <a href=\"https://news",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Miran repeats Fed policy remains 'too restrictive' - MSN",
+          "summary_highlights": [
+            "Article covers: economic developments",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting the financial markets."
+        },
+        "topic_headline": "Miran repeats Fed policy remains 'too restrictive' - MSN",
+        "summary_highlights": [
+          "Article covers: economic developments",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting the financial markets.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Fed's Miran says financial innovation matters for monetary policy - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcWVGbXI3eVN0bVJiRDFJTGFPUm5TQ2lUVEo4NUF0YVRCbGZQVXNuQTZaa0ViYnJob2hOZTBGbVV1TGo5WGdVelBia08tYTBndlVjaGsycDU5VFhKbVRZNVFlQmY2VjVYWGtsRHQwcGFaNWFJT2NST1NQbjBTeW1ZMTZSTkZHNDlSM0FBVS1CaHVrMGZsMHhzT08xOFh5a09ESkFlUTl0M0lkTmZnTkduUkNmRnNFSHFmMml0a19hY05uMjdnQ0ZUSEQ1empJSEFG?oc=5",
-        "published": "Fri, 07 Nov 2025 20:26:43 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcWVGbXI3eVN0bVJiRDFJTGFPUm5TQ2lUVEo4NUF0YVRCbGZQVXNuQTZaa0ViYnJob2hOZTBGbVV1TGo5WGdVelBia08tYTBndlVjaGsycDU5VFhKbVRZNVFlQmY2VjVYWGtsRHQwcGFaNWFJT2NST1NQbjBTeW1ZMTZSTkZHNDlSM0FBVS1CaHVrMGZsMHhzT08xOFh5a09ESkFlUTl0M0lkTmZnTkduUkNmRnNFSHFmMml0a19hY05uMjdnQ0ZUSEQ1empJSEFG?oc=5\" target=\"_blank\">Fed's Miran says financial innovation matters for monetary policy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>",
+        "title": "Boston Fed President Collins: Appropriate to keep policy rates at current level for 'some time' - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZm9UT2ViTTJXZDRTbzZvZWFCNzUtUDZ5OE4xdVNwWEo0WGtPZ01maXJLN19LR3p1dTVQYllSY2w2ZnBSeFdiRkxkQnhvMzA5aHV4OU1Wc3VxYWVmUVlucGM4RG1ISWRsbzFJZjVNd1JWcU5ZalhlVl96cFJybkpzdW9UMXFva0N2VUcwTlpjT3B5U3B4YTd2Slhwd09wVVlRYVN6QXJZa0VsbGxBVzFfcENOeUVPeU1BdXItU1hIdDBDdHAxRW5FYTV2ZjhwYnpD?oc=5",
+        "published": "Wed, 12 Nov 2025 21:01:21 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZm9UT2ViTTJXZDRTbzZvZWFCNzUtUDZ5OE4xdVNwWEo0WGtPZ01maXJLN19LR3p1dTVQYllSY2w2ZnBSeFdiRkxkQnhvMzA5aHV4OU1Wc3VxYWVmUVlucGM4RG1ISWRsbzFJZjVNd1JWcU5ZalhlVl96cFJybkpzdW9UMXFva0N2VUcwTlpjT3B5U3B4YTd2Slhwd09wVVlRYVN6QXJZa0VsbGxBVzFfcENOeUVPeU1BdXItU1hIdDBDdHAxRW5FYTV2ZjhwYnpD?oc=5\" target=\"_blank\">Boston Fed President Collins: Appropriate to keep policy rates at current level for 'some time'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
         "source": "Google News",
         "keyword": "fed policy",
         "highlights": [
-          "\ud83d\udcbc Monetary policy strategy and implementation",
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes"
+          "\ud83d\udcac \">Boston Fed President Collins: Appropriate to keep policy rates at current level for 'some time'</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Boston Fed President Collins: Appropriate to keep policy rates at current level for 'some time' - CNBC <a href=\"https://news",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Boston Fed President Collins: Appropriate to keep policy rates at current level for 'some time' - CNBC",
+          "summary_highlights": [
+            "Article covers: economic developments",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting the financial markets."
+        },
+        "topic_headline": "Boston Fed President Collins: Appropriate to keep policy rates at current level for 'some time' - CNBC",
+        "summary_highlights": [
+          "Article covers: economic developments",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting the financial markets.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "The Beige Book is More Important Than Ever to Fed Policy. Here\u2019s Why. - Barron's",
-        "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxOcWlQbFBzVEFnaGJwSDVoQVRKS240aWlTYloyM2dvZWs2cU1ZbUVoS2dYaW1SRDU5RzM3UjduN19TVHYxbFZMT3JNcFRUYmJHRDlRRXZ5RWtDUnY0OW1nMzFkRU1NZzBPQVEtUzU3NUpzV3A2dDEtNTVidFZPWTN3aHk3QXdHeE41RGE4cUJlSExXbzNsS21JSU1uNkFqb1NJVGZSTXcxZHE2QzdBamliREtJMENYVFNlVUpCQzdGdEVoTDdmbU94eDhpT2F0SUhJMWowVDUxLWgtQlJFZUdDaVU0WV95dVBaQzVkNFgtUVRMYjV3aHNfX1RRTHo2ME52YnZVOF9ib2FXdFRQT25RNDVyMkNacE1rQ2tWWk5rNlNhLW5fZzd2Y05NRHpWbnI2Z0F3MVIyUEFKWS1nLWpQOWpJVVpXZTdLR2JaNWt5VEZxaTgxMnZQN3JFZV9mOHRDaUFhd0I1aDRpUjdLMTV2bjFxYUt5b21fdnEyYy1Taw?oc=5",
-        "published": "Thu, 06 Nov 2025 15:02:42 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMi_wJBVV95cUxOcWlQbFBzVEFnaGJwSDVoQVRKS240aWlTYloyM2dvZWs2cU1ZbUVoS2dYaW1SRDU5RzM3UjduN19TVHYxbFZMT3JNcFRUYmJHRDlRRXZ5RWtDUnY0OW1nMzFkRU1NZzBPQVEtUzU3NUpzV3A2dDEtNTVidFZPWTN3aHk3QXdHeE41RGE4cUJlSExXbzNsS21JSU1uNkFqb1NJVGZSTXcxZHE2QzdBamliREtJMENYVFNlVUpCQzdGdEVoTDdmbU94eDhpT2F0SUhJMWowVDUxLWgtQlJFZUdDaVU0WV95dVBaQzVkNFgtUVRMYjV3aHNfX1RRTHo2ME52YnZVOF9ib2FXdFRQT25RNDVyMkNacE1rQ2tWWk5rNlNhLW5fZzd2Y05NRHpWbnI2Z0F3MVIyUEFKWS1nLWpQOWpJVVpXZTdLR2JaNWt5VEZxaTgxMnZQN3JFZV9mOHRDaUFhd0I1aDRpUjdLMTV2bjFxYUt5b21fdnEyYy1Taw?oc=5\" target=\"_blank\">The Beige Book is More Important Than Ever to Fed Policy. Here\u2019s Why.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barron's</font>",
+        "title": "Fed's Collins Says 'Likely Appropriate' to Keep Policy Rate on Hold - US News Money",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTmpQZTJpcTZxU0I3QXZKbnBOYlU1bmZzRl9wRFNKbDdoemRGemZXMFZRNHJQVkV3NDQ3dm9EYkptd3JVVURFbk84OUc4OUNjdkFsOHFuM0E4Zk9PbUNFOUxJSlluQk5pQkRSczZ0V2FLVm5BZDBBTE44TmlwZXEwZEI5SlhGRzZBOTlFRVJ4QkpIUTZKOXJxeWNFbC1pbzJQNVdHUWVlbXlaU0hycjVwXzFnQkZlMFN2bnBZVlpoYzAyUQ?oc=5",
+        "published": "Wed, 12 Nov 2025 21:01:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTmpQZTJpcTZxU0I3QXZKbnBOYlU1bmZzRl9wRFNKbDdoemRGemZXMFZRNHJQVkV3NDQ3dm9EYkptd3JVVURFbk84OUc4OUNjdkFsOHFuM0E4Zk9PbUNFOUxJSlluQk5pQkRSczZ0V2FLVm5BZDBBTE44TmlwZXEwZEI5SlhGRzZBOTlFRVJ4QkpIUTZKOXJxeWNFbC1pbzJQNVdHUWVlbXlaU0hycjVwXzFnQkZlMFN2bnBZVlpoYzAyUQ?oc=5\" target=\"_blank\">Fed's Collins Says 'Likely Appropriate' to Keep Policy Rate on Hold</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">US News Money</font>",
         "source": "Google News",
         "keyword": "fed policy",
         "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
+          "\ud83d\udcac \">Fed's Collins Says 'Likely Appropriate' to Keep Policy Rate on Hold</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Fed's Collins Says 'Likely Appropriate' to Keep Policy Rate on Hold - US News Money <a href=\"https://news",
+          "\ud83c\udfdb\ufe0f Federal Reserve policy developments discussed",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
-      }
-    ],
-    "Inflation": [
-      {
-        "title": "Why is UK inflation still high?",
-        "url": "https://www.bbc.com/news/articles/c17rgd8e9gjo?at_medium=RSS&at_campaign=rss",
-        "published": "Thu, 06 Nov 2025 14:48:06 GMT",
-        "description": "UK Inflation has fallen from record highs but remains above the Bank of England's 2% target.",
-        "source": "BBC Business",
-        "source_type": "free_rss",
-        "keyword": "RSS Feed",
-        "highlights": [
-          "\ud83d\udcb2 Price pressures showing signs of easing",
-          "\ud83c\udfe6 Banking sector and financial institution news",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Fed's Collins Says 'Likely Appropriate' to Keep Policy Rate on Hold - US News Money",
+          "summary_highlights": [
+            "Article covers: economic developments",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting the financial markets."
+        },
+        "topic_headline": "Fed's Collins Says 'Likely Appropriate' to Keep Policy Rate on Hold - US News Money",
+        "summary_highlights": [
+          "Article covers: economic developments",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
         ],
-        "source_category": "free"
-      },
-      {
-        "title": "Inflation is so bad Americans are counting on Black Friday just to afford groceries and everyday essentials - Fortune",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOXVvM2dQaXhpQjFUbFFxRm9jaUpyNWVVb0x1NzFWNVFoU3lMaV9DdUdrMjVYcVR3WDZhZWc0QlR3dnFkTWVFX29LSUl3ZElqcjlHU2x4U2FYTnByRzg5WHFKSWIyQlBRNXpKdnZfS2syWnJsSUNoVmJvSjdqUkp3ekVtMmRuTDEyd1N5UWRjcWxwQ1E0TzBXTEY4bDBEYUh6NWhaNA?oc=5",
-        "published": "Wed, 05 Nov 2025 18:58:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPOXVvM2dQaXhpQjFUbFFxRm9jaUpyNWVVb0x1NzFWNVFoU3lMaV9DdUdrMjVYcVR3WDZhZWc0QlR3dnFkTWVFX29LSUl3ZElqcjlHU2x4U2FYTnByRzg5WHFKSWIyQlBRNXpKdnZfS2syWnJsSUNoVmJvSjdqUkp3ekVtMmRuTDEyd1N5UWRjcWxwQ1E0TzBXTEY4bDBEYUh6NWhaNA?oc=5\" target=\"_blank\">Inflation is so bad Americans are counting on Black Friday just to afford groceries and everyday essentials</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fortune</font>",
-        "source": "Google News",
-        "keyword": "inflation",
-        "highlights": [
-          "\ud83d\udcca Inflation data and price trends updated",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
+        "notable_quotes": [
+          "Detailed quotes available in full article"
         ],
-        "source_category": "free"
-      },
-      {
-        "title": "Inflation-Protected Bonds Fail a Key Test: They Don\u2019t Help When Inflation Is High - The Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxPbi1remtCaHFoamF1TC1raWQxMFoyREhVajFRb0VwUGdQbTcyOVdxRU8tb181MGJXMkgwWWo4TGF5RXhxUFBjMXNLZEJBWWJXWnl3bWRQRWNzM3I4dkQ5ZHdvdXNHdUlPRWVOcFpxU1A5Yk01SlZxbEg3NGR6a1JWRDk4UnNNbDVqNVVhcWJDdG9ZcjFKY0dkV0hNdnlxMVpLcElrZm1Db05OREljbzQ0QVZoTlZVQUNpUDJiLVFldWkyUFVGWEpfVHVmN3FZYXc5dExZVExZQ0EwYjczWjFmaE9HMHlCSzh0S1VZR3VLSWp0UzYxRkNpd1BsTklBbF9RYnp1N2RwVXRhS3Ytd2wzb3lyLWY4YmY2QXdjcnU0RDNDWEVJWVJrM3EwYkxMcTJqM2lFWWZqNGpsVDliaUZyNFJfWS1sbFp6c3JoRm5Ra3k2T3BhUVVOamM5SzFkd29oZTZiTjVBRHBiSWJ1M3QzcmtaRQ?oc=5",
-        "published": "Thu, 06 Nov 2025 15:00:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMi8wJBVV95cUxPbi1remtCaHFoamF1TC1raWQxMFoyREhVajFRb0VwUGdQbTcyOVdxRU8tb181MGJXMkgwWWo4TGF5RXhxUFBjMXNLZEJBWWJXWnl3bWRQRWNzM3I4dkQ5ZHdvdXNHdUlPRWVOcFpxU1A5Yk01SlZxbEg3NGR6a1JWRDk4UnNNbDVqNVVhcWJDdG9ZcjFKY0dkV0hNdnlxMVpLcElrZm1Db05OREljbzQ0QVZoTlZVQUNpUDJiLVFldWkyUFVGWEpfVHVmN3FZYXc5dExZVExZQ0EwYjczWjFmaE9HMHlCSzh0S1VZR3VLSWp0UzYxRkNpd1BsTklBbF9RYnp1N2RwVXRhS3Ytd2wzb3lyLWY4YmY2QXdjcnU0RDNDWEVJWVJrM3EwYkxMcTJqM2lFWWZqNGpsVDliaUZyNFJfWS1sbFp6c3JoRm5Ra3k2T3BhUVVOamM5SzFkd29oZTZiTjVBRHBiSWJ1M3QzcmtaRQ?oc=5\" target=\"_blank\">Inflation-Protected Bonds Fail a Key Test: They Don\u2019t Help When Inflation Is High</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Wall Street Journal</font>",
-        "source": "Google News",
-        "keyword": "inflation",
-        "highlights": [
-          "\ud83d\udcca Inflation data and price trends updated",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Iran\u2019s Pezeshkian blames own government for soaring inflation - The Times of Israel",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVGh4RHVKeDNMU0lMems0VkJCbUhQYmp6bnJjald0dHlJTVBfb00xWFEyR0hoTEw0TnYtSjlKcWRGX0dXS2ZVTlpvQU9tdGh3MjhfX1R0N0JKcUVjZUdraGdhQ2RrQjVqVDBnbzAwTGxEdnhqQ1htdnFWUzVTdm5JS3VxZVhyOERfbzZFbDRLYkZHdUZuTjB5aXZpVTJ6cUVFbmfSAacBQVVfeXFMT2xzZ0ZLRnNaTUw0UEVpdUpUNHpnNWNLODd3ZkVsS3AxV0pBNGhYaWhiekN0QmJBNF9ZTUZxRlVERk93WHU5QU1QY2JUWDFDR1kzRUpIOE9XSHhjcUpoaWlpUzFJMlhIdHVDNzJqU29tQnhidXlFNWVKSXgycmFFdnRvQmhhbG5FVncxVksxYXFlZFYyaGdsb3N6MTQ3dFhzdTRCcmQxSWs?oc=5",
-        "published": "Thu, 06 Nov 2025 16:49:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQVGh4RHVKeDNMU0lMems0VkJCbUhQYmp6bnJjald0dHlJTVBfb00xWFEyR0hoTEw0TnYtSjlKcWRGX0dXS2ZVTlpvQU9tdGh3MjhfX1R0N0JKcUVjZUdraGdhQ2RrQjVqVDBnbzAwTGxEdnhqQ1htdnFWUzVTdm5JS3VxZVhyOERfbzZFbDRLYkZHdUZuTjB5aXZpVTJ6cUVFbmfSAacBQVVfeXFMT2xzZ0ZLRnNaTUw0UEVpdUpUNHpnNWNLODd3ZkVsS3AxV0pBNGhYaWhiekN0QmJBNF9ZTUZxRlVERk93WHU5QU1QY2JUWDFDR1kzRUpIOE9XSHhjcUpoaWlpUzFJMlhIdHVDNzJqU29tQnhidXlFNWVKSXgycmFFdnRvQmhhbG5FVncxVksxYXFlZFYyaGdsb3N6MTQ3dFhzdTRCcmQxSWs?oc=5\" target=\"_blank\">Iran\u2019s Pezeshkian blames own government for soaring inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Times of Israel</font>",
-        "source": "Google News",
-        "keyword": "inflation",
-        "highlights": [
-          "\ud83d\udcca Inflation data and price trends updated",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Trump argues Democrats\u2019 \u2018affordability\u2019 issue is \u2018DEAD\u2019 as inflation holds steady - The Hill",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mZjVxdVQ1bzRObjJhbE5GZUpvN2YzU2NtVzBsODlRQWxyOFFoYzhxT3BwR1lYRVVlWGFhUTlqMzJITXhKN3NOYVRfenJLR2FWUzRfaTREVndZMGNmOHVrX1ZPN0l6VF92M2RaWjZGYTVPRzdlUVNhZ1lFSdIBgAFBVV95cUxQZmNzcDl5c1hpQmxoWGptYmd0OG5wblp4T1g0MnFuc1ZUWGlOaXNtbFFEQmJmMU5SUW1pd1JISWZROTJUckZ2M2NLc0k3bjFqeVdLMTRjZnhwSmUwUmVvTXBQbmJGbTZOU0xuMVdfRDM2aU1mNVFyXzNxQ3BLRzZyTQ?oc=5",
-        "published": "Thu, 06 Nov 2025 15:22:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE9mZjVxdVQ1bzRObjJhbE5GZUpvN2YzU2NtVzBsODlRQWxyOFFoYzhxT3BwR1lYRVVlWGFhUTlqMzJITXhKN3NOYVRfenJLR2FWUzRfaTREVndZMGNmOHVrX1ZPN0l6VF92M2RaWjZGYTVPRzdlUVNhZ1lFSdIBgAFBVV95cUxQZmNzcDl5c1hpQmxoWGptYmd0OG5wblp4T1g0MnFuc1ZUWGlOaXNtbFFEQmJmMU5SUW1pd1JISWZROTJUckZ2M2NLc0k3bjFqeVdLMTRjZnhwSmUwUmVvTXBQbmJGbTZOU0xuMVdfRDM2aU1mNVFyXzNxQ3BLRzZyTQ?oc=5\" target=\"_blank\">Trump argues Democrats\u2019 \u2018affordability\u2019 issue is \u2018DEAD\u2019 as inflation holds steady</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Hill</font>",
-        "source": "Google News",
-        "keyword": "inflation",
-        "highlights": [
-          "\ud83d\udcca Inflation data and price trends updated",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "India CPI inflation likely fell to multi-year low of 0.48% in October: Reuters poll - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcVhuWEs4NldDeEdCamtwN2dZMDRJRkdXRFlNLWQ4YklpWHJaZFltRDl3Mjh1YmVHUEhzVzg1anBfYXU1b2FFMjVtb3htNFJfajBqdTNEY2pYUExHdXpjaG9TOVdrWGdVZHhJazhONWRqUlUxSkZ5Zmo2cmtOdnlLUTFBalRCREpBaXB3dVhKU2F3SzUtYnNvMXVfbFBVVm93RURQUUNMRC16Zw?oc=5",
-        "published": "Fri, 07 Nov 2025 11:20:12 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcVhuWEs4NldDeEdCamtwN2dZMDRJRkdXRFlNLWQ4YklpWHJaZFltRDl3Mjh1YmVHUEhzVzg1anBfYXU1b2FFMjVtb3htNFJfajBqdTNEY2pYUExHdXpjaG9TOVdrWGdVZHhJazhONWRqUlUxSkZ5Zmo2cmtOdnlLUTFBalRCREpBaXB3dVhKU2F3SzUtYnNvMXVfbFBVVm93RURQUUNMRC16Zw?oc=5\" target=\"_blank\">India CPI inflation likely fell to multi-year low of 0.48% in October: Reuters poll</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-        "source": "Google News",
-        "keyword": "inflation",
-        "highlights": [
-          "\ud83d\udcca Inflation data and price trends updated",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Is FIX stock undervalued at current price - Market Risk Analysis & Scalable Portfolio Growth Methods - newser.com",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNblIyNUlBOWFrRXVwd2hEMUZxWjQ5aGptRm1sMzVEbGZPY2FublJpRWVIMlVvYXZWTmxXMHZELUp4amRyOWRqX2Zlb29hcFk4ZExLN1Rva1R3MDlJOXRGeXVyVXIzZGEwVkRvYmNFLS04OFo0cm13b3RKUlRYcUpJeXFUMA?oc=5",
-        "published": "Thu, 06 Nov 2025 04:44:43 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxNblIyNUlBOWFrRXVwd2hEMUZxWjQ5aGptRm1sMzVEbGZPY2FublJpRWVIMlVvYXZWTmxXMHZELUp4amRyOWRqX2Zlb29hcFk4ZExLN1Rva1R3MDlJOXRGeXVyVXIzZGEwVkRvYmNFLS04OFo0cm13b3RKUlRYcUpJeXFUMA?oc=5\" target=\"_blank\">Is FIX stock undervalued at current price - Market Risk Analysis & Scalable Portfolio Growth Methods</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">newser.com</font>",
-        "source": "Google News",
-        "keyword": "market risk",
-        "highlights": [
-          "\ud83d\udcca Inflation data and price trends updated",
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "How 3% Inflation Became the New Normal - Barron's",
-        "url": "https://news.google.com/rss/articles/CBMiggNBVV95cUxOdjJ5WWotZklWRGZWc280Z3R5ZXNsZy1PWXh2NU1VZHhMeVhtb2daVTRkeGtMeElORXRIUnZJY3JjTWpvUmFDdEJaeG0wMTZtaUluaHk5V0Vqc2FFdzlVX1dhUlV6Z08tX09BMFVmU2E1THRxRFVKSlRzZFcxdTVfQnEzSzQ3VWpDWU1fb05pZmU1RnNTeEdMMHI2bFRXaWVuSEw0TU1TekZZWUJQd2x4ekdHOVNvZGxSZElhakYyVzNfYzlTU0FRaTNWNVdTaVU1aHBTYW9GQWQ3UFhMQ0wtMjJLdjh2aWFrVFR4X0xKOTRaQXhIV2ZoT3JHbVpEYnJ5WTk5eml3TktGUkYxWEM3ZlpNSjY0aDNRQmFaN1dPeU0ySTlmUGlUVVRZWkFsTmtzMGJTZUttd0lwZTh2eDdfZXZJc1JLUjBKb21MZ1UtU3VVQ09yWDRaS3R4eGdRQllIbG5fZ0hDYTJiQ2xJOHlra1dTSFRZdThPeTRSbkI0WUwyQQ?oc=5",
-        "published": "Fri, 07 Nov 2025 15:35:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiggNBVV95cUxOdjJ5WWotZklWRGZWc280Z3R5ZXNsZy1PWXh2NU1VZHhMeVhtb2daVTRkeGtMeElORXRIUnZJY3JjTWpvUmFDdEJaeG0wMTZtaUluaHk5V0Vqc2FFdzlVX1dhUlV6Z08tX09BMFVmU2E1THRxRFVKSlRzZFcxdTVfQnEzSzQ3VWpDWU1fb05pZmU1RnNTeEdMMHI2bFRXaWVuSEw0TU1TekZZWUJQd2x4ekdHOVNvZGxSZElhakYyVzNfYzlTU0FRaTNWNVdTaVU1aHBTYW9GQWQ3UFhMQ0wtMjJLdjh2aWFrVFR4X0xKOTRaQXhIV2ZoT3JHbVpEYnJ5WTk5eml3TktGUkYxWEM3ZlpNSjY0aDNRQmFaN1dPeU0ySTlmUGlUVVRZWkFsTmtzMGJTZUttd0lwZTh2eDdfZXZJc1JLUjBKb21MZ1UtU3VVQ09yWDRaS3R4eGdRQllIbG5fZ0hDYTJiQ2xJOHlra1dTSFRZdThPeTRSbkI0WUwyQQ?oc=5\" target=\"_blank\">How 3% Inflation Became the New Normal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barron's</font>",
-        "source": "Google News",
-        "keyword": "federal reserve",
-        "highlights": [
-          "\ud83d\udcca Inflation data and price trends updated",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
+        "context_implications": "This development is part of broader economic trends affecting the financial markets.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       }
     ],
     "Unemployment & Employment": [
       {
-        "title": "The Job Market Is Cooling but Not Collapsing, According to Private Data - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMVFPdWdDendCbC1UXzlsOTJsSW9rZnBsLXBYeENCSlB4akdSVEswNS1CdWI1WkRyT1o4YnRSWnItajBFcmlSSkhOZkxrUmpmTlQ0cTh3ZnZYdkxtQkZIZmJGZ3NiLURLVnBxclhIdTFkdExfVkhKeUFwWURZUmFPXzlxQktDNl9oTXc?oc=5",
-        "published": "Fri, 07 Nov 2025 10:02:51 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOMVFPdWdDendCbC1UXzlsOTJsSW9rZnBsLXBYeENCSlB4akdSVEswNS1CdWI1WkRyT1o4YnRSWnItajBFcmlSSkhOZkxrUmpmTlQ0cTh3ZnZYdkxtQkZIZmJGZ3NiLURLVnBxclhIdTFkdExfVkhKeUFwWURZUmFPXzlxQktDNl9oTXc?oc=5\" target=\"_blank\">The Job Market Is Cooling but Not Collapsing, According to Private Data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
+        "title": "Trump calls H-1B visas necessary to bring in 'certain talents' that he says the U.S. lacks",
+        "url": "https://www.nbcnews.com/politics/immigration/trump-calls-h-1b-visas-necessary-bring-certain-talents-says-us-lacks-rcna243367",
+        "published": "Wed, 12 Nov 2025 03:54:39 GMT",
+        "description": "In an interview with Fox News, Trump said that in some cases, \"you can\u2019t take people off an unemployment, like an unemployment line, and say, 'I\u2019m going to put you into a factory.'\"",
+        "source": "NBC Business",
+        "source_type": "free_rss",
+        "keyword": "RSS Feed",
+        "highlights": [
+          "\ud83d\udcac \"you can\u2019t take people off an unemployment, like an unemployment line, and say, 'I\u2019m going to put you into a factory.'\"",
+          "\ud83d\udcac \"You can\u2019t take people off an unemployment, like an unemployment line, and say, 'I\u2019m going to put you into a factory.'\"",
+          "\ud83d\udcca \"You can\u2019t take people off an unemployment, like an unemployment line, and say, 'I\u2019m going to put you into a factory,'\" Trump said",
+          "\ud83d\udcca Trump's comments acknowledging the role played by immigrants in economic growth and innovation contradicts some of his messaging during his admin"
+        ],
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Trump calls H-1B visas necessary to bring in 'certain talents' that he says the U.S. lacks",
+          "summary_highlights": [
+            "Article covers: Unemployment",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Unemployment."
+        },
+        "topic_headline": "Trump calls H-1B visas necessary to bring in 'certain talents' that he says the U.S. lacks",
+        "summary_highlights": [
+          "Article covers: Unemployment",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Unemployment.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
+      },
+      {
+        "title": "How Unemployment Can Take a Toll on Our Mental Health - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdS1TS1ItN0IwSlhRclBoT3lSSDlkNHRmUjEwMlBaUGd4anh2NExnbWVWRlhsSG1ueGViNnhrSG1YcWVkQ2FiRy1pRUVkUDlYcGl5VlZDampNU1hzeDdNN1J4VVpGbzBqWHpKZU1EN21PanoyLVNPUDlZLUxDek9LUm1n?oc=5",
+        "published": "Wed, 12 Nov 2025 13:35:52 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNdS1TS1ItN0IwSlhRclBoT3lSSDlkNHRmUjEwMlBaUGd4anh2NExnbWVWRlhsSG1ueGViNnhrSG1YcWVkQ2FiRy1pRUVkUDlYcGl5VlZDampNU1hzeDdNN1J4VVpGbzBqWHpKZU1EN21PanoyLVNPUDlZLUxDek9LUm1n?oc=5\" target=\"_blank\">How Unemployment Can Take a Toll on Our Mental Health</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
         "source": "Google News",
         "keyword": "unemployment",
         "highlights": [
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
+          "\ud83d\udcac \">How Unemployment Can Take a Toll on Our Mental Health</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca How Unemployment Can Take a Toll on Our Mental Health - The New York Times <a href=\"https://news",
+          "\ud83d\udcbc Employment market conditions reported",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "How Unemployment Can Take a Toll on Our Mental Health - The New York Times",
+          "summary_highlights": [
+            "Article covers: Unemployment",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Unemployment."
+        },
+        "topic_headline": "How Unemployment Can Take a Toll on Our Mental Health - The New York Times",
+        "summary_highlights": [
+          "Article covers: Unemployment",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Unemployment.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Canada's 67K jobs gain and lower unemployment bolster case for BoC to hold rates - Yahoo! Finance Canada",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdl9CUGMzcnd4Ql9Hd0lCZFYya0g5bnNMQnBtUzV3SjAybGduMDcwUTlQREtKU0pwdEZhZ1JWbHBLdFBCd2RxZjRsaUxBb3UyTXB2WWN4WGQ1Uk9EaUVLSUotUS1LbVRwejAwcnVtYXhLc013dkRHNTRRV0xFVzNNUGY3b3NyWEpKdlNQRjJsSXNXQUJ2bldORnVHT0RSOGlLdUNvMWFmZ0dhT01RSDVmaTNwQlZJc2xkRDVEM19aT0tPTWNEZnNZ?oc=5",
-        "published": "Fri, 07 Nov 2025 16:41:05 GMT",
-        "description": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxOdl9CUGMzcnd4Ql9Hd0lCZFYya0g5bnNMQnBtUzV3SjAybGduMDcwUTlQREtKU0pwdEZhZ1JWbHBLdFBCd2RxZjRsaUxBb3UyTXB2WWN4WGQ1Uk9EaUVLSUotUS1LbVRwejAwcnVtYXhLc013dkRHNTRRV0xFVzNNUGY3b3NyWEpKdlNQRjJsSXNXQUJ2bldORnVHT0RSOGlLdUNvMWFmZ0dhT01RSDVmaTNwQlZJc2xkRDVEM19aT0tPTWNEZnNZ?oc=5\" target=\"_blank\">Canada's 67K jobs gain and lower unemployment bolster case for BoC to hold rates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo! Finance Canada</font></li><li><a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQUUtOaVZsbW5RREhlV3JnMmVZVWFUdWc5dmZSaWRhX21yVkFRSTNNSWE5TzJ6bE9qWkNuWTk0ajQyY3dNM0FiamRfbVpEdEE3YjZpdnBxTGs2WnRvM2tFQnRtMGtYTmxJVU5FaHZXcDRKTXc3RDJubTVxdTBSejhWcG5pRC1mZWV0ZUE?oc=5\" target=\"_blank\">Canada gains a surprise 67,000 jobs in October, beating economists' expectations</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBC</font></li><li><a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxPOFo3TnJ1REJOTy1ZWFNWQjJCZlpnU3FacW9kTXpzUTdiRklXNFNZd01DNFZYS0E1Z25VM2tGdldRZS13eHJHZy03RlFTdjR3RWphdXFDN2FobWNFX0QxUnVVNHRXWS1PRWw5aTR1MUFwVHpjaVg1LVZONmhJQ05LcVNHMVdmOUtNMWpqaU9jTXRBUXNYaGJJUi1USUZTc0trREtpQUZuWHk0R3pTS0pFdUkwbnJ4dXhGcHJfLW14MkNueUZwNVRiT1M2V2VyaURScjIwTHc0N0RJY0lLaUswdg?oc=5\" target=\"_blank\">Canada's job market posts surprise expansion in October, unemployment falls</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font></li></ol>",
+        "title": "Study: College graduates facing highest unemployment levels in decades - MyNorthwest.com",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94ajFyelRwYzI0LVJqREVJWk42Z2EyeUN2RURwSk5saUJlcWRuM3hsU3dVYmd2YXZwTmpJa1lTQkxmM2Y4aU1MeWNncmtFVUN5VmxlLWFIZXJRNlNlNTlsbjRaUmt3QmhLcE14eTZwZ2xPQUppOGozdENBNmRHSlE?oc=5",
+        "published": "Wed, 12 Nov 2025 02:32:08 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE94ajFyelRwYzI0LVJqREVJWk42Z2EyeUN2RURwSk5saUJlcWRuM3hsU3dVYmd2YXZwTmpJa1lTQkxmM2Y4aU1MeWNncmtFVUN5VmxlLWFIZXJRNlNlNTlsbjRaUmt3QmhLcE14eTZwZ2xPQUppOGozdENBNmRHSlE?oc=5\" target=\"_blank\">Study: College graduates facing highest unemployment levels in decades</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MyNorthwest.com</font>",
         "source": "Google News",
         "keyword": "unemployment",
         "highlights": [
-          "\ud83d\udcc8 Unemployment/employment metrics showing upward trend",
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes"
+          "\ud83d\udcac \">Study: College graduates facing highest unemployment levels in decades</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Study: College graduates facing highest unemployment levels in decades - MyNorthwest",
+          "\ud83d\udcbc Employment market conditions reported",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Study: College graduates facing highest unemployment levels in decades - MyNorthwest.com",
+          "summary_highlights": [
+            "Article covers: Unemployment",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Unemployment."
+        },
+        "topic_headline": "Study: College graduates facing highest unemployment levels in decades - MyNorthwest.com",
+        "summary_highlights": [
+          "Article covers: Unemployment",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Unemployment.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Louisiana initial unemployment claims show little fluctuation - Baton Rouge Business Report",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbzhvRktUaGswSkcwNkhGRno0Z01LdDR6UFR3T0JaTmxDeGtPQUNDQmhwSFRpRkl0SFNTbVRGbWVWR19TOTRfVDUwdFZvUzhrb2JwelAzU2gtSnVDdUR2ZW5GdHV3QlZkeUFPTXEtd2IwU0czb19mN2dFZEJJZzFXOVVGV1gxdTVicm1zZ0RLUFh6a0RmdnBJeXJ0Zm9Qd1BWVGw40gGrAUFVX3lxTFBfMDRlQ09faExfcXdPYnlFc01yTTE2bEptX0tmdmtDdHVNYVN3UThBSlFaR3hmNDUtMG51QTNzczdyejZzZzZkRlVWcEFvU1c4b1dmcjhjOEMzb1g0MS1XQmp3eEdZU2ZuRHNrWlhXOFE1eW5Jckh0U1VJemt6U01pUGhzZnY2aG1LUzhkSGVNMkVEbHk2aTQweEZwV2paZUJKVl9xMHR0NnJuWQ?oc=5",
-        "published": "Fri, 07 Nov 2025 20:57:28 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQbzhvRktUaGswSkcwNkhGRno0Z01LdDR6UFR3T0JaTmxDeGtPQUNDQmhwSFRpRkl0SFNTbVRGbWVWR19TOTRfVDUwdFZvUzhrb2JwelAzU2gtSnVDdUR2ZW5GdHV3QlZkeUFPTXEtd2IwU0czb19mN2dFZEJJZzFXOVVGV1gxdTVicm1zZ0RLUFh6a0RmdnBJeXJ0Zm9Qd1BWVGw40gGrAUFVX3lxTFBfMDRlQ09faExfcXdPYnlFc01yTTE2bEptX0tmdmtDdHVNYVN3UThBSlFaR3hmNDUtMG51QTNzczdyejZzZzZkRlVWcEFvU1c4b1dmcjhjOEMzb1g0MS1XQmp3eEdZU2ZuRHNrWlhXOFE1eW5Jckh0U1VJemt6U01pUGhzZnY2aG1LUzhkSGVNMkVEbHk2aTQweEZwV2paZUJKVl9xMHR0NnJuWQ?oc=5\" target=\"_blank\">Louisiana initial unemployment claims show little fluctuation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Baton Rouge Business Report</font>",
+        "title": "Michigan Senate might block clawback of COVID jobless aid overpayments - The Detroit News",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNZEhqY1RtVmZyZl9SeXg3TUIwV2xzRmtDX0s0V2xFUWc0QTd4T3I2WHlhQnpFVHZSSXdyV1hOVEMzMFZfR2Z1eWthODV6MDJKcDM2OWhTMVhPQ2JDQW5HdjZXMURhQ1VxOGF1UURRSmZWTnVBR0JOdlVTZE9ISzJ5Z0wybFdrTEIweDRULUlVRFJObEZPX0hBVzEzcHkxcy1aUUVVR0VDcmp6ak93ZGFhTDNqOTU3V3RZaWFRaFFLZ3ZXekxiejQ0bnQwZGd3VnBsVjRVeEg4YmgwMGlESERwZngtTzlLYW1kQXdlQXZDTTJJU01oQzF6ei14WEY?oc=5",
+        "published": "Wed, 12 Nov 2025 20:17:07 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMi_AFBVV95cUxNZEhqY1RtVmZyZl9SeXg3TUIwV2xzRmtDX0s0V2xFUWc0QTd4T3I2WHlhQnpFVHZSSXdyV1hOVEMzMFZfR2Z1eWthODV6MDJKcDM2OWhTMVhPQ2JDQW5HdjZXMURhQ1VxOGF1UURRSmZWTnVBR0JOdlVTZE9ISzJ5Z0wybFdrTEIweDRULUlVRFJObEZPX0hBVzEzcHkxcy1aUUVVR0VDcmp6ak93ZGFhTDNqOTU3V3RZaWFRaFFLZ3ZXekxiejQ0bnQwZGd3VnBsVjRVeEg4YmgwMGlESERwZngtTzlLYW1kQXdlQXZDTTJJU01oQzF6ei14WEY?oc=5\" target=\"_blank\">Michigan Senate might block clawback of COVID jobless aid overpayments</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Detroit News</font>",
         "source": "Google News",
         "keyword": "unemployment",
         "highlights": [
-          "\ud83d\udcbc Employment market developments reported",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
+          "\ud83d\udcac \">Michigan Senate might block clawback of COVID jobless aid overpayments</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcbc Employment market conditions reported",
+          "\ud83d\udcca Economic indicators and market analysis",
+          "\ud83c\udfdb\ufe0f Policy implications and regulatory updates"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Michigan Senate might block clawback of COVID jobless aid overpayments - The Detroit News",
+          "summary_highlights": [
+            "Article covers: economic developments",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting the financial markets."
+        },
+        "topic_headline": "Michigan Senate might block clawback of COVID jobless aid overpayments - The Detroit News",
+        "summary_highlights": [
+          "Article covers: economic developments",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting the financial markets.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Unemployment benefits in jeopardy in shutdown, but not as dire as SNAP - Axios",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUzB3Nms4UWhDZndiWXFwaXV4S0gwdzU1OHBGaU5GMk1kRFFNTjNoR2E2b1JkeEhXaUVDSHVPcmZET1hQNE5xd1JHdzRSM0RzTkNyS1ZIMFJBM1duMnh4aFh6YlFrNmI5ZHNGendhU2xMRzRjQTVMV21nNGhZVm1DbncxcDk0N0VV?oc=5",
-        "published": "Wed, 05 Nov 2025 16:53:42 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUzB3Nms4UWhDZndiWXFwaXV4S0gwdzU1OHBGaU5GMk1kRFFNTjNoR2E2b1JkeEhXaUVDSHVPcmZET1hQNE5xd1JHdzRSM0RzTkNyS1ZIMFJBM1duMnh4aFh6YlFrNmI5ZHNGendhU2xMRzRjQTVMV21nNGhZVm1DbncxcDk0N0VV?oc=5\" target=\"_blank\">Unemployment benefits in jeopardy in shutdown, but not as dire as SNAP</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Axios</font>",
-        "source": "Google News",
-        "keyword": "unemployment",
-        "highlights": [
-          "\ud83d\udcc9 Employment situation showing improvement",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Shutdown means another missed jobs report Friday. Here's what it probably would have shown - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeGg0c3NWOFcxM1hnZF9KMUhOeHlJTEVFbmYwcU1zcjRqd2lKd2c2WXptREV6VzJvTGIzckFGcXFDU09HYW4ybXduNlNSSkt4NnhzVWE4amtaZnJaNDhzbHNKZ2wtX0FUdVhmQm9QYXA2VnRVbGJoRk5zcU1fR0U4c1dVSEVrcm92WkNNengxeTByUDVsOTVPc1hxZy1xSjJhV3ZtMDdzemFoS0p5RXNYb9IBtgFBVV95cUxQUWl4SVo1d1hQNWhBVjBMYkVLcjZCdmpyWWU2N0tUSzNCaVFSQmJFM0lMZUJfUjdDZVJyMVduRmtHblduRDNCOUkzMUxUakVyTlI3ZWE2LVM3amJvaTJWLWQtcTFPS3g4enRCVHZhckROSTVEdG5SN3hWM0dFRjlsTlZFNERmajhUaXV4bzRDVDN6SHc2NWxnZ3FhUUJTX0xSOXZqaF9xSnlYWHltNXFUSVd4b21wdw?oc=5",
-        "published": "Fri, 07 Nov 2025 14:00:40 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNeGg0c3NWOFcxM1hnZF9KMUhOeHlJTEVFbmYwcU1zcjRqd2lKd2c2WXptREV6VzJvTGIzckFGcXFDU09HYW4ybXduNlNSSkt4NnhzVWE4amtaZnJaNDhzbHNKZ2wtX0FUdVhmQm9QYXA2VnRVbGJoRk5zcU1fR0U4c1dVSEVrcm92WkNNengxeTByUDVsOTVPc1hxZy1xSjJhV3ZtMDdzemFoS0p5RXNYb9IBtgFBVV95cUxQUWl4SVo1d1hQNWhBVjBMYkVLcjZCdmpyWWU2N0tUSzNCaVFSQmJFM0lMZUJfUjdDZVJyMVduRmtHblduRDNCOUkzMUxUakVyTlI3ZWE2LVM3amJvaTJWLWQtcTFPS3g4enRCVHZhckROSTVEdG5SN3hWM0dFRjlsTlZFNERmajhUaXV4bzRDVDN6SHc2NWxnZ3FhUUJTX0xSOXZqaF9xSnlYWHltNXFUSVd4b21wdw?oc=5\" target=\"_blank\">Shutdown means another missed jobs report Friday. Here's what it probably would have shown</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-        "source": "Google News",
-        "keyword": "unemployment",
-        "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "\u2018No hire\u2019 job market leaves unemployed in limbo as threats to economy multiply - AP News",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM2taNFVTSWZaVW94N3JhdHVzRC1xQ1Q3cW45VEVtdy1uRDNjTGJTSUQtNmYtWko5ME1vamxUaDRITGozUnhWQkQ3eU1kZEVmbG1PMExxZC1zSWcyZlYyeGlGcU1mSTVrOXpIWE9TMDJOcVFUWjBabFJDMFpzbW1zNHk1VnN4QQ?oc=5",
-        "published": "Fri, 07 Nov 2025 18:22:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQM2taNFVTSWZaVW94N3JhdHVzRC1xQ1Q3cW45VEVtdy1uRDNjTGJTSUQtNmYtWko5ME1vamxUaDRITGozUnhWQkQ3eU1kZEVmbG1PMExxZC1zSWcyZlYyeGlGcU1mSTVrOXpIWE9TMDJOcVFUWjBabFJDMFpzbW1zNHk1VnN4QQ?oc=5\" target=\"_blank\">\u2018No hire\u2019 job market leaves unemployed in limbo as threats to economy multiply</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
-        "source": "Google News",
-        "keyword": "unemployment",
-        "highlights": [
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Ontario predicts grim economic outlook with rising unemployment and lower job creation - Global News",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Lb3pVVml0VVZwSHhRM3hTS1dTbHZWa3JKR2pZVXdfcXl3UUxZQ21UV1RSc2RKdG9ZOGs5dnQ1aFJxSTZHUVJ3ellTR2FnYlNUSWZYaEFXRkRqQUF4dFlRZnRvaXZRZ3RmVXNTTzNZRUNWWDB6dXl1cVA1c3JuQdIBgwFBVV95cUxPSWM3Q3BIOU5VY1p1RzRsdkdubF9UR0tyTXlSUU1feVJHM01vMXctdnFKUnlTUVpEMGVLRkhNMDdKZnJ3WXE1aXdyajZOWjdDSTlfRTVYOXZlOVdaSGNuNnlLWGdkVUhBY3I3Z2RNU0NjRkgxZ3p6X2lNT3VRVzRIaXhoRQ?oc=5",
-        "published": "Thu, 06 Nov 2025 11:00:03 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE5Lb3pVVml0VVZwSHhRM3hTS1dTbHZWa3JKR2pZVXdfcXl3UUxZQ21UV1RSc2RKdG9ZOGs5dnQ1aFJxSTZHUVJ3ellTR2FnYlNUSWZYaEFXRkRqQUF4dFlRZnRvaXZRZ3RmVXNTTzNZRUNWWDB6dXl1cVA1c3JuQdIBgwFBVV95cUxPSWM3Q3BIOU5VY1p1RzRsdkdubF9UR0tyTXlSUU1feVJHM01vMXctdnFKUnlTUVpEMGVLRkhNMDdKZnJ3WXE1aXdyajZOWjdDSTlfRTVYOXZlOVdaSGNuNnlLWGdkVUhBY3I3Z2RNU0NjRkgxZ3p6X2lNT3VRVzRIaXhoRQ?oc=5\" target=\"_blank\">Ontario predicts grim economic outlook with rising unemployment and lower job creation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Global News</font>",
-        "source": "Google News",
-        "keyword": "unemployment",
-        "highlights": [
-          "\ud83d\udcbc Employment market developments reported",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "There\u2019s no jobs report today. Here\u2019s what it might\u2019ve shown. - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWW54eGxrOHl4VXFrdV9OSDIxY01JV24xdDFpWFhnM2E4OE9FU29hejUzcUpIN1VEWTRBVlJhazNfUVhuWElsWDFhRjJtZXhNWC1DWmxLTl9TUk9SNzNBSEtMSlJfT01jelFDNTVZR1VrSV9GS2o3Uzc0UGkzaGZHVGtpLWVVTjktNl9ubndEd080b3AzSWpPSjljMml2eUZVcVNZ?oc=5",
-        "published": "Fri, 07 Nov 2025 13:30:19 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPWW54eGxrOHl4VXFrdV9OSDIxY01JV24xdDFpWFhnM2E4OE9FU29hejUzcUpIN1VEWTRBVlJhazNfUVhuWElsWDFhRjJtZXhNWC1DWmxLTl9TUk9SNzNBSEtMSlJfT01jelFDNTVZR1VrSV9GS2o3Uzc0UGkzaGZHVGtpLWVVTjktNl9ubndEd080b3AzSWpPSjljMml2eUZVcVNZ?oc=5\" target=\"_blank\">There\u2019s no jobs report today. Here\u2019s what it might\u2019ve shown.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
-        "source": "Google News",
-        "keyword": "unemployment",
-        "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "\u2018A job is like finding a needle in a haystack\u2019: how Dudley became centre of UK\u2019s youth jobs crisis - The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNzhJcGNuZ3dKcDF3TFF6TmtWSWFqMlBGM2xZaVpjQnVIUkdfQkstLTJfaWhKbE0xdXVOLVZyaTQySjV6eHVzUHNTblRHaGhXYi1RSmI0c2YtZkc5MHN6WFFVU1JPYnozU0tZRWkwNmtnUXl6dGx3OHV3bDlLRVBEd1lfb3BHeEFHN0R5TF9qWmFuSXZ3MDVneG01NkhwR3c?oc=5",
-        "published": "Fri, 07 Nov 2025 16:00:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPNzhJcGNuZ3dKcDF3TFF6TmtWSWFqMlBGM2xZaVpjQnVIUkdfQkstLTJfaWhKbE0xdXVOLVZyaTQySjV6eHVzUHNTblRHaGhXYi1RSmI0c2YtZkc5MHN6WFFVU1JPYnozU0tZRWkwNmtnUXl6dGx3OHV3bDlLRVBEd1lfb3BHeEFHN0R5TF9qWmFuSXZ3MDVneG01NkhwR3c?oc=5\" target=\"_blank\">\u2018A job is like finding a needle in a haystack\u2019: how Dudley became centre of UK\u2019s youth jobs crisis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
-        "source": "Google News",
-        "keyword": "unemployment",
-        "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Bank of England says UK inflation has peaked after leaving rates at 4%; US job cuts jump as firms turn to AI \u2013 as it happened - The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQU3l4bUhFN0R0SEkwWGRZYVBldVlLZEJhM0JMUl9iVHRUZzdPc1BoVzNqTkdHVGU4LVotMDQ3YmdUcW9yZXBRZHB3VlVHUll5YTc1Qk5EZlJ5NGd4RWFkOEI3aEpTZXF5NGVXR1Q3dmVpN19yQXdzMDE5Uk04a2FWTGlWWnBaLXZpTlpFV1NNQWxia2NfLWtVX0ZhMk9ETFhWQ3lRc1hIcVNCSHc5QjhKWUY1VF8yN1RydW5MclkyVEI3T0l0LXRVVXVLN21UaTBlSFNkRWpDblZJU05X?oc=5",
-        "published": "Thu, 06 Nov 2025 07:20:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxQU3l4bUhFN0R0SEkwWGRZYVBldVlLZEJhM0JMUl9iVHRUZzdPc1BoVzNqTkdHVGU4LVotMDQ3YmdUcW9yZXBRZHB3VlVHUll5YTc1Qk5EZlJ5NGd4RWFkOEI3aEpTZXF5NGVXR1Q3dmVpN19yQXdzMDE5Uk04a2FWTGlWWnBaLXZpTlpFV1NNQWxia2NfLWtVX0ZhMk9ETFhWQ3lRc1hIcVNCSHc5QjhKWUY1VF8yN1RydW5MclkyVEI3T0l0LXRVVXVLN21UaTBlSFNkRWpDblZJU05X?oc=5\" target=\"_blank\">Bank of England says UK inflation has peaked after leaving rates at 4%; US job cuts jump as firms turn to AI \u2013 as it happened</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+        "title": "White House says October jobs and inflation data may never be released because of the shutdown - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qMV9vVXRoZm4wVkthRGxuMndjclF4blFSTENTUnBjM2F3T2stZHFENkkyNXQxRG1GR21HTDRSZ0NIMmx5S1l1NmFwczFGOTNtSEtvbmxZMUI3U0c4YW4tcVlFUURkb09TeHcyZzZkQ2JybU5Gd25UddIBfkFVX3lxTE10ZDRfaktQWW9TaGNyZmJ5MV94aW5qQkVEZ1RPQWlobEFQbjNHcUk2bkRiZUlEekdjOWplOWpQU1VnWU5XR1V6TWhwdDctWDZJNVIxMkVPR20tbGFHd0tVcTZYSUtFRDdjX01PWVg4T2lCazh6UFd2T0tPcGdPdw?oc=5",
+        "published": "Wed, 12 Nov 2025 18:43:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9qMV9vVXRoZm4wVkthRGxuMndjclF4blFSTENTUnBjM2F3T2stZHFENkkyNXQxRG1GR21HTDRSZ0NIMmx5S1l1NmFwczFGOTNtSEtvbmxZMUI3U0c4YW4tcVlFUURkb09TeHcyZzZkQ2JybU5Gd25UddIBfkFVX3lxTE10ZDRfaktQWW9TaGNyZmJ5MV94aW5qQkVEZ1RPQWlobEFQbjNHcUk2bkRiZUlEekdjOWplOWpQU1VnWU5XR1V6TWhwdDctWDZJNVIxMkVPR20tbGFHd0tVcTZYSUtFRDdjX01PWVg4T2lCazh6UFd2T0tPcGdPdw?oc=5\" target=\"_blank\">White House says October jobs and inflation data may never be released because of the shutdown</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
         "source": "Google News",
         "keyword": "inflation",
         "highlights": [
-          "\ud83d\udcca Inflation data and price trends updated",
-          "\ud83c\udfe6 Banking sector and financial institution news",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes"
+          "\ud83d\udcac \">White House says October jobs and inflation data may never be released because of the shutdown</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca White House says October jobs and inflation data may never be released because of the shutdown - CNBC <a href=\"https://news",
+          "\ud83d\udcb0 Inflation and pricing trends analyzed",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
-      },
-      {
-        "title": "Wall Street cheers bad news on jobs, sending stocks higher and betting that a soft labor market will force Powell's hand in December - Fortune",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSVJzYllqZmpreXAxdGFxZjUzTU9FbmdHNktQNGFtRXdWTjFDeVVMVFQ2X3RONDRfcnVudUtXTkNfTEhqdmNSdDNCbXJac0RMTVo3ZzZOUlplcEJqdUE0RWlkVGc1TkViVHlPeENKZVVFNDYzTnBOVHBMblZRT2pLSUxfQmZuclNVUDNRNTR0cThhNjhvc1VnZy1VRFFIVFZqa3RDUllyNms?oc=5",
-        "published": "Wed, 05 Nov 2025 17:32:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSVJzYllqZmpreXAxdGFxZjUzTU9FbmdHNktQNGFtRXdWTjFDeVVMVFQ2X3RONDRfcnVudUtXTkNfTEhqdmNSdDNCbXJac0RMTVo3ZzZOUlplcEJqdUE0RWlkVGc1TkViVHlPeENKZVVFNDYzTnBOVHBMblZRT2pLSUxfQmZuclNVUDNRNTR0cThhNjhvc1VnZy1VRFFIVFZqa3RDUllyNms?oc=5\" target=\"_blank\">Wall Street cheers bad news on jobs, sending stocks higher and betting that a soft labor market will force Powell's hand in December</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fortune</font>",
-        "source": "Google News",
-        "keyword": "jerome powell",
-        "highlights": [
-          "\ud83d\udcbc Employment market developments reported",
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "White House says October jobs and inflation data may never be released because of the shutdown - CNBC",
+          "summary_highlights": [
+            "Article covers: Inflation, Gdp",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Inflation, Gdp."
+        },
+        "topic_headline": "White House says October jobs and inflation data may never be released because of the shutdown - CNBC",
+        "summary_highlights": [
+          "Article covers: Inflation, Gdp",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
         ],
-        "source_category": "free"
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Inflation, Gdp.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       }
     ],
     "General Economic News": [
       {
-        "title": "\u2018I Wish There Was a Support Group for Spouses of Unemployed People\u2019 - The Cut",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY2MxVmxTR2UxTENHTEhHX1pucUR2Nk5OcVJkQTR0aVFTaklXOVc0OGxla2JpTGpSa1RhbHRqSGwwTVJGLWtzZGM0TG5YWHJJTHhOc2gwTTRwZ1pIclUweVRVNVFOV2Yxc2UwcXJEQkFvVHpYd0MzYVFxclRmd0Vmb2RBblVZTmtSTThaRkNFMTV5UHRoQTN3TA?oc=5",
-        "published": "Thu, 06 Nov 2025 13:00:01 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOY2MxVmxTR2UxTENHTEhHX1pucUR2Nk5OcVJkQTR0aVFTaklXOVc0OGxla2JpTGpSa1RhbHRqSGwwTVJGLWtzZGM0TG5YWHJJTHhOc2gwTTRwZ1pIclUweVRVNVFOV2Yxc2UwcXJEQkFvVHpYd0MzYVFxclRmd0Vmb2RBblVZTmtSTThaRkNFMTV5UHRoQTN3TA?oc=5\" target=\"_blank\">\u2018I Wish There Was a Support Group for Spouses of Unemployed People\u2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Cut</font>",
+        "title": "Millions of borrowers face anxious wait ahead of crucial official data - Australian Broadcasting Corporation",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTmV1REpnbURORldCcXJwdWVKdExkVzhNNm1EcVJQZnBnQkpITE1DeTNSNXRLRHJXVUpwbDA4OUFwMnZ3SkRnTF9Ic3R5QWQ5UWJLa2U2MW9RVWNGQ1A3WkxVNGtNR1V1dkhDRmlVQ2hVT2FpT2V5MUwwSjR6VFBoVVlFSXpzM0dHNWtvS1h4eEY2Vjh5LTFTU24zRmE3SEpDaWVId2hyWnM?oc=5",
+        "published": "Wed, 12 Nov 2025 06:14:42 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTmV1REpnbURORldCcXJwdWVKdExkVzhNNm1EcVJQZnBnQkpITE1DeTNSNXRLRHJXVUpwbDA4OUFwMnZ3SkRnTF9Ic3R5QWQ5UWJLa2U2MW9RVWNGQ1A3WkxVNGtNR1V1dkhDRmlVQ2hVT2FpT2V5MUwwSjR6VFBoVVlFSXpzM0dHNWtvS1h4eEY2Vjh5LTFTU24zRmE3SEpDaWVId2hyWnM?oc=5\" target=\"_blank\">Millions of borrowers face anxious wait ahead of crucial official data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
         "source": "Google News",
         "keyword": "unemployment",
         "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
+          "\ud83d\udcac \">Millions of borrowers face anxious wait ahead of crucial official data</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Economic indicators and market analysis",
+          "\ud83c\udfdb\ufe0f Policy implications and regulatory updates",
+          "\ud83c\udf0d Global economic impact assessment"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Millions of borrowers face anxious wait ahead of crucial official data - Australian Broadcasting Corporation",
+          "summary_highlights": [
+            "Article covers: economic developments",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting the financial markets."
+        },
+        "topic_headline": "Millions of borrowers face anxious wait ahead of crucial official data - Australian Broadcasting Corporation",
+        "summary_highlights": [
+          "Article covers: economic developments",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting the financial markets.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "How everyday savers can use I Bonds to make more money: Where to buy, what's the rate? - Detroit Free Press",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQc3c1Uk1zTy1zZy1COGNzcHpyVDF4SUdVemkyWDZVY215WEpSc3JiTFE1X2MtYjN3RkFuc3RTSndmUkZUbHdLTkR2QVBBdkhxd2VnOWMtN1ZLNHd1VzJlaXdkVlNzZ1VfWE92aGhBV08wOXRPMjcyMzRWMF84YlZsNFpKaWQ5ZXRMM1Z1NU1GUGluTjdnMmRsNVNnYUhrNHdCWlN4Z3BpLW9Vdk1NQXZCWnl4TWVBNXdPd3hZMERfbmJMNWFmVk94Q2JiRFVPMjN0N1ltelZ1NGNhLS1kcDM5WQ?oc=5",
-        "published": "Thu, 06 Nov 2025 12:07:49 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxQc3c1Uk1zTy1zZy1COGNzcHpyVDF4SUdVemkyWDZVY215WEpSc3JiTFE1X2MtYjN3RkFuc3RTSndmUkZUbHdLTkR2QVBBdkhxd2VnOWMtN1ZLNHd1VzJlaXdkVlNzZ1VfWE92aGhBV08wOXRPMjcyMzRWMF84YlZsNFpKaWQ5ZXRMM1Z1NU1GUGluTjdnMmRsNVNnYUhrNHdCWlN4Z3BpLW9Vdk1NQXZCWnl4TWVBNXdPd3hZMERfbmJMNWFmVk94Q2JiRFVPMjN0N1ltelZ1NGNhLS1kcDM5WQ?oc=5\" target=\"_blank\">How everyday savers can use I Bonds to make more money: Where to buy, what's the rate?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Detroit Free Press</font>",
+        "title": "Nico Harrison Updates IG Bio to 'Unemployed' After Being Fired as Mavs GM - Bleacher Report",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZVpxMnRacllWd2RZbm9wdm9uR1BXX01HbThXS0trclN6S1k3TFExSTdzZHJkbURQUDVxaTVnWTFXTF9vM0NmTWItY0NjVm1oekI2RDZlbmZrNkJfRFp5bnhFUmthSEtDUmwzUWljRmJ1TFV2THFqWVJhc1BleXVMam15VnpwQ2ptcUF2SXVaQnVGS0xXSG1raExEc3UwMUgxeVBJYmtXRnlCQlZaRy1V?oc=5",
+        "published": "Wed, 12 Nov 2025 02:20:59 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQZVpxMnRacllWd2RZbm9wdm9uR1BXX01HbThXS0trclN6S1k3TFExSTdzZHJkbURQUDVxaTVnWTFXTF9vM0NmTWItY0NjVm1oekI2RDZlbmZrNkJfRFp5bnhFUmthSEtDUmwzUWljRmJ1TFV2THFqWVJhc1BleXVMam15VnpwQ2ptcUF2SXVaQnVGS0xXSG1raExEc3UwMUgxeVBJYmtXRnlCQlZaRy1V?oc=5\" target=\"_blank\">Nico Harrison Updates IG Bio to 'Unemployed' After Being Fired as Mavs GM</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bleacher Report</font>",
+        "source": "Google News",
+        "keyword": "unemployment",
+        "highlights": [
+          "\ud83d\udcac \">Nico Harrison Updates IG Bio to 'Unemployed' After Being Fired as Mavs GM</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Economic indicators and market analysis",
+          "\ud83c\udfdb\ufe0f Policy implications and regulatory updates",
+          "\ud83c\udf0d Global economic impact assessment"
+        ],
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Nico Harrison Updates IG Bio to 'Unemployed' After Being Fired as Mavs GM - Bleacher Report",
+          "summary_highlights": [
+            "Article covers: economic developments",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting the financial markets."
+        },
+        "topic_headline": "Nico Harrison Updates IG Bio to 'Unemployed' After Being Fired as Mavs GM - Bleacher Report",
+        "summary_highlights": [
+          "Article covers: economic developments",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting the financial markets.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
+      },
+      {
+        "title": "White House: Key economic reports impacted by shutdown may not be released - NBC News",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcjV5OEl3cDZ3bUtnc0hlbXhiZE1JRzlGemRqdWk2NkVYUzNkSTZNYVExVFFhVGROaDl2Z0JvN2hmdWowVUdWcU9wMElXbnJxTElIS25lLW5WbWd6Q04yRVJ3SEUxQTRNMUtzNElWNXhKSG51Zk92Q1NYTXhVaWhNZENPc01lREh2TVHSAVZBVV95cUxPT0NUbTBkYlJBdHlLcmhxUEY0X1ZRaGF2NDlQUjktaUtCZW5oT1ZHaFFyLVdlNV9admlaM05RRHVyWElYYTFQaWhNOVlZWWZ1U1Q5anBldw?oc=5",
+        "published": "Wed, 12 Nov 2025 19:27:52 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQcjV5OEl3cDZ3bUtnc0hlbXhiZE1JRzlGemRqdWk2NkVYUzNkSTZNYVExVFFhVGROaDl2Z0JvN2hmdWowVUdWcU9wMElXbnJxTElIS25lLW5WbWd6Q04yRVJ3SEUxQTRNMUtzNElWNXhKSG51Zk92Q1NYTXhVaWhNZENPc01lREh2TVHSAVZBVV95cUxPT0NUbTBkYlJBdHlLcmhxUEY0X1ZRaGF2NDlQUjktaUtCZW5oT1ZHaFFyLVdlNV9admlaM05RRHVyWElYYTFQaWhNOVlZWWZ1U1Q5anBldw?oc=5\" target=\"_blank\">White House: Key economic reports impacted by shutdown may not be released</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font>",
         "source": "Google News",
         "keyword": "inflation",
         "highlights": [
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact",
-          "\ud83d\udd2e Economic outlook and forecasts"
+          "\ud83d\udcac \">White House: Key economic reports impacted by shutdown may not be released</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcc8 Economic and market developments covered",
+          "\ud83d\udcca Economic indicators and market analysis",
+          "\ud83c\udfdb\ufe0f Policy implications and regulatory updates"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "White House: Key economic reports impacted by shutdown may not be released - NBC News",
+          "summary_highlights": [
+            "Article covers: economic developments",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting the financial markets."
+        },
+        "topic_headline": "White House: Key economic reports impacted by shutdown may not be released - NBC News",
+        "summary_highlights": [
+          "Article covers: economic developments",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting the financial markets.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
+      },
+      {
+        "title": "How Has Treasury Market Liquidity Fared in 2025? - Liberty Street Economics",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQWpNMmcyUUpBdTBCdzltYkU1M3NFUS1iVFVlbEdHYkkybU5tUGJJSzl6bHpHNlQxNWZxWHFDc1I0MWE1ZDhYSDdsRXFlUDhXcWlZLXFRanBQRmVpZndtRFRiMHY1ZkpBQW83UlAxMkhZSlNGYjZxQzRBREs2Nm4wdEt4alpvYVhWN3hKLUV4Q0MwdEpSWC14clJycnVWSi0yY0pwTw?oc=5",
+        "published": "Wed, 12 Nov 2025 12:01:22 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPQWpNMmcyUUpBdTBCdzltYkU1M3NFUS1iVFVlbEdHYkkybU5tUGJJSzl6bHpHNlQxNWZxWHFDc1I0MWE1ZDhYSDdsRXFlUDhXcWlZLXFRanBQRmVpZndtRFRiMHY1ZkpBQW83UlAxMkhZSlNGYjZxQzRBREs2Nm4wdEt4alpvYVhWN3hKLUV4Q0MwdEpSWC14clJycnVWSi0yY0pwTw?oc=5\" target=\"_blank\">How Has Treasury Market Liquidity Fared in 2025?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Liberty Street Economics</font>",
+        "source": "Google News",
+        "keyword": "federal reserve",
+        "highlights": [
+          "\ud83d\udcac \">How Has Treasury Market Liquidity Fared in 2025?</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca How Has Treasury Market Liquidity Fared in 2025? - Liberty Street Economics <a href=\"https://news",
+          "\ud83d\udcc8 Economic and market developments covered",
+          "\ud83d\udcca Economic indicators and market analysis"
+        ],
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "How Has Treasury Market Liquidity Fared in 2025? - Liberty Street Economics",
+          "summary_highlights": [
+            "Article covers: Market",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Market."
+        },
+        "topic_headline": "How Has Treasury Market Liquidity Fared in 2025? - Liberty Street Economics",
+        "summary_highlights": [
+          "Article covers: Market",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Market.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
+      }
+    ],
+    "Inflation": [
+      {
+        "title": "Opinion | The penny is dead. Long live inflation. - The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbWJadEJHV0ZkLTh0aXlOTmlhZDV2MWs4aTRya01jOUg4SHIzV3JYU2M0TXZmVWNyVG9yN2NnWS1KVDhDMzlkR25DYmx0UW02NHlGekNVUHZjSEludlA4MVdwS0xqQTBQVTg2a1VuQURQLVB5UTQ2VnZNeFZTekQ0SXItMC04dDVhcVY3T0RR?oc=5",
+        "published": "Thu, 13 Nov 2025 00:04:03 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQbWJadEJHV0ZkLTh0aXlOTmlhZDV2MWs4aTRya01jOUg4SHIzV3JYU2M0TXZmVWNyVG9yN2NnWS1KVDhDMzlkR25DYmx0UW02NHlGekNVUHZjSEludlA4MVdwS0xqQTBQVTg2a1VuQURQLVB5UTQ2VnZNeFZTekQ0SXItMC04dDVhcVY3T0RR?oc=5\" target=\"_blank\">Opinion | The penny is dead. Long live inflation.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Washington Post</font>",
+        "source": "Google News",
+        "keyword": "inflation",
+        "highlights": [
+          "\ud83d\udcac \">Opinion | The penny is dead. Long live inflation.</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcb0 Inflation and pricing trends analyzed",
+          "\ud83d\udcca Economic indicators and market analysis",
+          "\ud83c\udfdb\ufe0f Policy implications and regulatory updates"
+        ],
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Opinion | The penny is dead. Long live inflation. - The Washington Post",
+          "summary_highlights": [
+            "Article covers: Inflation",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Inflation."
+        },
+        "topic_headline": "Opinion | The penny is dead. Long live inflation. - The Washington Post",
+        "summary_highlights": [
+          "Article covers: Inflation",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Inflation.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
+      },
+      {
+        "title": "South Africa cuts inflation target in first change for 25 years - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZFhUUlpnQi1GaXhXbFdVaUZ0dVkxSzVpUlY0RmNhenF2QmIzZlh6aHU3aldEUURfdERGVFF1Rk04VU03Z3IydWdKd3RUZ0FwbEdkWGhwNE5YT3dCeV9zTEJnR0REMGprSUxwRm5CSkxobXFmbW5sR1o2RHJDY1hIQjJMM21YWnZUVzN0aGZhek9wT3ZGVWU1eEJkYUZZR3U1Z1BHVW9ydmpxdzJwdlE3N0QwWQ?oc=5",
+        "published": "Wed, 12 Nov 2025 14:19:15 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQZFhUUlpnQi1GaXhXbFdVaUZ0dVkxSzVpUlY0RmNhenF2QmIzZlh6aHU3aldEUURfdERGVFF1Rk04VU03Z3IydWdKd3RUZ0FwbEdkWGhwNE5YT3dCeV9zTEJnR0REMGprSUxwRm5CSkxobXFmbW5sR1o2RHJDY1hIQjJMM21YWnZUVzN0aGZhek9wT3ZGVWU1eEJkYUZZR3U1Z1BHVW9ydmpxdzJwdlE3N0QwWQ?oc=5\" target=\"_blank\">South Africa cuts inflation target in first change for 25 years</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+        "source": "Google News",
+        "keyword": "inflation",
+        "highlights": [
+          "\ud83d\udcac \">South Africa cuts inflation target in first change for 25 years</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca South Africa cuts inflation target in first change for 25 years - Reuters <a href=\"https://news",
+          "\ud83d\udcb0 Inflation and pricing trends analyzed",
+          "\ud83d\udcca Economic indicators and market analysis"
+        ],
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "South Africa cuts inflation target in first change for 25 years - Reuters",
+          "summary_highlights": [
+            "Article covers: Inflation",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Inflation."
+        },
+        "topic_headline": "South Africa cuts inflation target in first change for 25 years - Reuters",
+        "summary_highlights": [
+          "Article covers: Inflation",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Inflation.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
+      },
+      {
+        "title": "Inflation Rising - Apollo Academy",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vSlZqUy0zSnUwb0ZjcXBZTEYzVTk1WDcwVGVXSm9zelM5cF8wUVhiTGxTYVlHX01CVVlLSWNTZHUzM3BrZHM0UDFCOXpVU05uZWI0UC1MZ3N4X00?oc=5",
+        "published": "Wed, 12 Nov 2025 11:01:56 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vSlZqUy0zSnUwb0ZjcXBZTEYzVTk1WDcwVGVXSm9zelM5cF8wUVhiTGxTYVlHX01CVVlLSWNTZHUzM3BrZHM0UDFCOXpVU05uZWI0UC1MZ3N4X00?oc=5\" target=\"_blank\">Inflation Rising</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Apollo Academy</font>",
+        "source": "Google News",
+        "keyword": "inflation",
+        "highlights": [
+          "\ud83d\udcac \"https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vSlZqUy0zSnUwb0ZjcXBZTEYzVTk1WDcwVGVXSm9zelM5cF8wUVhiTGxTYVlHX01CVVlLSWNTZHUzM3BrZHM0UDFCOXpVU05uZWI0UC1MZ3N4X00?oc=5\"",
+          "\ud83d\udcac \">Inflation Rising</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Inflation Rising - Apollo Academy <a href=\"https://news",
+          "\ud83d\udcb0 Inflation and pricing trends analyzed"
+        ],
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Inflation Rising - Apollo Academy",
+          "summary_highlights": [
+            "Article covers: Inflation",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Inflation."
+        },
+        "topic_headline": "Inflation Rising - Apollo Academy",
+        "summary_highlights": [
+          "Article covers: Inflation",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Inflation.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       }
     ],
     "Market Risk": [
       {
-        "title": "US money market risks new bout of stress, Wall Street banks say - Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTWEdJTV9SblQzcHRqcl9waWs3LWRFQnNyRHpXQlJKRXZPa2tPVlptZUk4MDkzczRYbkk4cmhiLVBXc0JfRGt6OVdqWnNQSVYyeDVkRzh5V3BCaTVrTDJnUWZOQlhmSGMwekw2c2V3LXo?oc=5",
-        "published": "Thu, 06 Nov 2025 23:04:51 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFBTWEdJTV9SblQzcHRqcl9waWs3LWRFQnNyRHpXQlJKRXZPa2tPVlptZUk4MDkzczRYbkk4cmhiLVBXc0JfRGt6OVdqWnNQSVYyeDVkRzh5V3BCaTVrTDJnUWZOQlhmSGMwekw2c2V3LXo?oc=5\" target=\"_blank\">US money market risks new bout of stress, Wall Street banks say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+        "title": "The Stock Market\u2019s Biggest Risk Is Harder to See Than an AI Bubble - Barron's",
+        "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxQTzBablVwSGs0QTdydWF0YUZqM1FQZHRDWkxLYXI4S21iME1QSzFINjhGdGtLZUY0MW5acy11aEhoSUhod0h4S0hQaVJSUkZ3NlBSQ0hwRW5uaEI5eEQ2ZDVMNjFDQjU0aGJjZlptOTJhQi02WXEtS3QxVjBJQ0lNWUVlRl9USmVMXzV4ajBnNEtkUkdSSGtPdVBNV3BJMXZ3ZHA0Y3A0bUh5aVUydXlCVml5a3NxLUpvUTBweUFVdHRiVEdMeVU5eS1OaDJyTlpvRTE0Wmd1cEdGRVJrYUhSc2tzQ3R5bE1Kd3JsR1FJdUpVa2VrY24yR2RNRU80b1Z5d1ItVmxWM3ZEeld2V01nNnc0X0ItbjBFdGFwV3ZhbWhlSVBQbjFxby1XSWJDOTZmQjlGWEcwOWg3aUpiLUd5N1BEMDlpTXZKeW5iUGkwUS1pZzhiRXBWR3Q3c0dpeWd3UEE1UDQxeFA3VVozdVlxekVoOTEwUVQzX3c?oc=5",
+        "published": "Wed, 12 Nov 2025 20:25:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMi-gJBVV95cUxQTzBablVwSGs0QTdydWF0YUZqM1FQZHRDWkxLYXI4S21iME1QSzFINjhGdGtLZUY0MW5acy11aEhoSUhod0h4S0hQaVJSUkZ3NlBSQ0hwRW5uaEI5eEQ2ZDVMNjFDQjU0aGJjZlptOTJhQi02WXEtS3QxVjBJQ0lNWUVlRl9USmVMXzV4ajBnNEtkUkdSSGtPdVBNV3BJMXZ3ZHA0Y3A0bUh5aVUydXlCVml5a3NxLUpvUTBweUFVdHRiVEdMeVU5eS1OaDJyTlpvRTE0Wmd1cEdGRVJrYUhSc2tzQ3R5bE1Kd3JsR1FJdUpVa2VrY24yR2RNRU80b1Z5d1ItVmxWM3ZEeld2V01nNnc0X0ItbjBFdGFwV3ZhbWhlSVBQbjFxby1XSWJDOTZmQjlGWEcwOWg3aUpiLUd5N1BEMDlpTXZKeW5iUGkwUS1pZzhiRXBWR3Q3c0dpeWd3UEE1UDQxeFA3VVozdVlxekVoOTEwUVQzX3c?oc=5\" target=\"_blank\">The Stock Market\u2019s Biggest Risk Is Harder to See Than an AI Bubble</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barron's</font>",
         "source": "Google News",
         "keyword": "market risk",
         "highlights": [
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83c\udfe6 Banking sector and financial institution news",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes"
+          "\ud83d\udcac \">The Stock Market\u2019s Biggest Risk Is Harder to See Than an AI Bubble</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca The Stock Market\u2019s Biggest Risk Is Harder to See Than an AI Bubble - Barron's <a href=\"https://news",
+          "\ud83d\udcc8 Economic and market developments covered",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "The Stock Market\u2019s Biggest Risk Is Harder to See Than an AI Bubble - Barron's",
+          "summary_highlights": [
+            "Article covers: Market",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Market."
+        },
+        "topic_headline": "The Stock Market\u2019s Biggest Risk Is Harder to See Than an AI Bubble - Barron's",
+        "summary_highlights": [
+          "Article covers: Market",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Market.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Has Market Risk Created an Opportunity in Capital Southwest After Five Years of 130% Growth? - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNDZ4U2xYclY5ZzB4c2JqSV9obGE1ZllNMlRYa0VMRTZ3cFlwR25lUXV1eUVFWldIYTMtMGRaeVBLb1lIMGdmSFVfSzdOa0l4ZUl6Rm1qU2Z3a1RvZjNDd1pHeXlNTGMxc0N0cHNsYkpGZ21zSFpuaWlkeGVrTl9oNjd3X1AzbFN3VDllZ0poWnViRnV2Umt3djdnaTU5VUNJNDBwMWh4NUpCS2FTdC1DWXJNTnF1T0lPQTlYTHdKVl80eUVkV2EtdmU3dnR0ZnMxNkUtZkhEa01aZkc4aHVqemFjONIB6AFBVV95cUxOMVVpUDhtQWZ0QVJkT3ZfaE9oNnVsWkNtVjNId2t3ekl1cDRTQ3ZrYk1NbkxPNlN2cFExTmhuT1Z4VDV4M01UMnNYU2NnM1NWWVdpVVplMFVKcW16eHNwNzFBYjgyWU1qZkRMcmhuNGx3dE1wd2tLSHNPNGVadUZ6V1JCUHBkYVAzV2tyeGtyMnhUeGVFN1JTN1VvZ2J3Y2RwcjJGb3VqZGVUdG8yTElYOXI5bTFOMzMtVzR0ejc3dWU1bG9FeTJZcF94a3VoOWg1UHExVVRIS05oY2NYMnY4Rk80OUlCYUlT?oc=5",
-        "published": "Thu, 06 Nov 2025 11:22:27 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNDZ4U2xYclY5ZzB4c2JqSV9obGE1ZllNMlRYa0VMRTZ3cFlwR25lUXV1eUVFWldIYTMtMGRaeVBLb1lIMGdmSFVfSzdOa0l4ZUl6Rm1qU2Z3a1RvZjNDd1pHeXlNTGMxc0N0cHNsYkpGZ21zSFpuaWlkeGVrTl9oNjd3X1AzbFN3VDllZ0poWnViRnV2Umt3djdnaTU5VUNJNDBwMWh4NUpCS2FTdC1DWXJNTnF1T0lPQTlYTHdKVl80eUVkV2EtdmU3dnR0ZnMxNkUtZkhEa01aZkc4aHVqemFjONIB6AFBVV95cUxOMVVpUDhtQWZ0QVJkT3ZfaE9oNnVsWkNtVjNId2t3ekl1cDRTQ3ZrYk1NbkxPNlN2cFExTmhuT1Z4VDV4M01UMnNYU2NnM1NWWVdpVVplMFVKcW16eHNwNzFBYjgyWU1qZkRMcmhuNGx3dE1wd2tLSHNPNGVadUZ6V1JCUHBkYVAzV2tyeGtyMnhUeGVFN1JTN1VvZ2J3Y2RwcjJGb3VqZGVUdG8yTElYOXI5bTFOMzMtVzR0ejc3dWU1bG9FeTJZcF94a3VoOWg1UHExVVRIS05oY2NYMnY4Rk80OUlCYUlT?oc=5\" target=\"_blank\">Has Market Risk Created an Opportunity in Capital Southwest After Five Years of 130% Growth?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">simplywall.st</font>",
+        "title": "MicroStrategy Briefly Worth Less Than Its Bitcoin as Market Flags Corporate Risk - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWEQyNXJERGNPNVFxNFRtQTFuNm5EY01RSFdOVUd4UkdzVGlsSXpvVjBpODhwN1hodnJ4ejgzV0M5dnljQng1Z19yUlZYTUl3VEpPUWt6RGtRN04yUDZzTVU2ZDM0WDFmZ2lWdTl0WlY0QktET2w4X1FoNmo0OVo3Y1BGMWR5RzVTbEhqWjNHUQ?oc=5",
+        "published": "Wed, 12 Nov 2025 20:28:01 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQWEQyNXJERGNPNVFxNFRtQTFuNm5EY01RSFdOVUd4UkdzVGlsSXpvVjBpODhwN1hodnJ4ejgzV0M5dnljQng1Z19yUlZYTUl3VEpPUWt6RGtRN04yUDZzTVU2ZDM0WDFmZ2lWdTl0WlY0QktET2w4X1FoNmo0OVo3Y1BGMWR5RzVTbEhqWjNHUQ?oc=5\" target=\"_blank\">MicroStrategy Briefly Worth Less Than Its Bitcoin as Market Flags Corporate Risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
         "source": "Google News",
         "keyword": "market risk",
         "highlights": [
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
+          "\ud83d\udcac \">MicroStrategy Briefly Worth Less Than Its Bitcoin as Market Flags Corporate Risk</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca MicroStrategy Briefly Worth Less Than Its Bitcoin as Market Flags Corporate Risk - Yahoo Finance <a href=\"https://news",
+          "\ud83d\udcc8 Economic and market developments covered",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "MicroStrategy Briefly Worth Less Than Its Bitcoin as Market Flags Corporate Risk - Yahoo Finance",
+          "summary_highlights": [
+            "Article covers: Market",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Market."
+        },
+        "topic_headline": "MicroStrategy Briefly Worth Less Than Its Bitcoin as Market Flags Corporate Risk - Yahoo Finance",
+        "summary_highlights": [
+          "Article covers: Market",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
+        ],
+        "notable_quotes": [
+          "Detailed quotes available in full article"
+        ],
+        "context_implications": "This development is part of broader economic trends affecting key areas: Market.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       },
       {
-        "title": "Downtrends in BTC, ETH and SOL as risk returns to market - Blockworks",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SN0RYdEpyV3RoY05FWnZ6LUN3bTg3Zk92ZkJDbzk4T280ckFhOTNlQ0RXZDJVRmw4OFAyeXpTZjJCQ2paSklySDEtUUlNNm5QbklSYjRCQlAyVE1jbVE?oc=5",
-        "published": "Thu, 06 Nov 2025 23:10:06 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SN0RYdEpyV3RoY05FWnZ6LUN3bTg3Zk92ZkJDbzk4T280ckFhOTNlQ0RXZDJVRmw4OFAyeXpTZjJCQ2paSklySDEtUUlNNm5QbklSYjRCQlAyVE1jbVE?oc=5\" target=\"_blank\">Downtrends in BTC, ETH and SOL as risk returns to market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Blockworks</font>",
+        "title": "Managing risk in a volatile market - Brownfield Ag News",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9mLTliQ0JBeXY3VUZ6WDlTUzN5QkE5OXdmS2g1MGxILXF0aUZaTzBTS3pqc0M2X3B6R2hBd3hxVW9aYXFuUWdxcFUxQk5zcjRzZXNwUmpaRWNmRDJCUmU5dnlQQkhROWJwVks3Sm43TDIxNlR4OVlEdWVQOHZsQQ?oc=5",
+        "published": "Wed, 12 Nov 2025 13:00:43 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE9mLTliQ0JBeXY3VUZ6WDlTUzN5QkE5OXdmS2g1MGxILXF0aUZaTzBTS3pqc0M2X3B6R2hBd3hxVW9aYXFuUWdxcFUxQk5zcjRzZXNwUmpaRWNmRDJCUmU5dnlQQkhROWJwVks3Sm43TDIxNlR4OVlEdWVQOHZsQQ?oc=5\" target=\"_blank\">Managing risk in a volatile market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Brownfield Ag News</font>",
         "source": "Google News",
         "keyword": "market risk",
         "highlights": [
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
+          "\ud83d\udcac \">Managing risk in a volatile market</a>&nbsp;&nbsp;<font color=\"",
+          "\ud83d\udcca Managing risk in a volatile market - Brownfield Ag News <a href=\"https://news",
+          "\ud83d\udcc8 Economic and market developments covered",
+          "\ud83d\udcca Economic indicators and market analysis"
         ],
-        "source_category": "free"
-      },
-      {
-        "title": "Three Risks Hiding Behind U.S. Stocks\u2019 Performance - Morgan Stanley",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZjZSU1VUYXdpQW01Y0NJYUY3YUJtalBsV0QyU0RsVGZpSmhKT3BrMkp1d3F3Nm10eHVWdnQ2UnZqcUFjQ0NmOHJwbmZIUHl4aHZBOW5maTc3al9TcDdpR0Vrc3FTMDZqX3hjNko1UlJTZW1tNG9JUFMyRjBSd1JiM0xWSEQxMThocW1mSWUtbTE?oc=5",
-        "published": "Wed, 13 Aug 2025 07:00:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPZjZSU1VUYXdpQW01Y0NJYUY3YUJtalBsV0QyU0RsVGZpSmhKT3BrMkp1d3F3Nm10eHVWdnQ2UnZqcUFjQ0NmOHJwbmZIUHl4aHZBOW5maTc3al9TcDdpR0Vrc3FTMDZqX3hjNko1UlJTZW1tNG9JUFMyRjBSd1JiM0xWSEQxMThocW1mSWUtbTE?oc=5\" target=\"_blank\">Three Risks Hiding Behind U.S. Stocks\u2019 Performance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Morgan Stanley</font>",
-        "source": "Google News",
-        "keyword": "market risk",
-        "highlights": [
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Managing risk in a volatile market - Brownfield Ag News",
+          "summary_highlights": [
+            "Article covers: Market",
+            "Key economic indicators and trends discussed",
+            "Policy implications and market impact analyzed",
+            "Ongoing monitoring of economic conditions"
+          ],
+          "notable_quotes": [
+            "Detailed quotes available in full article"
+          ],
+          "context_implications": "This development is part of broader economic trends affecting key areas: Market."
+        },
+        "topic_headline": "Managing risk in a volatile market - Brownfield Ag News",
+        "summary_highlights": [
+          "Article covers: Market",
+          "Key economic indicators and trends discussed",
+          "Policy implications and market impact analyzed",
+          "Ongoing monitoring of economic conditions"
         ],
-        "source_category": "free"
-      },
-      {
-        "title": "Will the Stock Market Crash in 2025? 4 Risk Factors | Investing - US News Money",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWk5OQUItYlZ0a3dDV0lIWVJZcVNhSm5sQXpKY052RGJNd1lwX25IZ2JJVW50WG44WGRLYXR3cG12bUF5NThuZlFMTkdGbHBONkdJYXpMSjVXeEJsMks1RnZXa3U2SC1PdmtYZ0ZJVEdaTDVXRFVCcWY1cDd0OUNRN0ZfYlI4NkRDRlpiZQ?oc=5",
-        "published": "Mon, 27 Oct 2025 07:00:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOWk5OQUItYlZ0a3dDV0lIWVJZcVNhSm5sQXpKY052RGJNd1lwX25IZ2JJVW50WG44WGRLYXR3cG12bUF5NThuZlFMTkdGbHBONkdJYXpMSjVXeEJsMks1RnZXa3U2SC1PdmtYZ0ZJVEdaTDVXRFVCcWY1cDd0OUNRN0ZfYlI4NkRDRlpiZQ?oc=5\" target=\"_blank\">Will the Stock Market Crash in 2025? 4 Risk Factors | Investing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">US News Money</font>",
-        "source": "Google News",
-        "keyword": "market risk",
-        "highlights": [
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
+        "notable_quotes": [
+          "Detailed quotes available in full article"
         ],
-        "source_category": "free"
-      },
-      {
-        "title": "Navigating volatility, AI and geopolitical uncertainty - Risk.net",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbi1tdmxXaU9KUzNyRE9QeXdxZXB3TU5YdHNYZm44MXZUN0s3N3hVUU1vTTR4Nk9TWjJuZjdtWlVSNHkxSHVLNTRuWUJCVnhwdDhYZFkxMlhQTDRwVjBTRnlVRmdDcDhzcG41YzBMeGVKVlJxTXh3cGVHZk9ZbmVqR2VhMkNHN3liWF8zZUNnOWRMcVFhdXc?oc=5",
-        "published": "Wed, 05 Nov 2025 12:50:09 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQbi1tdmxXaU9KUzNyRE9QeXdxZXB3TU5YdHNYZm44MXZUN0s3N3hVUU1vTTR4Nk9TWjJuZjdtWlVSNHkxSHVLNTRuWUJCVnhwdDhYZFkxMlhQTDRwVjBTRnlVRmdDcDhzcG41YzBMeGVKVlJxTXh3cGVHZk9ZbmVqR2VhMkNHN3liWF8zZUNnOWRMcVFhdXc?oc=5\" target=\"_blank\">Navigating volatility, AI and geopolitical uncertainty</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Risk.net</font>",
-        "source": "Google News",
-        "keyword": "market risk",
-        "highlights": [
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      },
-      {
-        "title": "Why analysts remain bullish on Bandwidth Inc. stock - Market Risk Analysis & Fast Exit and Entry Trade Guides - fcp.pa.gov.br",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcmpTQ1VxaWJWUW0wR3gyZkUtbGxmNXBzMHEzRWR2Zk1lbEpTZU5RVGx1cUNuQUxObi01bENLS3F2Um9Ra2ZaZUFBMmNjQ3loS2l4YUNCM1g4MHoyQ2ZwSWdtYWNBSk81YkxQMG5jeEctSEJEeGE0ZkRCcXRzb2ZfbUpmeVJiQWU4ZE4wT2E2cFo?oc=5",
-        "published": "Thu, 06 Nov 2025 12:17:49 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQcmpTQ1VxaWJWUW0wR3gyZkUtbGxmNXBzMHEzRWR2Zk1lbEpTZU5RVGx1cUNuQUxObi01bENLS3F2Um9Ra2ZaZUFBMmNjQ3loS2l4YUNCM1g4MHoyQ2ZwSWdtYWNBSk81YkxQMG5jeEctSEJEeGE0ZkRCcXRzb2ZfbUpmeVJiQWU4ZE4wT2E2cFo?oc=5\" target=\"_blank\">Why analysts remain bullish on Bandwidth Inc. stock - Market Risk Analysis & Fast Exit and Entry Trade Guides</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">fcp.pa.gov.br</font>",
-        "source": "Google News",
-        "keyword": "market risk",
-        "highlights": [
-          "\ud83d\udcc8 Market conditions and trading activity",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
-      }
-    ],
-    "Banking & Finance": [
-      {
-        "title": "BCBS dashboards - Bank for International Settlements",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5mSVBXNzVFdkNGMlhMZzlKUDFSVmpYV3hlQUVtblhCMnIyekZEcThid3RvQzNVRWV4NXVYN1hjanZUelJyU080UFQ4Q2ktOVF5?oc=5",
-        "published": "Thu, 23 Oct 2025 07:00:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE5mSVBXNzVFdkNGMlhMZzlKUDFSVmpYV3hlQUVtblhCMnIyekZEcThid3RvQzNVRWV4NXVYN1hjanZUelJyU080UFQ4Q2ktOVF5?oc=5\" target=\"_blank\">BCBS dashboards</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bank for International Settlements</font>",
-        "source": "Google News",
-        "keyword": "market risk",
-        "highlights": [
-          "\ud83c\udfe6 Banking sector and financial institution news",
-          "\ud83d\udcca Economic indicators and trends",
-          "\ud83c\udfdb\ufe0f Policy implications and regulatory changes",
-          "\ud83c\udf0d Global economic impact"
-        ],
-        "source_category": "free"
+        "context_implications": "This development is part of broader economic trends affecting key areas: Market.",
+        "llm_enhanced": true,
+        "sentiment_analysis": {
+          "sentiment": "neutral",
+          "confidence": 0.0,
+          "economic_tone": "neutral"
+        }
       }
     ]
   },
   "sources_covered": [
-    "Google News",
     "NBC Business",
-    "BBC Business",
-    "Federal Reserve News"
+    "Federal Reserve News",
+    "Google News"
   ]
 }

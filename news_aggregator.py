@@ -134,18 +134,19 @@ class LLMService:
     def _init_litellm(self):
         """Initialize LiteLLM client"""
         try:
-            # Set up LiteLLM configuration
-            if self.api_key:
-                litellm.api_key = self.api_key
+            # Configure LiteLLM proxy
+            litellm.api_base = "http://13.221.86.203:8250"
+            litellm.api_key = self.api_key or os.getenv('LITELLM_API_KEY') or "sk-12345"
             
             # Set default model if not specified
             if not self.model:
-                self.model = "litellm_proxy/ClaudeSonnet4"
+                self.model = "claude-3-5-sonnet-20241022"
             
             # Test the connection
             litellm.set_verbose = False  # Reduce logging
             self.client = litellm
-            print(f"Initialized LiteLLM service with model: {self.model}")
+            print(f"Initialized LiteLLM service with proxy: http://13.221.86.203:8250")
+            print(f"Using model: {self.model}")
         except Exception as e:
             print(f"Failed to initialize LiteLLM: {e}")
     
