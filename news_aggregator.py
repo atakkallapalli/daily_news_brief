@@ -47,6 +47,13 @@ except ImportError:
     LITELLM_AVAILABLE = False
     print("LiteLLM not available. Install with: pip install litellm")
 
+try:
+    import boto3
+    BOTO3_AVAILABLE = True
+except ImportError:
+    BOTO3_AVAILABLE = False
+    print("Boto3 not available. Install with: pip install boto3")
+
 @dataclass
 class NewsSource:
     """Configuration for a news source"""
@@ -63,10 +70,12 @@ class NewsSource:
 class LLMService:
     """Service for LLM-powered content analysis and generation"""
     
-    def __init__(self, provider: str = "auto", api_key: Optional[str] = None, model: str = None):
+    def __init__(self, provider: str = "auto", api_key: Optional[str] = None, model: str = None, aws_region: str = None, aws_profile: str = None):
         self.provider = provider
         self.model = model
         self.api_key = api_key or os.getenv('OPENAI_API_KEY') or os.getenv('ANTHROPIC_API_KEY') or os.getenv('LITELLM_API_KEY')
+        self.aws_region = aws_region or os.getenv('AWS_DEFAULT_REGION', 'us-east-1')
+        self.aws_profile = aws_profile
         self.client = None
         self.local_model = None
         
@@ -79,6 +88,8 @@ class LLMService:
             self._init_anthropic()
         elif provider == "litellm" and LITELLM_AVAILABLE:
             self._init_litellm()
+        elif provider == "bedrock" and BOTO3_AVAILABLE:
+            self._init_bedrock()
         elif provider == "local" and TRANSFORMERS_AVAILABLE:
             self._init_local()
         else:
@@ -149,6 +160,29 @@ class LLMService:
             print(f"Using model: {self.model}")
         except Exception as e:
             print(f"Failed to initialize LiteLLM: {e}")
+    
+    def _init_bedrock(self):
+        """Initialize AWS Bedrock client"""
+        try:
+            import boto3
+            
+            # Use AWS profile if specified, otherwise use default credentials
+            if self.aws_profile:
+                session = boto3.Session(profile_name=self.aws_profile)
+            else:
+                session = boto3.Session()
+            
+            self.client = session.client('bedrock-runtime', region_name=self.aws_region)
+            
+            if not self.model:
+                self.model = "anthropic.claude-3-5-sonnet-20241022-v2:0"
+            
+            print(f"Initialized AWS Bedrock client in {self.aws_region}")
+            if self.aws_profile:
+                print(f"Using AWS profile: {self.aws_profile}")
+            print(f"Using model: {self.model}")
+        except Exception as e:
+            print(f"Failed to initialize Bedrock: {e}")
     
     def _init_local(self):
         """Initialize local transformer model"""
@@ -311,68 +345,49 @@ Format each bullet point clearly and focus on actionable insights.
             return []
     
     def _litellm_insights(self, text: str) -> List[str]:
-        """Extract insights using LiteLLM with your specific format"""
+        """Extract insights using LiteLLM with Yahoo-style format"""
         try:
-            # Your specific format: Topic/headline extraction, Summary in 4-5 bullets ~100 words each, including notable quotes
-            structured_prompt = """
-You are a financial news analyst. For the given article, provide:
+            # Yahoo-style concise bullet points
+            yahoo_prompt = """
+You are a financial news summarizer. Create 3-4 concise bullet points in Yahoo Finance style:
 
-1. Topic/Headline: Extract the main economic topic and create a clear, focused headline
-2. Summary: Create 4-5 bullet points, each approximately 100 words, covering:
-   - Key economic developments and data points
-   - Important quotes from officials, CEOs, or economists (include actual quotes)
-   - Market implications and reactions
-   - Policy or regulatory impacts
-   - Future outlook or predictions
+- Each bullet should be 15-25 words maximum
+- Focus on key facts, numbers, quotes, and actions
+- Start with the most important information
+- Use active voice and specific details
+- Include actual quotes when available
 
-Format your response as:
-TOPIC: [Clear headline]
-SUMMARY:
-• [Bullet point 1 - ~100 words with quotes if available]
-• [Bullet point 2 - ~100 words with quotes if available]
-• [Bullet point 3 - ~100 words with quotes if available]
-• [Bullet point 4 - ~100 words with quotes if available]
-• [Bullet point 5 - ~100 words with quotes if available] (if needed)
+Examples of good bullets:
+• Fed's Daly says risks are balanced, employment concerns remain elevated
+• Inflation rate drops to 3.2% in October, below economist expectations of 3.4%
+• Treasury yields fall 15 basis points following dovish Fed commentary
+• Bank stocks rally 2.3% on regulatory relief speculation
 
-Article text: {text}
+Article: {text}
+
+Provide 3-4 bullet points:
 """
             
             response = self.client.completion(
                 model=self.model,
                 messages=[
-                    {"role": "user", "content": structured_prompt.format(text=text[:2500])}
+                    {"role": "user", "content": yahoo_prompt.format(text=text[:2000])}
                 ],
-                max_tokens=800
+                max_tokens=200
             )
             
             content = response.choices[0].message.content.strip()
             
-            # Parse the structured response
-            lines = content.split('\n')
-            topic = ""
-            summary_bullets = []
-            
-            current_section = None
-            for line in lines:
+            # Extract bullet points
+            bullets = []
+            for line in content.split('\n'):
                 line = line.strip()
-                if line.startswith('TOPIC:'):
-                    topic = line.replace('TOPIC:', '').strip()
-                elif line.startswith('SUMMARY:'):
-                    current_section = 'summary'
-                elif line.startswith('•') and current_section == 'summary':
-                    bullet = line.lstrip('•').strip()
-                    if bullet:
-                        summary_bullets.append(bullet)
+                if line.startswith('•') or line.startswith('-'):
+                    bullet = line.lstrip('•-').strip()
+                    if bullet and len(bullet) > 10:
+                        bullets.append(bullet)
             
-            # Return structured data as list for compatibility
-            result = []
-            if topic:
-                result.append(f"📊 Topic: {topic}")
-            
-            for i, bullet in enumerate(summary_bullets[:5], 1):
-                result.append(f"🔹 Point {i}: {bullet}")
-            
-            return result
+            return bullets[:4]
             
         except Exception as e:
             print(f"LiteLLM insights error: {e}")
@@ -738,22 +753,11 @@ Format as valid JSON only.
                     elif len(highlights) < 3:
                         highlights.append(f"Context: {sentence}")
         
-        # Add source and timing information
-        source = article.get('source', 'Unknown')
-        published = article.get('published', '')
-        if published:
-            highlights.append(f"Source: {source} - Published: {published[:20]}")
-        else:
-            highlights.append(f"Source: {source} - Recent publication")
+        # Don't add source/date info as highlights - that's metadata
+        # Only add meaningful content highlights
         
-        # Ensure we have 4 highlights
-        while len(highlights) < 4:
-            if len(highlights) == 1:
-                highlights.append("Economic implications and market impact being analyzed")
-            elif len(highlights) == 2:
-                highlights.append("Policy decisions and regulatory changes under review")
-            else:
-                highlights.append("Continued monitoring of economic developments expected")
+        # If we don't have enough meaningful highlights, don't add filler
+        # Better to have fewer quality highlights than generic ones
         
         return {
             "topic_headline": title,
@@ -764,17 +768,24 @@ Format as valid JSON only.
 
 class NewsAggregator:
     def __init__(self, config_file: Optional[str] = None, llm_provider: str = "auto", llm_api_key: Optional[str] = None):
-        self.keywords = [
-            'unemployment', 'inflation', 'market risk', 'banking', 
-            'federal reserve', 'interest rates', 'economic outlook',
-            'GDP', 'recession', 'monetary policy', 'fiscal policy',
-            'fed', 'jerome powell', 'fomc', 'federal open market committee',
-            'fed chair', 'fed governor', 'fed official', 'fed policy',
-            'fed meeting', 'fed minutes', 'fed speech', 'fed testimony'
-        ]
+        # Load keywords from file or use defaults
+        self.keywords = self._load_keywords()
+        
+        # Load LLM configuration from scheduler_config.json if available
+        llm_config = self._load_llm_config()
         
         # Initialize LLM service for enhanced analysis
-        self.llm_service = LLMService(provider=llm_provider, api_key=llm_api_key)
+        if llm_config:
+            self.llm_service = LLMService(
+                provider=llm_config.get('provider', llm_provider),
+                api_key=llm_config.get('api_key', llm_api_key),
+                model=llm_config.get('model'),
+                aws_region=llm_config.get('aws_region'),
+                aws_profile=llm_config.get('aws_profile')
+            )
+        else:
+            self.llm_service = LLMService(provider=llm_provider, api_key=llm_api_key)
+        
         self.use_llm = self.llm_service.client is not None or self.llm_service.local_model is not None
         
         if self.use_llm:
@@ -786,15 +797,44 @@ class NewsAggregator:
         self.free_sources = self._get_default_free_sources()
         self.subscription_sources = self._get_default_subscription_sources()
         
-        # Load custom configuration if provided
-        if config_file and os.path.exists(config_file):
-            self.load_sources_config(config_file)
-        
         self.articles = []
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         })
+    
+    def _load_keywords(self) -> List[str]:
+        """Load keywords from keywords.json or return defaults"""
+        try:
+            if os.path.exists('keywords.json'):
+                with open('keywords.json', 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                return data.get('keywords', self._get_default_keywords())
+        except Exception as e:
+            print(f"Error loading keywords: {e}")
+        return self._get_default_keywords()
+    
+    def _get_default_keywords(self) -> List[str]:
+        """Default keywords list"""
+        return [
+            'unemployment', 'inflation', 'market risk', 'banking', 
+            'federal reserve', 'interest rates', 'economic outlook',
+            'GDP', 'recession', 'monetary policy', 'fiscal policy',
+            'fed', 'jerome powell', 'fomc', 'federal open market committee',
+            'fed chair', 'fed governor', 'fed official', 'fed policy',
+            'fed meeting', 'fed minutes', 'fed speech', 'fed testimony'
+        ]
+    
+    def _load_llm_config(self) -> Optional[Dict[str, Any]]:
+        """Load LLM configuration from scheduler_config.json"""
+        try:
+            if os.path.exists('scheduler_config.json'):
+                with open('scheduler_config.json', 'r') as f:
+                    config = json.load(f)
+                return config.get('llm_settings')
+        except Exception as e:
+            print(f"Error loading LLM config: {e}")
+        return None
     
     def _get_default_free_sources(self) -> List[NewsSource]:
         """Default free RSS feed sources"""
@@ -996,109 +1036,121 @@ class NewsAggregator:
         return quotes[:5]  # Return max 5 quotes
 
     def generate_highlights(self, article: Dict[str, Any]) -> List[str]:
-        """Generate 4-5 content-based highlights with LLM-powered analysis"""
-        highlights = []
+        """Generate meaningful insights from article content"""
         title = article.get('title', '')
         description = article.get('description', '')
         url = article.get('url', '')
         
-        # Fetch full article content
-        full_content = self.fetch_article_content(url)
+        try:
+            print(f"Generating highlights for: {title[:50]}...")
+        except UnicodeEncodeError:
+            print("Generating highlights for article with special characters...")
         
-        # Combine all available text
+        # Fetch full article content for better analysis
+        full_content = self.fetch_article_content(url)
         all_text = f"{title} {description} {full_content}"
         
-        # Use LLM for enhanced analysis if available
+        print(f"Content length: title={len(title)}, desc={len(description)}, full={len(full_content)}")
+        
+        # Use LLM for intelligent analysis if available
         if self.use_llm and len(all_text.strip()) > 100:
             try:
-                # Get LLM-powered insights
-                llm_insights = self.llm_service.extract_key_insights(all_text)
-                
-                # Add LLM insights as highlights
-                for insight in llm_insights[:3]:  # Max 3 LLM insights
-                    if insight and len(insight.strip()) > 20:
-                        highlights.append(f'🧠 {insight.strip()}')
-                
-                # Get sentiment analysis
-                sentiment_data = self.llm_service.analyze_sentiment(all_text)
-                if sentiment_data.get('sentiment') != 'neutral':
-                    sentiment_emoji = '📈' if sentiment_data.get('economic_tone') == 'bullish' else '📉' if sentiment_data.get('economic_tone') == 'bearish' else '📊'
-                    highlights.append(f'{sentiment_emoji} Economic sentiment: {sentiment_data.get("sentiment", "neutral").title()} ({sentiment_data.get("confidence", 0):.1f} confidence)')
-                
+                print("Attempting LLM analysis...")
+                # Get structured analysis with meaningful insights
+                structured = self.llm_service.generate_structured_analysis(article, all_text)
+                if structured and structured.get('summary_highlights'):
+                    # Clean and return LLM-generated highlights
+                    highlights = []
+                    for highlight in structured['summary_highlights'][:4]:
+                        clean_highlight = highlight.strip()
+                        # Remove generic prefixes
+                        prefixes = ['Market development:', 'Economic news:', 'Context:', 'Source:']
+                        for prefix in prefixes:
+                            if clean_highlight.startswith(prefix):
+                                clean_highlight = clean_highlight[len(prefix):].strip()
+                        if len(clean_highlight) > 20:
+                            highlights.append(clean_highlight)
+                    
+                    if len(highlights) >= 3:
+                        print(f"LLM generated {len(highlights)} highlights")
+                        return highlights[:4]
+                    else:
+                        print("LLM highlights insufficient, falling back")
             except Exception as e:
-                print(f"LLM analysis failed for article, falling back to rule-based: {e}")
-                self.use_llm = False  # Temporarily disable for this session
+                print(f"LLM analysis failed: {e}")
         
-        # Fallback to rule-based analysis or supplement LLM results
-        if not self.use_llm or len(highlights) < 3:
-            # Extract quotes from the content
-            quotes = self.extract_quotes(all_text)
-            
-            # Add quotes as highlights (prioritize these)
-            for quote in quotes[:2]:  # Max 2 quotes
-                if len(highlights) < 5:
-                    highlights.append(f'💬 "{quote}"')
-            
-            # Generate content-based highlights using rule-based approach
-            sentences = all_text.split('.')
-            key_sentences = []
-            
-            # Look for key economic indicators and statements
-            economic_keywords = [
-                'federal reserve', 'fed', 'inflation', 'unemployment', 'interest rate',
-                'monetary policy', 'economic growth', 'gdp', 'market', 'banking'
-            ]
-            
+        print("Using fallback analysis")
+        # Enhanced fallback analysis
+        return self._generate_smart_highlights(all_text, title)
+    
+    def _generate_smart_highlights(self, text: str, title: str) -> List[str]:
+        """Generate Yahoo-style concise highlights"""
+        highlights = []
+        import re
+        
+        # Extract key facts in Yahoo style (short, factual)
+        sentences = text.split('.')
+        
+        # Look for quotes from officials
+        for sentence in sentences:
+            if any(name in sentence.lower() for name in ['daly', 'powell', 'fed', 'chair', 'governor']):
+                if any(verb in sentence.lower() for verb in ['said', 'says', 'noted', 'stated']):
+                    clean = re.sub(r'<[^>]+>', '', sentence.strip())
+                    if 20 < len(clean) < 100:
+                        highlights.append(clean)
+                        break
+        
+        # Look for numbers/data points
+        for sentence in sentences:
+            if re.search(r'\d+(?:\.\d+)?%|\$\d+|\d+\s*basis\s*points', sentence):
+                clean = re.sub(r'<[^>]+>', '', sentence.strip())
+                if 15 < len(clean) < 80:
+                    highlights.append(clean)
+                    if len(highlights) >= 2:
+                        break
+        
+        # Look for market reactions
+        market_words = ['rose', 'fell', 'gained', 'lost', 'rally', 'decline', 'up', 'down']
+        for sentence in sentences:
+            if any(word in sentence.lower() for word in market_words):
+                if re.search(r'\d+(?:\.\d+)?%', sentence):
+                    clean = re.sub(r'<[^>]+>', '', sentence.strip())
+                    if 15 < len(clean) < 80:
+                        highlights.append(clean)
+                        break
+        
+        # If we have very few highlights, extract key actions
+        if len(highlights) < 2:
+            action_words = ['announced', 'approved', 'rejected', 'raised', 'cut', 'maintained']
+            for sentence in sentences:
+                if any(word in sentence.lower() for word in action_words):
+                    clean = re.sub(r'<[^>]+>', '', sentence.strip())
+                    if 20 < len(clean) < 100:
+                        highlights.append(clean)
+                        if len(highlights) >= 3:
+                            break
+        
+        # If no highlights found, try to extract from description/content
+        if not highlights and len(text) > len(title):
+            # Look for any meaningful sentences in the content
+            sentences = text.split('.')
             for sentence in sentences:
                 sentence = sentence.strip()
-                if len(sentence) > 30 and len(sentence) < 150:  # Good length for highlights
-                    if any(keyword in sentence.lower() for keyword in economic_keywords):
-                        key_sentences.append(sentence)
-            
-            # Add key sentences as highlights
-            for sentence in key_sentences[:2]:  # Max 2 key sentences to leave room for LLM insights
-                if len(highlights) < 5:
-                    # Clean up the sentence
-                    clean_sentence = sentence.replace('\n', ' ').replace('\r', ' ')
-                    clean_sentence = ' '.join(clean_sentence.split())  # Remove extra whitespace
-                    if len(clean_sentence) > 20:
-                        highlights.append(f'📊 {clean_sentence}')
+                if 25 < len(sentence) < 120 and sentence != title:
+                    # Avoid generic phrases and HTML artifacts
+                    if not any(phrase in sentence.lower() for phrase in ['click here', 'read more', 'subscribe', 'advertisement']):
+                        clean = re.sub(r'<[^>]+>', '', sentence)
+                        clean = ' '.join(clean.split())
+                        if len(clean) > 20:
+                            highlights.append(clean)
+                            if len(highlights) >= 3:
+                                break
         
-        # If we still don't have enough highlights, add generic ones based on content analysis
-        if len(highlights) < 4:
-            content_lower = all_text.lower()
-            
-            if 'federal reserve' in content_lower or 'fed' in content_lower:
-                highlights.append("🏛️ Federal Reserve policy developments discussed")
-            
-            if len(highlights) < 4 and ('inflation' in content_lower or 'price' in content_lower):
-                highlights.append("💰 Inflation and pricing trends analyzed")
-            
-            if len(highlights) < 4 and ('employment' in content_lower or 'job' in content_lower):
-                highlights.append("💼 Employment market conditions reported")
-            
-            if len(highlights) < 4 and ('market' in content_lower or 'economic' in content_lower):
-                highlights.append("📈 Economic and market developments covered")
+        # Only return title as last resort
+        if not highlights:
+            highlights.append(title)
         
-        # Remove duplicates while preserving order
-        highlights = list(dict.fromkeys(highlights))
-        
-        # Ensure we have exactly 4-5 highlights
-        if len(highlights) < 4:
-            # Add more generic highlights if needed
-            generic_highlights = [
-                "📊 Economic indicators and market analysis",
-                "🏛️ Policy implications and regulatory updates", 
-                "🌍 Global economic impact assessment",
-                "🔮 Economic outlook and forecasts"
-            ]
-            
-            for generic in generic_highlights:
-                if len(highlights) < 4 and generic not in highlights:
-                    highlights.append(generic)
-        
-        # Limit to maximum 5 highlights
-        return highlights[:5]
+        return highlights[:4]
     
     def generate_llm_summary(self, article: Dict[str, Any]) -> str:
         """Generate an LLM-powered TL;DR summary for the article"""
@@ -1221,6 +1273,22 @@ class NewsAggregator:
         })
         
         return enhanced_article
+    
+    def _rule_based_structured_analysis(self, article: Dict[str, Any], article_content: str = None) -> Dict[str, Any]:
+        """Enhanced rule-based structured analysis with meaningful bullet points"""
+        title = article.get('title', '')
+        description = article.get('description', '')
+        content = article_content or description or title
+        
+        # Use the smart highlights function instead of generic ones
+        highlights = self._generate_smart_highlights(content, title)
+        
+        return {
+            "topic_headline": title,
+            "summary_highlights": highlights,
+            "notable_quotes": ["Full article contains detailed quotes and analysis"],
+            "context_implications": f"This {article.get('keyword', 'economic')} development has potential implications for monetary policy, market conditions, and economic outlook."
+        }
         
     def search_google_news(self, query: str, days_back: int = 7) -> List[Dict]:
         """Search Google News for articles with specific keywords"""
@@ -1322,9 +1390,13 @@ class NewsAggregator:
                             title_text = title.text or ''
                             desc_text = (description.text or '') if description is not None else ''
                             
-                            # Check if article is relevant to our keywords
+                            # Check if article matches any of the loaded keywords
                             content_lower = f"{title_text} {desc_text}".lower()
-                            if any(keyword.lower() in content_lower for keyword in self.keywords):
+                            
+                            # Use loaded keywords for filtering
+                            matches_keyword = any(keyword.lower() in content_lower for keyword in self.keywords)
+                            
+                            if matches_keyword:
                                 articles.append({
                                     'title': title_text,
                                     'url': link.text,
@@ -1472,6 +1544,7 @@ class NewsAggregator:
             target_date = datetime.now()
             
         print("Collecting articles from various sources...")
+        print(f"Using keywords: {self.keywords}")
         
         # Fetch from all configured sources
         source_articles = self.fetch_all_sources()
@@ -1487,12 +1560,9 @@ class NewsAggregator:
         
         # Search Google News for each keyword (as backup/additional source)
         print("Searching Google News for additional coverage...")
-        # Prioritize Fed-related searches
-        priority_keywords = [
-            'unemployment', 'inflation', 'market risk', 
-            'federal reserve', 'jerome powell', 'fed policy'
-        ]
-        for keyword in priority_keywords:
+        # Use loaded keywords for searches
+        for keyword in self.keywords[:6]:  # Limit to first 6 keywords to avoid too many requests
+            print(f"Searching Google News for: {keyword}")
             print(f"Searching for: {keyword}")
             articles = self.search_google_news(keyword, days_back=2)  # Search last 2 days
             

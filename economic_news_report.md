@@ -1,267 +1,215 @@
 # Economic and Financial News Summary
-**Collection Date:** 2025-11-13T09:23:27.256264
-**Total Articles:** 47
-**Sources:** MarketWatch, NBC Business, Federal Reserve News, Google News
-**Free Sources:** MarketWatch, NBC Business, Federal Reserve News, Google News
+**Collection Date:** 2025-11-14T13:18:23.043352
+**Total Articles:** 41
+**Sources:** NBC Business, Google News, BBC Business, MarketWatch, Federal Reserve News
+**Free Sources:** NBC Business, Google News, BBC Business, MarketWatch, Federal Reserve News
 
 ---
 
-## Federal Reserve & Monetary Policy (27 articles)
+## Inflation (6 articles)
 
-### 1. FAA freezes flight cancellations at 6% as government shutdown ends
+### 1. How Doug McMillon kept Walmart on top
 **Source:** NBC Business (free)
-**Published:** Wed, 12 Nov 2025 16:40:49 GMT
-**URL:** https://www.nbcnews.com/business/travel/faa-keeps-flight-cancellations-6-house-set-vote-end-shutdown-rcna243424
+**Published:** Fri, 14 Nov 2025 19:54:47 GMT
+**URL:** https://www.nbcnews.com/business/business-news/walmart-ceo-doug-mcmillon-american-retail-rcna243911
 **Key Highlights:**
-  • 💬 " in air traffic controller callouts. The new emergency freezing order will scrap the previous plan to ramp up reductions to 10% by Friday, and will remain in place "
-  • 💬 "suggest a further ramp up in-flight reductions are not necessary to keep the traveling public safe,"
-  • 🏛️ Federal Reserve policy developments discussed
-  • 📊 Economic indicators and market analysis
-**Summary:** Mere hours before the federal government reopened Wednesday, the Department of Transportation announced flight reductions will freeze at 6% thanks to strong staffing levels and a "rapid decline" in ai...
+  • How Doug McMillon kept Walmart on top
+  • How Doug McMillon kept Walmart on top Outgoing Walmart CEO Doug McMillon has steered the retailer through the e-commerce revolution, a pandemic, high inflation and political upheaval
+  • Walmart CEO Doug McMillon in Sun Valley, Idaho, in 2024
+**Summary:** Outgoing Walmart CEO Doug McMillon has steered the retailer through the e-commerce revolution, a pandemic, high inflation and political upheaval. ...
 
-### 2. White House says key economic reports may not be released
-**Source:** NBC Business (free)
-**Published:** Wed, 12 Nov 2025 19:27:52 GMT
-**URL:** https://www.nbcnews.com/business/economy/shutdown-jobs-report-inflation-rcna243533
-**Key Highlights:**
-  • 🧠 Opinions on how the lack of data could impact the Federal Reserve’s next monetary policy moves are mixed
-  • 📈 Economic sentiment: Positive (0.1 confidence)
-  • 📊 Already, policymakers, market participants and economists expect a fog of data after the shutdown ends
-  • 📊 Opinions on how the lack of data could impact the Federal Reserve’s next monetary policy moves are mixed
-**Summary:** The White House said Wednesday it was unlikely that key federal inflation and labor reports impacted by the government shutdown would be released....
-
-### 3. Why the Fed may need to inject cash into markets through the crucial year-end period
-**Source:** MarketWatch (free)
-**Published:** Thu, 13 Nov 2025 15:53:00 GMT
-**URL:** https://www.marketwatch.com/story/why-the-fed-may-need-to-inject-cash-into-markets-through-the-crucial-year-end-period-9a05b362?mod=mw_rss_topstories
-**Key Highlights:**
-  • 📉 Economic sentiment: Negative (0.1 confidence)
-  • 🏛️ Federal Reserve policy developments discussed
-  • 📈 Economic and market developments covered
-  • 📊 Economic indicators and market analysis
-**Summary:** Funding pressures are calming down lately, but the risks of turmoil aren’t gone: BNY...
-
-### 4. Federal Reserve Board issues enforcement action with former employee of Commerce Bank and announces termination of enforcement actions with Société Générale S.A. and Industrial and Commercial Bank of China Ltd.
-**Source:** Federal Reserve News (free)
-**Published:** Thu, 13 Nov 2025 16:00:00 GMT
-**URL:** https://www.federalreserve.gov/newsevents/pressreleases/enforcement20251113a.htm
-**Key Highlights:**
-  • 🏛️ Federal Reserve policy developments discussed
-  • 📈 Economic and market developments covered
-  • 📊 Economic indicators and market analysis
-  • 🏛️ Policy implications and regulatory updates
-**Summary:** Federal Reserve Board issues enforcement action with former employee of Commerce Bank and announces termination of enforcement actions with Soci&eacute;t&eacute; G&eacute;n&eacute;rale S.A. and Indust...
-
-### 5. Federal Reserve Board announces approval of application by ID Bank CJSC
-**Source:** Federal Reserve News (free)
-**Published:** Wed, 12 Nov 2025 22:00:00 GMT
-**URL:** https://www.federalreserve.gov/newsevents/pressreleases/orders20251112a.htm
-**Key Highlights:**
-  • 🏛️ Federal Reserve policy developments discussed
-  • 📈 Economic and market developments covered
-  • 📊 Economic indicators and market analysis
-  • 🏛️ Policy implications and regulatory updates
-**Summary:** Federal Reserve Board announces approval of application by ID Bank CJSC...
-
-*... and 22 more articles in this category*
-
-## Unemployment & Employment (8 articles)
-
-### 1. Trump calls H-1B visas necessary to bring in 'certain talents' that he says the U.S. lacks
-**Source:** NBC Business (free)
-**Published:** Wed, 12 Nov 2025 03:54:39 GMT
-**URL:** https://www.nbcnews.com/politics/immigration/trump-calls-h-1b-visas-necessary-bring-certain-talents-says-us-lacks-rcna243367
-**Key Highlights:**
-  • 🧠 "You can’t take people off an unemployment, like an unemployment line, and say, 'I’m going to put you into a factory,'" Trump said
-  • 📈 Economic sentiment: Positive (0.1 confidence)
-  • 💬 "you can’t take people off an unemployment, like an unemployment line, and say, 'I’m going to put you into a factory.'"
-  • 💬 "You can’t take people off an unemployment, like an unemployment line, and say, 'I’m going to put you into a factory.'"
-  • 📊 "You can’t take people off an unemployment, like an unemployment line, and say, 'I’m going to put you into a factory,'" Trump said
-**Summary:** In an interview with Fox News, Trump said that in some cases, "you can’t take people off an unemployment, like an unemployment line, and say, 'I’m going to put you into a factory.'"...
-
-### 2. Hassett: ‘We will never know what the unemployment rate was in October’ - The Hill
+### 2. US, Japan share unorthodox anti-inflation tool – fiscal stimulus - Reuters
 **Source:** Google News (free)
-**Published:** Thu, 13 Nov 2025 16:25:00 GMT
-**URL:** https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSWNWR0d0RV8xck5pZ2RLSGJWOVo0SHMxNXc2V3VmdFcyVWlxZ2xnQU1QTC05RHJET2NpUHFXZ0k3QzdTWDJWcGE4UkF6LWZyYlMtRWdlemV6MG1ZS0otcldYc2Vyd3dLeFRWQm92ZUtseXVpZ2JMX1FJX2Nndnk1QnphTzFtOW5YaWVMcmNYQ1ZncnlUaU8tTWhsY0lXNkRwZmZvdVE1MFVYUdIBrwFBVV95cUxQMWttR0NJSm1wZ2xpb2xqcUFYNjgtU0xVX0RQRjJaSHRLM3JFN01YM0kwbGcxMTVtLXVtRHpLLW1xOHdVR0JPY2FiNnFDWGc4Ym5fYTZaUWhyakxvZFFzZ29QTklQaUdDVWNOOWJXQjBEcm9CZ3A4anM0aDZBVWtyZlRuZWZwNHZNSWtSOGxzT0g3ZGp5bjdTVzhYMzAtWUNIQkZMdmtYVTFudW5tOENF?oc=5
+**Published:** Fri, 14 Nov 2025 00:30:00 GMT
+**URL:** https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYlh0Z2JsY2JpVEZkRlZIdUhDR1I1cDMtS21aMkxkR0NjeUhzN3ZDcDRDRUF6YkpDYXhvY0JmRmN4M2FncGxGbFlxOFJLeUJqVDEtSktLNm92NUhGNno2ZWVPdU5mazVpR2I4UmdsbUdSQnBFS0JFVlVKdGxVMEpEVGJ4dGpTSXNBMGNRZUhsa3JuSE9ZUWxrOUlEc3d4dU1oZlZDTUV4Z0o?oc=5
 **Key Highlights:**
-  • 🧠 Hassett: ‘We will never know what the unemployment rate was in October’ - The Hill <a href="https://news
-  • 💬 ">Hassett: ‘We will never know what the unemployment rate was in October’</a>&nbsp;&nbsp;<font color="
-  • 📊 Hassett: ‘We will never know what the unemployment rate was in October’ - The Hill <a href="https://news
-  • 📊 Economic indicators and market analysis
-**Summary:** Hassett: ‘We will never know what the unemployment rate was in October’&nbsp;&nbsp;The Hill...
+  • US, Japan share unorthodox anti-inflation tool – fiscal stimulus - Reuters <a href="https://news
+**Summary:** US, Japan share unorthodox anti-inflation tool – fiscal stimulus&nbsp;&nbsp;Reuters...
 
-### 3. October Jobs Report to Skip Unemployment Rate, Hassett Says - Bloomberg.com
-**Source:** Google News (free)
-**Published:** Thu, 13 Nov 2025 14:56:23 GMT
-**URL:** https://news.google.com/rss/articles/CBMirgFBVV95cUxNaTRnZnljcll4bzhJTVFlTDNrWkY5RjdNdTRXOUxZV0hnTTgzZ2lvT1ZQWXdCdW9mR1d1c2FtUl94eDl2cjJjZHY4bjFPTTk4aHFfdkZ2cUFxeWYwc3JiWlBheGpDeC1zdGNlRlF2Wlo1ZjgzZFkyQzN4dnNOOUEtVHl3MXJNYWJreEstdDNGb1gwel9CSExjNk41S0pkYTMxVEFVR1h4UkpMRm9teWc?oc=5
-**Key Highlights:**
-  • 🧠 October Jobs Report to Skip Unemployment Rate, Hassett Says - Bloomberg
-  • 💬 ">October Jobs Report to Skip Unemployment Rate, Hassett Says</a>&nbsp;&nbsp;<font color="
-  • 📊 October Jobs Report to Skip Unemployment Rate, Hassett Says - Bloomberg
-  • 📊 Economic indicators and market analysis
-**Summary:** October Jobs Report to Skip Unemployment Rate, Hassett Says&nbsp;&nbsp;Bloomberg.com...
-
-### 4. October Jobs Report Will Come, but It Won’t Include Unemployment Rate, Hassett Says - The Wall Street Journal
-**Source:** Google News (free)
-**Published:** Thu, 13 Nov 2025 08:46:00 GMT
-**URL:** https://news.google.com/rss/articles/CBMinARBVV95cUxOYWt4bk1RSmEwZDExWmxTRk1fR1I5Y3c0QlZhdWFMSTZUME5Gd2FrQVpzWkhoUHBxckJPNFRzcG9reWJXbDAyTDIySDVhakJUaTc5ZUJJcXJkd0FSZnJwRFNTaHdWd3c5R0RhSnk4TklETnNLVXVhRnBibHNvektscUJ1UnZVZUhmb2ZIQ0dQaDZoVmJIR1BBQXAyOGFrLTJDTEF1QnRwQzBHaEhVeTlCbEFwM0pZT216MXc3MTR6R1dYckF2Mnc5dzU5Y1ZMWjY1R19jWHE3SFNRRUJkbjNpUXdCa1dGWTlaT0xScTJEeVlIc05RdW1MZnowOU0zOXdmcFlEajRuYUtWR0xvbHZYQVctdmwwTTdCZWU2V1RZaFdMZ2k5VWhfcU41VzF4UDYtNjFleDdkaFFNS3ZyMktDak9PVnJXM0N0UFRJMVlqVloyTERjbHlrZzZoalJVZ1oyekJaZVI5c0JEX1FleGlxeGhnc1pjQU11UWd3dEJReldKYnRMaWQwSTBvUWlRb1hxYlg2SUtNREEtZjJmNzZrUDM0U1N2UkJTSGJVejlzOGxRTUg2Mm1rTzNEaWVPeWlBb3lYYjF1M29yVlliS2tOdWFiczY0TWk4ejhaQnh6M0NGSm5lSDNkTzREZHdMVG5tYUZnTTNsdmk4MlJNT2FfbS1FZW5wZmpkekl0enVGbTBnTXhsX3N1Q1ppckk?oc=5
-**Key Highlights:**
-  • 🧠 October Jobs Report Will Come, but It Won’t Include Unemployment Rate, Hassett Says - The Wall Street Journal <a href="https://news
-  • 💬 ">October Jobs Report Will Come, but It Won’t Include Unemployment Rate, Hassett Says</a>&nbsp;&nbsp;<font color="
-  • 📊 October Jobs Report Will Come, but It Won’t Include Unemployment Rate, Hassett Says - The Wall Street Journal <a href="https://news
-  • 📊 Economic indicators and market analysis
-**Summary:** October Jobs Report Will Come, but It Won’t Include Unemployment Rate, Hassett Says&nbsp;&nbsp;The Wall Street Journal...
-
-### 5. How Unemployment Can Take a Toll on Our Mental Health - The New York Times
-**Source:** Google News (free)
-**Published:** Wed, 12 Nov 2025 13:35:52 GMT
-**URL:** https://news.google.com/rss/articles/CBMiggFBVV95cUxNdS1TS1ItN0IwSlhRclBoT3lSSDlkNHRmUjEwMlBaUGd4anh2NExnbWVWRlhsSG1ueGViNnhrSG1YcWVkQ2FiRy1pRUVkUDlYcGl5VlZDampNU1hzeDdNN1J4VVpGbzBqWHpKZU1EN21PanoyLVNPUDlZLUxDek9LUm1n?oc=5
-**Key Highlights:**
-  • 🧠 How Unemployment Can Take a Toll on Our Mental Health - The New York Times <a href="https://news
-  • 💬 ">How Unemployment Can Take a Toll on Our Mental Health</a>&nbsp;&nbsp;<font color="
-  • 📊 How Unemployment Can Take a Toll on Our Mental Health - The New York Times <a href="https://news
-  • 📊 Economic indicators and market analysis
-**Summary:** How Unemployment Can Take a Toll on Our Mental Health&nbsp;&nbsp;The New York Times...
-
-*... and 3 more articles in this category*
-
-## General Economic News (4 articles)
-
-### 1. White House: Key economic reports impacted by shutdown may not be released - NBC News
-**Source:** Google News (free)
-**Published:** Wed, 12 Nov 2025 19:27:52 GMT
-**URL:** https://news.google.com/rss/articles/CBMiigFBVV95cUxQcjV5OEl3cDZ3bUtnc0hlbXhiZE1JRzlGemRqdWk2NkVYUzNkSTZNYVExVFFhVGROaDl2Z0JvN2hmdWowVUdWcU9wMElXbnJxTElIS25lLW5WbWd6Q04yRVJ3SEUxQTRNMUtzNElWNXhKSG51Zk92Q1NYTXhVaWhNZENPc01lREh2TVHSAVZBVV95cUxPT0NUbTBkYlJBdHlLcmhxUEY0X1ZRaGF2NDlQUjktaUtCZW5oT1ZHaFFyLVdlNV9admlaM05RRHVyWElYYTFQaWhNOVlZWWZ1U1Q5anBldw?oc=5
-**Key Highlights:**
-  • 💬 ">White House: Key economic reports impacted by shutdown may not be released</a>&nbsp;&nbsp;<font color="
-  • 📈 Economic and market developments covered
-  • 📊 Economic indicators and market analysis
-  • 🏛️ Policy implications and regulatory updates
-**Summary:** White House: Key economic reports impacted by shutdown may not be released&nbsp;&nbsp;NBC News...
-
-### 2. Navigating Uncertainty: Growth & Transformation in 2026 - S&P Global
-**Source:** Google News (free)
-**Published:** Wed, 12 Nov 2025 16:01:42 GMT
-**URL:** https://news.google.com/rss/articles/CBMitwFBVV95cUxNbEtycmo1MFBvX21leVppZm5NXzdReUJhT1BXSkh2ZXBHWFZndTJxRTJabWYxWE9ha3Q1SEF5cHg5VHJaN3E5dy1zLWQtR18yd3NnVzdOYU9icXlraGcwQlE2d0pfQXBhdWl6cm5pTUtZcF9ORXNJcUlCZVltRDhpS0JLbmIzdVJ0QkhqSGNuN045RW4wdHpzcXJDNlV4b2FQSVJVOFdHUkJIYWFwd21sWVFTTXRXN2c?oc=5
-**Key Highlights:**
-  • 📈 Economic sentiment: Positive (0.1 confidence)
-  • 💬 ">Navigating Uncertainty: Growth & Transformation in 2026</a>&nbsp;&nbsp;<font color="
-  • 📊 Economic indicators and market analysis
-  • 🏛️ Policy implications and regulatory updates
-**Summary:** Navigating Uncertainty: Growth & Transformation in 2026&nbsp;&nbsp;S&P Global...
-
-### 3. Scam Fears Keep The UK Savers (And Their £610B) Out of Trading - TradingView
-**Source:** Google News (free)
-**Published:** Thu, 13 Nov 2025 09:37:04 GMT
-**URL:** https://news.google.com/rss/articles/CBMiwwFBVV95cUxPblJZOXE1WlZvVGNiV3NrQy1hTEhremh3MG1aeEwxSDc3NXpXOVE1VVYxOE9kMi03bkZYYTNOMlBId0VQbWRzY0JLT0o5QXZvYUs3NjZubkxyMkJnN250NkxaNmNZeUFfYWNCZmR3NjkxaVNOSkdDNUctYWxMcWlwaEF1UUJfMVkwNGItQU5uMlY1ME1iQmtCQTdVZl9GdzRVN25feng5ZV9UV29OcGhNdEU1cmgwT29PbWlUNFNZUWNJcEE?oc=5
-**Key Highlights:**
-  • 💬 ">Scam Fears Keep The UK Savers (And Their £610B) Out of Trading</a>&nbsp;&nbsp;<font color="
-  • 📊 Economic indicators and market analysis
-  • 🏛️ Policy implications and regulatory updates
-  • 🌍 Global economic impact assessment
-**Summary:** Scam Fears Keep The UK Savers (And Their £610B) Out of Trading&nbsp;&nbsp;TradingView...
-
-### 4. How Has Treasury Market Liquidity Fared in 2025? - Liberty Street Economics
-**Source:** Google News (free)
-**Published:** Wed, 12 Nov 2025 12:01:22 GMT
-**URL:** https://news.google.com/rss/articles/CBMipAFBVV95cUxPQWpNMmcyUUpBdTBCdzltYkU1M3NFUS1iVFVlbEdHYkkybU5tUGJJSzl6bHpHNlQxNWZxWHFDc1I0MWE1ZDhYSDdsRXFlUDhXcWlZLXFRanBQRmVpZndtRFRiMHY1ZkpBQW83UlAxMkhZSlNGYjZxQzRBREs2Nm4wdEt4alpvYVhWN3hKLUV4Q0MwdEpSWC14clJycnVWSi0yY0pwTw?oc=5
-**Key Highlights:**
-  • 💬 ">How Has Treasury Market Liquidity Fared in 2025?</a>&nbsp;&nbsp;<font color="
-  • 📊 How Has Treasury Market Liquidity Fared in 2025? - Liberty Street Economics <a href="https://news
-  • 📈 Economic and market developments covered
-  • 📊 Economic indicators and market analysis
-**Summary:** How Has Treasury Market Liquidity Fared in 2025?&nbsp;&nbsp;Liberty Street Economics...
-
-
-## Inflation (5 articles)
-
-### 1. Opinion | The penny is dead. Long live inflation. - The Washington Post
+### 3. Opinion | The penny is dead. Long live inflation. - The Washington Post
 **Source:** Google News (free)
 **Published:** Thu, 13 Nov 2025 05:03:08 GMT
 **URL:** https://news.google.com/rss/articles/CBMijgFBVV95cUxQbWJadEJHV0ZkLTh0aXlOTmlhZDV2MWs4aTRya01jOUg4SHIzV3JYU2M0TXZmVWNyVG9yN2NnWS1KVDhDMzlkR25DYmx0UW02NHlGekNVUHZjSEludlA4MVdwS0xqQTBQVTg2a1VuQURQLVB5UTQ2VnZNeFZTekQ0SXItMC04dDVhcVY3T0RR?oc=5
 **Key Highlights:**
-  • 💬 ">Opinion | The penny is dead. Long live inflation.</a>&nbsp;&nbsp;<font color="
-  • 💰 Inflation and pricing trends analyzed
-  • 📊 Economic indicators and market analysis
-  • 🏛️ Policy implications and regulatory updates
+  • Opinion | The penny is dead
+  • - The Washington Post <a href="https://news
+  • &nbsp;&nbsp;The Washington Post
 **Summary:** Opinion | The penny is dead. Long live inflation.&nbsp;&nbsp;The Washington Post...
 
-### 2. Haven’t received your NY inflation refund check yet? Here’s what to know - Democrat and Chronicle
+### 4. Government report shows how much inflation is costing Maine families this year - WMTW
 **Source:** Google News (free)
-**Published:** Wed, 12 Nov 2025 10:23:57 GMT
-**URL:** https://news.google.com/rss/articles/CBMivAFBVV95cUxPdXR3ZmJMTDBnY3R6RHpMby13WXhwa2Y5R3BoNDBmRFlseXB2Vl9QeFNvZlhpVUJsWHE0bkZlbFVIQXltRDhGcUl3b2Z4cGQzWU05M0tPR1ZqZzh2UnA0MzVMX1V2dko5Nl92bWo0UGJneHhRS0NrTzBHN19WYm9SZHR0OXdfY2FPZE9QbDNEV1RObEdXa29tYjY4NzU1eWtXOGRyMVhDdHBDcl9HWjcxMDVIcVBWRUM2VXFOSw?oc=5
+**Published:** Thu, 13 Nov 2025 16:23:00 GMT
+**URL:** https://news.google.com/rss/articles/CBMikgFBVV95cUxOSkFIN2llMGFJT2lGVlhTcTNrSkhTV3RFS0lCMWh4SGNQdmdrNlJ4UUdDeWlpVkNabDhEWFpFU043eDdLQ2pjSnZZa0ExVmk1bnNOaDVudFhkRnlKbTNqOWFxMlZjeVBaU2NvbjBSazc0NmdrVHEwZ1RXTkVUTXJGMU8wYksyaWNhaTlIbkNKRVY1QQ?oc=5
 **Key Highlights:**
-  • 🧠 Haven’t received your NY inflation refund check yet? Here’s what to know - Democrat and Chronicle <a href="https://news
-  • 💬 ">Haven’t received your NY inflation refund check yet? Here’s what to know</a>&nbsp;&nbsp;<font color="
-  • 📊 Haven’t received your NY inflation refund check yet? Here’s what to know - Democrat and Chronicle <a href="https://news
-  • 📊 Economic indicators and market analysis
-**Summary:** Haven’t received your NY inflation refund check yet? Here’s what to know&nbsp;&nbsp;Democrat and Chronicle...
+  • Government report shows how much inflation is costing Maine families this year - WMTW <a href="https://news
+**Summary:** Government report shows how much inflation is costing Maine families this year&nbsp;&nbsp;WMTW...
 
-### 3. Bank of Japan aims for wage-driven inflation, aligns with government view - Reuters
+### 5. The U.S. official who is most serious about fighting inflation is in Cleveland - MarketWatch
 **Source:** Google News (free)
-**Published:** Thu, 13 Nov 2025 03:15:00 GMT
-**URL:** https://news.google.com/rss/articles/CBMisAFBVV95cUxNUDkzcGxKM1lJRU1aZ3llRTJMdjl0QkRXY3BJSGRHSUlJWUMtcTh3TnlMZXFyNTZxWDUyMDBkNks0a0ZEWXBqS1pDeFVMcWVNUlRmTV9TdGdXQ3NENjFHV2ZqcURwWVpEUTktSWtlMWg3MUk5MVByQS1oLU4tNkFhTjFQYVVkTTRrSFp6N1ZubVQzd0l3T1cxQnZacDlTVExKWkJmaHp1VVBDbV9hRTkydA?oc=5
+**Published:** Thu, 13 Nov 2025 14:00:00 GMT
+**URL:** https://news.google.com/rss/articles/CBMiwgNBVV95cUxQaVFUY24wY0tXb3RPZUVSM0lpLXlwSjRzNUtDOXJrbEVQdC0yRUl0NmpoMVFsRmpfaUFwc2ZYdHdfQXJmbU51Qm1udVVnQmZCRzFhMkVqeXkxbVloMFkwZTQzUXJ1YTBpUnViZHN0QTdGQzVjeHRPa0lnTVFDT2tLY3c3anZCcDBIdHpuR0xSLW1kZEEyMWpMQ1NVUGVDdFJOMzJoU1paQjEzZlg5T05UemdoajdjT3hpbkpLMjRfSXlHb0l4dlZ6TTh0ZUtvNkhqZldyWTJzTTdRWlJaakc1aUc1OGxMZlg5bFVYQ3NOUDJBVnNfTnp1eHFHN05zcVU3bERIeExmMlM4c0FfTGhEcnlPNzJUV0NZSHlmU0VUUGhYVGZlbjBGYU5MVzFQQ3FKMEFMRlN6R0M4Tmk0Uk15RG9GejlCNjZQTkhoUzFvV1NGbFRXTkN3cklETncwRWw5VEZwU1lod2pVSTEtZVo2b1hLeHZKdURTN0pHdy1hQnhscWwtN1RMYmF4WGtmeVVWUEVjRjNJeWNoX3NPcUFrMGdGbm43TjJXcF9abVBFMVRQWjBveHRNSjRrNm1CcnJmU2c?oc=5
 **Key Highlights:**
-  • 🧠 Bank of Japan aims for wage-driven inflation, aligns with government view - Reuters <a href="https://news
-  • 💬 ">Bank of Japan aims for wage-driven inflation, aligns with government view</a>&nbsp;&nbsp;<font color="
-  • 📊 Bank of Japan aims for wage-driven inflation, aligns with government view - Reuters <a href="https://news
-  • 📊 Economic indicators and market analysis
-**Summary:** Bank of Japan aims for wage-driven inflation, aligns with government view&nbsp;&nbsp;Reuters...
+  • official who is most serious about fighting inflation is in Cleveland - MarketWatch <a href="https://news
+**Summary:** The U.S. official who is most serious about fighting inflation is in Cleveland&nbsp;&nbsp;MarketWatch...
 
-### 4. There’s No Inflation Report Today. But Here’s What the Experts Think. - Barron's
+*... and 1 more articles in this category*
+
+## Market Risk (1 articles)
+
+### 1. Wall St. Has Worst Day in a Month, Driven by Rise in Foreclosures
+**Source:** NBC Business (free)
+**Published:** Fri, 14 Nov 2025 12:49:28 GMT
+**URL:** https://www.today.com/video/wall-st-has-worst-day-in-a-month-driven-by-rise-in-foreclosures-252042821915
+**Key Highlights:**
+  • NBC’s Christine Romans joins TODAY to break down what to know about the volatility in the economy
+  • NBC’s Christine Romans joins TODAY to break down what to know about the volatility in the economy
+  • 14, 2025 © 2025 NBCUniversal Media, LLCApple®, Apple logo® and App Store® are registered trademarks of Apple Inc
+**Summary:** Wall Street saw its worst day in more than a month on Thursday, driven by new data showing a rise in foreclosures and mounting corporate layoffs. NBC’s Christine Romans joins TODAY to break down what ...
+
+
+## Unemployment & Employment (10 articles)
+
+### 1. British Gas boss voices concerns over Scotland's energy jobs
+**Source:** BBC Business (free)
+**Published:** Thu, 13 Nov 2025 13:00:08 GMT
+**URL:** https://www.bbc.com/news/articles/cr437w9nr96o?at_medium=RSS&at_campaign=rss
+**Key Highlights:**
+  • Employment market news: British Gas boss voices concerns over Scotland's energy jobs
+  • British Gas boss voices concerns over Scotland's energy jobs Chris O'Shea, the boss of Centrica, which owns British Gas, says the energy transition is correct, but worries over the impact on jobs
+  • He is concerned that the "demise" of drilling for gas and oil in the North Sea and the move to green energy will not create new roles quickly enough to offset job losses
+**Summary:** Chris O'Shea, the boss of Centrica, which owns British Gas, says the energy transition is correct, but worries over the impact on jobs....
+
+### 2. Think robotics stocks are overhyped? In fact, they’re just taking off.
+**Source:** MarketWatch (free)
+**Published:** Fri, 14 Nov 2025 19:09:00 GMT
+**URL:** https://www.marketwatch.com/story/think-robotics-stocks-are-overhyped-in-fact-theyre-just-taking-off-e8d070b7?mod=mw_rss_topstories
+**Key Highlights:**
+  • Think robotics stocks are overhyped? In fact, they’re just taking off.
+  • Think robotics stocks are overhyped? In fact, they’re just taking off
+  • Columnist Charlie Garcia responds to readers concerned about robots replacing jobs and about the companies that make them
+**Summary:** Columnist Charlie Garcia responds to readers concerned about robots replacing jobs and about the companies that make them....
+
+### 3. White House official says October jobs and inflation data are likely to never be released - Fortune
 **Source:** Google News (free)
-**Published:** Thu, 13 Nov 2025 05:01:00 GMT
-**URL:** https://news.google.com/rss/articles/CBMikANBVV95cUxObi1yRy1USXVHX0VFdDVQUm9nNDFad3VaNGVheVZ1UkhVc1FxdUNBVnptRktUMGg5ZzRXNmRpWUdib3p1TEV1ejJTcG8yOVlQTFpXZ3FjazBYQWxlSWxxem14RlY1dWQ5czhSNTlVNWdnaXkzV0JsZVpEVHVja0xTTGVjUF9CQmhBNTQ2SHRvVWpZRlM4a0dxTW9KY3pKUU0wZ011RVVKaXdheUQxYVEwZ1lwUGdmWlRwTnpHY1V6dDVsMHdmSkNER0xRT01kNWZPU1BKQUhEeGFSNV9McG1GSjFxUndmT1dicGdBWXkzdTNLNVNpb1lrN0JJYWZETE5mMkxwbnRtZFlNczFreDFuaTdpaUVvZDRGUGo2bUJFd1ZkdlVXWE0tSTJwREFzODQxUk5aYzVjeWNLaXBNXzlvSnB3cjJsT2VWNjRWdHBBT1lCczh1b1V3Y1ZrTk5EeTVhSHlxR1NtQjdKZTNEbFp5RHZxWGhGOWpfRk5YRzJ0S2pPeHByeUtIajNFN09WV1Qx?oc=5
+**Published:** Thu, 13 Nov 2025 18:51:00 GMT
+**URL:** https://news.google.com/rss/articles/CBMilwFBVV95cUxOekZQN2lVRlVObzRDaWppQzIxYlRCeWhCTFBIbThVRDhiTy0wNThfR05MT1RyRVlQQU9mUldRalNsQ3BXaUt2NUZsT2FTZlhIWElSandoXzVGYmVkQTNYVWE3Z182RWV0R2tlbmJBeUVHcS1NaHU5QmExODZIcHc1U05BNXBnRXhUeUUwSmZfR2ZLakl2V0hV?oc=5
 **Key Highlights:**
-  • 💬 ">There’s No Inflation Report Today. But Here’s What the Experts Think.</a>&nbsp;&nbsp;<font color="
-  • 📊 There’s No Inflation Report Today
-  • 💰 Inflation and pricing trends analyzed
-  • 📊 Economic indicators and market analysis
-**Summary:** There’s No Inflation Report Today. But Here’s What the Experts Think.&nbsp;&nbsp;Barron's...
+  • But Here’s What the Experts Think
+**Summary:** White House official says October jobs and inflation data are likely to never be released&nbsp;&nbsp;FortuneWhite House says October jobs and inflation data may never be released because of the shutdo...
 
-### 5. India’s Inflation Cools to New Low, Eases More Than Expected - The Wall Street Journal
+### 4. Delayed September Jobs Report to Be Released Next Week, Labor Department Says - Barron's
 **Source:** Google News (free)
-**Published:** Wed, 12 Nov 2025 11:04:00 GMT
-**URL:** https://news.google.com/rss/articles/CBMitgNBVV95cUxNYWUycThIR09ENHU3RkFfMWw3TnpseUVvV1JwNWY1UzZJejBjclhPUXhqOVZ3R252NlFMc3E5Q0N3aU1acWtBZnFIcUpXanlQSVRXazVfRDhrdDVPYlNXdnB1ZDFQLUxrZ1otajdZSTVWbzFpd1EzRVRHMnE0azB6Y19xMEhiV1RrU2I3RnNLRHFnbTM1a1lnbU1scW9rd3JYdXdqUnpSamFIYTZ4SWdhMW1FdFJHVUxKYjk0WmQxQ0IyV3BXTGc1RWc2Y2NzQzRBNjI5OFRoY0pMWFliOTlNcmZucHFIV3VqMUhsQXU3RnVwWEd0TkItWlNEcHFqTzlYdmNwdVJJTmhUd2FaclA2Um81ZDktbl9yS05BOGhwVGJhMVNXNlJVN0RtbGRBZUpROF9TWExwd1Q0a0VVSWtnOU56c2U4OTZsRW9mQU54ZzdSUkx0NFNIQ0VZeTBPQ0RZXzViVmFlX2FFSjJBVnd5dW9IazQzQnFvTFNxYkZvZjlpMU5iNDNWWEN6ZnFSdlNNeG9lSGtJYjY0UE1ieDRDMXBUbDVRVkFXTnB6bHYyNzhSMldpN3c?oc=5
+**Published:** Fri, 14 Nov 2025 20:50:26 GMT
+**URL:** https://news.google.com/rss/articles/CBMiiARBVV95cUxNWEFpVHlnYjNYbjhVanFTZEx4UVhXT0t6bmNWX09QYWNpSlFPM20xbHhSUVlzbGN1RXUwcXhWMnRsQzY0ZWgwdW5QTjJjdWZRQjB0cTRJU056ZmFpOGlja2lWU2JjbGs1WGRaRmNVRzBJR2p4R21vdDRZUkJoMWxRUXJsYnNCY3AwTHRkaGdJUjlYWk1iaTdSQzI2NHUyTlRfZ1JHOWlaenJaSEcwaXlhZmEzbUl2TThNTllYdGM3RFhhNThTc2FFdGg0c2FueTRzaXZzMkdMdy16c3NoME85SEhxa0JtTWJYNHNBTGEtMlNDWDduMGFENE1hUXNad1Rrb2ZCN2lNTDJyRnhRdEtfY2FVVFBfc01aYXFZMzVMUC1ic2FnNGx6aGhtWjZ0Ym9tSGEybW9NQkg1cjNPOHctWEQzMjhaMk5UUEVyOEFsOHpKRXBnY2E1dFg3cVpEYjRDdUZ5UlJDUFBlN1BQS3d1SjVQUXFhcExRaVY1elVOS2w1SkoySzlzMzlYQWNWcnhQcWliaG8wWS1obDV3MDZTY2I5Tndyci1KdVlSZFF0YzZoS3ZXUHhFMkZWb0NxMFlES1J3MFk2QmVHTkFYQnZqbmlIRTZ3RXp1TkJPSGl3MFpBZl84LXlGMG1ZQXphcXZLZVFFcVlfOFlwajRVQjB4X2NNSlc4dFpN?oc=5
 **Key Highlights:**
-  • 🧠 India’s Inflation Cools to New Low, Eases More Than Expected - The Wall Street Journal <a href="https://news
-  • 💬 ">India’s Inflation Cools to New Low, Eases More Than Expected</a>&nbsp;&nbsp;<font color="
-  • 📊 India’s Inflation Cools to New Low, Eases More Than Expected - The Wall Street Journal <a href="https://news
-  • 📊 Economic indicators and market analysis
-**Summary:** India’s Inflation Cools to New Low, Eases More Than Expected&nbsp;&nbsp;The Wall Street Journal...
+  • Delayed September Jobs Report to Be Released Next Week, Labor Department Says - Barron's <a href="https://news
+**Summary:** Delayed September Jobs Report to Be Released Next Week, Labor Department Says&nbsp;&nbsp;Barron's...
 
-
-## Market Risk (3 articles)
-
-### 1. The Stock Market’s Biggest Risk Is Harder to See Than an AI Bubble - Barron's
+### 5. Verizon set to cut about 15,000 jobs, convert some stores to franchises - USA Today
 **Source:** Google News (free)
-**Published:** Wed, 12 Nov 2025 20:25:00 GMT
-**URL:** https://news.google.com/rss/articles/CBMi-gJBVV95cUxQc1JVdU4yY3VhV0R6aEk0TGhhT0Y1Q0VMbEctYkxrZVBPYmZVaHRMOHE1bVlKbWlPZlYwRFo3MWRBVTNDYkh5NlpVb1NxbVQ4dXFZcGp6SU5DenRycmJkWUYya3IyamgzTFd1YXdKQVUxSC1RS181Z1p5MXdabUV4WXJ6THVPRFFNaHo2Wjlmd3lRVWdYdlNFX2hmemhHeEJ4OUJqNU9DV2hvcFdOeXREMVExMnpQU0dhaTc5SmZRX0NZTHZ2QmNQMERjbXREZkNzN2NlcjdLa0xsYmFoR21iSkdxWkZFYS1mYjJONkRUUnZCSzlfR3FiSGpZRDZibVZBN3RJT2Q2b2RnaW52OTRRTlRPOHpZYTRzMmJGaE5wckg1VEUtSWYxWVVvT29SUFRNbG5KcFhVR3J3TnhWUTFFeUl3VFJtUHgxeVBKd1ZhejBucUZfSkxHOTVZNXlsWWU5aGd5R19LZnVZbWMxbjdoTzhIbXB0U3hVckE?oc=5
+**Published:** Fri, 14 Nov 2025 00:20:16 GMT
+**URL:** https://news.google.com/rss/articles/CBMingFBVV95cUxPTlYzLTU2d0h4NndNeW1yeVpDYTlaS2UwQ2dkTTlPQlJScVlnMGREQnZmQnFuenBLU3hKeWt5N2ozQk43NERLS0pxSU5xNE11UUVYTXZiTVM5bUQwaU0tdURXVUM3NW5ONU5mQVZZbnNRTnIyMVRITllNU3FfckpPZGl0UWhaUzFtN1g2Y0RyLTdHSENsQWRyUnA5YjdFdw?oc=5
 **Key Highlights:**
-  • 📉 Economic sentiment: Negative (0.1 confidence)
-  • 💬 ">The Stock Market’s Biggest Risk Is Harder to See Than an AI Bubble</a>&nbsp;&nbsp;<font color="
-  • 📊 The Stock Market’s Biggest Risk Is Harder to See Than an AI Bubble - Barron's <a href="https://news
-  • 📊 Economic indicators and market analysis
-**Summary:** The Stock Market’s Biggest Risk Is Harder to See Than an AI Bubble&nbsp;&nbsp;Barron's...
+  • Verizon set to cut about 15,000 jobs, convert some stores to franchises - USA Today <a href="https://news
+**Summary:** Verizon set to cut about 15,000 jobs, convert some stores to franchises&nbsp;&nbsp;USA Today...
 
-### 2. FIS GETPAID and Treasury Risk Manager Integrity become available on Microsoft Marketplace - FX News Group
+*... and 5 more articles in this category*
+
+## General Economic News (10 articles)
+
+### 1. UK growth slows after big fall in car production
+**Source:** BBC Business (free)
+**Published:** Thu, 13 Nov 2025 10:24:37 GMT
+**URL:** https://www.bbc.com/news/articles/cx2y1z4z70jo?at_medium=RSS&at_campaign=rss
+**Key Highlights:**
+  • UK growth slows after big fall in car production
+  • UK growth slows after big fall in car production The cyber-attack on Jaguar Land Rover hit manufacturing and weighed on growth in the economy, figures show
+  • UK growth slows after big fall in car production 1 day ago Share Save Michael Sheils McNamee Business reporter Share Save Reuters Growth in the UK economy slowed to 0
+  • Economic data: 1% in the July-to-September period, official figures show, as car production slumped
+**Summary:** The cyber-attack on Jaguar Land Rover hit manufacturing and weighed on growth in the economy, figures show....
+
+### 2. Trump Turns to Affordability Message Amid Economic Frustration - The New York Times
 **Source:** Google News (free)
-**Published:** Thu, 13 Nov 2025 13:50:18 GMT
-**URL:** https://news.google.com/rss/articles/CBMizwFBVV95cUxQS0VfQ1ZNdjZRQ2R2YktLM1VidVV4YUZuV2ExUHRER3JVT3NUQ3hzZml5T3hLQkp4TFVQSzNBOWNHYVY0dGFuQjZKWVg2NmpoblZSNFkxTDlLQlFldU1FdGVtTnZYV0VFMDczclhWYUU0ZXM0a1BKdlpmaFJxZC0zZnVmTVY5cnhzLTRObTVocU51QzdxcncwbGxiMnZqd1ZXTnV6NnVsRUtwRXlkM2F4cXM1Rlg0ZUtRWE1uNGZCbll1M0RaZ3EzLUZ4Z1FoY0k?oc=5
+**Published:** Fri, 14 Nov 2025 14:54:01 GMT
+**URL:** https://news.google.com/rss/articles/CBMihgFBVV95cUxNMmtrTlZIeWFfZURSUUtNRkJJN1pEZG5ReDVHNXlmdnRmWWxTdDd0bU5ILVJ1R0ZwbzVVd1RBcGg0cnI3eUlrOFZOeFRETUVlbzAxWmVhUUptSnQwWFF2c0R0dXFVUmhpeUxnZnU4YnNRQS1ubkRZZGppV3ctMVhxaGFQamZNQQ?oc=5
 **Key Highlights:**
-  • 📉 Economic sentiment: Negative (0.1 confidence)
-  • 💬 ">FIS GETPAID and Treasury Risk Manager Integrity become available on Microsoft Marketplace</a>&nbsp;&nbsp;<font color="
-  • 📊 FIS GETPAID and Treasury Risk Manager Integrity become available on Microsoft Marketplace - FX News Group <a href="https://news
-  • 📊 Economic indicators and market analysis
-**Summary:** FIS GETPAID and Treasury Risk Manager Integrity become available on Microsoft Marketplace&nbsp;&nbsp;FX News Group...
+  • Trump Turns to Affordability Message Amid Economic Frustration - The New York Times <a href="https://news
+**Summary:** Trump Turns to Affordability Message Amid Economic Frustration&nbsp;&nbsp;The New York Times...
 
-### 3. MicroStrategy Briefly Worth Less Than Its Bitcoin as Market Flags Corporate Risk - Yahoo Finance
+### 3. Economic promises helped Trump get elected. Now he has an affordability problem - NPR
 **Source:** Google News (free)
-**Published:** Wed, 12 Nov 2025 20:28:01 GMT
-**URL:** https://news.google.com/rss/articles/CBMijwFBVV95cUxQWEQyNXJERGNPNVFxNFRtQTFuNm5EY01RSFdOVUd4UkdzVGlsSXpvVjBpODhwN1hodnJ4ejgzV0M5dnljQng1Z19yUlZYTUl3VEpPUWt6RGtRN04yUDZzTVU2ZDM0WDFmZ2lWdTl0WlY0QktET2w4X1FoNmo0OVo3Y1BGMWR5RzVTbEhqWjNHUQ?oc=5
+**Published:** Fri, 14 Nov 2025 10:00:00 GMT
+**URL:** https://news.google.com/rss/articles/CBMifEFVX3lxTE9Iem9ISkVuNG4wNnhXTzBWcjR4Q1pWSlRYRjd0UWRTYU0yOVJnWkFtcUM1eXZwdktVZU83Qkc5djNnejZwS20zWWszWWlPRFhfbHlVWXU5QlQyTlVjN0J3VWRlZE9NdEl3R0l5UTFhZWVvRkZKSTBIZDlBdXI?oc=5
 **Key Highlights:**
-  • 📉 Economic sentiment: Negative (0.1 confidence)
-  • 💬 ">MicroStrategy Briefly Worth Less Than Its Bitcoin as Market Flags Corporate Risk</a>&nbsp;&nbsp;<font color="
-  • 📊 MicroStrategy Briefly Worth Less Than Its Bitcoin as Market Flags Corporate Risk - Yahoo Finance <a href="https://news
-  • 📊 Economic indicators and market analysis
-**Summary:** MicroStrategy Briefly Worth Less Than Its Bitcoin as Market Flags Corporate Risk&nbsp;&nbsp;Yahoo Finance...
+  • Economic promises helped Trump get elected. Now he has an affordability problem - NPR
+  • Economic promises helped Trump get elected
+  • Now he has an affordability problem - NPR Economic promises helped Trump get elected
+**Summary:** Economic promises helped Trump get elected. Now he has an affordability problem&nbsp;&nbsp;NPR...
 
+### 4. Watch Tech Stocks Ping Pong on Mixed Economic Signals - Bloomberg.com
+**Source:** Google News (free)
+**Published:** Fri, 14 Nov 2025 20:37:10 GMT
+**URL:** https://news.google.com/rss/articles/CBMipAFBVV95cUxNTzB3Y2FkRG9XYkpIbU51aFZpSFJwNUw1ODBudkhVN1VHRXVUUVV4RWltS0FYR0NHSmlVUHhqVGVJcHFlbHhBZ0tHWGFKM1BweDZZejl1cVI2S0lMNGhOM2I3RnAzMzhMYXNtS29ldTlRZk1EMmJuVjhyWm9fQjBxZExlVzUyanUxTUZGU2RwbklkTWJXZVdGNG1lMldQY3ptSFNxRw?oc=5
+**Key Highlights:**
+  • Watch Tech Stocks Ping Pong on Mixed Economic Signals - Bloomberg.com
+  • Watch Tech Stocks Ping Pong on Mixed Economic Signals - Bloomberg
+  • com Watch Tech Stocks Ping Pong on Mixed Economic Signals&nbsp;&nbsp;Bloomberg
+**Summary:** Watch Tech Stocks Ping Pong on Mixed Economic Signals&nbsp;&nbsp;Bloomberg.com...
+
+### 5. How markets could topple the global economy - The Economist
+**Source:** Google News (free)
+**Published:** Thu, 13 Nov 2025 11:35:17 GMT
+**URL:** https://news.google.com/rss/articles/CBMikgFBVV95cUxOSGMxOHNjSHNCWDFxekR4UjVUU2dsZWV0QWxoRHNBb2RRMHBWTko1R0M4bE5PM0pjbWRfbXliOTgzcF8tcmV6bDdqZFhKYXhQSFdZVFNXOVdsOGQ5dWJ2Ym9EWmhjZEo5TW5pbDhMVkRxeno5TkdUR2s0ZjYzTE5obl83clpaVTlnLWp0cXNKcTViZw?oc=5
+**Key Highlights:**
+  • How markets could topple the global economy - The Economist <a href="https://news
+**Summary:** How markets could topple the global economy&nbsp;&nbsp;The Economist...
+
+*... and 5 more articles in this category*
+
+## Federal Reserve & Monetary Policy (14 articles)
+
+### 1. Federal Reserve Board issues enforcement action with former employee of Commerce Bank and announces termination of enforcement actions with Société Générale S.A. and Industrial and Commercial Bank of China Ltd.
+**Source:** Federal Reserve News (free)
+**Published:** Thu, 13 Nov 2025 16:00:00 GMT
+**URL:** https://www.federalreserve.gov/newsevents/pressreleases/enforcement20251113a.htm
+**Key Highlights:**
+  • Federal Reserve development: Federal Reserve Board issues enforcement action with former employee of Commerce Bank and announces termination of enforcement actions with Société Générale S.A. and Industrial and Commercial Bank of China Ltd.
+  • Federal Reserve Board issues enforcement action with former employee of Commerce Bank and announces termination of enforcement actions with Société Générale S
+  • and Industrial and Commercial Bank of China Ltd
+**Summary:** Federal Reserve Board issues enforcement action with former employee of Commerce Bank and announces termination of enforcement actions with Soci&eacute;t&eacute; G&eacute;n&eacute;rale S.A. and Indust...
+
+### 2. ‘Take Money Out of Wall Street’: The Debate Animating the Fed Chair Race - Politico
+**Source:** Google News (free)
+**Published:** Thu, 13 Nov 2025 12:55:00 GMT
+**URL:** https://news.google.com/rss/articles/CBMirgFBVV95cUxOeWF4UjhUVU4xRUxwTWlsbE9vMjQyZjV5NjIyWmtZTVI5VXFXZFZKcEswZUpHRWp0Xy1OS2FkZWJLOUVaTWY2djJCLUo0ZXBzMU1jZmN3bW5BbWliQlliY1dzN0lxMWdZMWxSRFE5SjMxSjh1RmZ0Vldhd1dmQVhTOGYtdVlwSUkwdnFlWVBpcHBMdUE1LXpNZ2FBSXlvVUxGT3BHWklLVGRMek9SdWc?oc=5
+**Key Highlights:**
+  • ‘Take Money Out of Wall Street’: The Debate Animating the Fed Chair Race - Politico <a href="https://news
+**Summary:** ‘Take Money Out of Wall Street’: The Debate Animating the Fed Chair Race&nbsp;&nbsp;Politico...
+
+### 3. Fed's December rate cut looks increasingly like a toss-up - Reuters
+**Source:** Google News (free)
+**Published:** Thu, 13 Nov 2025 21:09:34 GMT
+**URL:** https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWY4YURsT0JQVUdpd01GeXIwTGtodFVIcGV4UTFCelhMVVg4aFdWN0xybXhLd1hsVGJoZHZkM0tBajVoT0pKWS14azZpV1dWQkNLa0JiamFKbmJSdEpmakszZnlmWEFjNFpjUHFaX1VwdUwwcFF5MDNGdFFyZl91Mnl3Zm9SUl9sREZWeHd2b2NFS3RZNnp4OVFQZ3dna3JhZTFEQXVpWQ?oc=5
+**Key Highlights:**
+  • Fed's December rate cut looks increasingly like a toss-up - Reuters <a href="https://news
+**Summary:** Fed's December rate cut looks increasingly like a toss-up&nbsp;&nbsp;Reuters...
+
+### 4. Fed’s Schmid Says More Cuts Could Drive Inflation Pressures - Bloomberg.com
+**Source:** Google News (free)
+**Published:** Fri, 14 Nov 2025 15:05:00 GMT
+**URL:** https://news.google.com/rss/articles/CBMirwFBVV95cUxQc3dIR0U4Sy0wVENscFB6SXlQcFA0dFRYYW1Ja0VnQUl0dVF4MkNfcHQ1d0hMekVldWxCZVJ0bDBBeEtyV1paWEk0dDZKYTM0dDhOSTRvYmJhb1pGQy1FRzNZTUt2bjRaY2NMbEY4emlqU1l3d0VCTGRtN2RIeHFidGtTVWNVSkR2YkFjdjU3dGkzTzdDcUxic0xGdkFTZExxRUhEcnFWRVhld0hhUFRv?oc=5
+**Key Highlights:**
+  • Federal Reserve development: Fed’s Schmid Says More Cuts Could Drive Inflation Pressures - Bloomberg.com
+  • Fed’s Schmid Says More Cuts Could Drive Inflation Pressures - Bloomberg
+  • com Fed’s Schmid Says More Cuts Could Drive Inflation Pressures&nbsp;&nbsp;Bloomberg
+**Summary:** Fed’s Schmid Says More Cuts Could Drive Inflation Pressures&nbsp;&nbsp;Bloomberg.com...
+
+### 5. Government shutdown may impact Federal Reserve decision on interest rates cuts - CBS News
+**Source:** Google News (free)
+**Published:** Thu, 13 Nov 2025 16:38:00 GMT
+**URL:** https://news.google.com/rss/articles/CBMirgFBVV95cUxNRjg0cG9NYndoSVBraldYM3o1emoyU3JSbk40UDQ2QTZYWnktdjVwcUtvbm5KdGpIcUd1QTRJOUpra3NFcUJpaTRFRTNVUURfY3ZCNXZLVUFyQ09kYmRPbHdFSUhobXRZeUNrQXRTWHFxLTdkSHlzNVNLeDQtS3hpaTFLSFVoamVjMDhkNlVZQi03Qk1PVzlOalV4QlY1STQ4Qm4yRUU0YWZ0eHpnbnc?oc=5
+**Key Highlights:**
+  • Government shutdown may impact Federal Reserve decision on interest rates cuts - CBS News <a href="https://news
+**Summary:** Government shutdown may impact Federal Reserve decision on interest rates cuts&nbsp;&nbsp;CBS News...
+
+*... and 9 more articles in this category*

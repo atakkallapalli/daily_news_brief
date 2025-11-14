@@ -18,7 +18,7 @@ DASHBOARD_TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Economic & Financial News Dashboard</title>
+    <title>Daily News AIssistant (DNA)</title>
     <style>
         * {
             margin: 0;
@@ -66,9 +66,9 @@ DASHBOARD_TEMPLATE = """
         }
         
         .refresh-btn {
-            background: #28a745;
-            color: white;
-            border: 1px solid #1e7e34;
+            background: #e9ecef;
+            color: #495057;
+            border: 1px solid #ced4da;
             padding: 8px 16px;
             border-radius: 5px;
             cursor: pointer;
@@ -78,7 +78,7 @@ DASHBOARD_TEMPLATE = """
         }
         
         .refresh-btn:hover {
-            background: #218838;
+            background: #dee2e6;
         }
         
         .refresh-btn:disabled {
@@ -86,21 +86,7 @@ DASHBOARD_TEMPLATE = """
             cursor: not-allowed;
         }
         
-        .export-btn {
-            background: #fd7e14;
-            color: white;
-            border: 1px solid #e8590c;
-            padding: 8px 16px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 0.9em;
-            transition: background 0.3s ease;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-        }
-        
-        .export-btn:hover {
-            background: #e8590c;
-        }
+
         
         .edit-btn {
             background: #17a2b8;
@@ -205,6 +191,24 @@ DASHBOARD_TEMPLATE = """
             padding: 20px;
             font-size: 1.3em;
             font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .topic-export-btn {
+            background: #e9ecef;
+            color: #495057;
+            border: 1px solid #ced4da;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.65em;
+            transition: background 0.3s ease;
+        }
+        
+        .topic-export-btn:hover {
+            background: #dee2e6;
         }
         
         .topic-content {
@@ -583,12 +587,11 @@ DASHBOARD_TEMPLATE = """
 <body>
     <div class="container">
         <div class="header">
-            <h1>Economic & Financial News Dashboard</h1>
+            <h1>Daily News AIssistant (DNA)</h1>
             <p>Curated news from Bloomberg, Reuters, Fox News, NBC, AP, WSJ, and LinkedIn</p>
             <p><strong>Collection Date:</strong> {{ collection_date }}</p>
             <div class="header-buttons">
                 <button class="refresh-btn" onclick="refreshNews()" id="refreshBtn">🔄 Refresh News</button>
-                <button class="export-btn" onclick="exportToPDF()">📄 Export PDF</button>
             </div>
         </div>
         
@@ -615,7 +618,8 @@ DASHBOARD_TEMPLATE = """
             {% for topic, articles in topics.items() %}
             <div class="topic-section">
                 <div class="topic-header">
-                    {{ topic }} ({{ articles|length }} articles)
+                    <span>{{ topic }} ({{ articles|length }} articles)</span>
+                    <button class="topic-export-btn" onclick="exportTopicToPDF('{{ topic }}', '{{ loop.index0 }}')">📄 Export PDF</button>
                 </div>
                 <div class="topic-content">
                     {% for article in articles[:5] %}
@@ -673,8 +677,8 @@ DASHBOARD_TEMPLATE = """
         </div>
         <div class="keywords-content" id="keywordsContent">
             <div class="tab-buttons">
-                <button class="tab-button active" onclick="switchTab('keywords')">Keywords</button>
-                <button class="tab-button" onclick="switchTab('sources')">Sources</button>
+                <button class="tab-button active" onclick="switchTab('keywords')"><strong>Keywords</strong></button>
+                <button class="tab-button" onclick="switchTab('sources')"><strong>Sources</strong></button>
             </div>
             
             <div class="tab-content">
@@ -685,7 +689,6 @@ DASHBOARD_TEMPLATE = """
                     <input type="text" class="add-keyword" id="newKeyword" placeholder="Add new keyword..." onkeypress="handleKeywordInput(event)">
                     <div class="btn-group">
                         <button class="btn btn-primary" onclick="addKeyword()">Add</button>
-                        <button class="btn btn-secondary" onclick="saveKeywords()">Save</button>
                         <button class="btn btn-secondary" onclick="resetKeywords()">Reset</button>
                     </div>
                 </div>
@@ -713,14 +716,7 @@ DASHBOARD_TEMPLATE = """
     </div>
     
     <script>
-        let currentKeywords = [
-            'unemployment', 'inflation', 'market risk', 'banking',
-            'federal reserve', 'interest rates', 'economic outlook',
-            'GDP', 'recession', 'monetary policy', 'fiscal policy',
-            'fed', 'jerome powell', 'fomc', 'federal open market committee',
-            'fed chair', 'fed governor', 'fed official', 'fed policy',
-            'fed meeting', 'fed minutes', 'fed speech', 'fed testimony'
-        ];
+        let currentKeywords = [];
         
         function toggleKeywordsPanel() {
             const panel = document.getElementById('keywordsPanel');
@@ -749,6 +745,7 @@ DASHBOARD_TEMPLATE = """
                 currentKeywords.push(keyword);
                 input.value = '';
                 loadKeywords();
+                saveKeywords(); // Auto-save after adding
             }
         }
         
@@ -881,9 +878,7 @@ DASHBOARD_TEMPLATE = """
             })
             .then(response => response.json())
             .then(data => {
-                if (data.success) {
-                    alert('Keywords saved successfully!');
-                } else {
+                if (!data.success) {
                     alert('Error saving keywords: ' + data.error);
                 }
             })
@@ -893,15 +888,15 @@ DASHBOARD_TEMPLATE = """
         }
         
         function resetKeywords() {
-            fetch('/api/keywords')
-            .then(response => response.json())
-            .then(data => {
-                currentKeywords = data.keywords || [];
-                loadKeywords();
-            })
-            .catch(error => {
-                console.error('Error loading keywords:', error);
-            });
+            currentKeywords = [
+                'unemployment', 'inflation', 'market risk', 'banking',
+                'federal reserve', 'interest rates', 'economic outlook',
+                'GDP', 'recession', 'monetary policy', 'fiscal policy',
+                'fed', 'jerome powell', 'fomc', 'federal open market committee',
+                'fed chair', 'fed governor', 'fed official', 'fed policy',
+                'fed meeting', 'fed minutes', 'fed speech', 'fed testimony'
+            ];
+            loadKeywords();
         }
         
         let originalHighlights = {};
@@ -977,8 +972,53 @@ DASHBOARD_TEMPLATE = """
             controls.style.display = 'none';
         }
         
-        function exportToPDF() {
+
+        
+        function exportTopicToPDF(topicName, topicIndex) {
+            // Hide all other topics
+            const allTopics = document.querySelectorAll('.topic-section');
+            const targetTopic = allTopics[topicIndex];
+            
+            // Store original display states
+            const originalStates = [];
+            allTopics.forEach((topic, index) => {
+                originalStates[index] = topic.style.display;
+                if (index != topicIndex) {
+                    topic.style.display = 'none';
+                }
+            });
+            
+            // Hide other elements
+            const elementsToHide = ['.stats', '.keywords-panel', '.header-buttons'];
+            const hiddenElements = [];
+            elementsToHide.forEach(selector => {
+                const elements = document.querySelectorAll(selector);
+                elements.forEach(el => {
+                    hiddenElements.push({element: el, display: el.style.display});
+                    el.style.display = 'none';
+                });
+            });
+            
+            // Update header title
+            const headerTitle = document.querySelector('.header h1');
+            const originalTitle = headerTitle.textContent;
+            headerTitle.textContent = `Economic News: ${topicName}`;
+            
+            // Print
             window.print();
+            
+            // Restore everything
+            setTimeout(() => {
+                allTopics.forEach((topic, index) => {
+                    topic.style.display = originalStates[index];
+                });
+                
+                hiddenElements.forEach(item => {
+                    item.element.style.display = item.display;
+                });
+                
+                headerTitle.textContent = originalTitle;
+            }, 100);
         }
         
         function refreshNews() {
@@ -1009,12 +1049,53 @@ DASHBOARD_TEMPLATE = """
         
         // Load keywords on page load
         document.addEventListener('DOMContentLoaded', function() {
-            resetKeywords();
+            fetch('/api/keywords')
+            .then(response => response.json())
+            .then(data => {
+                currentKeywords = data.keywords || [
+                    'unemployment', 'inflation', 'market risk', 'banking',
+                    'federal reserve', 'interest rates', 'economic outlook',
+                    'GDP', 'recession', 'monetary policy', 'fiscal policy',
+                    'fed', 'jerome powell', 'fomc', 'federal open market committee',
+                    'fed chair', 'fed governor', 'fed official', 'fed policy',
+                    'fed meeting', 'fed minutes', 'fed speech', 'fed testimony'
+                ];
+                loadKeywords();
+            })
+            .catch(error => {
+                console.error('Error loading keywords:', error);
+                currentKeywords = [
+                    'unemployment', 'inflation', 'market risk', 'banking',
+                    'federal reserve', 'interest rates', 'economic outlook',
+                    'GDP', 'recession', 'monetary policy', 'fiscal policy',
+                    'fed', 'jerome powell', 'fomc', 'federal open market committee',
+                    'fed chair', 'fed governor', 'fed official', 'fed policy',
+                    'fed meeting', 'fed minutes', 'fed speech', 'fed testimony'
+                ];
+                loadKeywords();
+            });
         });
     </script>
 </body>
 </html>
 """
+
+def clean_highlight(highlight):
+    """Remove sub-header prefixes from highlights"""
+    prefixes = [
+        'Economic news:', 'Market development:', 'Federal Reserve development:', 
+        'Inflation update:', 'Employment market news:', 'Context:', 
+        'Key statement:', 'Economic data:', 'Source:', 'Fed Chair Jerome Powell statement:',
+        'Federal Reserve interest rate policy:'
+    ]
+    
+    cleaned = highlight
+    for prefix in prefixes:
+        if cleaned.startswith(prefix):
+            cleaned = cleaned[len(prefix):].strip()
+            break
+    
+    return cleaned
 
 @app.route('/')
 def dashboard():
@@ -1023,6 +1104,14 @@ def dashboard():
         # Load the articles data
         with open('articles_data.json', 'r', encoding='utf-8') as f:
             data = json.load(f)
+        
+        # Clean highlights in all articles
+        for topic_name, articles in data.get('topics', {}).items():
+            for article in articles:
+                if 'summary_highlights' in article:
+                    article['summary_highlights'] = [clean_highlight(h) for h in article['summary_highlights']]
+                if 'highlights' in article:
+                    article['highlights'] = [clean_highlight(h) for h in article['highlights']]
         
         # Format the collection date
         collection_date = datetime.fromisoformat(data['collection_date'].replace('Z', '+00:00'))

@@ -1,7 +1,9 @@
 {
   "llm_settings": {
-    "provider": "openai",
-    "api_key": "your-openai-api-key-here",
+    "provider": "bedrock",
+    "model": "anthropic.claude-3-5-sonnet-20241022-v2:0",
+    "aws_region": "us-east-1",
+    "aws_profile": "default",
     "enabled": true,
     "fallback_to_rule_based": true,
     "features": {
@@ -12,13 +14,26 @@
       "structured_analysis": true
     }
   },
-  "schedule_times": ["07:00", "12:00", "18:00"],
+  "schedule_times": [
+    "07:00",
+    "12:00",
+    "18:00"
+  ],
+  "timezone": "UTC",
   "output_directory": "daily_digests",
   "archive_days": 30,
+  "email_notifications": {
+    "enabled": false,
+    "recipients": [],
+    "smtp_server": "",
+    "smtp_port": 587,
+    "username": "",
+    "password": ""
+  },
   "digest_settings": {
     "max_articles_per_category": 10,
     "include_highlights": true,
     "generate_summary": true,
-    "format": "markdown"
+    "format": "all"
   }
 }
