@@ -573,3 +573,59 @@ Need help or have questions? We're here to assist:
 **Version**: 1.0.0  
 **Maintainer**: Economic Analysis Team
 
+**prompt**
+Generate today’s **San Francisco Federal Reserve Executive Daily News Digest**.
+
+Audience: SF Fed Executive Leadership Team.
+Purpose: Provide a high-signal, low-noise briefing to inform monetary policy, supervision, financial stability, 
+technology readiness, payments evolution, and regional economic conditions.
+
+Include the following sections in order:
+
+1. **Top 5 Headlines Relevant to the Federal Reserve**
+   - Short summaries (2–3 lines each)
+   - Must relate to macroeconomics, financial markets, banking, technology, cyber, or policy.
+
+2. **12th District Regional Economic & Labor Signals**
+   - California, Washington, Oregon, Arizona, Utah, Alaska, Hawaii, Idaho, Nevada.
+   - Housing, labor, consumer spending, tech sector conditions, logistics/supply chain.
+
+3. **National Macroeconomic & Monetary Policy Developments**
+   - Inflation, labor markets, GDP, productivity.
+   - Key indicators that matter for FOMC outlook.
+   - Market-implied rate expectations & yield curve movements.
+
+4. **Financial System & Banking Stability Watch**
+   - Bank liquidity/capital trends, CRE exposures, funding markets, credit spreads.
+   - Notable supervisory signals or emerging vulnerabilities.
+
+5. **Global & Pacific Rim Insights (SF Fed priority)**
+   - China, Japan, Korea, ASEAN.
+   - International central bank actions, global demand shifts, supply chain/geopolitical risks.
+
+6. **Technology, Cyber, and Payments Developments**
+   - Major cyber threats, cloud/AI risks, fintech, payments modernization, digital assets.
+   - Implications for FedNow, payment resilience, or financial system risk.
+
+7. **Regulatory, Legislative, and Federal Government Updates**
+   - Congress, Treasury, CFPB, FDIC, OCC.
+   - Only items with real supervisory or policy implications.
+
+8. **Implications for SF Fed**
+   - 5–7 bullets.
+   - Clearly translate news into potential impacts on:
+       • Monetary policy
+       • Bank supervision
+       • Regional economic monitoring
+       • Payments & technology operations
+       • Financial stability
+
+9. **Executive Summary (<150 words)**
+   - A concise, board-ready overview of the most important signals.
+
+Constraints:
+- Tone: analytical, factual, policy-relevant. No sensationalism.
+- Exclude consumer lifestyle news, political commentary, and unrelated media stories.
+- Prioritize accuracy, brevity, and decision-readiness.
+
+
