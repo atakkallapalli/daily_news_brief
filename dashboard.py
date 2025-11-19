@@ -1296,4 +1296,10 @@ def api_refresh_news():
         return jsonify({'success': False, 'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    import sys
+    port = 51628
+    if len(sys.argv) > 1 and '--port' in sys.argv:
+        port_idx = sys.argv.index('--port') + 1
+        if port_idx < len(sys.argv):
+            port = int(sys.argv[port_idx])
+    app.run(host='0.0.0.0', port=port, debug=True)
