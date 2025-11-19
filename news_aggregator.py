@@ -121,6 +121,8 @@ class LLMService:
             return self.client is not None and ANTHROPIC_AVAILABLE
         elif self.provider == "litellm":
             return self.client is not None and LITELLM_AVAILABLE
+        elif self.provider == "bedrock":
+            return self.client is not None and BOTO3_AVAILABLE
         elif self.provider == "local":
             return self.local_model is not None and TRANSFORMERS_AVAILABLE
         return False
@@ -286,6 +288,8 @@ class LLMService:
                 return self._anthropic_insights(text)
             elif self.provider == "litellm" and self.client:
                 return self._litellm_insights(text)
+            elif self.provider == "bedrock" and self.client:
+                return self._bedrock_insights(text)
             else:
                 # Fallback to rule-based extraction
                 return self._rule_based_insights(text)
@@ -393,6 +397,54 @@ Provide 3-4 bullet points:
             print(f"LiteLLM insights error: {e}")
             return []
     
+    def _bedrock_insights(self, text: str) -> List[str]:
+        """Extract insights using AWS Bedrock"""
+        try:
+            prompt = f"""
+You are a financial news analyst. Create 3-4 concise bullet points for this article:
+
+- Each bullet should be 15-25 words maximum
+- Focus on key facts, numbers, quotes, and actions
+- Start with the most important information
+- Use active voice and specific details
+- Include actual quotes when available
+
+Article: {text[:2000]}
+
+Provide 3-4 bullet points:
+"""
+            
+            body = json.dumps({
+                "anthropic_version": "bedrock-2023-05-31",
+                "max_tokens": 200,
+                "messages": [
+                    {"role": "user", "content": prompt}
+                ]
+            })
+            
+            response = self.client.invoke_model(
+                modelId=self.model,
+                body=body
+            )
+            
+            response_body = json.loads(response['body'].read())
+            content = response_body['content'][0]['text'].strip()
+            
+            # Extract bullet points
+            bullets = []
+            for line in content.split('\n'):
+                line = line.strip()
+                if line.startswith('•') or line.startswith('-'):
+                    bullet = line.lstrip('•-').strip()
+                    if bullet and len(bullet) > 10:
+                        bullets.append(bullet)
+            
+            return bullets[:4]
+            
+        except Exception as e:
+            print(f"Bedrock insights error: {e}")
+            return []
+    
     def _rule_based_insights(self, text: str) -> List[str]:
         """Fallback rule-based insight extraction"""
         insights = []
@@ -429,6 +481,8 @@ Provide 3-4 bullet points:
                 return self._anthropic_sentiment(text)
             elif self.provider == "litellm" and self.client:
                 return self._litellm_sentiment(text)
+            elif self.provider == "bedrock" and self.client:
+                return self._bedrock_sentiment(text)
             else:
                 return self._rule_based_sentiment(text)
         except Exception as e:
@@ -506,6 +560,49 @@ Provide 3-4 bullet points:
             print(f"LiteLLM sentiment error: {e}")
             return {"sentiment": "neutral", "confidence": 0.0, "economic_tone": "neutral"}
     
+    def _bedrock_sentiment(self, text: str) -> Dict[str, Any]:
+        """Analyze sentiment using AWS Bedrock"""
+        try:
+            prompt = f"""Analyze the economic sentiment of this article and respond with JSON format: {{"sentiment": "positive/negative/neutral", "confidence": 0.0-1.0, "economic_tone": "bullish/bearish/neutral"}}. Article: {text[:1000]}"""
+            
+            body = json.dumps({
+                "anthropic_version": "bedrock-2023-05-31",
+                "max_tokens": 100,
+                "messages": [
+                    {"role": "user", "content": prompt}
+                ]
+            })
+            
+            response = self.client.invoke_model(
+                modelId=self.model,
+                body=body
+            )
+            
+            response_body = json.loads(response['body'].read())
+            content = response_body['content'][0]['text'].strip()
+            
+            try:
+                result = json.loads(content)
+                return result
+            except json.JSONDecodeError:
+                # Fallback parsing if JSON is malformed
+                sentiment = "neutral"
+                confidence = 0.5
+                economic_tone = "neutral"
+                
+                if "positive" in content.lower():
+                    sentiment = "positive"
+                    economic_tone = "bullish"
+                elif "negative" in content.lower():
+                    sentiment = "negative"
+                    economic_tone = "bearish"
+                
+                return {"sentiment": sentiment, "confidence": confidence, "economic_tone": economic_tone}
+                
+        except Exception as e:
+            print(f"Bedrock sentiment error: {e}")
+            return {"sentiment": "neutral", "confidence": 0.0, "economic_tone": "neutral"}
+    
     def _rule_based_sentiment(self, text: str) -> Dict[str, Any]:
         """Fallback rule-based sentiment analysis"""
         text_lower = text.lower()
@@ -548,6 +645,8 @@ Provide 3-4 bullet points:
                 return self._anthropic_structured_analysis(article, article_content)
             elif self.provider == "litellm":
                 return self._litellm_structured_analysis(article, article_content)
+            elif self.provider == "bedrock":
+                return self._bedrock_structured_analysis(article, article_content)
             elif self.provider == "local":
                 return self._local_structured_analysis(article, article_content)
         except Exception as e:
@@ -688,6 +787,65 @@ Format as valid JSON only.
                 
         except Exception as e:
             print(f"LiteLLM structured analysis error: {e}")
+            return self._rule_based_structured_analysis(article, article_content)
+    
+    def _bedrock_structured_analysis(self, article: dict, article_content: str = None) -> dict:
+        """Generate structured analysis using AWS Bedrock"""
+        try:
+            content = article_content or article.get('description', '') or article.get('title', '')
+            
+            prompt = f"""
+Analyze this financial news article and provide a structured analysis in JSON format:
+
+Article Title: {article.get('title', '')}
+Content: {content[:2500]}
+
+Provide analysis with these exact keys:
+- topic_headline: Extract the main economic topic and create a clear, focused headline
+- summary_highlights: Array of exactly 4 bullet points, each 15-25 words, covering key developments, quotes, implications, and market reactions
+- notable_quotes: Array of actual quotes from the article with attribution
+- context_implications: Analysis of broader economic impact and market sentiment
+
+Format as valid JSON only.
+"""
+            
+            body = json.dumps({
+                "anthropic_version": "bedrock-2023-05-31",
+                "max_tokens": 1000,
+                "messages": [
+                    {"role": "user", "content": prompt}
+                ]
+            })
+            
+            response = self.client.invoke_model(
+                modelId=self.model,
+                body=body
+            )
+            
+            response_body = json.loads(response['body'].read())
+            content_response = response_body['content'][0]['text'].strip()
+            
+            try:
+                result = json.loads(content_response)
+                
+                # Ensure we have the required structure
+                if not isinstance(result.get('summary_highlights'), list):
+                    result['summary_highlights'] = []
+                if not isinstance(result.get('notable_quotes'), list):
+                    result['notable_quotes'] = []
+                
+                # Ensure we have 4 summary highlights as requested
+                while len(result['summary_highlights']) < 4:
+                    result['summary_highlights'].append("Additional analysis pending based on available information.")
+                
+                return result
+                
+            except json.JSONDecodeError:
+                print("Bedrock returned invalid JSON, using fallback structure")
+                return self._rule_based_structured_analysis(article, article_content)
+                
+        except Exception as e:
+            print(f"Bedrock structured analysis error: {e}")
             return self._rule_based_structured_analysis(article, article_content)
     
     def _local_structured_analysis(self, article: dict, article_content: str = None) -> dict:

@@ -1,21 +1,21 @@
 # Economic and Financial News Summary
-**Collection Date:** 2025-11-19T14:57:43.972279
-**Total Articles:** 37
-**Sources:** BBC Business, Federal Reserve News, NBC Business, Google News
-**Free Sources:** BBC Business, Federal Reserve News, NBC Business, Google News
+**Collection Date:** 2025-11-19T15:34:08.668513
+**Total Articles:** 38
+**Sources:** BBC Business, NBC Business, Google News, Federal Reserve News
+**Free Sources:** BBC Business, NBC Business, Google News, Federal Reserve News
 
 ---
 
-## General Economic News (7 articles)
+## General Economic News (6 articles)
 
 ### 1. What AI bubble? Nvidia's strong earnings signal there's more room to grow
 **Source:** NBC Business (free)
 **Published:** Wed, 19 Nov 2025 15:44:29 GMT
 **URL:** https://www.nbcnews.com/business/business-news/nvidia-reports-earnings-one-question-towers-ai-boom-real-rcna244787
 **Key Highlights:**
-  • What AI bubble? Nvidia's strong earnings signal there's more room to grow
-  • What AI bubble? Nvidia's strong earnings signal there's more room to grow Nvidia is at the head of the artificial intelligence revolution
   • Its earnings could determine where the economy goes next
+  • Its results are a positive sign of where markets — and the economy — could go next
+  • Nvidia reports better-than-expected earnings as fears mount over AI bubble 04:39 Get more news Live on Nov
 **Summary:** Nvidia is at the head of the artificial intelligence revolution. Its earnings could determine where the economy goes next....
 
 ### 2. Home Depot’s business is stuck. That’s a bad sign for the economy - CNN
@@ -23,8 +23,8 @@
 **Published:** Tue, 18 Nov 2025 11:44:38 GMT
 **URL:** https://news.google.com/rss/articles/CBMiakFVX3lxTFBuRkNfYlZNZHR6T2JBa3VYUVVNVmFmY3RRUWxRZmhSMDJVa2RyV0ZHQWdoWGFCTlNVQTRBU3FoNGNFTHhRZDVHVFUxSnBodk5DelYxNXp5eERUSWlLUXhWR0RNRG9sb2Y1MVE?oc=5
 **Key Highlights:**
-  • Home Depot’s business is stuck. That’s a bad sign for the economy - CNN
-  • That’s a bad sign for the economy - CNN Home Depot’s business is stuck
+  • Home Depot’s business is stuck
+  • That’s a bad sign for the economy - CNN <a href="https://news
   • That’s a bad sign for the economy&nbsp;&nbsp;CNN
 **Summary:** Home Depot’s business is stuck. That’s a bad sign for the economy&nbsp;&nbsp;CNN...
 
@@ -49,14 +49,12 @@
 **Published:** Tue, 18 Nov 2025 13:55:00 GMT
 **URL:** https://news.google.com/rss/articles/CBMisgFBVV95cUxPS3dUc016Zm9NWTNValh0STlaYWc0RGVSeW8wZ1RRRTd2c3VXdXBDM0JOODNKUTVtMHlaMWpleUMwUzhBV01jX1AxaUN0eWc0QmI0T1RJSV9BSlFNQ1o1WmhWTGZHWXR4bmFSR05uRTNVNjM2c3IxQ3lEeVBLVFQ3S2FMaFQ4X1F1SVBWLXJ6RmhldXU5c2VWY25EaERycFJuTW4zS2hKdW5LQmRKcWtWeDlR?oc=5
 **Key Highlights:**
-  • Billionaire Family Scion Says British Economy Is Uninvestable - Bloomberg.com
-  • Economic data: Billionaire Family Scion Says British Economy Is Uninvestable - Bloomberg
-  • Economic data: com Billionaire Family Scion Says British Economy Is Uninvestable&nbsp;&nbsp;Bloomberg
+  • Billionaire Family Scion Says British Economy Is Uninvestable - Bloomberg
 **Summary:** Billionaire Family Scion Says British Economy Is Uninvestable&nbsp;&nbsp;Bloomberg.com...
 
-*... and 2 more articles in this category*
+*... and 1 more articles in this category*
 
-## Federal Reserve & Monetary Policy (15 articles)
+## Federal Reserve & Monetary Policy (16 articles)
 
 ### 1. October jobs report canceled and November release delayed, BLS says 
 **Source:** NBC Business (free)
@@ -92,26 +90,26 @@
   • Trump urges Treasury Secretary Bessent to take Federal Reserve job - Boston Herald <a href="https://news
 **Summary:** Trump urges Treasury Secretary Bessent to take Federal Reserve job&nbsp;&nbsp;Boston Herald...
 
-### 5. Trump slams Federal Reserve renovation as 'building a basement in the Potomac River' - Fox Business
+### 5. Fed increasingly divided over December rate cut despite Trump pressure - Politico
 **Source:** Google News (free)
-**Published:** Wed, 19 Nov 2025 21:31:00 GMT
-**URL:** https://news.google.com/rss/articles/CBMiqwFBVV95cUxOX0JfSi01MllhamJMdmlpbDUtWHA3eFM4M1dLYTNpMEhGdmQ1X2NuR0hsTUhMNmxyNUx4OWpqcFlkNzFOTWpFNV9fYXFOMjFMNzZ6WG5zVlZ1aFlqNWp6eXFHbE8wSmRGbi1fUFh1NmRkTXhvWUdjSkhSUUxyR294S2ZkN3JMbzBvYTJnZjFzSURyVldFUXRCYnZNU0xpTGsxRUJOYmQ2d0h6WGM?oc=5
+**Published:** Wed, 19 Nov 2025 20:16:00 GMT
+**URL:** https://news.google.com/rss/articles/CBMie0FVX3lxTE9qYXNLNHFubDZ2Xzhyd0lIR3ZLZTgzQmFNRlAxT3dNQmZrQ3U5V2hxRW8wNUlUZkVBa084SVUwZFd3aTR2a0Z3R2h4dVN4bm1fVmlNdE9pUy1oZm5GcjFHZml2Vnpha25WdWlFVnRVbjNrTVNCdE80RVROYw?oc=5
 **Key Highlights:**
-  • Trump slams Federal Reserve renovation as 'building a basement in the Potomac River' - Fox Business
-**Summary:** Trump slams Federal Reserve renovation as 'building a basement in the Potomac River'&nbsp;&nbsp;Fox Business...
+  • Fed increasingly divided over December rate cut despite Trump pressure - Politico <a href="https://news
+**Summary:** Fed increasingly divided over December rate cut despite Trump pressure&nbsp;&nbsp;Politico...
 
-*... and 10 more articles in this category*
+*... and 11 more articles in this category*
 
-## Inflation (7 articles)
+## Inflation (8 articles)
 
 ### 1. Good for mortgages, bad for the food shop - how inflation dip affects you
 **Source:** BBC Business (free)
 **Published:** Wed, 19 Nov 2025 12:21:44 GMT
 **URL:** https://www.bbc.com/news/articles/c1wlrw8ygvxo?at_medium=RSS&at_campaign=rss
 **Key Highlights:**
-  • Inflation update: Good for mortgages, bad for the food shop - how inflation dip affects you
-  • Good for mortgages, bad for the food shop - how inflation dip affects you The rate of inflation has fallen prompting hopes of lower mortgage rates, but food prices are still rising
-  • Economic data: The cost of the weekly shop is, and will continue to be, a worry for millions of people
+  • The cost of the weekly shop is, and will continue to be, a worry for millions of people
+  • Beyond just food, prices of goods and services in general are going up, but the rate of those price rises has slowed
+  • Are prices going up or down? Prices pretty much always rise
 **Summary:** The rate of inflation has fallen prompting hopes of lower mortgage rates, but food prices are still rising....
 
 ### 2. UK inflation rate hits lowest level in four months
@@ -119,10 +117,8 @@
 **Published:** Wed, 19 Nov 2025 08:56:03 GMT
 **URL:** https://www.bbc.com/news/articles/czxkvkwjl5eo?at_medium=RSS&at_campaign=rss
 **Key Highlights:**
-  • Inflation update: UK inflation rate hits lowest level in four months
-  • UK inflation rate hits lowest level in four months Prices have been rising more slowly in the twelve months to October but food prices bucked the trend
-  • UK inflation rate hits lowest level in four months 14 hours ago Share Save Lucy Hooker Business reporter Share Save Getty Images The UK inflation rate fell to 3
-  • Economic data: 6% in the year to October, but food prices rose again following a dip in September
+  • 9% in October, up from 4
+  • 9% in October, up from 4
 **Summary:** Prices have been rising more slowly in the twelve months to October but food prices bucked the trend....
 
 ### 3. Why is UK inflation still high?
@@ -130,10 +126,9 @@
 **Published:** Wed, 19 Nov 2025 11:44:27 GMT
 **URL:** https://www.bbc.com/news/articles/c17rgd8e9gjo?at_medium=RSS&at_campaign=rss
 **Key Highlights:**
-  • Inflation update: Why is UK inflation still high?
-  • Economic data: Why is UK inflation still high? UK Inflation has fallen from record highs but remains above the Bank of England's 2% target
-  • Why is UK inflation still high? 11 hours ago Share Save Share Save Getty Images Prices in the UK rose by 3
-  • Economic data: 6% in the year to October, down from 3
+  • 6% in the year to October, down from 3
+  • 8% recorded in August and September
+  • 6% in the year to October, down from 3
 **Summary:** UK Inflation has fallen from record highs but remains above the Bank of England's 2% target....
 
 ### 4. Three bits of good news about inflation drop
@@ -141,9 +136,9 @@
 **Published:** Wed, 19 Nov 2025 11:21:19 GMT
 **URL:** https://www.bbc.com/news/videos/cp97d9g29e8o?at_medium=RSS&at_campaign=rss
 **Key Highlights:**
-  • Inflation update: Three bits of good news about inflation drop
   • Three bits of good news about inflation drop The UK inflation rate fell to 3
-  • Economic data: 6% in the year to October, but food prices rose again following a dip in September
+  • 6% in the year to October, but food prices rose again following a dip in September
+  • The BBC's deputy economics editor Dharshini David explains
 **Summary:** The UK inflation rate fell to 3.6% in the year to October, but food prices rose again following a dip in September. The BBC's deputy economics editor Dharshini David explains. ...
 
 ### 5. Are Trump’s tariffs increasing inflation? The data might surprise you. - The Hill
@@ -151,26 +146,31 @@
 **Published:** Wed, 19 Nov 2025 12:00:00 GMT
 **URL:** https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZkx6TDA2ZTk3SWVGTmlSNjk1TTZ2QU9MdFNtbUo4alplaHJRZEV1bjVsU1NnNmI5WmRnWWVPM295SmozbkRSRkNvUllyWFh2b04xT0FBaHJ5djU4MnowZVBTWG1jSlZ6RWFITzV4aFB2azc0ZWJyQjB5SldfYmZPYm1WTjB6VVExZFc5TjhKdU5CNVA2SFU0WU40NW5kVmplR3ZSd1UtMGwxODRsX2Y2YzJDMWhZMXdXd2040gHAAUFVX3lxTE1XNFlMREZBYVdPMHdpSzdHSi1DRndDeHZ2NjYyNmFDRC1TdzZKbWRqM04zMDUxNUtmRHJEMF9Dc0tuWHZwXzI4MVFyajRCcF9FanFvaVl6SkFKYi1LSmNRemwyR2tURVRHdTBzRm5vazZrVHYzcXpEY3F3Q3pXZmR0RWJ2aU1GV2dZYVY0cXA4akM5ZDFGMGFXNFZwRFRfX0czZTREOHJVaGdISmpnQzR3cDc3azR1aFQ2aEF4Ulh4aw?oc=5
 **Key Highlights:**
-  • Inflation update: Are Trump’s tariffs increasing inflation? The data might surprise you. - The Hill
   • Are Trump’s tariffs increasing inflation? The data might surprise you
-  • - The Hill Are Trump’s tariffs increasing inflation? The data might surprise you
+  • - The Hill <a href="https://news
 **Summary:** Are Trump’s tariffs increasing inflation? The data might surprise you.&nbsp;&nbsp;The Hill...
 
-*... and 2 more articles in this category*
+*... and 3 more articles in this category*
 
 ## Unemployment & Employment (8 articles)
 
-### 1. The Hot Market for Undesirable Jobs - Bloomberg.com
+### 1. Fox News Poll: Voters say White House is doing more harm than good on economy - Fox News
 **Source:** Google News (free)
-**Published:** Wed, 19 Nov 2025 21:48:25 GMT
-**URL:** https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdWFXTTdXRk9GSkV5dmxvYi1YT1ZDVUdNck9YMGt5Zkw0UTl4T3ZHcndtN3E3b3hCVW9KWndVUjI2NW1MTm1rQkMyMTh5STE1U1FYX3ZzSkZuQzNnYk9JYW9qcTRkNDA3cF8xRFZkcXJqOWlvTUZIOHdtOGlQQVpQR3FFWV9EQThmazB1cWlVUHoyM1J2ejVXQlNTU3VETXY3aE5SelRLZ1RPTVlpNUhrTjFNV1pGN0paM2Zpd19sTXI?oc=5
+**Published:** Wed, 19 Nov 2025 23:00:16 GMT
+**URL:** https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ1VEMmROOE96OWM0RXdOX3lvNDFEMUlKSmFTM1JkUHpMSDhBNG53TXREbnFUWC1NcThsbGUtSXFSV1lKbFVtVDN4TmtDbkxnSHJobnlHRzdjME40ZDZCVTVjeTVidkh0eVBuNDVraDlrTGhQSGpLWHI5TDZXRjllVlNNd093VHFCOWZLVzVJWnFOTVVHcU1tdjdPTl9oV3NkUGZ2a0tR?oc=5
 **Key Highlights:**
-  • Employment market news: The Hot Market for Undesirable Jobs - Bloomberg.com
-  • The Hot Market for Undesirable Jobs - Bloomberg
-  • com The Hot Market for Undesirable Jobs&nbsp;&nbsp;Bloomberg
-**Summary:** The Hot Market for Undesirable Jobs&nbsp;&nbsp;Bloomberg.com...
+  • Fox News Poll: Voters say White House is doing more harm than good on economy - Fox News <a href="https://news
+**Summary:** Fox News Poll: Voters say White House is doing more harm than good on economy&nbsp;&nbsp;Fox News...
 
-### 2. Gavin Newsom Announces $100 Million For Thousands Of California Jobs - Newsweek
+### 2. Delayed September Jobs Report Expected to Show Continued Weak Growth - Morningstar
+**Source:** Google News (free)
+**Published:** Tue, 18 Nov 2025 17:28:34 GMT
+**URL:** https://news.google.com/rss/articles/CBMiowFBVV95cUxPQnpuMFhFS09zeHo1NFpVMXZGbHJQS2dpdDIxYjJUXzVaUkJJcXVhVUk3d3J0UUgzRERNeEVCTzBycGRtYy1JRi1nMlEyTGNuQjNrT3JhVkxuSl92U2wtSkg4dW5yZTFMN2dxRWY2TXFCeVNuOE5vMnprcFZfaE93RG5lWS0ydzBzNUJ0aTU3dDVmT2NnZ0hwM1RWanBhMTRmRFJF?oc=5
+**Key Highlights:**
+  • Delayed September Jobs Report Expected to Show Continued Weak Growth - Morningstar <a href="https://news
+**Summary:** Delayed September Jobs Report Expected to Show Continued Weak Growth&nbsp;&nbsp;Morningstar...
+
+### 3. Gavin Newsom Announces $100 Million For Thousands Of California Jobs - Newsweek
 **Source:** Google News (free)
 **Published:** Tue, 18 Nov 2025 14:22:00 GMT
 **URL:** https://news.google.com/rss/articles/CBMiowFBVV95cUxPMVhOeTFUV2trT3lyZDZibmFpT1FMTjFCZTlud2d0ZE1RbjloX3ZxNWhfSVc0VE8wMFBwU2JVMHR2cEpZTHJGQ0tlV1lxaHlRek5VcDQ4TGZQVEliZngxOFVmU0poV0NfMldveTh6Y3ZZUUFndXM0SEtjNnRnMzBVb3NuN0w0U0VfMTUyV3Z0LTJhcnpYNkM3ZXcwMEF0OEpYaGxR?oc=5
@@ -178,30 +178,22 @@
   • Gavin Newsom Announces $100 Million For Thousands Of California Jobs - Newsweek <a href="https://news
 **Summary:** Gavin Newsom Announces $100 Million For Thousands Of California Jobs&nbsp;&nbsp;Newsweek...
 
-### 3. Oregon footwear and apparel manufacturing jobs drop 24% in 10 years - The Business Journals
+### 4. Charlotte lands another 520 jobs and HQ. And 125 more jobs go to the suburbs - Charlotte Observer
+**Source:** Google News (free)
+**Published:** Tue, 18 Nov 2025 15:56:00 GMT
+**URL:** https://news.google.com/rss/articles/CBMieEFVX3lxTFBTT2pBSjNaVGtXS2U3WExZUjdlTl9GSklBS1JGQXYxUk81XzRfeFNoSVlPSUw5NjFmdmh5ZEFsVjNHaUFVaW85NUxNWXJkMjd1U3RUZG5WdDQybGlCTWZOSXRpeDBJUDV6ZEFqREJUNmE5UnJNOEJIetIBeEFVX3lxTFBueDF5ejd0S2N3b1dBZ1ZmMXZLVEI5UVhMVnVvaFBPT016SDlTT1k2Z0FkTG8zTENoTTdKa1dKODJTT0hQNVp2TVh3UGQtWXZKMGtDRlR6YmFMbmYybEtpLVZ4MlY0c0Z2UmdkSjYtV0J6X0Q5ajFJWg?oc=5
+**Key Highlights:**
+  • Charlotte lands another 520 jobs and HQ
+  • And 125 more jobs go to the suburbs - Charlotte Observer <a href="https://news
+  • And 125 more jobs go to the suburbs&nbsp;&nbsp;Charlotte Observer
+**Summary:** Charlotte lands another 520 jobs and HQ. And 125 more jobs go to the suburbs&nbsp;&nbsp;Charlotte Observer...
+
+### 5. Oregon footwear and apparel manufacturing jobs drop 24% in 10 years - The Business Journals
 **Source:** Google News (free)
 **Published:** Wed, 19 Nov 2025 16:24:00 GMT
 **URL:** https://news.google.com/rss/articles/CBMirAFBVV95cUxPTVlYQmlvSmd5cEFveXE0a2hFVnBxNzhaNUpQX2FuTHZrcDV2cXFiVDAyQWhGRlhUZ25WVVRNcVFYbUdUUF92ZkxpS3FkZHlpelZhOGJ4dUFoTkFsZFN2STM4WndOWm1VNVVJUUJCSGpxVlJldnNwQlFnbFZHUklRVEF6Tk1PeW9HU0sySXFGSkhscXNlUWZNelJ1c3pmdHN5OVZ6TFhYTFFhZk1p?oc=5
 **Key Highlights:**
   • Oregon footwear and apparel manufacturing jobs drop 24% in 10 years - The Business Journals <a href="https://news
 **Summary:** Oregon footwear and apparel manufacturing jobs drop 24% in 10 years&nbsp;&nbsp;The Business Journals...
-
-### 4. Charlotte lands another 520 jobs and HQ. And 125 more jobs go to the suburbs - Charlotte Observer
-**Source:** Google News (free)
-**Published:** Tue, 18 Nov 2025 15:56:00 GMT
-**URL:** https://news.google.com/rss/articles/CBMieEFVX3lxTFBTT2pBSjNaVGtXS2U3WExZUjdlTl9GSklBS1JGQXYxUk81XzRfeFNoSVlPSUw5NjFmdmh5ZEFsVjNHaUFVaW85NUxNWXJkMjd1U3RUZG5WdDQybGlCTWZOSXRpeDBJUDV6ZEFqREJUNmE5UnJNOEJIetIBeEFVX3lxTFBueDF5ejd0S2N3b1dBZ1ZmMXZLVEI5UVhMVnVvaFBPT016SDlTT1k2Z0FkTG8zTENoTTdKa1dKODJTT0hQNVp2TVh3UGQtWXZKMGtDRlR6YmFMbmYybEtpLVZ4MlY0c0Z2UmdkSjYtV0J6X0Q5ajFJWg?oc=5
-**Key Highlights:**
-  • Employment market news: Charlotte lands another 520 jobs and HQ. And 125 more jobs go to the suburbs - Charlotte Observer
-  • Charlotte lands another 520 jobs and HQ
-  • And 125 more jobs go to the suburbs - Charlotte Observer Charlotte lands another 520 jobs and HQ
-**Summary:** Charlotte lands another 520 jobs and HQ. And 125 more jobs go to the suburbs&nbsp;&nbsp;Charlotte Observer...
-
-### 5. Jobs in Durham NC | Insurance firm Aspida to expand Durham County headquarters, create 1,000 jobs - ABC11
-**Source:** Google News (free)
-**Published:** Wed, 19 Nov 2025 19:57:02 GMT
-**URL:** https://news.google.com/rss/articles/CBMirAFBVV95cUxOMGF3VU9PSnBqZ0VoMFBSYmwyYVFkNFg0VWpHMWJhQ3BLOGEzZ2YwN29qcUtwV3d5MkhzS3MyRlk3N2ZSbTdlMFhVNzFRSmluNU94XzEwNW91Qy1vRzR5Nm9PSDlsOE44LU1zODgwZlpBSnJKall2UmdRWU9TZWpWeDEtVmdWWFBQRXI0Zmt1MGNFY1RoNTF4N1VITXMtRlVLbENYTEY4ZkpUbDRa0gGyAUFVX3lxTE53WHBxb2xRdVdIdXVPelB3ZFppRmMwRmJKZGZlMmk1OF9WbkRzaFVqWWhHNnVVTWNrTXFsaWluaWtGcW5GcWR1ekoxNFZyOTFvLS0yZVJHY3pNdkplMm9teFJpanRXUWk4OHlYeGpxWFJMM2tqV2x3UEhRdDNrM3VrSU83a0pEYWdCRE5PRDFDcDBUUktZN0hib2IyWnJrcHV5VE5CVkZhT2tvejI1SmFzdUE?oc=5
-**Key Highlights:**
-  • Jobs in Durham NC | Insurance firm Aspida to expand Durham County headquarters, create 1,000 jobs - ABC11
-**Summary:** Jobs in Durham NC | Insurance firm Aspida to expand Durham County headquarters, create 1,000 jobs&nbsp;&nbsp;ABC11...
 
 *... and 3 more articles in this category*

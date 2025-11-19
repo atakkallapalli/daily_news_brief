@@ -1,6 +1,6 @@
 {
-  "collection_date": "2025-11-19T14:57:43.972279",
-  "total_articles": 37,
+  "collection_date": "2025-11-19T15:34:08.668513",
+  "total_articles": 38,
   "topics": {
     "General Economic News": [
       {
@@ -12,17 +12,16 @@
         "source_type": "free_rss",
         "keyword": "RSS Feed",
         "highlights": [
-          "What AI bubble? Nvidia's strong earnings signal there's more room to grow",
-          "What AI bubble? Nvidia's strong earnings signal there's more room to grow Nvidia is at the head of the artificial intelligence revolution",
-          "Its earnings could determine where the economy goes next"
+          "Its earnings could determine where the economy goes next",
+          "Its results are a positive sign of where markets \u2014 and the economy \u2014 could go next",
+          "Nvidia reports better-than-expected earnings as fears mount over AI bubble 04:39 Get more news Live on Nov"
         ],
         "source_category": "free",
         "structured_analysis": {
           "topic_headline": "What AI bubble? Nvidia's strong earnings signal there's more room to grow",
           "summary_highlights": [
-            "Economic news: What AI bubble? Nvidia's strong earnings signal there's more room to grow",
-            "Context: What AI bubble? Nvidia's strong earnings signal there's more room to grow Nvidia is at the head of the artificial intelligence revolution",
-            "Context: Its earnings could determine where the economy goes next"
+            "Nvidia is at the head of the artificial intelligence revolution",
+            "Its earnings could determine where the economy goes next"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -31,21 +30,14 @@
         },
         "topic_headline": "What AI bubble? Nvidia's strong earnings signal there's more room to grow",
         "summary_highlights": [
-          "Economic news: What AI bubble? Nvidia's strong earnings signal there's more room to grow",
-          "Context: What AI bubble? Nvidia's strong earnings signal there's more room to grow Nvidia is at the head of the artificial intelligence revolution",
-          "Context: Its earnings could determine where the economy goes next"
+          "Nvidia is at the head of the artificial intelligence revolution",
+          "Its earnings could determine where the economy goes next"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This RSS Feed development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "positive",
-          "confidence": 0.2,
-          "economic_tone": "bullish",
-          "reasoning": "Based on 3 positive and 1 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Home Depot\u2019s business is stuck. That\u2019s a bad sign for the economy - CNN",
@@ -55,17 +47,15 @@
         "source": "Google News",
         "keyword": "economy",
         "highlights": [
-          "Home Depot\u2019s business is stuck. That\u2019s a bad sign for the economy - CNN",
-          "That\u2019s a bad sign for the economy - CNN Home Depot\u2019s business is stuck",
+          "Home Depot\u2019s business is stuck",
+          "That\u2019s a bad sign for the economy - CNN <a href=\"https://news",
           "That\u2019s a bad sign for the economy&nbsp;&nbsp;CNN"
         ],
         "source_category": "free",
         "structured_analysis": {
           "topic_headline": "Home Depot\u2019s business is stuck. That\u2019s a bad sign for the economy - CNN",
           "summary_highlights": [
-            "Economic news: Home Depot\u2019s business is stuck. That\u2019s a bad sign for the economy - CNN",
-            "Context: That\u2019s a bad sign for the economy - CNN Home Depot\u2019s business is stuck",
-            "Context: That\u2019s a bad sign for the economy&nbsp;&nbsp;CNN"
+            "That\u2019s a bad sign for the economy&nbsp;&nbsp;CNN"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -74,21 +64,13 @@
         },
         "topic_headline": "Home Depot\u2019s business is stuck. That\u2019s a bad sign for the economy - CNN",
         "summary_highlights": [
-          "Economic news: Home Depot\u2019s business is stuck. That\u2019s a bad sign for the economy - CNN",
-          "Context: That\u2019s a bad sign for the economy - CNN Home Depot\u2019s business is stuck",
-          "Context: That\u2019s a bad sign for the economy&nbsp;&nbsp;CNN"
+          "That\u2019s a bad sign for the economy&nbsp;&nbsp;CNN"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This economy development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Spain\u2019s booming economy collides with a barren politics - Financial Times",
@@ -104,8 +86,7 @@
         "structured_analysis": {
           "topic_headline": "Spain\u2019s booming economy collides with a barren politics - Financial Times",
           "summary_highlights": [
-            "Economic news: Spain\u2019s booming economy collides with a barren politics - Financial Times",
-            "Context: Spain\u2019s booming economy collides with a barren politics - Financial Times Spain\u2019s booming economy collides with a barren politics&nbsp;&nbsp;Financial Times"
+            "Spain\u2019s booming economy collides with a barren politics - Financial Times"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -114,20 +95,13 @@
         },
         "topic_headline": "Spain\u2019s booming economy collides with a barren politics - Financial Times",
         "summary_highlights": [
-          "Economic news: Spain\u2019s booming economy collides with a barren politics - Financial Times",
-          "Context: Spain\u2019s booming economy collides with a barren politics - Financial Times Spain\u2019s booming economy collides with a barren politics&nbsp;&nbsp;Financial Times"
+          "Spain\u2019s booming economy collides with a barren politics - Financial Times"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This economy development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Trump\u2019s focus on race backfires as voters punish economic failings - The Guardian",
@@ -143,8 +117,7 @@
         "structured_analysis": {
           "topic_headline": "Trump\u2019s focus on race backfires as voters punish economic failings - The Guardian",
           "summary_highlights": [
-            "Economic news: Trump\u2019s focus on race backfires as voters punish economic failings - The Guardian",
-            "Context: Trump\u2019s focus on race backfires as voters punish economic failings - The Guardian Trump\u2019s focus on race backfires as voters punish economic failings&nbsp;&nbsp;The Guardian"
+            "Trump\u2019s focus on race backfires as voters punish economic failings - The Guardian"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -153,20 +126,13 @@
         },
         "topic_headline": "Trump\u2019s focus on race backfires as voters punish economic failings - The Guardian",
         "summary_highlights": [
-          "Economic news: Trump\u2019s focus on race backfires as voters punish economic failings - The Guardian",
-          "Context: Trump\u2019s focus on race backfires as voters punish economic failings - The Guardian Trump\u2019s focus on race backfires as voters punish economic failings&nbsp;&nbsp;The Guardian"
+          "Trump\u2019s focus on race backfires as voters punish economic failings - The Guardian"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This economy development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Billionaire Family Scion Says British Economy Is Uninvestable - Bloomberg.com",
@@ -176,17 +142,13 @@
         "source": "Google News",
         "keyword": "economy",
         "highlights": [
-          "Billionaire Family Scion Says British Economy Is Uninvestable - Bloomberg.com",
-          "Economic data: Billionaire Family Scion Says British Economy Is Uninvestable - Bloomberg",
-          "Economic data: com Billionaire Family Scion Says British Economy Is Uninvestable&nbsp;&nbsp;Bloomberg"
+          "Billionaire Family Scion Says British Economy Is Uninvestable - Bloomberg"
         ],
         "source_category": "free",
         "structured_analysis": {
           "topic_headline": "Billionaire Family Scion Says British Economy Is Uninvestable - Bloomberg.com",
           "summary_highlights": [
-            "Economic news: Billionaire Family Scion Says British Economy Is Uninvestable - Bloomberg.com",
-            "Economic data: Billionaire Family Scion Says British Economy Is Uninvestable - Bloomberg",
-            "Economic data: com Billionaire Family Scion Says British Economy Is Uninvestable&nbsp;&nbsp;Bloomberg"
+            "Billionaire Family Scion Says British Economy Is Uninvestable - Bloomberg.com"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -195,64 +157,13 @@
         },
         "topic_headline": "Billionaire Family Scion Says British Economy Is Uninvestable - Bloomberg.com",
         "summary_highlights": [
-          "Economic news: Billionaire Family Scion Says British Economy Is Uninvestable - Bloomberg.com",
-          "Economic data: Billionaire Family Scion Says British Economy Is Uninvestable - Bloomberg",
-          "Economic data: com Billionaire Family Scion Says British Economy Is Uninvestable&nbsp;&nbsp;Bloomberg"
+          "Billionaire Family Scion Says British Economy Is Uninvestable - Bloomberg.com"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This economy development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
-      },
-      {
-        "title": "ICYMI: President Trump Talks Economy in McDonald\u2019s Speech - The White House (.gov)",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZ0Q5VF9JYThlQnBVb0FkVmhqNUZxMGc3N2IwRkxCajlKNFBCUzk5MjNFbU9nT0phWGdGclFXOFV4V0hpUGRVTmQtTEVJWGRJT3I1R3I4ZnlzVGxibG55YXZvdm11SWtTcjZIS2FlNFhlZmJaN2FrR0g5WWtKYVk1VWRXV2JKMlFxdGtKYzBCVlBja1NxbGNVYW0ybnhVZw?oc=5",
-        "published": "Tue, 18 Nov 2025 16:45:32 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNZ0Q5VF9JYThlQnBVb0FkVmhqNUZxMGc3N2IwRkxCajlKNFBCUzk5MjNFbU9nT0phWGdGclFXOFV4V0hpUGRVTmQtTEVJWGRJT3I1R3I4ZnlzVGxibG55YXZvdm11SWtTcjZIS2FlNFhlZmJaN2FrR0g5WWtKYVk1VWRXV2JKMlFxdGtKYzBCVlBja1NxbGNVYW0ybnhVZw?oc=5\" target=\"_blank\">ICYMI: President Trump Talks Economy in McDonald\u2019s Speech</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The White House (.gov)</font>",
-        "source": "Google News",
-        "keyword": "economy",
-        "highlights": [
-          "ICYMI: President Trump Talks Economy in McDonald\u2019s Speech - The White House (.gov)",
-          "ICYMI: President Trump Talks Economy in McDonald\u2019s Speech - The White House (",
-          "gov) ICYMI: President Trump Talks Economy in McDonald\u2019s Speech&nbsp;&nbsp;The White House ("
-        ],
-        "source_category": "free",
-        "structured_analysis": {
-          "topic_headline": "ICYMI: President Trump Talks Economy in McDonald\u2019s Speech - The White House (.gov)",
-          "summary_highlights": [
-            "Economic news: ICYMI: President Trump Talks Economy in McDonald\u2019s Speech - The White House (.gov)",
-            "Context: ICYMI: President Trump Talks Economy in McDonald\u2019s Speech - The White House (",
-            "Context: gov) ICYMI: President Trump Talks Economy in McDonald\u2019s Speech&nbsp;&nbsp;The White House ("
-          ],
-          "notable_quotes": [
-            "Full article contains detailed quotes and analysis"
-          ],
-          "context_implications": "This economy development has potential implications for monetary policy, market conditions, and economic outlook."
-        },
-        "topic_headline": "ICYMI: President Trump Talks Economy in McDonald\u2019s Speech - The White House (.gov)",
-        "summary_highlights": [
-          "Economic news: ICYMI: President Trump Talks Economy in McDonald\u2019s Speech - The White House (.gov)",
-          "Context: ICYMI: President Trump Talks Economy in McDonald\u2019s Speech - The White House (",
-          "Context: gov) ICYMI: President Trump Talks Economy in McDonald\u2019s Speech&nbsp;&nbsp;The White House ("
-        ],
-        "notable_quotes": [
-          "Full article contains detailed quotes and analysis"
-        ],
-        "context_implications": "This economy development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Why Treasury wants Americans to save, not spend, Trump's $2,000 checks - Axios",
@@ -268,8 +179,7 @@
         "structured_analysis": {
           "topic_headline": "Why Treasury wants Americans to save, not spend, Trump's $2,000 checks - Axios",
           "summary_highlights": [
-            "Economic news: Why Treasury wants Americans to save, not spend, Trump's $2,000 checks - Axios",
-            "Context: Why Treasury wants Americans to save, not spend, Trump's $2,000 checks - Axios Why Treasury wants Americans to save, not spend, Trump's $2,000 checks&nbsp;&nbsp;Axios"
+            "Why Treasury wants Americans to save, not spend, Trump's $2,000 checks - Axios"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -278,20 +188,13 @@
         },
         "topic_headline": "Why Treasury wants Americans to save, not spend, Trump's $2,000 checks - Axios",
         "summary_highlights": [
-          "Economic news: Why Treasury wants Americans to save, not spend, Trump's $2,000 checks - Axios",
-          "Context: Why Treasury wants Americans to save, not spend, Trump's $2,000 checks - Axios Why Treasury wants Americans to save, not spend, Trump's $2,000 checks&nbsp;&nbsp;Axios"
+          "Why Treasury wants Americans to save, not spend, Trump's $2,000 checks - Axios"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This inflation development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       }
     ],
     "Federal Reserve & Monetary Policy": [
@@ -310,8 +213,7 @@
         "structured_analysis": {
           "topic_headline": "October jobs report canceled and November release delayed, BLS says ",
           "summary_highlights": [
-            "Employment market news: October jobs report canceled and November release delayed, BLS says ",
-            "Context: Economy October jobs report canceled and November release delayed, BLS says Federal labor market data is a crucial part of understanding the U"
+            "October jobs report canceled and November release delayed, BLS says "
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -320,20 +222,13 @@
         },
         "topic_headline": "October jobs report canceled and November release delayed, BLS says ",
         "summary_highlights": [
-          "Employment market news: October jobs report canceled and November release delayed, BLS says ",
-          "Context: Economy October jobs report canceled and November release delayed, BLS says Federal labor market data is a crucial part of understanding the U"
+          "October jobs report canceled and November release delayed, BLS says "
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This RSS Feed development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Federal Reserve Board releases information regarding enhancements to bank supervision",
@@ -352,8 +247,7 @@
         "structured_analysis": {
           "topic_headline": "Federal Reserve Board releases information regarding enhancements to bank supervision",
           "summary_highlights": [
-            "Federal Reserve development: Federal Reserve Board releases information regarding enhancements to bank supervision",
-            "Context: govwebsite belongs to an official government organization in the United States"
+            "Federal Reserve Board releases information regarding enhancements to bank supervision"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -362,20 +256,13 @@
         },
         "topic_headline": "Federal Reserve Board releases information regarding enhancements to bank supervision",
         "summary_highlights": [
-          "Federal Reserve development: Federal Reserve Board releases information regarding enhancements to bank supervision",
-          "Context: govwebsite belongs to an official government organization in the United States"
+          "Federal Reserve Board releases information regarding enhancements to bank supervision"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This RSS Feed development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Federal Reserve officials \u2018strongly\u2019 divided on December interest rate cut - Financial Times",
@@ -391,8 +278,7 @@
         "structured_analysis": {
           "topic_headline": "Federal Reserve officials \u2018strongly\u2019 divided on December interest rate cut - Financial Times",
           "summary_highlights": [
-            "Federal Reserve interest rate policy: Federal Reserve officials \u2018strongly\u2019 divided on December interest rate cut - Financial Times",
-            "Context: Federal Reserve officials \u2018strongly\u2019 divided on December interest rate cut - Financial Times Federal Reserve officials \u2018strongly\u2019 divided on December interest rate cut&nbsp;&nbsp;Financial Times"
+            "Federal Reserve officials \u2018strongly\u2019 divided on December interest rate cut - Financial Times"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -401,20 +287,13 @@
         },
         "topic_headline": "Federal Reserve officials \u2018strongly\u2019 divided on December interest rate cut - Financial Times",
         "summary_highlights": [
-          "Federal Reserve interest rate policy: Federal Reserve officials \u2018strongly\u2019 divided on December interest rate cut - Financial Times",
-          "Context: Federal Reserve officials \u2018strongly\u2019 divided on December interest rate cut - Financial Times Federal Reserve officials \u2018strongly\u2019 divided on December interest rate cut&nbsp;&nbsp;Financial Times"
+          "Federal Reserve officials \u2018strongly\u2019 divided on December interest rate cut - Financial Times"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This federal reserve development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "positive",
-          "confidence": 0.1,
-          "economic_tone": "bullish",
-          "reasoning": "Based on 1 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Trump urges Treasury Secretary Bessent to take Federal Reserve job - Boston Herald",
@@ -430,8 +309,7 @@
         "structured_analysis": {
           "topic_headline": "Trump urges Treasury Secretary Bessent to take Federal Reserve job - Boston Herald",
           "summary_highlights": [
-            "Federal Reserve development: Trump urges Treasury Secretary Bessent to take Federal Reserve job - Boston Herald",
-            "Context: Trump urges Treasury Secretary Bessent to take Federal Reserve job - Boston Herald Trump urges Treasury Secretary Bessent to take Federal Reserve job&nbsp;&nbsp;Boston Herald"
+            "Trump urges Treasury Secretary Bessent to take Federal Reserve job - Boston Herald"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -440,26 +318,50 @@
         },
         "topic_headline": "Trump urges Treasury Secretary Bessent to take Federal Reserve job - Boston Herald",
         "summary_highlights": [
-          "Federal Reserve development: Trump urges Treasury Secretary Bessent to take Federal Reserve job - Boston Herald",
-          "Context: Trump urges Treasury Secretary Bessent to take Federal Reserve job - Boston Herald Trump urges Treasury Secretary Bessent to take Federal Reserve job&nbsp;&nbsp;Boston Herald"
+          "Trump urges Treasury Secretary Bessent to take Federal Reserve job - Boston Herald"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This federal reserve development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
+      },
+      {
+        "title": "Fed increasingly divided over December rate cut despite Trump pressure - Politico",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qYXNLNHFubDZ2Xzhyd0lIR3ZLZTgzQmFNRlAxT3dNQmZrQ3U5V2hxRW8wNUlUZkVBa084SVUwZFd3aTR2a0Z3R2h4dVN4bm1fVmlNdE9pUy1oZm5GcjFHZml2Vnpha25WdWlFVnRVbjNrTVNCdE80RVROYw?oc=5",
+        "published": "Wed, 19 Nov 2025 20:16:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE9qYXNLNHFubDZ2Xzhyd0lIR3ZLZTgzQmFNRlAxT3dNQmZrQ3U5V2hxRW8wNUlUZkVBa084SVUwZFd3aTR2a0Z3R2h4dVN4bm1fVmlNdE9pUy1oZm5GcjFHZml2Vnpha25WdWlFVnRVbjNrTVNCdE80RVROYw?oc=5\" target=\"_blank\">Fed increasingly divided over December rate cut despite Trump pressure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Politico</font>",
+        "source": "Google News",
+        "keyword": "federal reserve",
+        "highlights": [
+          "Fed increasingly divided over December rate cut despite Trump pressure - Politico <a href=\"https://news"
+        ],
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Fed increasingly divided over December rate cut despite Trump pressure - Politico",
+          "summary_highlights": [
+            "Fed increasingly divided over December rate cut despite Trump pressure - Politico"
+          ],
+          "notable_quotes": [
+            "Full article contains detailed quotes and analysis"
+          ],
+          "context_implications": "This federal reserve development has potential implications for monetary policy, market conditions, and economic outlook."
+        },
+        "topic_headline": "Fed increasingly divided over December rate cut despite Trump pressure - Politico",
+        "summary_highlights": [
+          "Fed increasingly divided over December rate cut despite Trump pressure - Politico"
+        ],
+        "notable_quotes": [
+          "Full article contains detailed quotes and analysis"
+        ],
+        "context_implications": "This federal reserve development has potential implications for monetary policy, market conditions, and economic outlook.",
+        "llm_enhanced": false
       },
       {
         "title": "Trump slams Federal Reserve renovation as 'building a basement in the Potomac River' - Fox Business",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOX0JfSi01MllhamJMdmlpbDUtWHA3eFM4M1dLYTNpMEhGdmQ1X2NuR0hsTUhMNmxyNUx4OWpqcFlkNzFOTWpFNV9fYXFOMjFMNzZ6WG5zVlZ1aFlqNWp6eXFHbE8wSmRGbi1fUFh1NmRkTXhvWUdjSkhSUUxyR294S2ZkN3JMbzBvYTJnZjFzSURyVldFUXRCYnZNU0xpTGsxRUJOYmQ2d0h6WGM?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOX0JfSi01MllhamJMdmlpbDUtWHA3eFM4M1dLYTNpMEhGdmQ1X2NuR0hsTUhMNmxyNUx4OWpqcFlkNzFOTWpFNV9fYXFOMjFMNzZ6WG5zVlZ1aFlqNWp6eXFHbE8wSmRGbi1fUFh1NmRkTXhvWUdjSkhSUUxyR294S2ZkN3JMbzBvYTJnZjFzSURyVldFUXRCYnZNU0xpTGsxRUJOYmQ2d0h6WGPSAbABQVVfeXFMTnZrZFdMUzM2RW5FWEFTOGZDdkV0cWJ2TnVfTFVjQTNmTUxxQVVzNFZ3YmNpZzhVa05EMzhwRk5ocTg0Rjc5RFNOcUZxWFRJTG9XVW9YbS1EcE5JN2FVdktJUm41bXFJLVBoX0hVa2NkTEFMYVFQb2hOQzRaSVB6RDBUMlhNWWIwMEE2MXpWT29KSzE4YXNVRXN6SHZkbkRBOVl4Vnhqdi1mYUVCOV9kamc?oc=5",
         "published": "Wed, 19 Nov 2025 21:31:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOX0JfSi01MllhamJMdmlpbDUtWHA3eFM4M1dLYTNpMEhGdmQ1X2NuR0hsTUhMNmxyNUx4OWpqcFlkNzFOTWpFNV9fYXFOMjFMNzZ6WG5zVlZ1aFlqNWp6eXFHbE8wSmRGbi1fUFh1NmRkTXhvWUdjSkhSUUxyR294S2ZkN3JMbzBvYTJnZjFzSURyVldFUXRCYnZNU0xpTGsxRUJOYmQ2d0h6WGM?oc=5\" target=\"_blank\">Trump slams Federal Reserve renovation as 'building a basement in the Potomac River'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fox Business</font>",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOX0JfSi01MllhamJMdmlpbDUtWHA3eFM4M1dLYTNpMEhGdmQ1X2NuR0hsTUhMNmxyNUx4OWpqcFlkNzFOTWpFNV9fYXFOMjFMNzZ6WG5zVlZ1aFlqNWp6eXFHbE8wSmRGbi1fUFh1NmRkTXhvWUdjSkhSUUxyR294S2ZkN3JMbzBvYTJnZjFzSURyVldFUXRCYnZNU0xpTGsxRUJOYmQ2d0h6WGPSAbABQVVfeXFMTnZrZFdMUzM2RW5FWEFTOGZDdkV0cWJ2TnVfTFVjQTNmTUxxQVVzNFZ3YmNpZzhVa05EMzhwRk5ocTg0Rjc5RFNOcUZxWFRJTG9XVW9YbS1EcE5JN2FVdktJUm41bXFJLVBoX0hVa2NkTEFMYVFQb2hOQzRaSVB6RDBUMlhNWWIwMEE2MXpWT29KSzE4YXNVRXN6SHZkbkRBOVl4Vnhqdi1mYUVCOV9kamc?oc=5\" target=\"_blank\">Trump slams Federal Reserve renovation as 'building a basement in the Potomac River'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fox Business</font>",
         "source": "Google News",
         "keyword": "federal reserve",
         "highlights": [
@@ -469,7 +371,7 @@
         "structured_analysis": {
           "topic_headline": "Trump slams Federal Reserve renovation as 'building a basement in the Potomac River' - Fox Business",
           "summary_highlights": [
-            "Federal Reserve development: Trump slams Federal Reserve renovation as 'building a basement in the Potomac River' - Fox Business"
+            "Trump slams Federal Reserve renovation as 'building a basement in the Potomac River' - Fox Business"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -478,19 +380,44 @@
         },
         "topic_headline": "Trump slams Federal Reserve renovation as 'building a basement in the Potomac River' - Fox Business",
         "summary_highlights": [
-          "Federal Reserve development: Trump slams Federal Reserve renovation as 'building a basement in the Potomac River' - Fox Business"
+          "Trump slams Federal Reserve renovation as 'building a basement in the Potomac River' - Fox Business"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This federal reserve development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
+      },
+      {
+        "title": "Fed Minutes: Most Officials Supported More Rate Cuts but Not Necessarily in December - U.S. News & World Report",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbmxoSl9Cd0RxU1plcUkxaWQ1Z2pmUXlXMGw1dm1tRXk3R2hWNmk5YXUzZGFXeEdxZzhSRy11aWp2U29rR3VpSFhkYjI3eGZEeDNBWFNLRUhNaUh1YVZzTTA3RkV2Z2gzcW1Td2VfNGR4OHFFakc4eU5jdlRLTnpaSXNHOHd3bFN4MXQxbm96NG5teU9FeXVTMlJVVXoyMVlPREhuZ2NFTGNtaUxtRlRfdXdVVnFkNHB0ZmlQTWk3YkRHM0JOLXExbFgyaENObFdkVmRSRGwwaw?oc=5",
+        "published": "Wed, 19 Nov 2025 19:02:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbmxoSl9Cd0RxU1plcUkxaWQ1Z2pmUXlXMGw1dm1tRXk3R2hWNmk5YXUzZGFXeEdxZzhSRy11aWp2U29rR3VpSFhkYjI3eGZEeDNBWFNLRUhNaUh1YVZzTTA3RkV2Z2gzcW1Td2VfNGR4OHFFakc4eU5jdlRLTnpaSXNHOHd3bFN4MXQxbm96NG5teU9FeXVTMlJVVXoyMVlPREhuZ2NFTGNtaUxtRlRfdXdVVnFkNHB0ZmlQTWk3YkRHM0JOLXExbFgyaENObFdkVmRSRGwwaw?oc=5\" target=\"_blank\">Fed Minutes: Most Officials Supported More Rate Cuts but Not Necessarily in December</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">U.S. News & World Report</font>",
+        "source": "Google News",
+        "keyword": "federal reserve",
+        "highlights": [
+          "Fed Minutes: Most Officials Supported More Rate Cuts but Not Necessarily in December - U"
+        ],
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Fed Minutes: Most Officials Supported More Rate Cuts but Not Necessarily in December - U.S. News & World Report",
+          "summary_highlights": [
+            "Fed Minutes: Most Officials Supported More Rate Cuts but Not Necessarily in December - U.S. News & World Report"
+          ],
+          "notable_quotes": [
+            "Full article contains detailed quotes and analysis"
+          ],
+          "context_implications": "This federal reserve development has potential implications for monetary policy, market conditions, and economic outlook."
+        },
+        "topic_headline": "Fed Minutes: Most Officials Supported More Rate Cuts but Not Necessarily in December - U.S. News & World Report",
+        "summary_highlights": [
+          "Fed Minutes: Most Officials Supported More Rate Cuts but Not Necessarily in December - U.S. News & World Report"
+        ],
+        "notable_quotes": [
+          "Full article contains detailed quotes and analysis"
+        ],
+        "context_implications": "This federal reserve development has potential implications for monetary policy, market conditions, and economic outlook.",
+        "llm_enhanced": false
       },
       {
         "title": "Fed rate cut odds collapse 60% after missing jobs data - TheStreet",
@@ -506,8 +433,7 @@
         "structured_analysis": {
           "topic_headline": "Fed rate cut odds collapse 60% after missing jobs data - TheStreet",
           "summary_highlights": [
-            "Federal Reserve interest rate policy: Fed rate cut odds collapse 60% after missing jobs data - TheStreet",
-            "Economic data: Fed rate cut odds collapse 60% after missing jobs data - TheStreet Fed rate cut odds collapse 60% after missing jobs data&nbsp;&nbsp;TheStreet"
+            "Fed rate cut odds collapse 60% after missing jobs data - TheStreet"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -516,59 +442,13 @@
         },
         "topic_headline": "Fed rate cut odds collapse 60% after missing jobs data - TheStreet",
         "summary_highlights": [
-          "Federal Reserve interest rate policy: Fed rate cut odds collapse 60% after missing jobs data - TheStreet",
-          "Economic data: Fed rate cut odds collapse 60% after missing jobs data - TheStreet Fed rate cut odds collapse 60% after missing jobs data&nbsp;&nbsp;TheStreet"
+          "Fed rate cut odds collapse 60% after missing jobs data - TheStreet"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This federal reserve development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
-      },
-      {
-        "title": "Fed minutes: Most officials supported more rate cuts but not necessarily in December - WRAL",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVHlpRTJ0RlFPWnVubnVqSmZBZFZ0dEx2TEVYTDBRNHllRzZpcXBvTXNNTVgxYUNlQ1IyZkhQdnpFLW1MTGRFQ2RIZHpFMXhwOHRXRElKY3dvMUs5Y08xY2swOWpscG4yVW4ySlYtcUVGb2I3Yy1mTUJiVTk3eVdLbFB6VS11WFBSVHA3Rl8zZUpxVmFFV3U3aUJ1SzRhNUN5bzhzWDlnUnNzWDdYWU9vbElURmZYYUZuMmU4?oc=5",
-        "published": "Wed, 19 Nov 2025 19:24:31 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVHlpRTJ0RlFPWnVubnVqSmZBZFZ0dEx2TEVYTDBRNHllRzZpcXBvTXNNTVgxYUNlQ1IyZkhQdnpFLW1MTGRFQ2RIZHpFMXhwOHRXRElKY3dvMUs5Y08xY2swOWpscG4yVW4ySlYtcUVGb2I3Yy1mTUJiVTk3eVdLbFB6VS11WFBSVHA3Rl8zZUpxVmFFV3U3aUJ1SzRhNUN5bzhzWDlnUnNzWDdYWU9vbElURmZYYUZuMmU4?oc=5\" target=\"_blank\">Fed minutes: Most officials supported more rate cuts but not necessarily in December</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WRAL</font>",
-        "source": "Google News",
-        "keyword": "federal reserve",
-        "highlights": [
-          "Fed minutes: Most officials supported more rate cuts but not necessarily in December - WRAL <a href=\"https://news"
-        ],
-        "source_category": "free",
-        "structured_analysis": {
-          "topic_headline": "Fed minutes: Most officials supported more rate cuts but not necessarily in December - WRAL",
-          "summary_highlights": [
-            "Federal Reserve interest rate policy: Fed minutes: Most officials supported more rate cuts but not necessarily in December - WRAL",
-            "Context: Fed minutes: Most officials supported more rate cuts but not necessarily in December - WRAL Fed minutes: Most officials supported more rate cuts but not necessarily in December&nbsp;&nbsp;WRAL"
-          ],
-          "notable_quotes": [
-            "Full article contains detailed quotes and analysis"
-          ],
-          "context_implications": "This federal reserve development has potential implications for monetary policy, market conditions, and economic outlook."
-        },
-        "topic_headline": "Fed minutes: Most officials supported more rate cuts but not necessarily in December - WRAL",
-        "summary_highlights": [
-          "Federal Reserve interest rate policy: Fed minutes: Most officials supported more rate cuts but not necessarily in December - WRAL",
-          "Context: Fed minutes: Most officials supported more rate cuts but not necessarily in December - WRAL Fed minutes: Most officials supported more rate cuts but not necessarily in December&nbsp;&nbsp;WRAL"
-        ],
-        "notable_quotes": [
-          "Full article contains detailed quotes and analysis"
-        ],
-        "context_implications": "This federal reserve development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Many Fed policymakers at last meeting were opposed to December rate cut - Reuters",
@@ -584,8 +464,7 @@
         "structured_analysis": {
           "topic_headline": "Many Fed policymakers at last meeting were opposed to December rate cut - Reuters",
           "summary_highlights": [
-            "Federal Reserve interest rate policy: Many Fed policymakers at last meeting were opposed to December rate cut - Reuters",
-            "Context: Many Fed policymakers at last meeting were opposed to December rate cut - Reuters Many Fed policymakers at last meeting were opposed to December rate cut&nbsp;&nbsp;Reuters"
+            "Many Fed policymakers at last meeting were opposed to December rate cut - Reuters"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -594,20 +473,13 @@
         },
         "topic_headline": "Many Fed policymakers at last meeting were opposed to December rate cut - Reuters",
         "summary_highlights": [
-          "Federal Reserve interest rate policy: Many Fed policymakers at last meeting were opposed to December rate cut - Reuters",
-          "Context: Many Fed policymakers at last meeting were opposed to December rate cut - Reuters Many Fed policymakers at last meeting were opposed to December rate cut&nbsp;&nbsp;Reuters"
+          "Many Fed policymakers at last meeting were opposed to December rate cut - Reuters"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This federal reserve development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Sharp disagreements over economy threaten Federal Reserve interest rate cut - AP News",
@@ -623,8 +495,7 @@
         "structured_analysis": {
           "topic_headline": "Sharp disagreements over economy threaten Federal Reserve interest rate cut - AP News",
           "summary_highlights": [
-            "Federal Reserve interest rate policy: Sharp disagreements over economy threaten Federal Reserve interest rate cut - AP News",
-            "Context: Sharp disagreements over economy threaten Federal Reserve interest rate cut - AP News Sharp disagreements over economy threaten Federal Reserve interest rate cut&nbsp;&nbsp;AP News"
+            "Sharp disagreements over economy threaten Federal Reserve interest rate cut - AP News"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -633,20 +504,13 @@
         },
         "topic_headline": "Sharp disagreements over economy threaten Federal Reserve interest rate cut - AP News",
         "summary_highlights": [
-          "Federal Reserve interest rate policy: Sharp disagreements over economy threaten Federal Reserve interest rate cut - AP News",
-          "Context: Sharp disagreements over economy threaten Federal Reserve interest rate cut - AP News Sharp disagreements over economy threaten Federal Reserve interest rate cut&nbsp;&nbsp;AP News"
+          "Sharp disagreements over economy threaten Federal Reserve interest rate cut - AP News"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This federal reserve development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Layoff notices surged in October across much of U.S., Federal Reserve report says - CBS News",
@@ -656,17 +520,13 @@
         "source": "Google News",
         "keyword": "federal reserve",
         "highlights": [
-          "Federal Reserve development: Layoff notices surged in October across much of U.S., Federal Reserve report says - CBS News",
-          "Layoff notices surged in October across much of U",
-          ", Federal Reserve report says - CBS News Layoff notices surged in October across much of U"
+          ", Federal Reserve report says - CBS News <a href=\"https://news"
         ],
         "source_category": "free",
         "structured_analysis": {
           "topic_headline": "Layoff notices surged in October across much of U.S., Federal Reserve report says - CBS News",
           "summary_highlights": [
-            "Federal Reserve development: Layoff notices surged in October across much of U.S., Federal Reserve report says - CBS News",
-            "Context: Layoff notices surged in October across much of U",
-            "Context: , Federal Reserve report says - CBS News Layoff notices surged in October across much of U"
+            ", Federal Reserve report says&nbsp;&nbsp;CBS News"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -675,21 +535,13 @@
         },
         "topic_headline": "Layoff notices surged in October across much of U.S., Federal Reserve report says - CBS News",
         "summary_highlights": [
-          "Federal Reserve development: Layoff notices surged in October across much of U.S., Federal Reserve report says - CBS News",
-          "Context: Layoff notices surged in October across much of U",
-          "Context: , Federal Reserve report says - CBS News Layoff notices surged in October across much of U"
+          ", Federal Reserve report says&nbsp;&nbsp;CBS News"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This federal reserve development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Dallas Fed analysis shows Texas economy is cooling - Dallas News",
@@ -705,8 +557,7 @@
         "structured_analysis": {
           "topic_headline": "Dallas Fed analysis shows Texas economy is cooling - Dallas News",
           "summary_highlights": [
-            "Federal Reserve development: Dallas Fed analysis shows Texas economy is cooling - Dallas News",
-            "Context: Dallas Fed analysis shows Texas economy is cooling - Dallas News Dallas Fed analysis shows Texas economy is cooling&nbsp;&nbsp;Dallas News"
+            "Dallas Fed analysis shows Texas economy is cooling - Dallas News"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -715,20 +566,13 @@
         },
         "topic_headline": "Dallas Fed analysis shows Texas economy is cooling - Dallas News",
         "summary_highlights": [
-          "Federal Reserve development: Dallas Fed analysis shows Texas economy is cooling - Dallas News",
-          "Context: Dallas Fed analysis shows Texas economy is cooling - Dallas News Dallas Fed analysis shows Texas economy is cooling&nbsp;&nbsp;Dallas News"
+          "Dallas Fed analysis shows Texas economy is cooling - Dallas News"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This economy development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "UK inflation cools to 3.6% in October, boosting chance of a Christmas rate cut - CNBC",
@@ -738,17 +582,16 @@
         "source": "Google News",
         "keyword": "inflation",
         "highlights": [
-          "Inflation update: UK inflation cools to 3.6% in October, boosting chance of a Christmas rate cut - CNBC",
-          "Economic data: 6% in October, boosting chance of a Christmas rate cut - CNBC UK inflation cools to 3",
-          "Economic data: 6% in October, boosting chance of a Christmas rate cut&nbsp;&nbsp;CNBC"
+          "6% in October, boosting chance of a Christmas rate cut&nbsp;&nbsp;CNBC",
+          "6% in October, boosting chance of a Christmas rate cut - CNBC <a href=\"https://news",
+          "6% in October, boosting chance of a Christmas rate cut&nbsp;&nbsp;CNBC"
         ],
         "source_category": "free",
         "structured_analysis": {
           "topic_headline": "UK inflation cools to 3.6% in October, boosting chance of a Christmas rate cut - CNBC",
           "summary_highlights": [
-            "Inflation update: UK inflation cools to 3.6% in October, boosting chance of a Christmas rate cut - CNBC",
-            "Economic data: 6% in October, boosting chance of a Christmas rate cut - CNBC UK inflation cools to 3",
-            "Economic data: 6% in October, boosting chance of a Christmas rate cut&nbsp;&nbsp;CNBC"
+            "6% in October, boosting chance of a Christmas rate cut&nbsp;&nbsp;CNBC",
+            "6% in October, boosting chance of a Christmas rate cut&nbsp;&nbsp;CNBC"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -757,21 +600,14 @@
         },
         "topic_headline": "UK inflation cools to 3.6% in October, boosting chance of a Christmas rate cut - CNBC",
         "summary_highlights": [
-          "Inflation update: UK inflation cools to 3.6% in October, boosting chance of a Christmas rate cut - CNBC",
-          "Economic data: 6% in October, boosting chance of a Christmas rate cut - CNBC UK inflation cools to 3",
-          "Economic data: 6% in October, boosting chance of a Christmas rate cut&nbsp;&nbsp;CNBC"
+          "6% in October, boosting chance of a Christmas rate cut&nbsp;&nbsp;CNBC",
+          "6% in October, boosting chance of a Christmas rate cut&nbsp;&nbsp;CNBC"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This inflation development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Fall in UK inflation looks like turning point that heralds interest rate cut - The Guardian",
@@ -787,8 +623,7 @@
         "structured_analysis": {
           "topic_headline": "Fall in UK inflation looks like turning point that heralds interest rate cut - The Guardian",
           "summary_highlights": [
-            "Inflation update: Fall in UK inflation looks like turning point that heralds interest rate cut - The Guardian",
-            "Context: Fall in UK inflation looks like turning point that heralds interest rate cut - The Guardian Fall in UK inflation looks like turning point that heralds interest rate cut&nbsp;&nbsp;The Guardian"
+            "Fall in UK inflation looks like turning point that heralds interest rate cut - The Guardian"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -797,20 +632,13 @@
         },
         "topic_headline": "Fall in UK inflation looks like turning point that heralds interest rate cut - The Guardian",
         "summary_highlights": [
-          "Inflation update: Fall in UK inflation looks like turning point that heralds interest rate cut - The Guardian",
-          "Context: Fall in UK inflation looks like turning point that heralds interest rate cut - The Guardian Fall in UK inflation looks like turning point that heralds interest rate cut&nbsp;&nbsp;The Guardian"
+          "Fall in UK inflation looks like turning point that heralds interest rate cut - The Guardian"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This inflation development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "negative",
-          "confidence": 0.1,
-          "economic_tone": "bearish",
-          "reasoning": "Based on 0 positive and 1 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Labor Department confirms cancellation of October jobs report - Politico",
@@ -827,8 +655,8 @@
         "structured_analysis": {
           "topic_headline": "Labor Department confirms cancellation of October jobs report - Politico",
           "summary_highlights": [
-            "Employment market news: Labor Department confirms cancellation of October jobs report - Politico",
-            "Context: Here's what it is expected to show&nbsp;&nbsp;CNBC"
+            "<a href=\"https://news",
+            "Here's what it is expected to show&nbsp;&nbsp;CNBC"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -837,20 +665,14 @@
         },
         "topic_headline": "Labor Department confirms cancellation of October jobs report - Politico",
         "summary_highlights": [
-          "Employment market news: Labor Department confirms cancellation of October jobs report - Politico",
-          "Context: Here's what it is expected to show&nbsp;&nbsp;CNBC"
+          "<a href=\"https://news",
+          "Here's what it is expected to show&nbsp;&nbsp;CNBC"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This jobs development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "SBA told laid-off employees they could get their jobs back. It rescinded that offer a day later - Federal News Network",
@@ -860,17 +682,15 @@
         "source": "Google News",
         "keyword": "jobs",
         "highlights": [
-          "Federal Reserve development: SBA told laid-off employees they could get their jobs back. It rescinded that offer a day later - Federal News Network",
           "SBA told laid-off employees they could get their jobs back",
-          "It rescinded that offer a day later - Federal News Network SBA told laid-off employees they could get their jobs back"
+          "It rescinded that offer a day later - Federal News Network <a href=\"https://news",
+          "It rescinded that offer a day later&nbsp;&nbsp;Federal News Network"
         ],
         "source_category": "free",
         "structured_analysis": {
           "topic_headline": "SBA told laid-off employees they could get their jobs back. It rescinded that offer a day later - Federal News Network",
           "summary_highlights": [
-            "Federal Reserve development: SBA told laid-off employees they could get their jobs back. It rescinded that offer a day later - Federal News Network",
-            "Context: SBA told laid-off employees they could get their jobs back",
-            "Context: It rescinded that offer a day later - Federal News Network SBA told laid-off employees they could get their jobs back"
+            "It rescinded that offer a day later&nbsp;&nbsp;Federal News Network"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -879,21 +699,13 @@
         },
         "topic_headline": "SBA told laid-off employees they could get their jobs back. It rescinded that offer a day later - Federal News Network",
         "summary_highlights": [
-          "Federal Reserve development: SBA told laid-off employees they could get their jobs back. It rescinded that offer a day later - Federal News Network",
-          "Context: SBA told laid-off employees they could get their jobs back",
-          "Context: It rescinded that offer a day later - Federal News Network SBA told laid-off employees they could get their jobs back"
+          "It rescinded that offer a day later&nbsp;&nbsp;Federal News Network"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This jobs development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       }
     ],
     "Inflation": [
@@ -906,17 +718,15 @@
         "source_type": "free_rss",
         "keyword": "RSS Feed",
         "highlights": [
-          "Inflation update: Good for mortgages, bad for the food shop - how inflation dip affects you",
-          "Good for mortgages, bad for the food shop - how inflation dip affects you The rate of inflation has fallen prompting hopes of lower mortgage rates, but food prices are still rising",
-          "Economic data: The cost of the weekly shop is, and will continue to be, a worry for millions of people"
+          "The cost of the weekly shop is, and will continue to be, a worry for millions of people",
+          "Beyond just food, prices of goods and services in general are going up, but the rate of those price rises has slowed",
+          "Are prices going up or down? Prices pretty much always rise"
         ],
         "source_category": "free",
         "structured_analysis": {
           "topic_headline": "Good for mortgages, bad for the food shop - how inflation dip affects you",
           "summary_highlights": [
-            "Inflation update: Good for mortgages, bad for the food shop - how inflation dip affects you",
-            "Context: Good for mortgages, bad for the food shop - how inflation dip affects you The rate of inflation has fallen prompting hopes of lower mortgage rates, but food prices are still rising",
-            "Economic data: The cost of the weekly shop is, and will continue to be, a worry for millions of people"
+            "The rate of inflation has fallen prompting hopes of lower mortgage rates, but food prices are still rising"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -925,21 +735,13 @@
         },
         "topic_headline": "Good for mortgages, bad for the food shop - how inflation dip affects you",
         "summary_highlights": [
-          "Inflation update: Good for mortgages, bad for the food shop - how inflation dip affects you",
-          "Context: Good for mortgages, bad for the food shop - how inflation dip affects you The rate of inflation has fallen prompting hopes of lower mortgage rates, but food prices are still rising",
-          "Economic data: The cost of the weekly shop is, and will continue to be, a worry for millions of people"
+          "The rate of inflation has fallen prompting hopes of lower mortgage rates, but food prices are still rising"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This RSS Feed development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 2 positive and 2 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "UK inflation rate hits lowest level in four months",
@@ -950,19 +752,14 @@
         "source_type": "free_rss",
         "keyword": "RSS Feed",
         "highlights": [
-          "Inflation update: UK inflation rate hits lowest level in four months",
-          "UK inflation rate hits lowest level in four months Prices have been rising more slowly in the twelve months to October but food prices bucked the trend",
-          "UK inflation rate hits lowest level in four months 14 hours ago Share Save Lucy Hooker Business reporter Share Save Getty Images The UK inflation rate fell to 3",
-          "Economic data: 6% in the year to October, but food prices rose again following a dip in September"
+          "9% in October, up from 4",
+          "9% in October, up from 4"
         ],
         "source_category": "free",
         "structured_analysis": {
           "topic_headline": "UK inflation rate hits lowest level in four months",
           "summary_highlights": [
-            "Inflation update: UK inflation rate hits lowest level in four months",
-            "Context: UK inflation rate hits lowest level in four months Prices have been rising more slowly in the twelve months to October but food prices bucked the trend",
-            "Context: UK inflation rate hits lowest level in four months 14 hours ago Share Save Lucy Hooker Business reporter Share Save Getty Images The UK inflation rate fell to 3",
-            "Economic data: 6% in the year to October, but food prices rose again following a dip in September"
+            "Prices have been rising more slowly in the twelve months to October but food prices bucked the trend"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -971,22 +768,13 @@
         },
         "topic_headline": "UK inflation rate hits lowest level in four months",
         "summary_highlights": [
-          "Inflation update: UK inflation rate hits lowest level in four months",
-          "Context: UK inflation rate hits lowest level in four months Prices have been rising more slowly in the twelve months to October but food prices bucked the trend",
-          "Context: UK inflation rate hits lowest level in four months 14 hours ago Share Save Lucy Hooker Business reporter Share Save Getty Images The UK inflation rate fell to 3",
-          "Economic data: 6% in the year to October, but food prices rose again following a dip in September"
+          "Prices have been rising more slowly in the twelve months to October but food prices bucked the trend"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This RSS Feed development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "positive",
-          "confidence": 0.2,
-          "economic_tone": "bullish",
-          "reasoning": "Based on 3 positive and 1 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Why is UK inflation still high?",
@@ -997,19 +785,15 @@
         "source_type": "free_rss",
         "keyword": "RSS Feed",
         "highlights": [
-          "Inflation update: Why is UK inflation still high?",
-          "Economic data: Why is UK inflation still high? UK Inflation has fallen from record highs but remains above the Bank of England's 2% target",
-          "Why is UK inflation still high? 11 hours ago Share Save Share Save Getty Images Prices in the UK rose by 3",
-          "Economic data: 6% in the year to October, down from 3"
+          "6% in the year to October, down from 3",
+          "8% recorded in August and September",
+          "6% in the year to October, down from 3"
         ],
         "source_category": "free",
         "structured_analysis": {
           "topic_headline": "Why is UK inflation still high?",
           "summary_highlights": [
-            "Inflation update: Why is UK inflation still high?",
-            "Economic data: Why is UK inflation still high? UK Inflation has fallen from record highs but remains above the Bank of England's 2% target",
-            "Context: Why is UK inflation still high? 11 hours ago Share Save Share Save Getty Images Prices in the UK rose by 3",
-            "Economic data: 6% in the year to October, down from 3"
+            "UK Inflation has fallen from record highs but remains above the Bank of England's 2% target"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -1018,22 +802,13 @@
         },
         "topic_headline": "Why is UK inflation still high?",
         "summary_highlights": [
-          "Inflation update: Why is UK inflation still high?",
-          "Economic data: Why is UK inflation still high? UK Inflation has fallen from record highs but remains above the Bank of England's 2% target",
-          "Context: Why is UK inflation still high? 11 hours ago Share Save Share Save Getty Images Prices in the UK rose by 3",
-          "Economic data: 6% in the year to October, down from 3"
+          "UK Inflation has fallen from record highs but remains above the Bank of England's 2% target"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This RSS Feed development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 1 positive and 1 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Three bits of good news about inflation drop",
@@ -1044,17 +819,17 @@
         "source_type": "free_rss",
         "keyword": "RSS Feed",
         "highlights": [
-          "Inflation update: Three bits of good news about inflation drop",
           "Three bits of good news about inflation drop The UK inflation rate fell to 3",
-          "Economic data: 6% in the year to October, but food prices rose again following a dip in September"
+          "6% in the year to October, but food prices rose again following a dip in September",
+          "The BBC's deputy economics editor Dharshini David explains"
         ],
         "source_category": "free",
         "structured_analysis": {
           "topic_headline": "Three bits of good news about inflation drop",
           "summary_highlights": [
-            "Inflation update: Three bits of good news about inflation drop",
-            "Context: Three bits of good news about inflation drop The UK inflation rate fell to 3",
-            "Economic data: 6% in the year to October, but food prices rose again following a dip in September"
+            "The UK inflation rate fell to 3",
+            "6% in the year to October, but food prices rose again following a dip in September",
+            "The BBC's deputy economics editor Dharshini David explains"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -1063,21 +838,15 @@
         },
         "topic_headline": "Three bits of good news about inflation drop",
         "summary_highlights": [
-          "Inflation update: Three bits of good news about inflation drop",
-          "Context: Three bits of good news about inflation drop The UK inflation rate fell to 3",
-          "Economic data: 6% in the year to October, but food prices rose again following a dip in September"
+          "The UK inflation rate fell to 3",
+          "6% in the year to October, but food prices rose again following a dip in September",
+          "The BBC's deputy economics editor Dharshini David explains"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This RSS Feed development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 1 positive and 1 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Are Trump\u2019s tariffs increasing inflation? The data might surprise you. - The Hill",
@@ -1087,17 +856,14 @@
         "source": "Google News",
         "keyword": "inflation",
         "highlights": [
-          "Inflation update: Are Trump\u2019s tariffs increasing inflation? The data might surprise you. - The Hill",
           "Are Trump\u2019s tariffs increasing inflation? The data might surprise you",
-          "- The Hill Are Trump\u2019s tariffs increasing inflation? The data might surprise you"
+          "- The Hill <a href=\"https://news"
         ],
         "source_category": "free",
         "structured_analysis": {
           "topic_headline": "Are Trump\u2019s tariffs increasing inflation? The data might surprise you. - The Hill",
           "summary_highlights": [
-            "Inflation update: Are Trump\u2019s tariffs increasing inflation? The data might surprise you. - The Hill",
-            "Context: Are Trump\u2019s tariffs increasing inflation? The data might surprise you",
-            "Context: - The Hill Are Trump\u2019s tariffs increasing inflation? The data might surprise you"
+            "Are Trump\u2019s tariffs increasing inflation? The data might surprise you. - The Hill"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -1106,21 +872,13 @@
         },
         "topic_headline": "Are Trump\u2019s tariffs increasing inflation? The data might surprise you. - The Hill",
         "summary_highlights": [
-          "Inflation update: Are Trump\u2019s tariffs increasing inflation? The data might surprise you. - The Hill",
-          "Context: Are Trump\u2019s tariffs increasing inflation? The data might surprise you",
-          "Context: - The Hill Are Trump\u2019s tariffs increasing inflation? The data might surprise you"
+          "Are Trump\u2019s tariffs increasing inflation? The data might surprise you. - The Hill"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This inflation development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "positive",
-          "confidence": 0.1,
-          "economic_tone": "bullish",
-          "reasoning": "Based on 1 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "UK inflation rate falls to 3.6% in year to October - BBC",
@@ -1130,17 +888,14 @@
         "source": "Google News",
         "keyword": "inflation",
         "highlights": [
-          "Inflation update: UK inflation rate falls to 3.6% in year to October - BBC",
-          "Economic data: 6% in year to October - BBC UK inflation rate falls to 3",
-          "Economic data: 6% in year to October&nbsp;&nbsp;BBC"
+          "6% in year to October - BBC <a href=\"https://news",
+          "6% in year to October&nbsp;&nbsp;BBC"
         ],
         "source_category": "free",
         "structured_analysis": {
           "topic_headline": "UK inflation rate falls to 3.6% in year to October - BBC",
           "summary_highlights": [
-            "Inflation update: UK inflation rate falls to 3.6% in year to October - BBC",
-            "Economic data: 6% in year to October - BBC UK inflation rate falls to 3",
-            "Economic data: 6% in year to October&nbsp;&nbsp;BBC"
+            "6% in year to October&nbsp;&nbsp;BBC"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -1149,21 +904,44 @@
         },
         "topic_headline": "UK inflation rate falls to 3.6% in year to October - BBC",
         "summary_highlights": [
-          "Inflation update: UK inflation rate falls to 3.6% in year to October - BBC",
-          "Economic data: 6% in year to October - BBC UK inflation rate falls to 3",
-          "Economic data: 6% in year to October&nbsp;&nbsp;BBC"
+          "6% in year to October&nbsp;&nbsp;BBC"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This inflation development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "negative",
-          "confidence": 0.1,
-          "economic_tone": "bearish",
-          "reasoning": "Based on 0 positive and 1 negative indicators"
-        }
+        "llm_enhanced": false
+      },
+      {
+        "title": "London's FTSE 100 extends decline as defence stocks fall; UK inflation eases - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeWgyNFVGcFlid05ZV1Vsa25EaXAyUjVNWWs1LXM4UGEyVTVqQ1pBYlpMUkRreEdtdkwtX1N3V3NMOFIyRm5WMjIyclRKRl9vWXYtNU4zeWR2bGJ4dElJZWVuYkR2djdVa1Z5dlBVcTZwZHprbWNVSlVBVVVZVXhVa1dmdW5HTEVoa0UzNFFva05LbXJBc2ZYV0lDVFdkdnlaQjJFbmRGRnRobm54REQ2OC1ZZGJya21vYjdTWG5ZTmgtZE9mS25RQVVn?oc=5",
+        "published": "Wed, 19 Nov 2025 17:26:42 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxNeWgyNFVGcFlid05ZV1Vsa25EaXAyUjVNWWs1LXM4UGEyVTVqQ1pBYlpMUkRreEdtdkwtX1N3V3NMOFIyRm5WMjIyclRKRl9vWXYtNU4zeWR2bGJ4dElJZWVuYkR2djdVa1Z5dlBVcTZwZHprbWNVSlVBVVVZVXhVa1dmdW5HTEVoa0UzNFFva05LbXJBc2ZYV0lDVFdkdnlaQjJFbmRGRnRobm54REQ2OC1ZZGJya21vYjdTWG5ZTmgtZE9mS25RQVVn?oc=5\" target=\"_blank\">London's FTSE 100 extends decline as defence stocks fall; UK inflation eases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+        "source": "Google News",
+        "keyword": "inflation",
+        "highlights": [
+          "London's FTSE 100 extends decline as defence stocks fall; UK inflation eases - Reuters <a href=\"https://news"
+        ],
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "London's FTSE 100 extends decline as defence stocks fall; UK inflation eases - Reuters",
+          "summary_highlights": [
+            "London's FTSE 100 extends decline as defence stocks fall; UK inflation eases - Reuters"
+          ],
+          "notable_quotes": [
+            "Full article contains detailed quotes and analysis"
+          ],
+          "context_implications": "This inflation development has potential implications for monetary policy, market conditions, and economic outlook."
+        },
+        "topic_headline": "London's FTSE 100 extends decline as defence stocks fall; UK inflation eases - Reuters",
+        "summary_highlights": [
+          "London's FTSE 100 extends decline as defence stocks fall; UK inflation eases - Reuters"
+        ],
+        "notable_quotes": [
+          "Full article contains detailed quotes and analysis"
+        ],
+        "context_implications": "This inflation development has potential implications for monetary policy, market conditions, and economic outlook.",
+        "llm_enhanced": false
       },
       {
         "title": "Cheaper Coffee and Tomatoes Won't Fix the Inflation Problem - Bloomberg.com",
@@ -1173,17 +951,13 @@
         "source": "Google News",
         "keyword": "inflation",
         "highlights": [
-          "Inflation update: Cheaper Coffee and Tomatoes Won't Fix the Inflation Problem - Bloomberg.com",
-          "Cheaper Coffee and Tomatoes Won't Fix the Inflation Problem - Bloomberg",
-          "com Cheaper Coffee and Tomatoes Won't Fix the Inflation Problem&nbsp;&nbsp;Bloomberg"
+          "Cheaper Coffee and Tomatoes Won't Fix the Inflation Problem - Bloomberg"
         ],
         "source_category": "free",
         "structured_analysis": {
           "topic_headline": "Cheaper Coffee and Tomatoes Won't Fix the Inflation Problem - Bloomberg.com",
           "summary_highlights": [
-            "Inflation update: Cheaper Coffee and Tomatoes Won't Fix the Inflation Problem - Bloomberg.com",
-            "Context: Cheaper Coffee and Tomatoes Won't Fix the Inflation Problem - Bloomberg",
-            "Context: com Cheaper Coffee and Tomatoes Won't Fix the Inflation Problem&nbsp;&nbsp;Bloomberg"
+            "Cheaper Coffee and Tomatoes Won't Fix the Inflation Problem - Bloomberg.com"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -1192,66 +966,77 @@
         },
         "topic_headline": "Cheaper Coffee and Tomatoes Won't Fix the Inflation Problem - Bloomberg.com",
         "summary_highlights": [
-          "Inflation update: Cheaper Coffee and Tomatoes Won't Fix the Inflation Problem - Bloomberg.com",
-          "Context: Cheaper Coffee and Tomatoes Won't Fix the Inflation Problem - Bloomberg",
-          "Context: com Cheaper Coffee and Tomatoes Won't Fix the Inflation Problem&nbsp;&nbsp;Bloomberg"
+          "Cheaper Coffee and Tomatoes Won't Fix the Inflation Problem - Bloomberg.com"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This inflation development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       }
     ],
     "Unemployment & Employment": [
       {
-        "title": "The Hot Market for Undesirable Jobs - Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdWFXTTdXRk9GSkV5dmxvYi1YT1ZDVUdNck9YMGt5Zkw0UTl4T3ZHcndtN3E3b3hCVW9KWndVUjI2NW1MTm1rQkMyMTh5STE1U1FYX3ZzSkZuQzNnYk9JYW9qcTRkNDA3cF8xRFZkcXJqOWlvTUZIOHdtOGlQQVpQR3FFWV9EQThmazB1cWlVUHoyM1J2ejVXQlNTU3VETXY3aE5SelRLZ1RPTVlpNUhrTjFNV1pGN0paM2Zpd19sTXI?oc=5",
-        "published": "Wed, 19 Nov 2025 21:48:25 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdWFXTTdXRk9GSkV5dmxvYi1YT1ZDVUdNck9YMGt5Zkw0UTl4T3ZHcndtN3E3b3hCVW9KWndVUjI2NW1MTm1rQkMyMTh5STE1U1FYX3ZzSkZuQzNnYk9JYW9qcTRkNDA3cF8xRFZkcXJqOWlvTUZIOHdtOGlQQVpQR3FFWV9EQThmazB1cWlVUHoyM1J2ejVXQlNTU3VETXY3aE5SelRLZ1RPTVlpNUhrTjFNV1pGN0paM2Zpd19sTXI?oc=5\" target=\"_blank\">The Hot Market for Undesirable Jobs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+        "title": "Fox News Poll: Voters say White House is doing more harm than good on economy - Fox News",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ1VEMmROOE96OWM0RXdOX3lvNDFEMUlKSmFTM1JkUHpMSDhBNG53TXREbnFUWC1NcThsbGUtSXFSV1lKbFVtVDN4TmtDbkxnSHJobnlHRzdjME40ZDZCVTVjeTVidkh0eVBuNDVraDlrTGhQSGpLWHI5TDZXRjllVlNNd093VHFCOWZLVzVJWnFOTVVHcU1tdjdPTl9oV3NkUGZ2a0tR?oc=5",
+        "published": "Wed, 19 Nov 2025 23:00:16 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ1VEMmROOE96OWM0RXdOX3lvNDFEMUlKSmFTM1JkUHpMSDhBNG53TXREbnFUWC1NcThsbGUtSXFSV1lKbFVtVDN4TmtDbkxnSHJobnlHRzdjME40ZDZCVTVjeTVidkh0eVBuNDVraDlrTGhQSGpLWHI5TDZXRjllVlNNd093VHFCOWZLVzVJWnFOTVVHcU1tdjdPTl9oV3NkUGZ2a0tR?oc=5\" target=\"_blank\">Fox News Poll: Voters say White House is doing more harm than good on economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fox News</font>",
         "source": "Google News",
-        "keyword": "jobs",
+        "keyword": "economy",
         "highlights": [
-          "Employment market news: The Hot Market for Undesirable Jobs - Bloomberg.com",
-          "The Hot Market for Undesirable Jobs - Bloomberg",
-          "com The Hot Market for Undesirable Jobs&nbsp;&nbsp;Bloomberg"
+          "Fox News Poll: Voters say White House is doing more harm than good on economy - Fox News <a href=\"https://news"
         ],
         "source_category": "free",
         "structured_analysis": {
-          "topic_headline": "The Hot Market for Undesirable Jobs - Bloomberg.com",
+          "topic_headline": "Fox News Poll: Voters say White House is doing more harm than good on economy - Fox News",
           "summary_highlights": [
-            "Employment market news: The Hot Market for Undesirable Jobs - Bloomberg.com",
-            "Context: The Hot Market for Undesirable Jobs - Bloomberg",
-            "Context: com The Hot Market for Undesirable Jobs&nbsp;&nbsp;Bloomberg"
+            "Fox News Poll: Voters say White House is doing more harm than good on economy - Fox News"
+          ],
+          "notable_quotes": [
+            "Full article contains detailed quotes and analysis"
+          ],
+          "context_implications": "This economy development has potential implications for monetary policy, market conditions, and economic outlook."
+        },
+        "topic_headline": "Fox News Poll: Voters say White House is doing more harm than good on economy - Fox News",
+        "summary_highlights": [
+          "Fox News Poll: Voters say White House is doing more harm than good on economy - Fox News"
+        ],
+        "notable_quotes": [
+          "Full article contains detailed quotes and analysis"
+        ],
+        "context_implications": "This economy development has potential implications for monetary policy, market conditions, and economic outlook.",
+        "llm_enhanced": false
+      },
+      {
+        "title": "Delayed September Jobs Report Expected to Show Continued Weak Growth - Morningstar",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQnpuMFhFS09zeHo1NFpVMXZGbHJQS2dpdDIxYjJUXzVaUkJJcXVhVUk3d3J0UUgzRERNeEVCTzBycGRtYy1JRi1nMlEyTGNuQjNrT3JhVkxuSl92U2wtSkg4dW5yZTFMN2dxRWY2TXFCeVNuOE5vMnprcFZfaE93RG5lWS0ydzBzNUJ0aTU3dDVmT2NnZ0hwM1RWanBhMTRmRFJF?oc=5",
+        "published": "Tue, 18 Nov 2025 17:28:34 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPQnpuMFhFS09zeHo1NFpVMXZGbHJQS2dpdDIxYjJUXzVaUkJJcXVhVUk3d3J0UUgzRERNeEVCTzBycGRtYy1JRi1nMlEyTGNuQjNrT3JhVkxuSl92U2wtSkg4dW5yZTFMN2dxRWY2TXFCeVNuOE5vMnprcFZfaE93RG5lWS0ydzBzNUJ0aTU3dDVmT2NnZ0hwM1RWanBhMTRmRFJF?oc=5\" target=\"_blank\">Delayed September Jobs Report Expected to Show Continued Weak Growth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Morningstar</font>",
+        "source": "Google News",
+        "keyword": "jobs",
+        "highlights": [
+          "Delayed September Jobs Report Expected to Show Continued Weak Growth - Morningstar <a href=\"https://news"
+        ],
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Delayed September Jobs Report Expected to Show Continued Weak Growth - Morningstar",
+          "summary_highlights": [
+            "Delayed September Jobs Report Expected to Show Continued Weak Growth - Morningstar"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
           ],
           "context_implications": "This jobs development has potential implications for monetary policy, market conditions, and economic outlook."
         },
-        "topic_headline": "The Hot Market for Undesirable Jobs - Bloomberg.com",
+        "topic_headline": "Delayed September Jobs Report Expected to Show Continued Weak Growth - Morningstar",
         "summary_highlights": [
-          "Employment market news: The Hot Market for Undesirable Jobs - Bloomberg.com",
-          "Context: The Hot Market for Undesirable Jobs - Bloomberg",
-          "Context: com The Hot Market for Undesirable Jobs&nbsp;&nbsp;Bloomberg"
+          "Delayed September Jobs Report Expected to Show Continued Weak Growth - Morningstar"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This jobs development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Gavin Newsom Announces $100 Million For Thousands Of California Jobs - Newsweek",
@@ -1267,8 +1052,7 @@
         "structured_analysis": {
           "topic_headline": "Gavin Newsom Announces $100 Million For Thousands Of California Jobs - Newsweek",
           "summary_highlights": [
-            "Employment market news: Gavin Newsom Announces $100 Million For Thousands Of California Jobs - Newsweek",
-            "Economic data: Gavin Newsom Announces $100 Million For Thousands Of California Jobs - Newsweek Gavin Newsom Announces $100 Million For Thousands Of California Jobs&nbsp;&nbsp;Newsweek"
+            "Gavin Newsom Announces $100 Million For Thousands Of California Jobs - Newsweek"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -1277,20 +1061,46 @@
         },
         "topic_headline": "Gavin Newsom Announces $100 Million For Thousands Of California Jobs - Newsweek",
         "summary_highlights": [
-          "Employment market news: Gavin Newsom Announces $100 Million For Thousands Of California Jobs - Newsweek",
-          "Economic data: Gavin Newsom Announces $100 Million For Thousands Of California Jobs - Newsweek Gavin Newsom Announces $100 Million For Thousands Of California Jobs&nbsp;&nbsp;Newsweek"
+          "Gavin Newsom Announces $100 Million For Thousands Of California Jobs - Newsweek"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This jobs development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
+      },
+      {
+        "title": "Charlotte lands another 520 jobs and HQ. And 125 more jobs go to the suburbs - Charlotte Observer",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTT2pBSjNaVGtXS2U3WExZUjdlTl9GSklBS1JGQXYxUk81XzRfeFNoSVlPSUw5NjFmdmh5ZEFsVjNHaUFVaW85NUxNWXJkMjd1U3RUZG5WdDQybGlCTWZOSXRpeDBJUDV6ZEFqREJUNmE5UnJNOEJIetIBeEFVX3lxTFBueDF5ejd0S2N3b1dBZ1ZmMXZLVEI5UVhMVnVvaFBPT016SDlTT1k2Z0FkTG8zTENoTTdKa1dKODJTT0hQNVp2TVh3UGQtWXZKMGtDRlR6YmFMbmYybEtpLVZ4MlY0c0Z2UmdkSjYtV0J6X0Q5ajFJWg?oc=5",
+        "published": "Tue, 18 Nov 2025 15:56:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFBTT2pBSjNaVGtXS2U3WExZUjdlTl9GSklBS1JGQXYxUk81XzRfeFNoSVlPSUw5NjFmdmh5ZEFsVjNHaUFVaW85NUxNWXJkMjd1U3RUZG5WdDQybGlCTWZOSXRpeDBJUDV6ZEFqREJUNmE5UnJNOEJIetIBeEFVX3lxTFBueDF5ejd0S2N3b1dBZ1ZmMXZLVEI5UVhMVnVvaFBPT016SDlTT1k2Z0FkTG8zTENoTTdKa1dKODJTT0hQNVp2TVh3UGQtWXZKMGtDRlR6YmFMbmYybEtpLVZ4MlY0c0Z2UmdkSjYtV0J6X0Q5ajFJWg?oc=5\" target=\"_blank\">Charlotte lands another 520 jobs and HQ. And 125 more jobs go to the suburbs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Charlotte Observer</font>",
+        "source": "Google News",
+        "keyword": "jobs",
+        "highlights": [
+          "Charlotte lands another 520 jobs and HQ",
+          "And 125 more jobs go to the suburbs - Charlotte Observer <a href=\"https://news",
+          "And 125 more jobs go to the suburbs&nbsp;&nbsp;Charlotte Observer"
+        ],
+        "source_category": "free",
+        "structured_analysis": {
+          "topic_headline": "Charlotte lands another 520 jobs and HQ. And 125 more jobs go to the suburbs - Charlotte Observer",
+          "summary_highlights": [
+            "And 125 more jobs go to the suburbs&nbsp;&nbsp;Charlotte Observer"
+          ],
+          "notable_quotes": [
+            "Full article contains detailed quotes and analysis"
+          ],
+          "context_implications": "This jobs development has potential implications for monetary policy, market conditions, and economic outlook."
+        },
+        "topic_headline": "Charlotte lands another 520 jobs and HQ. And 125 more jobs go to the suburbs - Charlotte Observer",
+        "summary_highlights": [
+          "And 125 more jobs go to the suburbs&nbsp;&nbsp;Charlotte Observer"
+        ],
+        "notable_quotes": [
+          "Full article contains detailed quotes and analysis"
+        ],
+        "context_implications": "This jobs development has potential implications for monetary policy, market conditions, and economic outlook.",
+        "llm_enhanced": false
       },
       {
         "title": "Oregon footwear and apparel manufacturing jobs drop 24% in 10 years - The Business Journals",
@@ -1306,8 +1116,7 @@
         "structured_analysis": {
           "topic_headline": "Oregon footwear and apparel manufacturing jobs drop 24% in 10 years - The Business Journals",
           "summary_highlights": [
-            "Employment market news: Oregon footwear and apparel manufacturing jobs drop 24% in 10 years - The Business Journals",
-            "Economic data: Oregon footwear and apparel manufacturing jobs drop 24% in 10 years - The Business Journals Oregon footwear and apparel manufacturing jobs drop 24% in 10 years&nbsp;&nbsp;The Business Journals"
+            "Oregon footwear and apparel manufacturing jobs drop 24% in 10 years - The Business Journals"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -1316,63 +1125,13 @@
         },
         "topic_headline": "Oregon footwear and apparel manufacturing jobs drop 24% in 10 years - The Business Journals",
         "summary_highlights": [
-          "Employment market news: Oregon footwear and apparel manufacturing jobs drop 24% in 10 years - The Business Journals",
-          "Economic data: Oregon footwear and apparel manufacturing jobs drop 24% in 10 years - The Business Journals Oregon footwear and apparel manufacturing jobs drop 24% in 10 years&nbsp;&nbsp;The Business Journals"
+          "Oregon footwear and apparel manufacturing jobs drop 24% in 10 years - The Business Journals"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This jobs development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "negative",
-          "confidence": 0.1,
-          "economic_tone": "bearish",
-          "reasoning": "Based on 0 positive and 1 negative indicators"
-        }
-      },
-      {
-        "title": "Charlotte lands another 520 jobs and HQ. And 125 more jobs go to the suburbs - Charlotte Observer",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTT2pBSjNaVGtXS2U3WExZUjdlTl9GSklBS1JGQXYxUk81XzRfeFNoSVlPSUw5NjFmdmh5ZEFsVjNHaUFVaW85NUxNWXJkMjd1U3RUZG5WdDQybGlCTWZOSXRpeDBJUDV6ZEFqREJUNmE5UnJNOEJIetIBeEFVX3lxTFBueDF5ejd0S2N3b1dBZ1ZmMXZLVEI5UVhMVnVvaFBPT016SDlTT1k2Z0FkTG8zTENoTTdKa1dKODJTT0hQNVp2TVh3UGQtWXZKMGtDRlR6YmFMbmYybEtpLVZ4MlY0c0Z2UmdkSjYtV0J6X0Q5ajFJWg?oc=5",
-        "published": "Tue, 18 Nov 2025 15:56:00 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFBTT2pBSjNaVGtXS2U3WExZUjdlTl9GSklBS1JGQXYxUk81XzRfeFNoSVlPSUw5NjFmdmh5ZEFsVjNHaUFVaW85NUxNWXJkMjd1U3RUZG5WdDQybGlCTWZOSXRpeDBJUDV6ZEFqREJUNmE5UnJNOEJIetIBeEFVX3lxTFBueDF5ejd0S2N3b1dBZ1ZmMXZLVEI5UVhMVnVvaFBPT016SDlTT1k2Z0FkTG8zTENoTTdKa1dKODJTT0hQNVp2TVh3UGQtWXZKMGtDRlR6YmFMbmYybEtpLVZ4MlY0c0Z2UmdkSjYtV0J6X0Q5ajFJWg?oc=5\" target=\"_blank\">Charlotte lands another 520 jobs and HQ. And 125 more jobs go to the suburbs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Charlotte Observer</font>",
-        "source": "Google News",
-        "keyword": "jobs",
-        "highlights": [
-          "Employment market news: Charlotte lands another 520 jobs and HQ. And 125 more jobs go to the suburbs - Charlotte Observer",
-          "Charlotte lands another 520 jobs and HQ",
-          "And 125 more jobs go to the suburbs - Charlotte Observer Charlotte lands another 520 jobs and HQ"
-        ],
-        "source_category": "free",
-        "structured_analysis": {
-          "topic_headline": "Charlotte lands another 520 jobs and HQ. And 125 more jobs go to the suburbs - Charlotte Observer",
-          "summary_highlights": [
-            "Employment market news: Charlotte lands another 520 jobs and HQ. And 125 more jobs go to the suburbs - Charlotte Observer",
-            "Context: Charlotte lands another 520 jobs and HQ",
-            "Context: And 125 more jobs go to the suburbs - Charlotte Observer Charlotte lands another 520 jobs and HQ"
-          ],
-          "notable_quotes": [
-            "Full article contains detailed quotes and analysis"
-          ],
-          "context_implications": "This jobs development has potential implications for monetary policy, market conditions, and economic outlook."
-        },
-        "topic_headline": "Charlotte lands another 520 jobs and HQ. And 125 more jobs go to the suburbs - Charlotte Observer",
-        "summary_highlights": [
-          "Employment market news: Charlotte lands another 520 jobs and HQ. And 125 more jobs go to the suburbs - Charlotte Observer",
-          "Context: Charlotte lands another 520 jobs and HQ",
-          "Context: And 125 more jobs go to the suburbs - Charlotte Observer Charlotte lands another 520 jobs and HQ"
-        ],
-        "notable_quotes": [
-          "Full article contains detailed quotes and analysis"
-        ],
-        "context_implications": "This jobs development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Jobs in Durham NC | Insurance firm Aspida to expand Durham County headquarters, create 1,000 jobs - ABC11",
@@ -1388,7 +1147,7 @@
         "structured_analysis": {
           "topic_headline": "Jobs in Durham NC | Insurance firm Aspida to expand Durham County headquarters, create 1,000 jobs - ABC11",
           "summary_highlights": [
-            "Employment market news: Jobs in Durham NC | Insurance firm Aspida to expand Durham County headquarters, create 1,000 jobs - ABC11"
+            "Jobs in Durham NC | Insurance firm Aspida to expand Durham County headquarters, create 1,000 jobs - ABC11"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -1397,19 +1156,13 @@
         },
         "topic_headline": "Jobs in Durham NC | Insurance firm Aspida to expand Durham County headquarters, create 1,000 jobs - ABC11",
         "summary_highlights": [
-          "Employment market news: Jobs in Durham NC | Insurance firm Aspida to expand Durham County headquarters, create 1,000 jobs - ABC11"
+          "Jobs in Durham NC | Insurance firm Aspida to expand Durham County headquarters, create 1,000 jobs - ABC11"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This jobs development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "China has too many university graduates and too few jobs for them - The Economist",
@@ -1425,8 +1178,7 @@
         "structured_analysis": {
           "topic_headline": "China has too many university graduates and too few jobs for them - The Economist",
           "summary_highlights": [
-            "Employment market news: China has too many university graduates and too few jobs for them - The Economist",
-            "Context: China has too many university graduates and too few jobs for them - The Economist China has too many university graduates and too few jobs for them&nbsp;&nbsp;The Economist"
+            "China has too many university graduates and too few jobs for them - The Economist"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -1435,20 +1187,13 @@
         },
         "topic_headline": "China has too many university graduates and too few jobs for them - The Economist",
         "summary_highlights": [
-          "Employment market news: China has too many university graduates and too few jobs for them - The Economist",
-          "Context: China has too many university graduates and too few jobs for them - The Economist China has too many university graduates and too few jobs for them&nbsp;&nbsp;The Economist"
+          "China has too many university graduates and too few jobs for them - The Economist"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This jobs development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       },
       {
         "title": "Nokia cuts 700 jobs in France and Germany - Light Reading",
@@ -1464,8 +1209,7 @@
         "structured_analysis": {
           "topic_headline": "Nokia cuts 700 jobs in France and Germany - Light Reading",
           "summary_highlights": [
-            "Employment market news: Nokia cuts 700 jobs in France and Germany - Light Reading",
-            "Context: Nokia cuts 700 jobs in France and Germany - Light Reading Nokia cuts 700 jobs in France and Germany&nbsp;&nbsp;Light Reading"
+            "Nokia cuts 700 jobs in France and Germany - Light Reading"
           ],
           "notable_quotes": [
             "Full article contains detailed quotes and analysis"
@@ -1474,66 +1218,20 @@
         },
         "topic_headline": "Nokia cuts 700 jobs in France and Germany - Light Reading",
         "summary_highlights": [
-          "Employment market news: Nokia cuts 700 jobs in France and Germany - Light Reading",
-          "Context: Nokia cuts 700 jobs in France and Germany - Light Reading Nokia cuts 700 jobs in France and Germany&nbsp;&nbsp;Light Reading"
+          "Nokia cuts 700 jobs in France and Germany - Light Reading"
         ],
         "notable_quotes": [
           "Full article contains detailed quotes and analysis"
         ],
         "context_implications": "This jobs development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
-      },
-      {
-        "title": "1,700 jobs slated for Triangle through pharmaceutical, financial companies - WRAL",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSG84VjkzeXJjeEpxMjlqM1BBVGxmVEJVUGZGZGNxdndLaDFZSzl1Tko0ZE44MHZqYnpTVWl2N3A3dW1YdkUyN1F3OEE2TDFhRDBOcHVoQnBlRjJ3TlhadGMzSUVvMURRSVl4WU95LS1NVlZSalVDRmJYQmZNX3VqVGhR?oc=5",
-        "published": "Wed, 19 Nov 2025 17:33:30 GMT",
-        "description": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQSG84VjkzeXJjeEpxMjlqM1BBVGxmVEJVUGZGZGNxdndLaDFZSzl1Tko0ZE44MHZqYnpTVWl2N3A3dW1YdkUyN1F3OEE2TDFhRDBOcHVoQnBlRjJ3TlhadGMzSUVvMURRSVl4WU95LS1NVlZSalVDRmJYQmZNX3VqVGhR?oc=5\" target=\"_blank\">1,700 jobs slated for Triangle through pharmaceutical, financial companies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WRAL</font>",
-        "source": "Google News",
-        "keyword": "jobs",
-        "highlights": [
-          "1,700 jobs slated for Triangle through pharmaceutical, financial companies - WRAL <a href=\"https://news"
-        ],
-        "source_category": "free",
-        "structured_analysis": {
-          "topic_headline": "1,700 jobs slated for Triangle through pharmaceutical, financial companies - WRAL",
-          "summary_highlights": [
-            "Employment market news: 1,700 jobs slated for Triangle through pharmaceutical, financial companies - WRAL",
-            "Context: 1,700 jobs slated for Triangle through pharmaceutical, financial companies - WRAL 1,700 jobs slated for Triangle through pharmaceutical, financial companies&nbsp;&nbsp;WRAL"
-          ],
-          "notable_quotes": [
-            "Full article contains detailed quotes and analysis"
-          ],
-          "context_implications": "This jobs development has potential implications for monetary policy, market conditions, and economic outlook."
-        },
-        "topic_headline": "1,700 jobs slated for Triangle through pharmaceutical, financial companies - WRAL",
-        "summary_highlights": [
-          "Employment market news: 1,700 jobs slated for Triangle through pharmaceutical, financial companies - WRAL",
-          "Context: 1,700 jobs slated for Triangle through pharmaceutical, financial companies - WRAL 1,700 jobs slated for Triangle through pharmaceutical, financial companies&nbsp;&nbsp;WRAL"
-        ],
-        "notable_quotes": [
-          "Full article contains detailed quotes and analysis"
-        ],
-        "context_implications": "This jobs development has potential implications for monetary policy, market conditions, and economic outlook.",
-        "llm_enhanced": true,
-        "sentiment_analysis": {
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "economic_tone": "neutral",
-          "reasoning": "Based on 0 positive and 0 negative indicators"
-        }
+        "llm_enhanced": false
       }
     ]
   },
   "sources_covered": [
     "BBC Business",
-    "Federal Reserve News",
     "NBC Business",
-    "Google News"
+    "Google News",
+    "Federal Reserve News"
   ]
 }

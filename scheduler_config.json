@@ -34,6 +34,7 @@
     "max_articles_per_category": 10,
     "include_highlights": true,
     "generate_summary": true,
-    "format": "all"
+    "format": "all",
+    "generate_sf_fed_digest": true
   }
 }

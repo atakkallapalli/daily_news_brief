@@ -13,6 +13,7 @@ import sys
 from pathlib import Path
 import json
 from news_aggregator import NewsAggregator
+from sf_fed_digest_generator import SFFedDigestGenerator
 
 # Setup logging
 logging.basicConfig(
@@ -37,6 +38,12 @@ class DailyDigestScheduler:
             llm_api_key=llm_config.get('api_key')
         )
         
+        # Initialize SF Fed digest generator
+        self.sf_fed_generator = SFFedDigestGenerator(
+            llm_provider=llm_config.get('provider', 'auto'),
+            llm_api_key=llm_config.get('api_key')
+        )
+        
     def load_config(self) -> dict:
         """Load scheduler configuration"""
         default_config = {
@@ -56,7 +63,8 @@ class DailyDigestScheduler:
                 "max_articles_per_category": 10,
                 "include_highlights": True,
                 "generate_summary": True,
-                "format": "markdown"  # markdown, html, json
+                "format": "markdown",  # markdown, html, json
+                "generate_sf_fed_digest": True  # Generate SF Fed Executive Digest
             },
             "llm_settings": {
                 "provider": "auto",  # auto, openai, anthropic, local
@@ -141,6 +149,16 @@ class DailyDigestScheduler:
             
             # Create latest symlinks
             self.create_latest_links(digest_files, output_dir)
+            
+            # Generate SF Fed Executive Digest if enabled
+            if self.config["digest_settings"].get("generate_sf_fed_digest", False):
+                try:
+                    sf_fed_digest = self.sf_fed_generator.generate_digest(target_date)
+                    sf_fed_file = self.sf_fed_generator.save_digest(sf_fed_digest, target_date)
+                    digest_files["sf_fed_executive"] = sf_fed_file
+                    logger.info(f"SF Fed Executive Digest generated: {sf_fed_file}")
+                except Exception as e:
+                    logger.error(f"Error generating SF Fed digest: {e}")
             
             # Clean up old digests
             self.cleanup_old_digests(output_dir)
@@ -476,6 +494,7 @@ def main():
     parser = argparse.ArgumentParser(description="Daily News Digest Scheduler")
     parser.add_argument("--run-once", action="store_true", help="Run digest generation once")
     parser.add_argument("--schedule", action="store_true", help="Start continuous scheduler")
+    parser.add_argument("--sf-fed-only", action="store_true", help="Generate only SF Fed Executive Digest")
     parser.add_argument("--config", help="Configuration file path")
     parser.add_argument("--times", nargs="+", help="Schedule times (HH:MM format)")
     
@@ -493,11 +512,24 @@ def main():
     if args.run_once:
         digest_files = scheduler.run_once()
         print(f"Digest generated: {digest_files}")
+    elif args.sf_fed_only:
+        # Generate only SF Fed Executive Digest
+        try:
+            sf_fed_digest = scheduler.sf_fed_generator.generate_digest()
+            sf_fed_file = scheduler.sf_fed_generator.save_digest(sf_fed_digest)
+            print(f"SF Fed Executive Digest generated: {sf_fed_file}")
+            print("\n" + "="*80)
+            print("SF FED EXECUTIVE DAILY NEWS DIGEST")
+            print("="*80)
+            print(sf_fed_digest)
+        except Exception as e:
+            print(f"Error generating SF Fed digest: {e}")
     elif args.schedule:
         scheduler.run_scheduler()
     else:
-        print("Use --run-once to generate a digest now, or --schedule to start continuous scheduling")
+        print("Use --run-once to generate a digest now, --sf-fed-only for SF Fed digest, or --schedule to start continuous scheduling")
         print(f"Current schedule times: {scheduler.config['schedule_times']}")
+        print(f"SF Fed digest enabled: {scheduler.config['digest_settings'].get('generate_sf_fed_digest', False)}")
 
 if __name__ == "__main__":
     main()

@@ -26,6 +26,15 @@ A powerful and easy-to-use automated tool for collecting, analyzing, and curatin
 - **Structured Analysis**: Comprehensive analysis with topic extraction, 4-5 detailed bullet points (~100 words each), notable quotes, and market sentiment
 - **Fallback Protection**: Gracefully falls back to rule-based analysis if LLM is unavailable
 
+### 🏛️ SF Fed Executive Daily News Digest (NEW!)
+- **Executive-Level Briefings**: Generate San Francisco Federal Reserve Executive Daily News Digest
+- **Fed-Focused Analysis**: Prioritizes monetary policy, banking supervision, and financial stability content
+- **12th District Regional Focus**: Special attention to California, Washington, Oregon, Arizona, Utah, Alaska, Hawaii, Idaho, Nevada
+- **Structured Format**: Top headlines, regional signals, macro developments, banking stability, global insights, technology/cyber, regulatory updates
+- **SF Fed Implications**: Translates news into actionable insights for monetary policy, supervision, and operations
+- **Executive Summary**: Board-ready overview under 150 words
+- **Integrated Workflow**: Seamlessly works with existing news aggregation and scheduling system
+
 ## 📊 Latest Report Summary
 
 **Collection Period**: October 17-24, 2024 (Past 7 Days)  
@@ -178,7 +187,10 @@ The LLM integration now uses a comprehensive prompt format that generates:
 # Generate daily digest (recommended)
 python3 daily_scheduler.py --run-once
 
-# Start automated daily scheduling
+# Generate SF Fed Executive Digest only
+python3 daily_scheduler.py --sf-fed-only
+
+# Start automated daily scheduling (includes SF Fed digest)
 python3 daily_scheduler.py --schedule
 
 # Generate HTML report (optional)
@@ -201,7 +213,9 @@ daily_news_brief/
 ├── crontab_example.txt         # Cron job examples
 ├── daily_digests/              # Generated daily digests
 │   ├── daily_digest_YYYY-MM-DD_HH-MM.md
-│   └── latest_digest.markdown
+│   ├── sf_fed_executive_digest_YYYY-MM-DD.md
+│   ├── latest_digest.markdown
+│   └── latest_sf_fed_digest.md
 ├── economic_news_report.html   # Generated HTML report
 ├── economic_news_report.md     # Markdown report
 ├── executive_summary.md        # Executive summary with insights
