@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SF Fed Executive Daily News Digest - Inline Prompt Analysis</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            max-width: 1100px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+        .header { 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+            color: white; 
+            padding: 30px; 
+            border-radius: 10px; 
+            text-align: center; 
+            margin-bottom: 30px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .section { 
+            margin: 25px 0; 
+            padding: 20px; 
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            background: #f8fafc;
+        }
+        .fed-headlines { border-left-color: #e53e3e; background: #fed7d7; }
+        .regional { border-left-color: #38a169; background: #c6f6d5; }
+        .macro { border-left-color: #805ad5; background: #e9d8fd; }
+        .banking { border-left-color: #dd6b20; background: #fbd38d; }
+        .global { border-left-color: #0987a0; background: #bee3f8; }
+        .tech { border-left-color: #d69e2e; background: #faf089; }
+        .regulatory { border-left-color: #553c9a; background: #ddd6fe; }
+        .implications { border-left-color: #319795; background: #b2f5ea; }
+        .executive-summary { 
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            border: none;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        h1 { margin: 0; font-size: 2em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        h2 { 
+            color: #2d3748; 
+            border-bottom: 3px solid #667eea; 
+            padding-bottom: 10px; 
+            margin-top: 0;
+            font-size: 1.4em;
+        }
+        h3 { color: #4a5568; font-size: 1.2em; margin-bottom: 15px; }
+        
+        .meta { 
+            color: #718096; 
+            font-size: 0.95em; 
+            margin: 8px 0;
+            font-style: italic;
+        }
+        
+        .article-entry {
+            margin: 15px 0;
+            padding: 15px;
+            background: white;
+            border-radius: 6px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        .article-title {
+            font-weight: bold;
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .article-source {
+            color: #718096;
+            font-style: italic;
+            font-size: 0.9em;
+        }
+        
+        .bullet-point {
+            margin: 8px 0;
+            padding: 10px 15px;
+            background: white;
+            border-radius: 4px;
+            border-left: 3px solid #667eea;
+        }
+        
+        .implications-list {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        
+        .implication-item {
+            margin: 12px 0;
+            padding: 12px;
+            background: #f7fafc;
+            border-left: 4px solid #319795;
+            border-radius: 4px;
+        }
+        
+        .implication-category {
+            font-weight: bold;
+            color: #2d3748;
+        }
+        
+        a { color: #667eea; text-decoration: none; }
+        a:hover { text-decoration: underline; color: #553c9a; }
+        
+        .footer {
+            margin-top: 30px;
+            padding: 20px;
+            background: #edf2f7;
+            border-radius: 8px;
+            text-align: center;
+            color: #4a5568;
+            font-size: 0.9em;
+            border-left: 4px solid #a0aec0;
+        }
+        
+        .stats-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            margin: 0 5px;
+        }
+        
+        .category-indicator {
+            font-style: italic;
+            color: #718096;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="header"><h1>San Francisco Federal Reserve Executive Daily News Digest</h1><div class="meta">**Date:** November 25, 2025 <span class="stats-badge">Inline Prompt Analysis</span></div><div class="meta">**Generated:** 2025-11-25 00:50:15 UTC</div><div class="section fed-headlines"><h2>1. Top 5 Headlines Relevant to the Federal Reserve</h2><div class="article-entry"><h3>1. **[Gold Surges on Renewed Federal Reserve Rate Cut Expectations - KITCO](https://news.google.com/rss/articles/CBMinwFBVV95cUxOSURhQVJBdEhra2VlMlViZF8zYmFDSVNjRld1ZG43bmhFSGVsZ1dSd3dBR2Zmb29ud1JNNWU4WXFNYTJyQ3FtV3V0V3oybjh6LV9mZ3JURTdmSGx2andVTDR3ODhkeVBUa1p5QWtCU2duM1lzd1hWMzUyTGd1WERuVDdPZzN0bFl4aUh5N1VBMy1fMWY1enhnRi1zRDhiSEE?oc=5)** (*Google News*)</h3><div class="article-entry"><h3>2. **[Economist argues what Fed Reserve misses in inflation assessment - Fox Business](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZRUIxZm5QaXc5ZjBCQk83VWJKRHJrRW5VWVR6M1l2cDVjUFNpdFMxYVJfU0p4X0s1ck5mbXNsTWtiRUdOeEhzUDNDS1Nadk9qT1p2TU9mb2EtVW8?oc=5)** (*Google News*)</h3><div class="article-entry"><h3>3. **[Gold Price Could be Heading Towards $5,000 if the Federal Reserve Plays Ball - TipRanks](https://news.google.com/rss/articles/CBMipwFBVV95cUxQbE5GMjNyYmlpNUF6dS10Z1lhbWU5THE5QUMxZXg0a01rc2c1YUpONXFtdHV1bXdkdWdIRURGUGI0MmJUSEhnVmJKM2Y5TnVQV0dfT0V1US1tM0VYYVFPZm1tZF94a3dCYWh1YkpjcFQ3NXpkXzJwNjliR2tiRFhoMk90ZVVkOVRfM01LQmxnRThiWk9VWi0tb2RpbWdGVzdTUzBDZmlsbw?oc=5)** (*Google News*)</h3><div class="article-entry"><h3>4. **[The economy is growing without adding many jobs, creating challenge for the Fed - WLOS](https://news.google.com/rss/articles/CBMiiwJBVV95cUxQcE1NZWIwYnJncWZmTXBJb041ZDZWSTJOcU9GZHpRVFhoOE5mMzFkc3VMYld4Z1dnT1BoZTVlM1IxdTQwX3JjVUdXVTAtTW9qSlktbW8wTE1udkJfMExDd3Y0Q1JFcm10VklTZ04wdlktWEpxTnEtOXdLOENMa1Z6OHdOQURxNW9LNWJ5UE8xcm4ySjF2Vk5jWEd2RzhIdFdkT0FtVTd1RzdVX1FzNDhjX1hlYzA4eTlLSlp0SVp3eGhfMlVCTE15amNOOXFCWnlqbHIzcG9LTFFhcmJxcndESHhuVTQydjhab0p5Y21EVDlMc0FNSnNrcTRRMVdTWG82UUVyYVZzZW9waXc?oc=5)** (*Google News*)</h3><div class="article-entry"><h3>5. **[Fed faces another tough rate decison with inflation and job data delay - USA Today](https://news.google.com/rss/articles/CBMisAFBVV95cUxPVHFFcGtXMmlmWl95bm5xdmliU0J0TkJfbTl6SVZGVzZOUVE0bk9sYU41cGhjUTRtanJuVWxsUVFsRC1CY2kwSXFxckk5d3p6QURvYjVsLXBvcGVvZndFN1VOOHhTazRNYVJUaHZVZllVSDk1NXBvMW40NF9UZkNJeWNmcHp6bEdhb25iTE8wanBNX3E3M2dXcjVuaHBuV1pBMS1feU1Sc3lYV1BjR3BPTw?oc=5)** (*Google News*)</h3></div><div class="section regional"><h2>2. 12th District Regional Economic & Labor Signals</h2><div class="category-indicator">*California, Washington, Oregon, Arizona, Utah, Alaska, Hawaii, Idaho, Nevada*</div><div class="bullet-point"><strong><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxQVDNBdDZrRlVkejhJUXlYbEF1QUZZVUZlMGVNS1ZSbVNhTDU2NXBHUjFTWGJ4OVBwSkxXcXFERHh0bW04dWVsWGhPSTVPb1pfd193amFvakVwN0NBU1dwTGo2VG1BdXRLMlRBZDF3SlJjSlNBNUowS1dfVmotd2VYeXU1Y1d4SWxSWlE?oc=5" target="_blank">The ‘S&P 493’ reveals a very different U.S. economy - The Washington Post</a></strong> (<em>Google News</em>)</div></div><div class="section macro"><h2>3. National Macroeconomic & Monetary Policy Developments</h2><div class="category-indicator">*Inflation, labor markets, GDP, productivity, FOMC outlook*</div><div class="bullet-point"><strong><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRWk3S1M0cXktWFhPNER6ZF9CQmtsWFZiN3g5UGVrUkNSdEp4VzVDY3FHVlYxV05SNmpZcGtIbE9wc3pOY1RXenR3WHVoaE1pYUJhR2xKQmRnaFlraVJFdnE2ZXN0b0FOemU4RVV0UG1NcWlXeEItNlRsSnd5d1ZMcXFfa3JQQlBUaHhzWTZ5QUVaaXdoUGxzVkhKSTA4VnpqTUJuRTc3RlV1S2M?oc=5" target="_blank">Economists see slightly faster US growth, sticky inflation in 2026 - Reuters</a></strong> (<em>Google News</em>)</div><div class="bullet-point"><strong><a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZWpwS185RzZvZkJaTE9PZDlIWlNweE9kM3FZbk1vQW1fR1B6TTkwMTVGRk5lY19lZlA4M25wZnhGa24wQlRKMzlsYmZsRzdnb1YtOERUY1FrWlhMa1BFVFlxTUhjTk1LRTI5NWFKQ19tczRaanM3UElZdkl6LUFoaHB2N3ctY2pva3dv0gGQAUFVX3lxTE81eDhTZURFWjZrcWRDRzNmdERySXVrVk02OU9ramx1amc2RkpQTnVzSVhQV3l6N0VYVWtsTU1sQ2xadnFmdVNDRzFWbXVvNzRHcmV1VEhuNHBMSkpNcnNiTDN2ZmttMi1PU2xNNkdldXRGNnh4QXk0XzJ4bk56XzlCS1RhUC1BZExXWHNXMV9CUw?oc=5" target="_blank">Singapore inflation climbs to a near 1-year high as October price growth sharply exceeds estimates - CNBC</a></strong> (<em>Google News</em>)</div><div class="bullet-point"><strong><a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxNWUpncFlyaWE2ZFdjR3FhYnBRMTJMeDJXQ3hWalR4U3UzU0VFSDBycDItdkh1SnFYa0RoOFdaenBWX1N1R05uc2hadFhKWVh1MjdmelpTRWI3OThWUDRrUmNLeGRvZXQtTmc0QVlMaWZFWm9PRUtXQzdOUGdWNWtYdnRBQU9NM3g3UTlsd29XUXphcl9FMWkzRjMxalhHbzE2NmhxLQ?oc=5" target="_blank">Demand-Driven Inflation Means That Rates Have to Stay Higher for Longer - Apollo Academy</a></strong> (<em>Google News</em>)</div><div class="bullet-point"><strong><a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxQdXVIXzlEeXhqWlQxaW9pRzBPVk1XWTRGZDA3QTBVWWNvQmg0cVNsNDRZMXhnSno3NktFUHRTMHZqQlkzZ19fVEQxdDF0bmlvckdWNlFCOGNIaDdCLVNYNHVsekp3MGxvcnNobFp5OWZleHhONG5uNkFTcUZwaWllMkVEVFdYdG5iMG10TU1VQlJxaERjUVNKRFVPX0tyLTRoWlBMeWd3UVVLZEE2REQ0NW9SX3JuZw?oc=5" target="_blank">Mexico Inflation Sped Up More Than Forecast Early This Month - Bloomberg.com</a></strong> (<em>Google News</em>)</div><div class="bullet-point"><strong><a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxPVGVodGQ4Rk95RmtKTVFzdEZ5MjNPNXFVUzVDSWw3alBrcHJqa2VOckpXZWF5Q3U0YUp1aEpjVjk3UXpRaE5lYWFmSlpoQWhxUC1mTVhUODJHcWFtZDdoTjVIbmNVaGtodmhJT2ZEcm95RURhbXY2dEQyYWpwOFJHRjh1TUY3MllLUndZX2RRbXAxRlJzdEJPVElBUmt2WjR4VlJBVmhTZjl6ejcxdl9nalB0RQ?oc=5" target="_blank">Majority of Americans say prices, inflation aren't as good as Trump administration makes them sound - CBS News</a></strong> (<em>Google News</em>)</div></div><div class="section banking"><h2>4. Financial System & Banking Stability Watch</h2><div class="category-indicator">*Bank liquidity/capital, CRE exposures, funding markets, credit spreads*</div><div class="bullet-point">Banking sector conditions require continued supervisory attention</div><div class="bullet-point">Credit market stability and funding conditions under monitoring</div></div><div class="section global"><h2>5. Global & Pacific Rim Insights (SF Fed Priority)</h2><div class="category-indicator">*China, Japan, Korea, ASEAN, international central bank actions*</div><div class="bullet-point">International economic developments continue to impact domestic conditions</div><div class="bullet-point">Pacific Rim trade and financial flows under ongoing assessment</div></div><div class="section tech"><h2>6. Technology, Cyber, and Payments Developments</h2><div class="category-indicator">*Cyber threats, AI risks, fintech, FedNow, digital assets*</div><div class="bullet-point"><strong><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxNLXlZTXJOeXpaekJBRkhVTllpMEJpcGdWNjVpajJpT2lJb19BamJBdkdqS3c5bkpuRTV0TDFmcTFFYndvTVlocjI2LVJzbDJpTkhCZjI2N0tMajk0TnhzNEFjLXU1YlZiSU5BX3ZKZEcwT3g0V3VrZTAxdFBFUXl5SExaTkxmUTRkUTR0TVNKZk5kNVRRRU02anRKTHlyTHlpRkVacjlJcGE2ZGdWTEZ3?oc=5" target="_blank">AI could replace 3m low-skilled jobs in the UK by 2035, research finds - The Guardian</a></strong> (<em>Google News</em>)</div><div class="bullet-point"><strong><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPc0pOdklsZVZySUVLYklFT3RSYXUxNzBIT2swUzBVYTZlNnpWU01YSGxDQm9hWmxHZ3dpUG1oaGtvNXJveTFaZUNESEI1VlJsbFczeHlHeHV4ekkwcXNIMkVpdWlMLXFaN19VNVFxdDRlN2hoT1h1V2VjNHNGVFhUNGx3VW1ULVpOZ1JiUmZrZE5hY2xfZnM0Y29ieEhLM2JhOVVFbFk4U0pfRlQyU1QwNmdlbk5XVk1pVzB3eg?oc=5" target="_blank">Fed's Waller: December cut appropriate, but January action more uncertain - Reuters</a></strong> (<em>Google News</em>)</div><div class="bullet-point"><strong><a href="https://news.google.com/rss/articles/CBMikwNBVV95cUxOQjdrYVZnZGRpZmtwQU9hUG5obldKRmJqMVY2ZmdDenhGX2twQ0RoWEtJZEJRM3pLdHJtajZtSXFsY21SSmRpZFhwS0xhd3V3U3pvVVNaaEZTQzh0dTdLUG1hNDdxRDY0bnhJTV9sQk1xZlFhS2lsQ0xpNWlORHA1WmJuMnhOUGw3dTcydWxBY3dWZV9hYkNyTWREeFBBMEM0QTA5eVpVX3JLMmVaZzBtLWpsanY5YzJUcVdxMVhCdG1MX3ZRQlpfNjR0d1NjRGI1QWNCMGtEMmRFeGxxcWRGUmpiUzVNMlBKUmxwdVppREFLMlZmemlQU1VEcXpWZDViTXRqb1J3OTF5QllvRFk4S0VYd3BtSTJwOG9zYUtHdjBBTmo5QllEZjFwNmdrWmRDaXNvd1o0RWF4dGZIQ0s5TUhjMmoyZnZKbmk4OF9rWGRYTDdxdTlaZi1oSUYtNzl4eFF3SjFnRGQwNDNyQUk1WTZLYVFQNWpjbEpIWlczbHZoVlJGTkZSNktreDhBT3ZpUV9J?oc=5" target="_blank">How the U.S. Economy Became Hooked on AI Spending - The Wall Street Journal</a></strong> (<em>Google News</em>)</div></div><div class="section regulatory"><h2>7. Regulatory, Legislative, and Federal Government Updates</h2><div class="category-indicator">*Congress, Treasury, CFPB, FDIC, OCC*</div><div class="bullet-point">Regulatory coordination with other agencies continues</div><div class="bullet-point">Legislative developments may impact monetary policy implementation</div></div><div class="section implications"><h2>8. Implications for SF Fed</h2><div class="implications-list"><div class="implication-item"><span class="implication-category">Monetary Policy:</span> Current economic signals warrant continued data-dependent approach to policy decisions, with particular attention to inflation trajectory and labor market dynamics</div><div class="implication-item"><span class="implication-category">Bank Supervision:</span> Regional banking conditions require enhanced monitoring of credit exposures, funding stability, and commercial real estate concentrations</div><div class="implication-item"><span class="implication-category">Regional Economic Monitoring:</span> 12th District economic indicators show evolving conditions requiring continued surveillance of housing markets, technology sector employment, and consumer spending patterns</div><div class="implication-item"><span class="implication-category">Payments & Technology Operations:</span> Technology developments and cybersecurity threats necessitate ongoing system resilience and operational risk management capabilities</div><div class="implication-item"><span class="implication-category">Financial Stability:</span> Current market and economic conditions require continued assessment of systemic risks, cross-border financial flows, and emerging vulnerabilities</div><div class="implication-item"><span class="implication-category">Inter-agency Coordination:</span> Regulatory and policy developments require ongoing collaboration with Treasury, FDIC, OCC, and CFPB on supervisory and policy matters</div></div></div><div class="executive-summary"><h2>9. Executive Summary (&lt;150 words)</h2><p>Today's digest analyzes 18 articles across Federal Reserve priority areas identified through inline prompt structure analysis. Key developments include monetary policy considerations from recent economic data, regional economic signals from the 12th District, and banking sector stability indicators. Federal Reserve policy continues to focus on data-dependent decision-making regarding inflation management and labor market conditions. Regional economic monitoring reveals ongoing attention to housing market dynamics, technology sector employment, and consumer spending patterns across California, Washington, Oregon, and other 12th District states. Banking supervision priorities include enhanced monitoring of credit risk exposures and funding market conditions. Technology and payments system evolution requires continued operational readiness and cybersecurity vigilance. Regulatory coordination with other federal agencies remains essential for effective policy implementation. Overall economic and financial conditions warrant continued assessment of systemic risks and emerging vulnerabilities while maintaining focus on the Federal Reserve's dual mandate objectives.</p></div><div class="footer">*Generated using Inline Prompt Structure Analysis*<br><p>*Source articles processed through Fed-priority categorization framework*</p>
+    </div>
+</body>
+</html>

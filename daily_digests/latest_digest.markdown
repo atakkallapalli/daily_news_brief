@@ -1,1 +1,1 @@
-daily_digest_2025-11-12_23-41.md
+daily_digest_2025-11-25_00-46.md

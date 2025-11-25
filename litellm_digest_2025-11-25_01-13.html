@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Financial & Economic News Digest - LiteLLM Analysis</title>
+    <style>
+        body { 
+            font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            max-width: 1100px; 
+            margin: 0 auto; 
+            padding: 25px; 
+            line-height: 1.7;
+            color: #1a202c;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 45px;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .header { 
+            background: linear-gradient(135deg, #4c51bf, #667eea); 
+            color: white; 
+            padding: 40px; 
+            border-radius: 12px; 
+            text-align: center; 
+            margin-bottom: 40px; 
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        .section { 
+            margin: 35px 0; 
+            padding: 30px; 
+            border-radius: 10px;
+            border-left: 6px solid #4c51bf;
+            background: #f8fafc;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        .executive-summary { border-left-color: #e53e3e; background: #fed7d7; }
+        .fed-policy { border-left-color: #38a169; background: #c6f6d5; }
+        .economic { border-left-color: #805ad5; background: #e9d8fd; }
+        .banking { border-left-color: #d69e2e; background: #faf089; }
+        .technology { border-left-color: #dd6b20; background: #fbd38d; }
+        .global { border-left-color: #0987a0; background: #bee3f8; }
+        .implications { 
+            background: linear-gradient(135deg, #e6fffa 0%, #b2f5ea 100%);
+            border: none;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        }
+        
+        h1 { margin: 0; font-size: 2.3em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        h2 { 
+            color: #2d3748; 
+            border-bottom: 4px solid #4c51bf; 
+            padding-bottom: 15px; 
+            margin-top: 0;
+            font-size: 1.6em;
+        }
+        h3 { color: #4a5568; font-size: 1.3em; margin-bottom: 18px; }
+        
+        .meta { 
+            color: #718096; 
+            font-size: 0.95em; 
+            margin: 12px 0;
+            font-style: italic;
+        }
+        
+        .generation-method {
+            background: #edf2f7;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid #4299e1;
+            font-weight: 500;
+        }
+        
+        .article-entry {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+        }
+        
+        .article-title {
+            font-weight: bold;
+            color: #2d3748;
+            margin-bottom: 12px;
+            font-size: 1.1em;
+        }
+        
+        .article-source {
+            color: #718096;
+            font-style: italic;
+            font-size: 0.9em;
+        }
+        
+        .bullet-point {
+            margin: 15px 0;
+            padding: 18px 25px;
+            background: white;
+            border-radius: 8px;
+            border-left: 5px solid #4c51bf;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        }
+        
+        .implication-item {
+            margin: 18px 0;
+            padding: 18px;
+            background: #f7fafc;
+            border-left: 6px solid #319795;
+            border-radius: 8px;
+        }
+        
+        .implication-category {
+            font-weight: bold;
+            color: #2d3748;
+            font-size: 1.1em;
+        }
+        
+        a { color: #4c51bf; text-decoration: none; }
+        a:hover { text-decoration: underline; color: #553c9a; }
+        
+        .footer {
+            margin-top: 45px;
+            padding: 30px;
+            background: #edf2f7;
+            border-radius: 12px;
+            text-align: center;
+            color: #4a5568;
+            font-size: 0.95em;
+            border-left: 6px solid #a0aec0;
+        }
+        
+        .litellm-badge {
+            display: inline-block;
+            background: #4c51bf;
+            color: white;
+            padding: 8px 18px;
+            border-radius: 25px;
+            font-size: 0.85em;
+            margin: 0 10px;
+        }
+        
+        .analysis-stats {
+            display: flex;
+            justify-content: space-around;
+            margin: 25px 0;
+            flex-wrap: wrap;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 15px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 10px;
+            margin: 5px;
+            min-width: 120px;
+        }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            color: rgba(255,255,255,0.9);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="header"><h1>Daily Financial & Economic News Digest <span class="litellm-badge">LiteLLM Analysis</span></h1><div class="meta">**Date:** November 25, 2025</div><div class="meta">**Generated:** 2025-11-25 01:12:09 UTC</div><div class="meta">**Articles Analyzed:** 28</div><div class="generation-method"><strong>Generation Method:</strong> * Comprehensive Rule-Based Analysis (LiteLLM unavailable)</div><div class="analysis-stats">
+                <div class="stat-item">
+                    <div class="stat-number">28</div>
+                    <div class="stat-label">Articles</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">Categories</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Sections</div>
+                </div>
+            </div></div><div class="section executive-summary"><h2>Executive Summary</h2><p>Today's comprehensive analysis of 28 financial and economic news articles reveals continued focus on Federal Reserve policy developments, evolving economic indicators, and banking sector conditions. Market participants remain attentive to monetary policy signals while monitoring regional economic trends and global developments. Technology and innovation continue to reshape the financial services landscape, requiring ongoing attention to operational risks and regulatory considerations.</p></div><div class="section fed-policy"><h2>Federal Reserve & Monetary Policy</h2><p>Recent Federal Reserve developments include:</p><p>**Fed's Waller: December cut appropriate, but January action more uncertain - Reuters** (*Google News*)</p><p><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPc0pOdklsZVZySUVLYklFT3RSYXUxNzBIT2swUzBVYTZlNnpWU01YSGxDQm9hWmxHZ3dpUG1oaGtvNXJveTFaZUNESEI1VlJsbFczeHlHeHV4ekkwcXNIMkVpdWlMLXFaN19VNVFxdD...</p><p>**Gold Surges on Renewed Federal Reserve Rate Cut Expectations - KITCO** (*Google News*)</p><p><a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxOSURhQVJBdEhra2VlMlViZF8zYmFDSVNjRld1ZG43bmhFSGVsZ1dSd3dBR2Zmb29ud1JNNWU4WXFNYTJyQ3FtV3V0V3oybjh6LV9mZ3JURTdmSGx2andVTDR3ODhkeVBUa1p5QWtCU2...</p><p>**Economist argues what Fed Reserve misses in inflation assessment - Fox Business** (*Google News*)</p><p><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZRUIxZm5QaXc5ZjBCQk83VWJKRHJrRW5VWVR6M1l2cDVjUFNpdFMxYVJfU0p4X0s1ck5mbXNsTWtiRUdOeEhzUDNDS1Nadk9qT1p2TU9mb2EtVW8?oc=5" target="_blank">Econ...</p></div><div class="section economic"><h2>Economic Indicators & Market Conditions</h2><p>Key economic developments include:</p><p>**The ‘S&P 493’ reveals a very different U.S. economy - The Washington Post** (*Google News*)</p><div class="bullet-point">The ‘S&P 493’ reveals a very different U</div><p>**How the U.S. Economy Became Hooked on AI Spending - The Wall Street Journal** (*Google News*)</p><div class="bullet-point">Economy Became Hooked on AI Spending - The Wall Street Journal <a href="https://news</div><p>**Finland clings to happiness crown as economic gloom deepens - Reuters** (*Google News*)</p><div class="bullet-point">Finland clings to happiness crown as economic gloom deepens - Reuters <a href="https://news</div></div><div class="section banking"><h2>Banking & Financial Services</h2><p>Banking sector conditions continue to reflect evolving regulatory requirements and market dynamics. Credit conditions, liquidity management, and capital adequacy remain priority areas for financial institutions. Supervisory attention focuses on risk management practices and emerging vulnerabilities requiring ongoing monitoring and assessment.</p></div><div class="section technology"><h2>Technology & Innovation in Finance</h2><p>Financial technology continues to evolve with implications for operational risk management, cybersecurity, and regulatory oversight. Digital payment systems, artificial intelligence applications, and fintech innovations require ongoing assessment of risks and opportunities. Technology adoption and risk management remain key priorities for financial institutions and regulators.</p></div><div class="section global"><h2>Global Economic Developments</h2><p>International developments include:</p><div class="bullet-point"><strong>Covid inquiry hears impact on firms and staff</strong> (<em>BBC Business</em>)</div><div class="bullet-point"><strong>Metals recycling company files for liquidation</strong> (<em>BBC Business</em>)</div><p>International economic conditions and cross-border financial flows continue to influence domestic markets and policy considerations. Central bank coordination, global trade developments, and geopolitical factors impact financial stability and monetary policy implementation. International market conditions require ongoing monitoring and assessment.</p></div><div class="implications"><h2>Key Implications</h2><p>Based on today's analysis, key implications for financial professionals include:</p><div class="implication-item"><span class="implication-category">Monetary Policy:</span> Continued attention to Federal Reserve communications and policy signals for guidance on interest rate expectations and economic outlook</div><div class="implication-item"><span class="implication-category">Risk Management:</span> Enhanced focus on credit risk assessment, liquidity management, and operational resilience in evolving market conditions</div><div class="implication-item"><span class="implication-category">Technology Operations:</span> Ongoing investment in cybersecurity, digital infrastructure, and technology risk management capabilities</div><div class="implication-item"><span class="implication-category">Regulatory Compliance:</span> Continued coordination with regulatory agencies and attention to evolving supervisory expectations and requirements</div><div class="implication-item"><span class="implication-category">Market Monitoring:</span> Sustained surveillance of economic indicators, market conditions, and global developments affecting domestic financial stability</div><p>Financial institutions and market participants should maintain data-dependent approaches to decision-making while enhancing risk management practices and operational readiness for evolving market conditions.</p></div><div class="footer">*Generated using comprehensive rule-based analysis*<br><p>*{total_articles} articles processed from multiple financial and economic news sources*</p><p>*Analysis includes Federal Reserve priorities, economic indicators, banking conditions, and technology developments*</p>
+    </div>
+</body>
+</html>
