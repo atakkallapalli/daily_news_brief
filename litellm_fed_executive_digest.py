@@ -55,11 +55,11 @@ Please analyze the provided news articles and create a digest following this exa
 @dataclass
 class LiteLLMConfig:
     """Configuration for LiteLLM service"""
-    api_base: str = "http://13.221.86.203:8250"
+    api_base: str = "http://35.175.151.231:8250"
     api_key: str = "sk-12345"
-    model: str = "gpt-4o-mini"
+    model: str = "litellm_proxy/ClaudeSonnet4"
     max_tokens: int = 2000
-    temperature: float = 0.1
+    temperature: float = 0.3
 
 class LiteLLMFedExecutiveDigest:
     """Generate Federal Reserve Executive digest using LiteLLM with user's inline prompt"""
@@ -71,17 +71,19 @@ class LiteLLMFedExecutiveDigest:
         # Alternative LiteLLM configurations to try
         self.litellm_configs = [
             {
-                "api_base": "http://13.221.86.203:8250",
+                "api_base": "http://35.175.151.231:8250",
                 "api_key": "sk-12345",
-                "model": "gpt-4o-mini"
+                "model": "litellm_proxy/ClaudeSonnet4"
             },
             {
-                "model": "gpt-3.5-turbo",
-                "api_key": os.getenv('OPENAI_API_KEY', 'sk-test')
+                "api_base": "http://35.175.151.231:8250",
+                "api_key": "sk-12345",
+                "model": "gpt-3.5-turbo"
             },
             {
-                "model": "claude-3-haiku-20240307",
-                "api_key": os.getenv('ANTHROPIC_API_KEY', 'sk-test')
+                "api_base": "http://35.175.151.231:8250",
+                "api_key": "sk-12345",
+                "model": "claude-3-haiku-20240307"
             }
         ]
         
@@ -324,9 +326,9 @@ class LiteLLMFedExecutiveDigest:
                             "content": prompt
                         }
                     ],
-                    max_tokens=2500,
-                    temperature=0.1,
-                    timeout=10
+                    max_tokens=2000,
+                    temperature=0.3,
+                    timeout=15
                 )
                 
                 content = response.choices[0].message.content

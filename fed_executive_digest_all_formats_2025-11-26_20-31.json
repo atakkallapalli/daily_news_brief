@@ -1,0 +1,200 @@
+{
+  "digest_info": {
+    "title": "Federal Reserve Executive Daily News Digest",
+    "date": "2025-11-26",
+    "generated_at": "2025-11-26 20:31:05 UTC",
+    "format_version": "2.1",
+    "total_articles": 6,
+    "digest_type": "fed_executive_enhanced",
+    "generation_method": "enhanced_fallback",
+    "llm_config_used": {
+      "provider": "http://35.175.151.231:8250",
+      "model": "litellm_proxy/ClaudeSonnet4",
+      "fallback_reason": "LiteLLM service unavailable"
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "title": "San Francisco Fed president Daly urges December rate cut to protect fragile labor market - CHOSUNBIZ - Chosun Biz",
+      "author": "Editorial Team",
+      "summary_bullets": [
+        "Article reports: San Francisco Fed president Daly urges December rate cut to protect fragile labor market - CHOSUNBIZ Chosun Biz",
+        "Federal Reserve policy implications and monetary decisions are central to this development",
+        "Financial markets and economic indicators show measurable impacts from these developments",
+        "Key insight: San Francisco Fed president Daly urges December rate cut to protect fragile labor market - CHOSUNBIZ - Chosun Biz",
+        "Future policy decisions may need to account for evolving economic conditions and market responses"
+      ],
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQTh5bUkzeDZQdXdaV2ktUHpBMFZzRm5ZRkNzdUJvb0FjTW4yTV96cVFaMWZYNGlQUzFEbWdaZXAzVVlQWlFDTXE4WXNubEFJUlFySF9naDZpY1VrdTBhNTJPdFI1RVQ2R2JaS2dxT3ZPa1pSVlVEd2xKaFlXdVdnNC00em9FR0J10gGcAUFVX3lxTE01c19KbEpreENJdUMtbXhHODZEblpzU0JlNHVCNnlOaFc2bGZYNlhXa2Z4dVJIZUctNnhNQ1Z1NktRZUJ2Z05UTXplTFRqcVJYQWVnNTA5M2JTZkg3UVJ6MGctT0NhVmJVZ25rOE5xZ2xtb1VjVm5xYXBjNjBJSS1iT3BabTVRMTh1V29ZVGRqbkRUREpocm1ZT004Wg?oc=5",
+      "fed_relevance": "high",
+      "keywords": [
+        "Fed",
+        "Federal Reserve",
+        "Fed",
+        "economic",
+        "Fed",
+        "economic"
+      ],
+      "category": "monetary_policy",
+      "content_insights": [],
+      "publication_source": ""
+    },
+    {
+      "id": 2,
+      "title": "Gold Surges on Renewed Federal Reserve Rate Cut Expectations - KITCO",
+      "author": "Editorial Team",
+      "summary_bullets": [
+        "Article reports: Gold Surges on Renewed Federal Reserve Rate Cut Expectations KITCO",
+        "Federal Reserve policy implications and monetary decisions are central to this development",
+        "Broader economic implications warrant monitoring by Fed executives",
+        "Key insight: Gold Surges on Renewed Federal Reserve Rate Cut Expectations - KITCO",
+        "Future policy decisions may need to account for evolving economic conditions and market responses"
+      ],
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSURhQVJBdEhra2VlMlViZF8zYmFDSVNjRld1ZG43bmhFSGVsZ1dSd3dBR2Zmb29ud1JNNWU4WXFNYTJyQ3FtV3V0V3oybjh6LV9mZ3JURTdmSGx2andVTDR3ODhkeVBUa1p5QWtCU2duM1lzd1hWMzUyTGd1WERuVDdPZzN0bFl4aUh5N1VBMy1fMWY1enhnRi1zRDhiSEE?oc=5",
+      "fed_relevance": "high",
+      "keywords": [
+        "Federal Reserve",
+        "Fed",
+        "Federal Reserve",
+        "Fed",
+        "Fed",
+        "economic",
+        "Federal Reserve",
+        "Fed",
+        "economic"
+      ],
+      "category": "monetary_policy",
+      "content_insights": [],
+      "publication_source": ""
+    },
+    {
+      "id": 3,
+      "title": "Economist argues what Fed Reserve misses in inflation assessment - Fox Business",
+      "author": "Editorial Team",
+      "summary_bullets": [
+        "Article reports: Economist argues what Fed Reserve misses in inflation assessment Fox Business",
+        "Federal Reserve policy implications and monetary decisions are central to this development",
+        "Broader economic implications warrant monitoring by Fed executives",
+        "Key insight: Economist argues what Fed Reserve misses in inflation assessment - Fox Business",
+        "Future policy decisions may need to account for evolving economic conditions and market responses"
+      ],
+      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZRUIxZm5QaXc5ZjBCQk83VWJKRHJrRW5VWVR6M1l2cDVjUFNpdFMxYVJfU0p4X0s1ck5mbXNsTWtiRUdOeEhzUDNDS1Nadk9qT1p2TU9mb2EtVW8?oc=5",
+      "fed_relevance": "high",
+      "keywords": [
+        "Fed",
+        "inflation",
+        "Federal Reserve",
+        "Fed",
+        "Fed",
+        "economic",
+        "Fed",
+        "inflation",
+        "economic"
+      ],
+      "category": "monetary_policy",
+      "content_insights": [],
+      "publication_source": ""
+    },
+    {
+      "id": 4,
+      "title": "Fed faces another tough rate decison with inflation and job data delay - USA Today",
+      "author": "Editorial Team",
+      "summary_bullets": [
+        "Article reports: Fed faces another tough rate decison with inflation and job data delay USA Today",
+        "Federal Reserve policy implications and monetary decisions are central to this development",
+        "Broader economic implications warrant monitoring by Fed executives",
+        "Key insight: Fed faces another tough rate decison with inflation and job data delay - USA Today",
+        "Future policy decisions may need to account for evolving economic conditions and market responses"
+      ],
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVHFFcGtXMmlmWl95bm5xdmliU0J0TkJfbTl6SVZGVzZOUVE0bk9sYU41cGhjUTRtanJuVWxsUVFsRC1CY2kwSXFxckk5d3p6QURvYjVsLXBvcGVvZndFN1VOOHhTazRNYVJUaHZVZllVSDk1NXBvMW40NF9UZkNJeWNmcHp6bEdhb25iTE8wanBNX3E3M2dXcjVuaHBuV1pBMS1feU1Sc3lYV1BjR3BPTw?oc=5",
+      "fed_relevance": "high",
+      "keywords": [
+        "Fed",
+        "inflation",
+        "Federal Reserve",
+        "Fed",
+        "Fed",
+        "economic",
+        "Fed",
+        "inflation",
+        "economic"
+      ],
+      "category": "monetary_policy",
+      "content_insights": [],
+      "publication_source": ""
+    },
+    {
+      "id": 5,
+      "title": "Exclusive | Fed’s Daly Backs December Rate Cut, Citing Vulnerable Labor Market - The Wall Street Journal",
+      "author": "Editorial Team",
+      "summary_bullets": [
+        "Article reports: Exclusive | Fed’s Daly Backs December Rate Cut, Citing Vulnerable Labor Market The Wall Street Journal",
+        "Federal Reserve policy implications and monetary decisions are central to this development",
+        "Financial markets and economic indicators show measurable impacts from these developments",
+        "Key insight: Exclusive | Fed’s Daly Backs December Rate Cut, Citing Vulnerable Labor Market - The Wall Street Journal",
+        "Future policy decisions may need to account for evolving economic conditions and market responses"
+      ],
+      "source_url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPY2hyMmxNZHgycE4yMXZEUmxzQTlyTlozb3h4MHdJUzBFNjJtSWZENU0xUDJTcWdlMVdNYUlQYXFtZ2ZmaG5vMlBHMVN2bGJ3cEZDNlZqX1JNZmh2QmlNeDY5bUppdGdZNktRa2g0UTJ5cXpoMERSRERzMnoyOHM2UHpPWlRhbWluS1RhWWxiaTNneThfYkJSalZUaWw0YVptMWc1SGx3c005M2NEMi1GNV9tOFJTZktPdDlZcVpVbmVvcTVmUlRibGY2enVLVUNMSkRqS2lXb19MZ3pOTkVnMUUtcV9CRktMbkhjRjFlQy1rTWdXU1NJM2FBT1hYZmxCT3VZRkZuaHNWVWJkODhMNzlSTEZ0SnBNU1V6MTZXN2NZSU9iM2lQMUV1NFFUVWJfSEpCRmd0T3ZNOUZzbHBYN2V4V3JHSDROdkhZcUw3U1JYVHo1WEdPU1JzcTlRMUltZW9YQUEyN3lzQmYydk4xX2JlQnpZaUZ4UzE4ZFJqYmxMXzdfZTdlbTBsLU81eXp0NlhXRTcxSThOYzgzNEhlMTIwYWdZUDBYeDF1a3FrWXgzQmZPRWdHSlBFSDdiZw?oc=5",
+      "fed_relevance": "high",
+      "keywords": [
+        "Fed",
+        "Federal Reserve",
+        "Fed",
+        "economic",
+        "Fed",
+        "economic"
+      ],
+      "category": "monetary_policy",
+      "content_insights": [],
+      "publication_source": ""
+    },
+    {
+      "id": 6,
+      "title": "Fed's Daly backs December rate cut, citing labor market, WSJ reports - TradingView",
+      "author": "Editorial Team",
+      "summary_bullets": [
+        "Article reports: Fed's Daly backs December rate cut, citing labor market, WSJ reports TradingView",
+        "Federal Reserve policy implications and monetary decisions are central to this development",
+        "Financial markets and economic indicators show measurable impacts from these developments",
+        "Key insight: Fed's Daly backs December rate cut, citing labor market, WSJ reports - TradingView",
+        "Future policy decisions may need to account for evolving economic conditions and market responses"
+      ],
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTEg1eU14dzdEdU8wazlPVTBwa2FQRXJqbXRjZ1lPWFl4d3J6eFFTRFc1U2gzWlVPVnVlYWhCajRXVkVNS2EtNjF0Vm96X3JDaTVYOTJqQzlOeHZ3M3VCV2FVZFBsYkU1bjRlYTVLT2NjcUY3SUhqZGVORXNUckF4X29CMVRRLTNwY3ZiSC1BS0VpMWk1NU92bktIcTlPSWpMUFh0Y1U2OXJ0OTdoc1Fnd0NEU1J0WU1pSnlMVlNuQTVUdzNLZ0thUmJjY19XeXZXaEE?oc=5",
+      "fed_relevance": "high",
+      "keywords": [
+        "Fed",
+        "Federal Reserve",
+        "Fed",
+        "economic",
+        "Fed",
+        "economic"
+      ],
+      "category": "monetary_policy",
+      "content_insights": [],
+      "publication_source": ""
+    }
+  ],
+  "metadata": {
+    "llm_generated": false,
+    "enhanced_format": true,
+    "bullet_points_per_article": "4-5",
+    "includes_author_attribution": true,
+    "includes_content_insights": true,
+    "html_content_cleaned": true,
+    "fed_relevance_scoring": true
+  },
+  "categories": {
+    "monetary_policy": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "economic_indicators": [],
+    "financial_markets": [],
+    "regulatory_updates": [],
+    "global_economy": []
+  }
+}
