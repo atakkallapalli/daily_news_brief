@@ -18,11 +18,11 @@
     "format": "markdown"
   },
   "llm_settings": {
-    "provider": "http://44.201.244.45:8250/",
+    "provider": "http://35.175.151.231:8250",
     "api_key": "sk-12345",
     "enabled": true,
     "fallback_to_rule_based": true,
-    "max_tokens": 200,
+    "max_tokens": 2000,
     "temperature": 0.3,
     "models": {
       "openai": "gpt-3.5-turbo",
