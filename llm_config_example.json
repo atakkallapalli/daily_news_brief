@@ -18,7 +18,7 @@
     "format": "markdown"
   },
   "llm_settings": {
-    "provider": "http://44.201.244.45:8250",
+    "provider": "http://44.201.244.45:8250/",
     "api_key": "sk-12345",
     "enabled": true,
     "fallback_to_rule_based": true,
@@ -27,11 +27,12 @@
     "models": {
       "openai": "gpt-3.5-turbo",
       "anthropic": "claude-3-haiku-20240307",
-      "local": "facebook/bart-large-cnn"
+      "local": "facebook/bart-large-cnn",
+      "litellm": "litellm_proxy/ClaudeSonnet4"
     },
     "features": {
-      "sentiment_analysis": true,
-      "key_insights": true,
+      "sentiment_analysis": false,
+      "key_insights": false,
       "enhanced_summaries": true,
       "economic_tone_analysis": true
     }
