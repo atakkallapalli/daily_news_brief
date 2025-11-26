@@ -1,0 +1,78 @@
+{
+  "schedule_times": [
+    "07:00",
+    "12:00",
+    "18:00"
+  ],
+  "timezone": "UTC",
+  "output_directory": "daily_digests",
+  "archive_days": 30,
+  "email_notifications": {
+    "enabled": false,
+    "recipients": [],
+    "smtp_server": "",
+    "smtp_port": 587,
+    "username": "",
+    "password": ""
+  },
+  "digest_settings": {
+    "max_articles_per_category": 10,
+    "include_highlights": true,
+    "generate_summary": true,
+    "format": "markdown"
+  },
+  "llm_settings": {
+    "provider": "direct_api",
+    "api_key": "your-api-key-here",
+    "enabled": true,
+    "fallback_to_rule_based": true,
+    "max_tokens": 2000,
+    "temperature": 0.3,
+    "timeout": 15,
+    "retry_attempts": 3,
+    "models": {
+      "openai": "gpt-3.5-turbo",
+      "anthropic": "claude-3-haiku-20240307",
+      "local": "facebook/bart-large-cnn",
+      "litellm": "gpt-3.5-turbo"
+    },
+    "providers": {
+      "primary": {
+        "type": "openai",
+        "model": "gpt-3.5-turbo",
+        "api_key_env": "OPENAI_API_KEY"
+      },
+      "secondary": {
+        "type": "anthropic",
+        "model": "claude-3-haiku-20240307",
+        "api_key_env": "ANTHROPIC_API_KEY"
+      },
+      "fallback": {
+        "type": "rule_based",
+        "enabled": true
+      }
+    },
+    "proxy_endpoints": [
+      {
+        "url": "http://35.175.151.231:8250",
+        "api_key": "sk-12345",
+        "model": "litellm_proxy/ClaudeSonnet4",
+        "status": "unreachable",
+        "last_tested": "2025-11-26T20:57:06.269945"
+      },
+      {
+        "url": "http://localhost:8250",
+        "api_key": "sk-12345",
+        "model": "gpt-3.5-turbo",
+        "status": "not_running",
+        "last_tested": "2025-11-26T20:57:06.269953"
+      }
+    ],
+    "features": {
+      "sentiment_analysis": false,
+      "key_insights": false,
+      "enhanced_summaries": true,
+      "economic_tone_analysis": true
+    }
+  }
+}

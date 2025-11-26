@@ -1,0 +1,12 @@
+general_settings:
+  database_url: sqlite:///litellm.db
+  master_key: sk-12345
+model_list:
+- litellm_params:
+    api_key: your-openai-key-here
+    model: gpt-3.5-turbo
+  model_name: gpt-3.5-turbo
+- litellm_params:
+    api_key: your-anthropic-key-here
+    model: claude-3-haiku-20240307
+  model_name: claude-3-haiku
