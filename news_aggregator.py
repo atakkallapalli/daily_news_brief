@@ -134,21 +134,36 @@ class LLMService:
     def _init_litellm(self):
         """Initialize LiteLLM client"""
         try:
-            # Configure LiteLLM proxy
-            litellm.api_base = "http://13.221.86.203:8250"
-            litellm.api_key = self.api_key or os.getenv('LITELLM_API_KEY') or "sk-12345"
+            # Load config if available
+            config = self._load_llm_config()
+            llm_settings = config.get('llm_settings', {})
             
-            # Set default model if not specified
+            # Configure LiteLLM proxy from config or fallback
+            provider_url = llm_settings.get('provider', 'http://44.201.244.45:8250/')
+            if provider_url.startswith('http'):
+                litellm.api_base = provider_url
+            
+            litellm.api_key = llm_settings.get('api_key') or self.api_key or os.getenv('LITELLM_API_KEY') or "sk-12345"
+            
+            # Set model from config or default
             if not self.model:
-                self.model = "claude-3-5-sonnet-20241022"
+                self.model = llm_settings.get('models', {}).get('litellm', 'claude-3-5-sonnet-20241022')
             
             # Test the connection
             litellm.set_verbose = False  # Reduce logging
             self.client = litellm
-            print(f"Initialized LiteLLM service with proxy: http://13.221.86.203:8250")
+            print(f"Initialized LiteLLM service with endpoint: {provider_url}")
             print(f"Using model: {self.model}")
         except Exception as e:
             print(f"Failed to initialize LiteLLM: {e}")
+    
+    def _load_llm_config(self):
+        """Load LLM configuration from file"""
+        try:
+            with open('llm_config_example.json', 'r') as f:
+                return json.load(f)
+        except FileNotFoundError:
+            return {}
     
     def _init_local(self):
         """Initialize local transformer model"""
@@ -718,7 +733,7 @@ Format as valid JSON only.
         }
 
 class NewsAggregator:
-    def __init__(self, config_file: Optional[str] = None, llm_provider: str = "auto", llm_api_key: Optional[str] = None):
+    def __init__(self, config_file: Optional[str] = None, llm_provider: str = "litellm", llm_api_key: Optional[str] = None):
         self.keywords = [
             'unemployment', 'inflation', 'market risk', 'banking', 
             'federal reserve', 'interest rates', 'economic outlook',
@@ -733,9 +748,9 @@ class NewsAggregator:
         self.use_llm = self.llm_service.client is not None or self.llm_service.local_model is not None
         
         if self.use_llm:
-            print(f"✅ LLM-powered analysis enabled using {self.llm_service.provider}")
+            print(f"[OK] LLM-powered analysis enabled using {self.llm_service.provider}")
         else:
-            print("⚠️  LLM not available, using rule-based analysis")
+            print("[WARNING] LLM not available, using rule-based analysis")
         
         # Initialize with default sources
         self.free_sources = self._get_default_free_sources()
@@ -1613,15 +1628,15 @@ class NewsAggregator:
         """List all configured sources"""
         print("\n=== FREE SOURCES ===")
         for i, source in enumerate(self.free_sources, 1):
-            status = "✅ Active" if source.active else "❌ Inactive"
+            status = "[Active]" if source.active else "[Inactive]"
             print(f"{i}. {source.name} ({source.source_type}) - {status}")
             print(f"   URL: {source.url}")
             print(f"   Max Articles: {source.max_articles}")
         
         print("\n=== SUBSCRIPTION SOURCES ===")
         for i, source in enumerate(self.subscription_sources, 1):
-            status = "✅ Active" if source.active else "❌ Inactive"
-            api_status = "🔑 API Key Set" if source.api_key else "🔓 No API Key"
+            status = "[Active]" if source.active else "[Inactive]"
+            api_status = "[API Key Set]" if source.api_key else "[No API Key]"
             print(f"{i}. {source.name} ({source.source_type}) - {status} - {api_status}")
             print(f"   URL: {source.url}")
             print(f"   Max Articles: {source.max_articles}")
@@ -1706,9 +1721,9 @@ def main():
     with open('articles_data.json', 'w', encoding='utf-8') as f:
         json.dump(summary, f, indent=2, default=str)
     
-    print("✅ Report saved to economic_news_report.md")
-    print("✅ Raw data saved to articles_data.json")
-    print(f"📊 Collected {len(articles)} articles from {len(summary['sources_covered'])} sources")
+    print("[OK] Report saved to economic_news_report.md")
+    print("[OK] Raw data saved to articles_data.json")
+    print(f"[INFO] Collected {len(articles)} articles from {len(summary['sources_covered'])} sources")
     
     return report
 
