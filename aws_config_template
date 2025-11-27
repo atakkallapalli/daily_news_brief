@@ -1,0 +1,13 @@
+
+[default]
+region = us-west-2
+output = json
+
+[profile bedrock-user]
+region = us-west-2
+output = json
+
+[profile sf-executive-digest]
+region = us-west-2
+output = json
+
