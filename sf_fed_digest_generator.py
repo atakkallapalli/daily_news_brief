@@ -71,6 +71,23 @@ class SFFedDigestGenerator:
         # Generate summary with enhanced analysis
         summary = self.aggregator.summarize_articles()
         
+        # Ensure articles have detailed analysis
+        if hasattr(self.aggregator, 'llm_service') and self.aggregator.llm_service:
+            print("Enhancing articles with LLM analysis...")
+            for topic_articles in summary.get('topics', {}).values():
+                for article in topic_articles:
+                    if not article.get('structured_analysis') and not article.get('highlights'):
+                        try:
+                            content = article.get('description', '') or article.get('content', '')
+                            if content:
+                                # Generate structured analysis
+                                analysis = self.aggregator.llm_service.generate_structured_analysis(article)
+                                if analysis:
+                                    article['structured_analysis'] = analysis
+                        except Exception as e:
+                            print(f"Failed to analyze article {article.get('title', 'Unknown')}: {e}")
+                            continue
+        
         return summary
     
     def categorize_for_sf_fed(self, articles: List[Dict]) -> Dict[str, List[Dict]]:
@@ -141,22 +158,37 @@ Key focus areas include monetary policy transmission, regional economic conditio
         return summary
     
     def format_article_summary(self, article: Dict) -> str:
-        """Format individual article for digest"""
+        """Format individual article for digest with 4 bullet points"""
         title = article['title']
         source = article.get('source', 'Unknown')
         
-        # Use structured analysis if available
+        # Use structured analysis if available for detailed bullets
         if article.get('structured_analysis'):
             analysis = article['structured_analysis']
             highlights = analysis.get('summary_highlights', [])
-            if highlights:
-                summary = highlights[0][:150] + "..." if len(highlights[0]) > 150 else highlights[0]
-            else:
-                summary = article.get('description', '')[:150] + "..."
-        else:
-            summary = article.get('description', '')[:150] + "..."
+            if len(highlights) >= 4:
+                bullets = '\n'.join([f"  • {bullet}" for bullet in highlights[:4]])
+                return f"**{title}**\n{bullets}\n*Source: {source}*"
         
-        # Clean HTML tags
+        # Use highlights if available
+        if article.get('highlights') and len(article['highlights']) >= 4:
+            bullets = '\n'.join([f"  • {highlight}" for highlight in article['highlights'][:4]])
+            return f"**{title}**\n{bullets}\n*Source: {source}*"
+        
+        # Generate 4 bullets using LLM if available
+        if hasattr(self.aggregator, 'llm_service') and self.aggregator.llm_service:
+            try:
+                content = article.get('description', '') or article.get('content', '')
+                if content:
+                    insights = self.aggregator.llm_service.extract_key_insights(content)
+                    if insights and len(insights) >= 4:
+                        bullets = '\n'.join([f"  • {insight}" for insight in insights[:4]])
+                        return f"**{title}**\n{bullets}\n*Source: {source}*"
+            except Exception as e:
+                print(f"LLM analysis failed for {title}: {e}")
+        
+        # Fallback to single description
+        summary = article.get('description', '')[:150] + "..."
         summary = re.sub(r'<[^>]+>', '', summary)
         
         return f"**{title}**\n{summary}\n*Source: {source}*"
