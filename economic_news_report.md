@@ -1,199 +1,243 @@
 # Economic and Financial News Summary
-**Collection Date:** 2025-11-19T15:34:08.668513
-**Total Articles:** 38
-**Sources:** BBC Business, NBC Business, Google News, Federal Reserve News
-**Free Sources:** BBC Business, NBC Business, Google News, Federal Reserve News
+**Collection Date:** 2025-11-27T16:55:15.873251
+**Total Articles:** 77
+**Sources:** Google News, Federal Reserve News, BBC Business, NBC Business
+**Free Sources:** Google News, Federal Reserve News, BBC Business, NBC Business
 
 ---
 
-## General Economic News (6 articles)
+## Federal Reserve & Monetary Policy (36 articles)
 
-### 1. What AI bubble? Nvidia's strong earnings signal there's more room to grow
+### 1. Stock Rebound Amid New Hopes for December Interest Rate Cut
 **Source:** NBC Business (free)
-**Published:** Wed, 19 Nov 2025 15:44:29 GMT
-**URL:** https://www.nbcnews.com/business/business-news/nvidia-reports-earnings-one-question-towers-ai-boom-real-rcna244787
+**Published:** Tue, 25 Nov 2025 12:57:46 GMT
+**URL:** https://www.today.com/video/stock-rebound-amid-new-hopes-for-december-interest-rate-cut-252971077534
 **Key Highlights:**
-  • Its earnings could determine where the economy goes next
-  • Its results are a positive sign of where markets — and the economy — could go next
-  • Nvidia reports better-than-expected earnings as fears mount over AI bubble 04:39 Get more news Live on Nov
-**Summary:** Nvidia is at the head of the artificial intelligence revolution. Its earnings could determine where the economy goes next....
+  • Nasdaq surged nearly 600 points at the start of the week, reflecting strong market momentum and investor confidence.
+  • Federal Reserve officials have signaled openness to cutting interest rates in December, triggering renewed market optimism.
+  • Tech stocks led the market rebound, suggesting investors anticipate lower borrowing costs will particularly benefit growth-oriented sectors.
+  • The potential December rate cut indicates the Fed may believe inflation concerns are easing enough to pivot toward supporting economic growth.
+**Summary:** The stock market enjoyed a strong opening to the week with the tech-heavy Nasdaq up nearly 600 points. NBC’s Christine Romans joins TODAY to break down how part of the Wall Street enthusiasm stems fro...
 
-### 2. Home Depot’s business is stuck. That’s a bad sign for the economy - CNN
-**Source:** Google News (free)
-**Published:** Tue, 18 Nov 2025 11:44:38 GMT
-**URL:** https://news.google.com/rss/articles/CBMiakFVX3lxTFBuRkNfYlZNZHR6T2JBa3VYUVVNVmFmY3RRUWxRZmhSMDJVa2RyV0ZHQWdoWGFCTlNVQTRBU3FoNGNFTHhRZDVHVFUxSnBodk5DelYxNXp5eERUSWlLUXhWR0RNRG9sb2Y1MVE?oc=5
-**Key Highlights:**
-  • Home Depot’s business is stuck
-  • That’s a bad sign for the economy - CNN <a href="https://news
-  • That’s a bad sign for the economy&nbsp;&nbsp;CNN
-**Summary:** Home Depot’s business is stuck. That’s a bad sign for the economy&nbsp;&nbsp;CNN...
-
-### 3. Spain’s booming economy collides with a barren politics - Financial Times
-**Source:** Google News (free)
-**Published:** Wed, 19 Nov 2025 11:00:08 GMT
-**URL:** https://news.google.com/rss/articles/CBMicEFVX3lxTE1OeGVoem5kX0YwOV9CM20yZ19fcVkzeWRoVjJfR1Z1Q19YWll1TGZ5XzhzMFgzZDRyUWZnR1VGdlRNVGItTWMwWEhRWk9mTy1yTmJDT2hmOFlxaG1MaXVXTEUtNXlIMzNDZDZ4RlIwMzk?oc=5
-**Key Highlights:**
-  • Spain’s booming economy collides with a barren politics - Financial Times <a href="https://news
-**Summary:** Spain’s booming economy collides with a barren politics&nbsp;&nbsp;Financial Times...
-
-### 4. Trump’s focus on race backfires as voters punish economic failings - The Guardian
-**Source:** Google News (free)
-**Published:** Tue, 18 Nov 2025 17:50:00 GMT
-**URL:** https://news.google.com/rss/articles/CBMieEFVX3lxTE5jWG5pMTctNHZPZWFtcVRSRTRuUU5QVWhwS2RyVHo0amFlckhWeldvMTZyZTRxSlNPaXQ2QkFKWk5kaExpTG52Y0dIR2pfQjNRX2pjc1hVSjNoN3hHRmN2NWZOSk5zZjNvRDJFMzN4cEdKZ1BPdWtaTA?oc=5
-**Key Highlights:**
-  • Trump’s focus on race backfires as voters punish economic failings - The Guardian <a href="https://news
-**Summary:** Trump’s focus on race backfires as voters punish economic failings&nbsp;&nbsp;The Guardian...
-
-### 5. Billionaire Family Scion Says British Economy Is Uninvestable - Bloomberg.com
-**Source:** Google News (free)
-**Published:** Tue, 18 Nov 2025 13:55:00 GMT
-**URL:** https://news.google.com/rss/articles/CBMisgFBVV95cUxPS3dUc016Zm9NWTNValh0STlaYWc0RGVSeW8wZ1RRRTd2c3VXdXBDM0JOODNKUTVtMHlaMWpleUMwUzhBV01jX1AxaUN0eWc0QmI0T1RJSV9BSlFNQ1o1WmhWTGZHWXR4bmFSR05uRTNVNjM2c3IxQ3lEeVBLVFQ3S2FMaFQ4X1F1SVBWLXJ6RmhldXU5c2VWY25EaERycFJuTW4zS2hKdW5LQmRKcWtWeDlR?oc=5
-**Key Highlights:**
-  • Billionaire Family Scion Says British Economy Is Uninvestable - Bloomberg
-**Summary:** Billionaire Family Scion Says British Economy Is Uninvestable&nbsp;&nbsp;Bloomberg.com...
-
-*... and 1 more articles in this category*
-
-## Federal Reserve & Monetary Policy (16 articles)
-
-### 1. October jobs report canceled and November release delayed, BLS says 
+### 2. Why Trump's claim of falling food stamp use might not mean the economy is improving
 **Source:** NBC Business (free)
-**Published:** Wed, 19 Nov 2025 18:16:04 GMT
-**URL:** https://www.nbcnews.com/business/economy/october-jobs-report-canceled-rcna244828
+**Published:** Fri, 21 Nov 2025 20:26:31 GMT
+**URL:** https://www.nbcnews.com/politics/donald-trump/trump-food-stamps-economy-rcna245083
 **Key Highlights:**
-  • Its open markets committee is preparing to weigh another interest rate cut at its meetin
-**Summary:** The October jobs report has been canceled, and the November jobs report will be published late and after a crucial Fed meeting to consider interest rates....
+  • Trump claims 600,000 Americans were lifted off food stamps in nine months, attributing this to economic strength at multiple public forums.
+  • Economists counter that declining SNAP enrollment doesn't necessarily indicate economic improvement as low-wage workers face a slowing job market and persistent inflation.
+  • Food banks report increasing demand for assistance, suggesting continued financial struggles despite the official reduction in food stamp recipients.
+  • USDA data on food assistance is only available through June with figures still subject to revision, indicating the need for caution when using this metric as an economic indicator.
+**Summary:** Trump has turned to a new economic indicator in his push to convince Americans that the economy is strong: the number of people getting federal food benefits....
 
-### 2. Federal Reserve Board releases information regarding enhancements to bank supervision
+### 3. Federal Reserve Board announces approval of application by Steel Newco, Inc
 **Source:** Federal Reserve News (free)
-**Published:** Tue, 18 Nov 2025 14:00:00 GMT
-**URL:** https://www.federalreserve.gov/newsevents/pressreleases/bcreg20251118a.htm
+**Published:** Tue, 25 Nov 2025 22:15:00 GMT
+**URL:** https://www.federalreserve.gov/newsevents/pressreleases/orders20251125a.htm
 **Key Highlights:**
-  • govwebsite belongs to an official government organization in the United States
-  • gov websites use HTTPSAlock(LockLocked padlock icon) orhttps://means you've safely connected to the
-  • Share sensitive information only on official, secure websites
-**Summary:** Federal Reserve Board releases information regarding enhancements to bank supervision...
+  • Economic development shows mixed signals for market participants
+  • Policy implications require monitoring by financial institutions
+  • Market reactions reflect investor sentiment on economic trends
+  • Future outlook depends on broader macroeconomic conditions
+**Summary:** Federal Reserve Board announces approval of application by Steel Newco, Inc...
 
-### 3. Federal Reserve officials ‘strongly’ divided on December interest rate cut - Financial Times
+### 4. Federal Reserve Board issues enforcement action with former employee of Orrstown Bank
+**Source:** Federal Reserve News (free)
+**Published:** Tue, 25 Nov 2025 16:00:00 GMT
+**URL:** https://www.federalreserve.gov/newsevents/pressreleases/enforcement20251125a.htm
+**Key Highlights:**
+  • The Federal Reserve Board has taken an enforcement action against a former employee of Orrstown Bank, though specific violations weren't detailed.
+  • No official quotes or statements from Federal Reserve representatives or the former bank employee were included in the available content.
+  • The article contains no information about market reactions to this enforcement action or its immediate financial impact.
+  • This appears to be a routine regulatory action by the Fed in its supervisory role over financial institutions, though further details would be needed to assess broader implications.
+**Summary:** Federal Reserve Board issues enforcement action with former employee of Orrstown Bank...
+
+### 5. Federal Reserve announces College Fed Challenge winners
+**Source:** Federal Reserve News (free)
+**Published:** Fri, 21 Nov 2025 21:00:00 GMT
+**URL:** https://www.federalreserve.gov/newsevents/pressreleases/other20251121b.htm
+**Key Highlights:**
+  • Economic development shows mixed signals for market participants
+  • Policy implications require monitoring by financial institutions
+  • Market reactions reflect investor sentiment on economic trends
+  • Future outlook depends on broader macroeconomic conditions
+**Summary:** Federal Reserve announces College Fed Challenge winners...
+
+*... and 31 more articles in this category*
+
+## Inflation (10 articles)
+
+### 1. Graphic: Track grocery price trends
+**Source:** NBC Business (free)
+**Published:** Fri, 24 Oct 2025 14:06:43 GMT
+**URL:** https://www.nbcnews.com/data-graphics/grocery-price-tracker-inflation-trends-eggs-bread-trump-administration-rcna239569
+**Key Highlights:**
+  • Grocery prices have risen significantly over five years due to supply chain issues, Ukraine conflict, and corporate profit-taking, straining consumer wallets.
+  • Trump campaigned on lowering food costs in 2024, with egg prices now declining from peak levels, while orange juice prices increased 29% and ground beef rose 14% year-over-year.
+  • The article presents no specific market impact data beyond consumer price increases, relying on NIQ point-of-sale data from various retail channels nationwide.
+  • Monthly updates to this grocery price tracking suggest continued policy focus on food inflation as a barometer for economic performance in the Trump administration.
+**Summary:** Learn where grocery prices stand during the Trump administration. See how inflation is affecting the cost of eggs, bread, chicken, ground beef and more....
+
+### 2. How Doug McMillon kept Walmart on top
+**Source:** NBC Business (free)
+**Published:** Fri, 14 Nov 2025 19:54:47 GMT
+**URL:** https://www.nbcnews.com/business/business-news/walmart-ceo-doug-mcmillon-american-retail-rcna243911
+**Key Highlights:**
+  • McMillon transformed Walmart into both a brick-and-mortar leader (4,600+ locations) and e-commerce giant while maintaining its core affordability proposition during economic volatility.
+  • RBC Capital Markets analyst Steven Shemesh described McMillon as "a transformational leader who embraced technology to modernize WMT's operating model and strengthen its long-term competitive positioning."
+  • Despite facing economic and political headwinds, Walmart maintained its market leadership position as America's largest retailer, grocer, and private employer.
+  • McMillon's 12-year leadership demonstrated how traditional retailers can successfully navigate digital disruption, inflation cycles, and pandemic challenges while maintaining customer loyalty.
+**Summary:** Outgoing Walmart CEO Doug McMillon has steered the retailer through the e-commerce revolution, a pandemic, high inflation and political upheaval. ...
+
+### 3. Here’s what the latest inflation and spending data reveals about the US economy - CNN
 **Source:** Google News (free)
-**Published:** Wed, 19 Nov 2025 19:14:24 GMT
-**URL:** https://news.google.com/rss/articles/CBMicEFVX3lxTE80ZEl0dzlINERESjAzLXE3dUdmYkhqcFc1ZGhQSm5mdkozWTJUT2x4Znp4YXlzUHI1dDNXbUg1SVc3ekQzNFc0Y01aRFVDSEIwOGtLMDJ2QnU0bWFzR0pOcWJXZTFqZHV4NURkT0NZVWs?oc=5
+**Published:** Tue, 25 Nov 2025 18:47:00 GMT
+**URL:** https://news.google.com/rss/articles/CBMiggFBVV95cUxQQWhOTkcwLURpaXU4c3F3MWwwWWROV0dfeG1MbE9yenZ2N3VtVm82U3N1dzFNVUM3dlhWYW5xVEtYNVQ1OGhyZUpSRzZmNEQ4MHZwSndnUkM3SHcxTk5DUHZnTnRwWXlDZk0zVjZFaFFiWHF5UFhzNWJNMUxCWXVDZVF3?oc=5
 **Key Highlights:**
-  • Federal Reserve officials ‘strongly’ divided on December interest rate cut - Financial Times <a href="https://news
-**Summary:** Federal Reserve officials ‘strongly’ divided on December interest rate cut&nbsp;&nbsp;Financial Times...
+  • Economic development shows mixed signals for market participants
+  • Policy implications require monitoring by financial institutions
+  • Market reactions reflect investor sentiment on economic trends
+  • Future outlook depends on broader macroeconomic conditions
+**Summary:** Here’s what the latest inflation and spending data reveals about the US economy&nbsp;&nbsp;CNN...
 
-### 4. Trump urges Treasury Secretary Bessent to take Federal Reserve job - Boston Herald
+### 4. As Prices Pinch, Bessent Looks for Ways to Mollify Wary Consumers - The New York Times
 **Source:** Google News (free)
-**Published:** Wed, 19 Nov 2025 22:21:41 GMT
-**URL:** https://news.google.com/rss/articles/CBMickFVX3lxTE1qV0JsSHdiWWVqaG1mSEpHU2JSaXNEZkpxeUJSN3BpeTVUQTNxSmlSY3k4TEY2NkU4dmVULWY3QlBBN0VVT3AyNC1Yd1pSd0N1S054YTVoMmlVb2NsMUpmNTJ1Q2FMR1loand4VE0yN3FRZ9IBd0FVX3lxTE1ZNmk1TXFma1pqQ1Nza21vd0pGaVNPR2xUZ2YtYTAxUExVTnNHSmlMTC05RllkUHNxQy1JUmNfcEdiU0tXeFV4V3hNcUprYU8zV1Vmc0hPZU9oajhMUnBUUGRicWJvU1RHemluMEhaTTh5anplSHVZ?oc=5
+**Published:** Wed, 26 Nov 2025 19:31:35 GMT
+**URL:** https://news.google.com/rss/articles/CBMifEFVX3lxTE5ac3pyOGxhUWVudGZJZTg5UGd6dkJ6dlVsalYtekhLZmRORVdRcHZuTy1hSkZwU1JIWFVRb3JVX0ZCY0NqbUhma2lDckVsQTVoVnRCRFhhVFhCN1Ayektpbk9CeWtPN1N0NXdjVmlSOXA4SkhwMHlGcms5RGg?oc=5
 **Key Highlights:**
-  • Trump urges Treasury Secretary Bessent to take Federal Reserve job - Boston Herald <a href="https://news
-**Summary:** Trump urges Treasury Secretary Bessent to take Federal Reserve job&nbsp;&nbsp;Boston Herald...
+  • Economic development shows mixed signals for market participants
+  • Policy implications require monitoring by financial institutions
+  • Market reactions reflect investor sentiment on economic trends
+  • Future outlook depends on broader macroeconomic conditions
+**Summary:** As Prices Pinch, Bessent Looks for Ways to Mollify Wary Consumers&nbsp;&nbsp;The New York Times...
 
-### 5. Fed increasingly divided over December rate cut despite Trump pressure - Politico
+### 5. Trump Doesn’t Understand Inflation - The Atlantic
 **Source:** Google News (free)
-**Published:** Wed, 19 Nov 2025 20:16:00 GMT
-**URL:** https://news.google.com/rss/articles/CBMie0FVX3lxTE9qYXNLNHFubDZ2Xzhyd0lIR3ZLZTgzQmFNRlAxT3dNQmZrQ3U5V2hxRW8wNUlUZkVBa084SVUwZFd3aTR2a0Z3R2h4dVN4bm1fVmlNdE9pUy1oZm5GcjFHZml2Vnpha25WdWlFVnRVbjNrTVNCdE80RVROYw?oc=5
+**Published:** Tue, 25 Nov 2025 16:35:00 GMT
+**URL:** https://news.google.com/rss/articles/CBMikgFBVV95cUxOWUgzbTUzd1A1VnM4d1BoWWRsdGwxYmFlR0h0X05HLU9vVEo3NHVpekpwc2tXWFhJNFptaEtoZFVsTkV5OXVSQUtzN2Q0NDVoOWNma0xTb0JabzBiY240d3NPeS1pem9ZTDZZYUowRThRTXBYVFdua3RxaGZRX2gzY09ybkJkbldoTm05Z1ktTzFLdw?oc=5
 **Key Highlights:**
-  • Fed increasingly divided over December rate cut despite Trump pressure - Politico <a href="https://news
-**Summary:** Fed increasingly divided over December rate cut despite Trump pressure&nbsp;&nbsp;Politico...
+  • Economic development shows mixed signals for market participants
+  • Policy implications require monitoring by financial institutions
+  • Market reactions reflect investor sentiment on economic trends
+  • Future outlook depends on broader macroeconomic conditions
+**Summary:** Trump Doesn’t Understand Inflation&nbsp;&nbsp;The Atlantic...
 
-*... and 11 more articles in this category*
+*... and 5 more articles in this category*
 
-## Inflation (8 articles)
+## General Economic News (21 articles)
 
-### 1. Good for mortgages, bad for the food shop - how inflation dip affects you
+### 1. UK growth forecasts lowered from next year
 **Source:** BBC Business (free)
-**Published:** Wed, 19 Nov 2025 12:21:44 GMT
-**URL:** https://www.bbc.com/news/articles/c1wlrw8ygvxo?at_medium=RSS&at_campaign=rss
+**Published:** Wed, 26 Nov 2025 17:07:16 GMT
+**URL:** https://www.bbc.com/news/articles/cg5m7mg8p59o?at_medium=RSS&at_campaign=rss
 **Key Highlights:**
-  • The cost of the weekly shop is, and will continue to be, a worry for millions of people
-  • Beyond just food, prices of goods and services in general are going up, but the rate of those price rises has slowed
-  • Are prices going up or down? Prices pretty much always rise
-**Summary:** The rate of inflation has fallen prompting hopes of lower mortgage rates, but food prices are still rising....
+  • OBR increased UK growth forecast to 1.5% for current year but downgraded forecasts to 1.4-1.5% for the next five years due to lower productivity growth expectations.
+  • Chancellor Rachel Reeves remained confident, stating "we beat the growth forecast this year and we will beat them again" despite the OBR's downward revisions.
+  • The OBR warns that persistent global conflicts, subdued business confidence, and anticipated tax rises will limit economic expansion in the near term.
+  • Tax levels are projected to reach an all-time high over the next five years while public service spending increases, creating potential fiscal challenges.
+**Summary:** Downgrades to productivity means the economy is set to grow at an annual rate of 1.5% on average over the next five years....
 
-### 2. UK inflation rate hits lowest level in four months
+### 2. 4 charts show who’s feeling good about the economy — and who isn’t - The Washington Post
+**Source:** Google News (free)
+**Published:** Thu, 27 Nov 2025 19:00:00 GMT
+**URL:** https://news.google.com/rss/articles/CBMijgFBVV95cUxPODI2NGl6NFBBNnNQV01pSnlMY3h3dWtUa1hlQmlXaHYyR2tucDhab21tQ3ZnN1FjVGQwQV9UY0FBUG4waGhCMW9EYnd0bGl1ZkxqbmlMN3RneUM1ckhYNmhyMHQwWUowd0V3RU5DYlNkQmZmX1UzbGNyVFp4aURuVzFzaEV4Z29ES0wyMlFn?oc=5
+**Key Highlights:**
+  • Economic development shows mixed signals for market participants
+  • Policy implications require monitoring by financial institutions
+  • Market reactions reflect investor sentiment on economic trends
+  • Future outlook depends on broader macroeconomic conditions
+**Summary:** 4 charts show who’s feeling good about the economy — and who isn’t&nbsp;&nbsp;The Washington Post...
+
+### 3. US Consumer Confidence Falls by Most Since April on Economy - Bloomberg.com
+**Source:** Google News (free)
+**Published:** Tue, 25 Nov 2025 15:35:05 GMT
+**URL:** https://news.google.com/rss/articles/CBMirwFBVV95cUxPSWRjeUhfczk3SXdsWEQzRXJQbmx1MWQzNUhLTkFINlozWlB1ZVo5Ymg3MFNPSVRoSmgwWnFieUd3YWJ0Z2RGaWViNXdUdHNZVjVTTGtheU1DS0R6RE9CUUNRV0o0alY2elg2S2hYamNNVk9XQWkyX2ZFMkd4MVpDWEx2UVF4ZnBqS2pEblNOdnBxcnZHQ0VxLVZwRzVKYnJPb1h3MU5xRmIzX3pZandv?oc=5
+**Key Highlights:**
+  • Consumer confidence in the US has declined significantly, marking the largest drop since April, indicating potential deterioration in public sentiment about economic conditions.
+  • Without access to the article content, I cannot provide information about specific quotes from officials or economists.
+  • Without specific data from the article, I cannot provide accurate information about market impacts related to this confidence drop.
+  • The decline in consumer confidence could signal weakening consumer spending in coming months, which might influence Federal Reserve policy decisions.
+**Summary:** US Consumer Confidence Falls by Most Since April on Economy&nbsp;&nbsp;Bloomberg.com...
+
+### 4. Russians Are Starting to Feel Real Economic Pain From Putin’s War - Bloomberg.com
+**Source:** Google News (free)
+**Published:** Thu, 27 Nov 2025 08:04:37 GMT
+**URL:** https://news.google.com/rss/articles/CBMivgFBVV95cUxQS3lWQm9FUm9qUzdIQUU4NXNnMVRrTGtKdUg4LWpadkpXaUgtbUh1QllEMUttcFk1VHZwTzg1OGJEUHp0cVN6dzlBWkszQWsxYmJJcVVHbm1Yd3RpX1FDTDhZakRvaW5qdDJxb2t4dG4zSExpOEpmbkFoS0tSZUVsczc4Ym5qOWFzRkVqV0Z6aXFQZzRiTW45bjU3SzlQSnhmaFQzMVFnZVFlUVRuSVVla2lBeC1FelRIOEt0dG9R?oc=5
+**Key Highlights:**
+  • Economic development shows mixed signals for market participants
+  • Policy implications require monitoring by financial institutions
+  • Market reactions reflect investor sentiment on economic trends
+  • Future outlook depends on broader macroeconomic conditions
+**Summary:** Russians Are Starting to Feel Real Economic Pain From Putin’s War&nbsp;&nbsp;Bloomberg.com...
+
+### 5. Russia’s Economy Cracks as War Reaches Daily Life and Sanctions Pressure Deepens - Kyiv Post
+**Source:** Google News (free)
+**Published:** Thu, 27 Nov 2025 00:39:10 GMT
+**URL:** https://news.google.com/rss/articles/CBMiS0FVX3lxTE9nWmE0a09aRDJoT3FsanJiZ0RCT0IxT0dFZlg1bkc1bVIzWU84WnFwZjd5MThYa1Y3cWlUdTJCLXhUSDNXNG5ZVEVTMA?oc=5
+**Key Highlights:**
+  • Economic development shows mixed signals for market participants
+  • Policy implications require monitoring by financial institutions
+  • Market reactions reflect investor sentiment on economic trends
+  • Future outlook depends on broader macroeconomic conditions
+**Summary:** Russia’s Economy Cracks as War Reaches Daily Life and Sanctions Pressure Deepens&nbsp;&nbsp;Kyiv Post...
+
+*... and 16 more articles in this category*
+
+## Unemployment & Employment (10 articles)
+
+### 1. The start-up creating science kits for young Africans
 **Source:** BBC Business (free)
-**Published:** Wed, 19 Nov 2025 08:56:03 GMT
-**URL:** https://www.bbc.com/news/articles/czxkvkwjl5eo?at_medium=RSS&at_campaign=rss
+**Published:** Tue, 04 Nov 2025 00:13:20 GMT
+**URL:** https://www.bbc.com/news/articles/c201zx3yyx1o?at_medium=RSS&at_campaign=rss
 **Key Highlights:**
-  • 9% in October, up from 4
-  • 9% in October, up from 4
-**Summary:** Prices have been rising more slowly in the twelve months to October but food prices bucked the trend....
+  • Founded in Ghana in 2022, Stemaide has developed offline-capable science kits, addressing infrastructure constraints while creating educational technology access in emerging African markets.
+  • CEO Prince Boateng Asare positions the venture as workforce development, stating the company "wants to prepare young Africans for the jobs of the future."
+  • The initiative represents growth in Africa's educational technology sector, part of a broader technology entrepreneurship trend highlighted in the article's series on African technology ventures.
+  • This educational technology approach could help address Africa's skills gap, potentially increasing youth workforce readiness in a continent with the world's youngest population.
+**Summary:** Stemaide's goal is to bring tech skills to young Africans and prepare them for future jobs....
 
-### 3. Why is UK inflation still high?
-**Source:** BBC Business (free)
-**Published:** Wed, 19 Nov 2025 11:44:27 GMT
-**URL:** https://www.bbc.com/news/articles/c17rgd8e9gjo?at_medium=RSS&at_campaign=rss
-**Key Highlights:**
-  • 6% in the year to October, down from 3
-  • 8% recorded in August and September
-  • 6% in the year to October, down from 3
-**Summary:** UK Inflation has fallen from record highs but remains above the Bank of England's 2% target....
-
-### 4. Three bits of good news about inflation drop
-**Source:** BBC Business (free)
-**Published:** Wed, 19 Nov 2025 11:21:19 GMT
-**URL:** https://www.bbc.com/news/videos/cp97d9g29e8o?at_medium=RSS&at_campaign=rss
-**Key Highlights:**
-  • Three bits of good news about inflation drop The UK inflation rate fell to 3
-  • 6% in the year to October, but food prices rose again following a dip in September
-  • The BBC's deputy economics editor Dharshini David explains
-**Summary:** The UK inflation rate fell to 3.6% in the year to October, but food prices rose again following a dip in September. The BBC's deputy economics editor Dharshini David explains. ...
-
-### 5. Are Trump’s tariffs increasing inflation? The data might surprise you. - The Hill
+### 2. Half of workers are 'revenge quitting' and walking out on their jobs without notice—and the majority are loyal, longtime staff - Fortune
 **Source:** Google News (free)
-**Published:** Wed, 19 Nov 2025 12:00:00 GMT
-**URL:** https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZkx6TDA2ZTk3SWVGTmlSNjk1TTZ2QU9MdFNtbUo4alplaHJRZEV1bjVsU1NnNmI5WmRnWWVPM295SmozbkRSRkNvUllyWFh2b04xT0FBaHJ5djU4MnowZVBTWG1jSlZ6RWFITzV4aFB2azc0ZWJyQjB5SldfYmZPYm1WTjB6VVExZFc5TjhKdU5CNVA2SFU0WU40NW5kVmplR3ZSd1UtMGwxODRsX2Y2YzJDMWhZMXdXd2040gHAAUFVX3lxTE1XNFlMREZBYVdPMHdpSzdHSi1DRndDeHZ2NjYyNmFDRC1TdzZKbWRqM04zMDUxNUtmRHJEMF9Dc0tuWHZwXzI4MVFyajRCcF9FanFvaVl6SkFKYi1LSmNRemwyR2tURVRHdTBzRm5vazZrVHYzcXpEY3F3Q3pXZmR0RWJ2aU1GV2dZYVY0cXA4akM5ZDFGMGFXNFZwRFRfX0czZTREOHJVaGdISmpnQzR3cDc3azR1aFQ2aEF4Ulh4aw?oc=5
+**Published:** Tue, 25 Nov 2025 14:33:00 GMT
+**URL:** https://news.google.com/rss/articles/CBMiqAJBVV95cUxQTWl3MmpsOFNSQklaWVFkN3JLZUYyRUxsNEU1MktPcXBiZU5rUHI5TXBUdFhDYkwxelJQZTdhdWgyTHBNcWF2Z2syMnpyNk9sNURoSlB0c0N0OS0xYUcwalMtTXBXVzk0VHZ3NWhpSXdIaVRrWDZsRXZrem9BYWxOZGFSbzFMTWJ4V21lQVNqTFEwRG5MRmdZdHR1NU56akpfTWN1VTVMTzluczRPU3RhNUZfMU9ocTdKWFZhTEJuZEhVWUhGRWczUEZmQlNkajZkemtzckRYQXI3OWdHYkZmS1hQWWNXbVZ1WDlfRU1ESE5qVzh6VjhOcE9FZ2Z0bDdpYzV6VDFCOW5LU3gyV0JQYkt6dzBacENvaEVZOXdobHFYUFVPZllZNw?oc=5
 **Key Highlights:**
-  • Are Trump’s tariffs increasing inflation? The data might surprise you
-  • - The Hill <a href="https://news
-**Summary:** Are Trump’s tariffs increasing inflation? The data might surprise you.&nbsp;&nbsp;The Hill...
+  • Statistical data about the trend
+  • Expert commentary from workplace analysts
+  • Economic impacts of this resignation behavior
+  • Future workforce implications
+**Summary:** Half of workers are 'revenge quitting' and walking out on their jobs without notice—and the majority are loyal, longtime staff&nbsp;&nbsp;Fortune...
 
-*... and 3 more articles in this category*
-
-## Unemployment & Employment (8 articles)
-
-### 1. Fox News Poll: Voters say White House is doing more harm than good on economy - Fox News
+### 3. Despite Trump's best efforts to reshore manufacturing, blue-collar employment is plunging for the first time since the pandemic with 59,000 lost jobs - Fortune
 **Source:** Google News (free)
-**Published:** Wed, 19 Nov 2025 23:00:16 GMT
-**URL:** https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ1VEMmROOE96OWM0RXdOX3lvNDFEMUlKSmFTM1JkUHpMSDhBNG53TXREbnFUWC1NcThsbGUtSXFSV1lKbFVtVDN4TmtDbkxnSHJobnlHRzdjME40ZDZCVTVjeTVidkh0eVBuNDVraDlrTGhQSGpLWHI5TDZXRjllVlNNd093VHFCOWZLVzVJWnFOTVVHcU1tdjdPTl9oV3NkUGZ2a0tR?oc=5
+**Published:** Tue, 25 Nov 2025 18:59:00 GMT
+**URL:** https://news.google.com/rss/articles/CBMilgFBVV95cUxQaFRWbXY0Z3c2b21sU0JGbEh5T2VZOVpUMUV2MXJvUU9MOVV0TDdHSVB5SUtEWklJb2J6djRWVG9HdTc4RDByZWd6R2ZqeDhPTEw4TUtPdE5PYjRRSktFRmNKNkxwMEY2YUN5NWxGRW9GaXF1WUl6VUhwejUtTGlJSHFFaW5kWWpoNmhEN29HZnBHNnlrb0E?oc=5
 **Key Highlights:**
-  • Fox News Poll: Voters say White House is doing more harm than good on economy - Fox News <a href="https://news
-**Summary:** Fox News Poll: Voters say White House is doing more harm than good on economy&nbsp;&nbsp;Fox News...
+  • Economic development shows mixed signals for market participants
+  • Policy implications require monitoring by financial institutions
+  • Market reactions reflect investor sentiment on economic trends
+  • Future outlook depends on broader macroeconomic conditions
+**Summary:** Despite Trump's best efforts to reshore manufacturing, blue-collar employment is plunging for the first time since the pandemic with 59,000 lost jobs&nbsp;&nbsp;Fortune...
 
-### 2. Delayed September Jobs Report Expected to Show Continued Weak Growth - Morningstar
+### 4. Charted: Why U.S. Employers Are Cutting Jobs in 2025 - Visual Capitalist
 **Source:** Google News (free)
-**Published:** Tue, 18 Nov 2025 17:28:34 GMT
-**URL:** https://news.google.com/rss/articles/CBMiowFBVV95cUxPQnpuMFhFS09zeHo1NFpVMXZGbHJQS2dpdDIxYjJUXzVaUkJJcXVhVUk3d3J0UUgzRERNeEVCTzBycGRtYy1JRi1nMlEyTGNuQjNrT3JhVkxuSl92U2wtSkg4dW5yZTFMN2dxRWY2TXFCeVNuOE5vMnprcFZfaE93RG5lWS0ydzBzNUJ0aTU3dDVmT2NnZ0hwM1RWanBhMTRmRFJF?oc=5
+**Published:** Thu, 27 Nov 2025 20:11:17 GMT
+**URL:** https://news.google.com/rss/articles/CBMijAFBVV95cUxOV00zNnp0UF9FdlZwWnFTY2dIT1hiN3NqU1RINDl0WHZ5WDR1ampuOTRqZDFmU3hMR0JIN3ZOLWFyaFljcmFYTzNqU3prWkRhbGRybUdkZ21iT3JWVVZodUpmdXZQZzF4V2liQTFzNnFzaXlBME5WVi0zOF9iRlFMNVdGNjlRcV9aT195eA?oc=5
 **Key Highlights:**
-  • Delayed September Jobs Report Expected to Show Continued Weak Growth - Morningstar <a href="https://news
-**Summary:** Delayed September Jobs Report Expected to Show Continued Weak Growth&nbsp;&nbsp;Morningstar...
+  • Economic development shows mixed signals for market participants
+  • Policy implications require monitoring by financial institutions
+  • Market reactions reflect investor sentiment on economic trends
+  • Future outlook depends on broader macroeconomic conditions
+**Summary:** Charted: Why U.S. Employers Are Cutting Jobs in 2025&nbsp;&nbsp;Visual Capitalist...
 
-### 3. Gavin Newsom Announces $100 Million For Thousands Of California Jobs - Newsweek
+### 5. As companies turn to AI, key economic sectors show weak job growth - Axios
 **Source:** Google News (free)
-**Published:** Tue, 18 Nov 2025 14:22:00 GMT
-**URL:** https://news.google.com/rss/articles/CBMiowFBVV95cUxPMVhOeTFUV2trT3lyZDZibmFpT1FMTjFCZTlud2d0ZE1RbjloX3ZxNWhfSVc0VE8wMFBwU2JVMHR2cEpZTHJGQ0tlV1lxaHlRek5VcDQ4TGZQVEliZngxOFVmU0poV0NfMldveTh6Y3ZZUUFndXM0SEtjNnRnMzBVb3NuN0w0U0VfMTUyV3Z0LTJhcnpYNkM3ZXcwMEF0OEpYaGxR?oc=5
+**Published:** Tue, 25 Nov 2025 17:04:49 GMT
+**URL:** https://news.google.com/rss/articles/CBMib0FVX3lxTFB1X1U1NksyTlN3ZElKUVQyY3ktUjhOdHhSLWVWX3JnMFhKemJlSVVMNU9UOFdpSms1bTZMM3dzRkpDN1pobUhhQU1xeGtscFJfV3VrVVZYUnl6eHlXTnUtS0tzTkdmeE5vVktELU1BZw?oc=5
 **Key Highlights:**
-  • Gavin Newsom Announces $100 Million For Thousands Of California Jobs - Newsweek <a href="https://news
-**Summary:** Gavin Newsom Announces $100 Million For Thousands Of California Jobs&nbsp;&nbsp;Newsweek...
+  • Economic development shows mixed signals for market participants
+  • Policy implications require monitoring by financial institutions
+  • Market reactions reflect investor sentiment on economic trends
+  • Future outlook depends on broader macroeconomic conditions
+**Summary:** As companies turn to AI, key economic sectors show weak job growth&nbsp;&nbsp;Axios...
 
-### 4. Charlotte lands another 520 jobs and HQ. And 125 more jobs go to the suburbs - Charlotte Observer
-**Source:** Google News (free)
-**Published:** Tue, 18 Nov 2025 15:56:00 GMT
-**URL:** https://news.google.com/rss/articles/CBMieEFVX3lxTFBTT2pBSjNaVGtXS2U3WExZUjdlTl9GSklBS1JGQXYxUk81XzRfeFNoSVlPSUw5NjFmdmh5ZEFsVjNHaUFVaW85NUxNWXJkMjd1U3RUZG5WdDQybGlCTWZOSXRpeDBJUDV6ZEFqREJUNmE5UnJNOEJIetIBeEFVX3lxTFBueDF5ejd0S2N3b1dBZ1ZmMXZLVEI5UVhMVnVvaFBPT016SDlTT1k2Z0FkTG8zTENoTTdKa1dKODJTT0hQNVp2TVh3UGQtWXZKMGtDRlR6YmFMbmYybEtpLVZ4MlY0c0Z2UmdkSjYtV0J6X0Q5ajFJWg?oc=5
-**Key Highlights:**
-  • Charlotte lands another 520 jobs and HQ
-  • And 125 more jobs go to the suburbs - Charlotte Observer <a href="https://news
-  • And 125 more jobs go to the suburbs&nbsp;&nbsp;Charlotte Observer
-**Summary:** Charlotte lands another 520 jobs and HQ. And 125 more jobs go to the suburbs&nbsp;&nbsp;Charlotte Observer...
-
-### 5. Oregon footwear and apparel manufacturing jobs drop 24% in 10 years - The Business Journals
-**Source:** Google News (free)
-**Published:** Wed, 19 Nov 2025 16:24:00 GMT
-**URL:** https://news.google.com/rss/articles/CBMirAFBVV95cUxPTVlYQmlvSmd5cEFveXE0a2hFVnBxNzhaNUpQX2FuTHZrcDV2cXFiVDAyQWhGRlhUZ25WVVRNcVFYbUdUUF92ZkxpS3FkZHlpelZhOGJ4dUFoTkFsZFN2STM4WndOWm1VNVVJUUJCSGpxVlJldnNwQlFnbFZHUklRVEF6Tk1PeW9HU0sySXFGSkhscXNlUWZNelJ1c3pmdHN5OVZ6TFhYTFFhZk1p?oc=5
-**Key Highlights:**
-  • Oregon footwear and apparel manufacturing jobs drop 24% in 10 years - The Business Journals <a href="https://news
-**Summary:** Oregon footwear and apparel manufacturing jobs drop 24% in 10 years&nbsp;&nbsp;The Business Journals...
-
-*... and 3 more articles in this category*
+*... and 5 more articles in this category*

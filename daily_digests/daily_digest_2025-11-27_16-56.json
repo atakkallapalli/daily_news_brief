@@ -1,0 +1,1755 @@
+{
+  "date": "2025-11-27",
+  "generated_at": "2025-11-27T17:19:35.143031",
+  "total_articles": 76,
+  "categories": {
+    "Federal Reserve & Monetary Policy": {
+      "total_count": 36,
+      "displayed_count": 10,
+      "articles": [
+        {
+          "title": "Stock Rebound Amid New Hopes for December Interest Rate Cut",
+          "url": "https://www.today.com/video/stock-rebound-amid-new-hopes-for-december-interest-rate-cut-252971077534",
+          "published": "Tue, 25 Nov 2025 12:57:46 GMT",
+          "description": "The stock market enjoyed a strong opening to the week with the tech-heavy Nasdaq up nearly 600 points. NBC’s Christine Romans joins TODAY to break down how part of the Wall Street enthusiasm stems from suggestions that the Federal Reserve is open to cutting interest rates in December.",
+          "source": "NBC Business",
+          "source_type": "free_rss",
+          "keyword": "RSS Feed",
+          "highlights": [
+            "The Nasdaq surged nearly 600 points at the start of the week, demonstrating significant tech sector strength amid changing monetary policy expectations.",
+            "Federal Reserve officials have apparently suggested openness to cutting interest rates in December, marking a potential shift in their monetary tightening stance.",
+            "Wall Street's enthusiasm stems directly from these rate cut signals, indicating markets remain highly sensitive to Federal Reserve policy communications.",
+            "A December rate cut would likely boost holiday consumer spending and could signal the start of an easing cycle into 2026."
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Stock Rebound Amid New Hopes for December Interest Rate Cut",
+            "summary_highlights": [
+              "Nasdaq jumped nearly 600 points at the start of the week, reflecting strong market momentum in the technology sector.",
+              "Federal Reserve officials have indicated openness to cutting interest rates in December, sparking renewed market optimism.",
+              "Stock market enthusiasm appears directly linked to potential monetary policy easing, suggesting investors are positioning for lower borrowing costs.",
+              "The timing of the possible rate cut (December 2025) signals the Fed may be responding to economic conditions requiring stimulus before year-end."
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Stock Rebound Amid New Hopes for December Interest Rate Cut",
+          "summary_highlights": [
+            "Nasdaq jumped nearly 600 points at the start of the week, reflecting strong market momentum in the technology sector.",
+            "Federal Reserve officials have indicated openness to cutting interest rates in December, sparking renewed market optimism.",
+            "Stock market enthusiasm appears directly linked to potential monetary policy easing, suggesting investors are positioning for lower borrowing costs.",
+            "The timing of the possible rate cut (December 2025) signals the Fed may be responding to economic conditions requiring stimulus before year-end."
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "positive",
+            "confidence": 0.5,
+            "economic_tone": "bullish"
+          }
+        },
+        {
+          "title": "Why Trump's claim of falling food stamp use might not mean the economy is improving",
+          "url": "https://www.nbcnews.com/politics/donald-trump/trump-food-stamps-economy-rcna245083",
+          "published": "Fri, 21 Nov 2025 20:26:31 GMT",
+          "description": "Trump has turned to a new economic indicator in his push to convince Americans that the economy is strong: the number of people getting federal food benefits.",
+          "source": "NBC Business",
+          "source_type": "free_rss",
+          "keyword": "RSS Feed",
+          "highlights": [
+            "Trump highlights declining food stamp enrollment (600,000 fewer recipients) as economic success indicator, though USDA data is only available through June with pending revisions.",
+            "Despite Trump claiming \"we really have a strong economy,\" economists note lower-wage workers face a slowing job market and persistent inflation eroding wage growth.",
+            "No specific market impact data provided, but the article suggests economic improvements may be unevenly distributed across income levels.",
+            "Food banks report increasing demand despite falling SNAP enrollment, indicating potential gaps in economic recovery and continued food insecurity for vulnerable populations."
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Why Trump's claim of falling food stamp use might not mean the economy is improving",
+            "summary_highlights": [
+              "President Trump cited removal of 600,000 Americans from food stamps in 9 months as evidence of economic strength, making it a new economic indicator in his messaging.",
+              "Economists and researchers caution that declining food stamp enrollment doesn't necessarily indicate economic improvement amid slowing job markets and persistent inflation affecting lower-wage workers.",
+              "Food banks report increasing demand for assistance, suggesting continued food insecurity despite the declining official SNAP enrollment numbers.",
+              "The article notes SNAP data is only available through June with pending revisions, indicating the economic narrative may be based on incomplete or preliminary information."
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Why Trump's claim of falling food stamp use might not mean the economy is improving",
+          "summary_highlights": [
+            "President Trump cited removal of 600,000 Americans from food stamps in 9 months as evidence of economic strength, making it a new economic indicator in his messaging.",
+            "Economists and researchers caution that declining food stamp enrollment doesn't necessarily indicate economic improvement amid slowing job markets and persistent inflation affecting lower-wage workers.",
+            "Food banks report increasing demand for assistance, suggesting continued food insecurity despite the declining official SNAP enrollment numbers.",
+            "The article notes SNAP data is only available through June with pending revisions, indicating the economic narrative may be based on incomplete or preliminary information."
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "neutral",
+            "confidence": 0.5,
+            "economic_tone": "neutral"
+          }
+        },
+        {
+          "title": "Federal Reserve Board announces approval of application by Steel Newco, Inc",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20251125a.htm",
+          "published": "Tue, 25 Nov 2025 22:15:00 GMT",
+          "description": "Federal Reserve Board announces approval of application by Steel Newco, Inc",
+          "source": "Federal Reserve News",
+          "source_type": "free_rss",
+          "keyword": "RSS Feed",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Federal Reserve Board announces approval of application by Steel Newco, Inc",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Federal Reserve Board announces approval of application by Steel Newco, Inc",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "neutral",
+            "confidence": 0.5,
+            "economic_tone": "neutral"
+          }
+        },
+        {
+          "title": "Federal Reserve Board issues enforcement action with former employee of Orrstown Bank",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20251125a.htm",
+          "published": "Tue, 25 Nov 2025 16:00:00 GMT",
+          "description": "Federal Reserve Board issues enforcement action with former employee of Orrstown Bank",
+          "source": "Federal Reserve News",
+          "source_type": "free_rss",
+          "keyword": "RSS Feed",
+          "highlights": [
+            "Federal Reserve Board took enforcement action against an unnamed former employee of Orrstown Bank, exercising its supervisory authority over banking personnel.",
+            "No official quotes or statements regarding the specifics of the enforcement action are provided in the available article content.",
+            "The article lacks information about market impact, suggesting this may be a routine regulatory action without significant immediate economic effects.",
+            "This enforcement action reflects the Fed's ongoing supervisory role in maintaining banking integrity, though specific future implications remain unclear without case details."
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Federal Reserve Board issues enforcement action with former employee of Orrstown Bank",
+            "summary_highlights": [
+              "The Federal Reserve Board has taken enforcement action against a former employee of Orrstown Bank, indicating regulatory oversight in the banking sector.",
+              "No official quotes or statements from Fed officials or bank executives were included in the article regarding the specifics of the enforcement action.",
+              "The article contains no information about market reactions or economic effects resulting from this specific enforcement action against the former bank employee.",
+              "This enforcement action suggests continued regulatory vigilance in the banking sector, potentially affecting compliance practices at similar financial institutions."
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Federal Reserve Board issues enforcement action with former employee of Orrstown Bank",
+          "summary_highlights": [
+            "The Federal Reserve Board has taken enforcement action against a former employee of Orrstown Bank, indicating regulatory oversight in the banking sector.",
+            "No official quotes or statements from Fed officials or bank executives were included in the article regarding the specifics of the enforcement action.",
+            "The article contains no information about market reactions or economic effects resulting from this specific enforcement action against the former bank employee.",
+            "This enforcement action suggests continued regulatory vigilance in the banking sector, potentially affecting compliance practices at similar financial institutions."
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "neutral",
+            "confidence": 0.5,
+            "economic_tone": "neutral"
+          }
+        },
+        {
+          "title": "Federal Reserve announces College Fed Challenge winners",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20251121b.htm",
+          "published": "Fri, 21 Nov 2025 21:00:00 GMT",
+          "description": "Federal Reserve announces College Fed Challenge winners",
+          "source": "Federal Reserve News",
+          "source_type": "free_rss",
+          "keyword": "RSS Feed",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Federal Reserve announces College Fed Challenge winners",
+            "summary_highlights": [
+              "The Federal Reserve announced winners of the College Fed Challenge, a competition likely designed to engage students with monetary policy concepts.",
+              "No official quotes or statements are provided in the available content fragment to indicate judges' criteria or Fed officials' perspectives.",
+              "The article contains no market data, suggesting this educational competition announcement had minimal direct market impact.",
+              "The College Fed Challenge represents the Fed's ongoing commitment to economic education, potentially developing future monetary policy experts."
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Federal Reserve announces College Fed Challenge winners",
+          "summary_highlights": [
+            "The Federal Reserve announced winners of the College Fed Challenge, a competition likely designed to engage students with monetary policy concepts.",
+            "No official quotes or statements are provided in the available content fragment to indicate judges' criteria or Fed officials' perspectives.",
+            "The article contains no market data, suggesting this educational competition announcement had minimal direct market impact.",
+            "The College Fed Challenge represents the Fed's ongoing commitment to economic education, potentially developing future monetary policy experts."
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "neutral",
+            "confidence": 0.5,
+            "economic_tone": "neutral"
+          }
+        },
+        {
+          "title": "Federal Reserve Board releases results of survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20251121a.htm",
+          "published": "Fri, 21 Nov 2025 19:00:00 GMT",
+          "description": "Federal Reserve Board releases results of survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+          "source": "Federal Reserve News",
+          "source_type": "free_rss",
+          "keyword": "RSS Feed",
+          "highlights": [
+            "The Federal Reserve Board conducted a survey of senior financial officers at banks regarding reserve balance management strategies and practices.",
+            "No specific quotes from officials are available in the provided text, only website navigation elements and descriptions of Federal Reserve functions.",
+            "No market impact data is discernible from the article content, as it appears to be primarily a release announcement or webpage header.",
+            "The survey likely aims to inform future Federal Reserve policy decisions regarding banking system liquidity and reserve requirements."
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Federal Reserve Board releases results of survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+            "summary_highlights": [
+              "The Federal Reserve Board conducted a survey of senior financial officers at banks focusing on their strategies for managing reserve balances.",
+              "The survey likely aims to gather insights on how banks are responding to the Fed's monetary policy tools and reserve requirements.",
+              "No specific market impact data is available in the provided content, suggesting this is an informational release rather than a market-moving policy announcement.",
+              "The survey results may inform future Federal Reserve decisions on reserve requirements, monetary policy implementation, and banking system liquidity management."
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Federal Reserve Board releases results of survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+          "summary_highlights": [
+            "The Federal Reserve Board conducted a survey of senior financial officers at banks focusing on their strategies for managing reserve balances.",
+            "The survey likely aims to gather insights on how banks are responding to the Fed's monetary policy tools and reserve requirements.",
+            "No specific market impact data is available in the provided content, suggesting this is an informational release rather than a market-moving policy announcement.",
+            "The survey results may inform future Federal Reserve decisions on reserve requirements, monetary policy implementation, and banking system liquidity management."
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "neutral",
+            "confidence": 0.5,
+            "economic_tone": "neutral"
+          }
+        },
+        {
+          "title": "Federal Reserve Board announces it will extend until February 21, 2026, the comment period on proposal to improve stress test model and scenario transparency and accountability",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20251121a.htm",
+          "published": "Fri, 21 Nov 2025 18:30:00 GMT",
+          "description": "Federal Reserve Board announces it will extend until February 21, 2026, the comment period on proposal to improve stress test model and scenario transparency and accountability",
+          "source": "Federal Reserve News",
+          "source_type": "free_rss",
+          "keyword": "RSS Feed",
+          "highlights": [
+            "Federal Reserve Board has extended the comment period on its stress test model transparency proposal until February 21, 2026, allowing more time for stakeholder input.",
+            "No quotes from officials were included in the article excerpt, limiting insight into the Fed's reasoning behind the extended timeline.",
+            "No immediate market reaction data was provided, though stress test transparency changes typically impact banking sector compliance costs and capital planning.",
+            "The lengthy comment period suggests the Fed is taking a deliberate approach to stress test reform, potentially signaling complex regulatory changes ahead."
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Federal Reserve Board announces it will extend until February 21, 2026, the comment period on proposal to improve stress test model and scenario transparency and accountability",
+            "summary_highlights": [
+              "Federal Reserve Board extended the public comment period on stress test transparency proposals until February 21, 2026, allowing significantly more time for industry feedback.",
+              "No official quotes from Federal Reserve officials appear in the article to explain rationale behind the unusually long extension period.",
+              "Market reaction to this procedural announcement is not mentioned, though stress test transparency typically affects financial institutions' regulatory compliance costs.",
+              "The extended timeline suggests the Fed is taking a deliberate approach to stress test reform, potentially indicating significant methodological changes are under consideration."
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Federal Reserve Board announces it will extend until February 21, 2026, the comment period on proposal to improve stress test model and scenario transparency and accountability",
+          "summary_highlights": [
+            "Federal Reserve Board extended the public comment period on stress test transparency proposals until February 21, 2026, allowing significantly more time for industry feedback.",
+            "No official quotes from Federal Reserve officials appear in the article to explain rationale behind the unusually long extension period.",
+            "Market reaction to this procedural announcement is not mentioned, though stress test transparency typically affects financial institutions' regulatory compliance costs.",
+            "The extended timeline suggests the Fed is taking a deliberate approach to stress test reform, potentially indicating significant methodological changes are under consideration."
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "neutral",
+            "confidence": 0.5,
+            "economic_tone": "neutral"
+          }
+        },
+        {
+          "title": "Federal Reserve Board releases information regarding enhancements to bank supervision",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20251118a.htm",
+          "published": "Tue, 18 Nov 2025 14:00:00 GMT",
+          "description": "Federal Reserve Board releases information regarding enhancements to bank supervision",
+          "source": "Federal Reserve News",
+          "source_type": "free_rss",
+          "keyword": "RSS Feed",
+          "highlights": [
+            "The article appears to focus on Federal Reserve supervision enhancements, but the actual content details are missing from what was provided.",
+            "No quotes from Federal Reserve officials or other authorities are available in the provided excerpt to analyze.",
+            "Without specific policy details, it's impossible to determine market impacts of the announced supervision enhancements.",
+            "The limited information suggests changes to bank supervision frameworks but lacks specifics needed to assess future economic implications."
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Federal Reserve Board releases information regarding enhancements to bank supervision",
+            "summary_highlights": [
+              "The Federal Reserve Board announced unspecified enhancements to bank supervision practices, likely aimed at improving financial system stability.",
+              "No official quotes or statements from Federal Reserve officials are provided in the available content to explain the specific supervisory changes.",
+              "The article contains insufficient information to determine market reactions or how these supervisory enhancements affected financial institutions.",
+              "Without details on the specific changes, it's unclear how these enhancements will impact banking regulation or financial institution compliance requirements going forward."
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Federal Reserve Board releases information regarding enhancements to bank supervision",
+          "summary_highlights": [
+            "The Federal Reserve Board announced unspecified enhancements to bank supervision practices, likely aimed at improving financial system stability.",
+            "No official quotes or statements from Federal Reserve officials are provided in the available content to explain the specific supervisory changes.",
+            "The article contains insufficient information to determine market reactions or how these supervisory enhancements affected financial institutions.",
+            "Without details on the specific changes, it's unclear how these enhancements will impact banking regulation or financial institution compliance requirements going forward."
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "neutral",
+            "confidence": 0.5,
+            "economic_tone": "neutral"
+          }
+        },
+        {
+          "title": "Federal Reserve Board issues enforcement actions with Belt Valley Bank and The Halstead Bank",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20251106a.htm",
+          "published": "Thu, 6 Nov 2025 16:00:00 GMT",
+          "description": "Federal Reserve Board issues enforcement actions with Belt Valley Bank and The Halstead Bank",
+          "source": "Federal Reserve News",
+          "source_type": "free_rss",
+          "keyword": "RSS Feed",
+          "highlights": [
+            "Federal Reserve Board has taken enforcement actions against two financial institutions: Belt Valley Bank and The Halstead Bank.",
+            "No specific quotes or statements from Federal Reserve officials or bank executives were provided regarding these enforcement measures.",
+            "The article lacks information about market reactions, stock movements, or broader economic effects resulting from these enforcement actions.",
+            "These enforcement actions represent the Federal Reserve's ongoing role in maintaining financial system stability through regulatory oversight of banking institutions."
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Federal Reserve Board issues enforcement actions with Belt Valley Bank and The Halstead Bank",
+            "summary_highlights": [
+              "The nature of the enforcement actions",
+              "Statements from Federal Reserve officials",
+              "Market reactions to these actions",
+              "Potential implications for the banking sector"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Federal Reserve Board issues enforcement actions with Belt Valley Bank and The Halstead Bank",
+          "summary_highlights": [
+            "The nature of the enforcement actions",
+            "Statements from Federal Reserve officials",
+            "Market reactions to these actions",
+            "Potential implications for the banking sector"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "neutral",
+            "confidence": 0.5,
+            "economic_tone": "neutral"
+          }
+        },
+        {
+          "title": "Federal Reserve Board finalizes changes to its supervisory rating framework for large bank holding companies",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20251105a.htm",
+          "published": "Wed, 5 Nov 2025 22:00:00 GMT",
+          "description": "Federal Reserve Board finalizes changes to its supervisory rating framework for large bank holding companies",
+          "source": "Federal Reserve News",
+          "source_type": "free_rss",
+          "keyword": "RSS Feed",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Federal Reserve Board finalizes changes to its supervisory rating framework for large bank holding companies",
+            "summary_highlights": [
+              "Federal Reserve Board has finalized changes to its supervisory rating framework specifically targeting large bank holding companies.",
+              "No quotes from Federal Reserve officials or market participants were included in the provided article excerpt.",
+              "The article doesn't mention any immediate market reactions to the Federal Reserve's updated supervisory framework for large banks.",
+              "These framework changes likely aim to enhance financial stability and improve supervision of systemically important banking institutions."
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Federal Reserve Board finalizes changes to its supervisory rating framework for large bank holding companies",
+          "summary_highlights": [
+            "Federal Reserve Board has finalized changes to its supervisory rating framework specifically targeting large bank holding companies.",
+            "No quotes from Federal Reserve officials or market participants were included in the provided article excerpt.",
+            "The article doesn't mention any immediate market reactions to the Federal Reserve's updated supervisory framework for large banks.",
+            "These framework changes likely aim to enhance financial stability and improve supervision of systemically important banking institutions."
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "neutral",
+            "confidence": 0.5,
+            "economic_tone": "neutral"
+          }
+        }
+      ]
+    },
+    "Inflation": {
+      "total_count": 8,
+      "displayed_count": 8,
+      "articles": [
+        {
+          "title": "Graphic: Track grocery price trends",
+          "url": "https://www.nbcnews.com/data-graphics/grocery-price-tracker-inflation-trends-eggs-bread-trump-administration-rcna239569",
+          "published": "Fri, 24 Oct 2025 14:06:43 GMT",
+          "description": "Learn where grocery prices stand during the Trump administration. See how inflation is affecting the cost of eggs, bread, chicken, ground beef and more.",
+          "source": "NBC Business",
+          "source_type": "free_rss",
+          "keyword": "RSS Feed",
+          "highlights": [
+            "Grocery prices have risen for five years due to supply chains, Ukraine war, and profit-taking, with orange juice up 29% and ground beef up 14% year-over-year.",
+            "Trump campaigned heavily on lowering food costs in 2024, with egg prices now declining from peak levels to below last November's prices.",
+            "NBC News tracks real checkout prices nationwide from multiple retail channels, providing alternative data to the Bureau of Labor Statistics' consumer price index.",
+            "Monthly monitoring of grocery price trends will continue, suggesting sustained public focus on food inflation as a key economic indicator during Trump's term."
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Graphic: Track grocery price trends",
+            "summary_highlights": [
+              "Grocery prices have risen consistently over the past five years due to supply chain issues, the Ukraine war, and corporate profit-taking, straining consumer wallets.",
+              "Egg prices have declined from their peak and are now below November 2024 levels, while orange juice prices increased 29% and ground beef rose nearly 14% year-over-year.",
+              "The article doesn't mention specific market impacts, but highlights Trump's campaign promises to lower food costs, with mixed results across different grocery categories.",
+              "Monthly updates using NIQ point-of-sale data and BLS consumer price index will continue tracking grocery price trends, providing ongoing insight into inflation's impact on consumers."
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Graphic: Track grocery price trends",
+          "summary_highlights": [
+            "Grocery prices have risen consistently over the past five years due to supply chain issues, the Ukraine war, and corporate profit-taking, straining consumer wallets.",
+            "Egg prices have declined from their peak and are now below November 2024 levels, while orange juice prices increased 29% and ground beef rose nearly 14% year-over-year.",
+            "The article doesn't mention specific market impacts, but highlights Trump's campaign promises to lower food costs, with mixed results across different grocery categories.",
+            "Monthly updates using NIQ point-of-sale data and BLS consumer price index will continue tracking grocery price trends, providing ongoing insight into inflation's impact on consumers."
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "neutral",
+            "confidence": 0.5,
+            "economic_tone": "neutral"
+          }
+        },
+        {
+          "title": "How Doug McMillon kept Walmart on top",
+          "url": "https://www.nbcnews.com/business/business-news/walmart-ceo-doug-mcmillon-american-retail-rcna243911",
+          "published": "Fri, 14 Nov 2025 19:54:47 GMT",
+          "description": "Outgoing Walmart CEO Doug McMillon has steered the retailer through the e-commerce revolution, a pandemic, high inflation and political upheaval. ",
+          "source": "NBC Business",
+          "source_type": "free_rss",
+          "keyword": "RSS Feed",
+          "highlights": [
+            "McMillon transformed Walmart during his 12-year tenure by embracing technology to modernize operations while maintaining the company's core affordability proposition during economic challenges.",
+            "RBC Capital Markets analyst Steven Shemesh described McMillon as \"a transformational leader who embraced technology to modernize WMT's operating model and strengthen its long-term competitive positioning.\"",
+            "Under McMillon's leadership, Walmart maintained its position as America's largest retailer and grocer with 4,600+ locations, successfully competing against e-commerce rivals.",
+            "As the nation's largest private employer, Walmart's business transformation demonstrates how traditional retailers can adapt to technological disruption while addressing affordability concerns."
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "How Doug McMillon kept Walmart on top",
+            "summary_highlights": [
+              "McMillon transformed Walmart into both a physical retail giant (4,600+ locations) and an e-commerce powerhouse during challenging economic periods including inflation and pandemic.",
+              "RBC Capital Markets analyst Steven Shemesh noted McMillon was \"a transformational leader who embraced technology to modernize WMT's operating model and strengthen its long-term competitive positioning.\"",
+              "Despite economic headwinds and political scrutiny, Walmart maintained consumer popularity and strengthened its position as America's largest retailer and private employer.",
+              "McMillon's successor will inherit a dominant market position but faces challenges maintaining Walmart's affordability advantage amid ongoing inflation concerns from Main Street to Pennsylvania Avenue."
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "How Doug McMillon kept Walmart on top",
+          "summary_highlights": [
+            "McMillon transformed Walmart into both a physical retail giant (4,600+ locations) and an e-commerce powerhouse during challenging economic periods including inflation and pandemic.",
+            "RBC Capital Markets analyst Steven Shemesh noted McMillon was \"a transformational leader who embraced technology to modernize WMT's operating model and strengthen its long-term competitive positioning.\"",
+            "Despite economic headwinds and political scrutiny, Walmart maintained consumer popularity and strengthened its position as America's largest retailer and private employer.",
+            "McMillon's successor will inherit a dominant market position but faces challenges maintaining Walmart's affordability advantage amid ongoing inflation concerns from Main Street to Pennsylvania Avenue."
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "positive",
+            "confidence": 0.5,
+            "economic_tone": "bullish"
+          }
+        },
+        {
+          "title": "Here’s what the latest inflation and spending data reveals about the US economy - CNN",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQWhOTkcwLURpaXU4c3F3MWwwWWROV0dfeG1MbE9yenZ2N3VtVm82U3N1dzFNVUM3dlhWYW5xVEtYNVQ1OGhyZUpSRzZmNEQ4MHZwSndnUkM3SHcxTk5DUHZnTnRwWXlDZk0zVjZFaFFiWHF5UFhzNWJNMUxCWXVDZVF3?oc=5",
+          "published": "Tue, 25 Nov 2025 18:47:00 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQQWhOTkcwLURpaXU4c3F3MWwwWWROV0dfeG1MbE9yenZ2N3VtVm82U3N1dzFNVUM3dlhWYW5xVEtYNVQ1OGhyZUpSRzZmNEQ4MHZwSndnUkM3SHcxTk5DUHZnTnRwWXlDZk0zVjZFaFFiWHF5UFhzNWJNMUxCWXVDZVF3?oc=5\" target=\"_blank\">Here’s what the latest inflation and spending data reveals about the US economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+          "source": "Google News",
+          "keyword": "economy",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Here’s what the latest inflation and spending data reveals about the US economy - CNN",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Here’s what the latest inflation and spending data reveals about the US economy - CNN",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "neutral",
+            "confidence": 0.5,
+            "economic_tone": "neutral"
+          }
+        },
+        {
+          "title": "As Prices Pinch, Bessent Looks for Ways to Mollify Wary Consumers - The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ac3pyOGxhUWVudGZJZTg5UGd6dkJ6dlVsalYtekhLZmRORVdRcHZuTy1hSkZwU1JIWFVRb3JVX0ZCY0NqbUhma2lDckVsQTVoVnRCRFhhVFhCN1Ayektpbk9CeWtPN1N0NXdjVmlSOXA4SkhwMHlGcms5RGg?oc=5",
+          "published": "Wed, 26 Nov 2025 19:31:35 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5ac3pyOGxhUWVudGZJZTg5UGd6dkJ6dlVsalYtekhLZmRORVdRcHZuTy1hSkZwU1JIWFVRb3JVX0ZCY0NqbUhma2lDckVsQTVoVnRCRFhhVFhCN1Ayektpbk9CeWtPN1N0NXdjVmlSOXA4SkhwMHlGcms5RGg?oc=5\" target=\"_blank\">As Prices Pinch, Bessent Looks for Ways to Mollify Wary Consumers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
+          "source": "Google News",
+          "keyword": "inflation",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "As Prices Pinch, Bessent Looks for Ways to Mollify Wary Consumers - The New York Times",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "As Prices Pinch, Bessent Looks for Ways to Mollify Wary Consumers - The New York Times",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        },
+        {
+          "title": "Trump Doesn’t Understand Inflation - The Atlantic",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWUgzbTUzd1A1VnM4d1BoWWRsdGwxYmFlR0h0X05HLU9vVEo3NHVpekpwc2tXWFhJNFptaEtoZFVsTkV5OXVSQUtzN2Q0NDVoOWNma0xTb0JabzBiY240d3NPeS1pem9ZTDZZYUowRThRTXBYVFdua3RxaGZRX2gzY09ybkJkbldoTm05Z1ktTzFLdw?oc=5",
+          "published": "Tue, 25 Nov 2025 16:35:00 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxOWUgzbTUzd1A1VnM4d1BoWWRsdGwxYmFlR0h0X05HLU9vVEo3NHVpekpwc2tXWFhJNFptaEtoZFVsTkV5OXVSQUtzN2Q0NDVoOWNma0xTb0JabzBiY240d3NPeS1pem9ZTDZZYUowRThRTXBYVFdua3RxaGZRX2gzY09ybkJkbldoTm05Z1ktTzFLdw?oc=5\" target=\"_blank\">Trump Doesn’t Understand Inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Atlantic</font>",
+          "source": "Google News",
+          "keyword": "inflation",
+          "highlights": [
+            "The article's specific claims or arguments",
+            "Any quotes from officials or economists",
+            "Market impacts discussed in the article",
+            "Future implications mentioned"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Trump Doesn’t Understand Inflation - The Atlantic",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Trump Doesn’t Understand Inflation - The Atlantic",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        },
+        {
+          "title": "Asia-Pacific stocks trade mixed as Tokyo inflation runs hotter than expected - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBwNU56LXlxVFNQbWVyLWNmV0wxdUx3MGtVUkFxWDl3WHVMM0M4ZWZySU82SEhhaEgwci1xSGM4bEJ1MHlEdGhoczkyeElvTWhETEkyT0hWM3d4NVB6U093ZUk1cknSAWpBVV95cUxNb0ZqSDBMX1RzX2dBRmlwcjltSGtGMVZock1aOC12akx0OHkyWVhxVGFSSC04ZDBLaFRGMEkyZERYMXhKdUxtaGxtbjhsS2VJOUV0X0RGTFNKV3VxNnlJcTQ1ME1aUkl3UDVR?oc=5",
+          "published": "Fri, 28 Nov 2025 00:04:00 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTFBwNU56LXlxVFNQbWVyLWNmV0wxdUx3MGtVUkFxWDl3WHVMM0M4ZWZySU82SEhhaEgwci1xSGM4bEJ1MHlEdGhoczkyeElvTWhETEkyT0hWM3d4NVB6U093ZUk1cknSAWpBVV95cUxNb0ZqSDBMX1RzX2dBRmlwcjltSGtGMVZock1aOC12akx0OHkyWVhxVGFSSC04ZDBLaFRGMEkyZERYMXhKdUxtaGxtbjhsS2VJOUV0X0RGTFNKV3VxNnlJcTQ1ME1aUkl3UDVR?oc=5\" target=\"_blank\">Asia-Pacific stocks trade mixed as Tokyo inflation runs hotter than expected</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+          "source": "Google News",
+          "keyword": "inflation",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Asia-Pacific stocks trade mixed as Tokyo inflation runs hotter than expected - CNBC",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Asia-Pacific stocks trade mixed as Tokyo inflation runs hotter than expected - CNBC",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "neutral",
+            "confidence": 0.5,
+            "economic_tone": "neutral"
+          }
+        },
+        {
+          "title": "Shoppers brace for a tighter holiday season as gift prices keep climbing: BofA survey - Business Insider",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM2pnR0pJUlJSdnNMNnBpMFktOGpzRk1ic0hCTjkyd1ZlV3BRUVBYR2IyWnpkcGdIdlBwYlFPMlozWDlxc1g0NXNDNDNhcEsxZmN4blVjOHplQ2R6UjQwdy1VRVlaazJhR25jUFEzcnFFMzVYSlZiOE9PdkdNV3daWlJaRjRSVGtVOEMxUDNjZV9JUG5ycUtyV05rbmlDZ2EzbWVWcEpmZzA5b1pIMi1uRDgtNkpVZw?oc=5",
+          "published": "Thu, 27 Nov 2025 20:37:00 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNM2pnR0pJUlJSdnNMNnBpMFktOGpzRk1ic0hCTjkyd1ZlV3BRUVBYR2IyWnpkcGdIdlBwYlFPMlozWDlxc1g0NXNDNDNhcEsxZmN4blVjOHplQ2R6UjQwdy1VRVlaazJhR25jUFEzcnFFMzVYSlZiOE9PdkdNV3daWlJaRjRSVGtVOEMxUDNjZV9JUG5ycUtyV05rbmlDZ2EzbWVWcEpmZzA5b1pIMi1uRDgtNkpVZw?oc=5\" target=\"_blank\">Shoppers brace for a tighter holiday season as gift prices keep climbing: BofA survey</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Insider</font>",
+          "source": "Google News",
+          "keyword": "inflation",
+          "highlights": [
+            "The complete text of the article",
+            "Any key statistics mentioned",
+            "Quotes from relevant parties",
+            "Information about market reactions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Shoppers brace for a tighter holiday season as gift prices keep climbing: BofA survey - Business Insider",
+            "summary_highlights": [
+              "Holiday shoppers face increasing financial pressure as gift prices continue to rise according to Bank of America's consumer survey findings.",
+              "BofA research indicates consumers are adjusting their holiday spending plans in response to persistent inflation in retail goods.",
+              "The rising gift prices may impact retail sector performance during the critical fourth-quarter holiday shopping season.",
+              "Consumers are likely implementing tighter budgeting strategies for discretionary spending, potentially shifting retail sales patterns."
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Shoppers brace for a tighter holiday season as gift prices keep climbing: BofA survey - Business Insider",
+          "summary_highlights": [
+            "Holiday shoppers face increasing financial pressure as gift prices continue to rise according to Bank of America's consumer survey findings.",
+            "BofA research indicates consumers are adjusting their holiday spending plans in response to persistent inflation in retail goods.",
+            "The rising gift prices may impact retail sector performance during the critical fourth-quarter holiday shopping season.",
+            "Consumers are likely implementing tighter budgeting strategies for discretionary spending, potentially shifting retail sales patterns."
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        },
+        {
+          "title": "US wholesale inflation heated up in September - CNN",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTVRqcm1Wenc1VVJ5S1hkQU12U29yUS1sYklvSHg5cVNnbUx5V1BjeVI4QnFnaXZ6bGc2QmYxMy1JR2syUkFLWXN1djZEV0Qtakw4LVRQcFdEaUJfbnkxNjQwaHJvX3dDVllHU1Q1c2c3dERxMmFfZ1NKTEtRV0lILTlhMHdtWDlheXNJSzhqblA?oc=5",
+          "published": "Tue, 25 Nov 2025 14:00:29 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQTVRqcm1Wenc1VVJ5S1hkQU12U29yUS1sYklvSHg5cVNnbUx5V1BjeVI4QnFnaXZ6bGc2QmYxMy1JR2syUkFLWXN1djZEV0Qtakw4LVRQcFdEaUJfbnkxNjQwaHJvX3dDVllHU1Q1c2c3dERxMmFfZ1NKTEtRV0lILTlhMHdtWDlheXNJSzhqblA?oc=5\" target=\"_blank\">US wholesale inflation heated up in September</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+          "source": "Google News",
+          "keyword": "inflation",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "US wholesale inflation heated up in September - CNN",
+            "summary_highlights": [
+              "The specific wholesale inflation figures for September",
+              "Commentary from economic officials or analysts",
+              "Market reactions to this inflation data",
+              "Expert predictions about future economic impacts"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "US wholesale inflation heated up in September - CNN",
+          "summary_highlights": [
+            "The specific wholesale inflation figures for September",
+            "Commentary from economic officials or analysts",
+            "Market reactions to this inflation data",
+            "Expert predictions about future economic impacts"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        }
+      ]
+    },
+    "General Economic News": {
+      "total_count": 22,
+      "displayed_count": 10,
+      "articles": [
+        {
+          "title": "UK growth forecasts lowered from next year",
+          "url": "https://www.bbc.com/news/articles/cg5m7mg8p59o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 26 Nov 2025 17:07:16 GMT",
+          "description": "Downgrades to productivity means the economy is set to grow at an annual rate of 1.5% on average over the next five years.",
+          "source": "BBC Business",
+          "source_type": "free_rss",
+          "keyword": "RSS Feed",
+          "highlights": [
+            "OBR downgraded UK growth forecasts to 1.4% in 2026 and 1.5% for following years, with lower productivity growth cited as the key factor.",
+            "Chancellor Rachel Reeves remained optimistic, stating \"we beat the growth forecast this year and we will beat them again.\"",
+            "Tax increases will push the UK's tax burden to an all-time high despite increased spending on public services over five years.",
+            "Business and consumer confidence remain \"subdued\" due to global conflicts, trade uncertainty, and anticipation of further tax increases."
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "UK growth forecasts lowered from next year",
+            "summary_highlights": [
+              "UK economy growth forecast downgraded to 1.5% annually over five years despite 2024 expectations improving from 1% to 1.5%, due to lower productivity growth.",
+              "Chancellor Reeves remained optimistic, stating \"we beat growth forecasts this year and we will beat them again,\" while emphasizing infrastructure investments.",
+              "OBR warned that tax rises will push the total tax burden to an all-time high while public service spending increases over the next five years.",
+              "Economic growth expected to \"pick up only gradually\" due to global conflicts, trade uncertainty, and \"subdued\" business and consumer confidence anticipating further tax increases."
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "UK growth forecasts lowered from next year",
+          "summary_highlights": [
+            "UK economy growth forecast downgraded to 1.5% annually over five years despite 2024 expectations improving from 1% to 1.5%, due to lower productivity growth.",
+            "Chancellor Reeves remained optimistic, stating \"we beat growth forecasts this year and we will beat them again,\" while emphasizing infrastructure investments.",
+            "OBR warned that tax rises will push the total tax burden to an all-time high while public service spending increases over the next five years.",
+            "Economic growth expected to \"pick up only gradually\" due to global conflicts, trade uncertainty, and \"subdued\" business and consumer confidence anticipating further tax increases."
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        },
+        {
+          "title": "4 charts show who’s feeling good about the economy — and who isn’t - The Washington Post",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPODI2NGl6NFBBNnNQV01pSnlMY3h3dWtUa1hlQmlXaHYyR2tucDhab21tQ3ZnN1FjVGQwQV9UY0FBUG4waGhCMW9EYnd0bGl1ZkxqbmlMN3RneUM1ckhYNmhyMHQwWUowd0V3RU5DYlNkQmZmX1UzbGNyVFp4aURuVzFzaEV4Z29ES0wyMlFn?oc=5",
+          "published": "Thu, 27 Nov 2025 19:00:00 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPODI2NGl6NFBBNnNQV01pSnlMY3h3dWtUa1hlQmlXaHYyR2tucDhab21tQ3ZnN1FjVGQwQV9UY0FBUG4waGhCMW9EYnd0bGl1ZkxqbmlMN3RneUM1ckhYNmhyMHQwWUowd0V3RU5DYlNkQmZmX1UzbGNyVFp4aURuVzFzaEV4Z29ES0wyMlFn?oc=5\" target=\"_blank\">4 charts show who’s feeling good about the economy — and who isn’t</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Washington Post</font>",
+          "source": "Google News",
+          "keyword": "economy",
+          "highlights": [
+            "The actual text of the article",
+            "The data presented in the four charts",
+            "Any quotes from officials or economists",
+            "Information about market impacts discussed"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "4 charts show who’s feeling good about the economy — and who isn’t - The Washington Post",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "4 charts show who’s feeling good about the economy — and who isn’t - The Washington Post",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "neutral",
+            "confidence": 0.5,
+            "economic_tone": "neutral"
+          }
+        },
+        {
+          "title": "US Consumer Confidence Falls by Most Since April on Economy - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSWRjeUhfczk3SXdsWEQzRXJQbmx1MWQzNUhLTkFINlozWlB1ZVo5Ymg3MFNPSVRoSmgwWnFieUd3YWJ0Z2RGaWViNXdUdHNZVjVTTGtheU1DS0R6RE9CUUNRV0o0alY2elg2S2hYamNNVk9XQWkyX2ZFMkd4MVpDWEx2UVF4ZnBqS2pEblNOdnBxcnZHQ0VxLVZwRzVKYnJPb1h3MU5xRmIzX3pZandv?oc=5",
+          "published": "Tue, 25 Nov 2025 15:35:05 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPSWRjeUhfczk3SXdsWEQzRXJQbmx1MWQzNUhLTkFINlozWlB1ZVo5Ymg3MFNPSVRoSmgwWnFieUd3YWJ0Z2RGaWViNXdUdHNZVjVTTGtheU1DS0R6RE9CUUNRV0o0alY2elg2S2hYamNNVk9XQWkyX2ZFMkd4MVpDWEx2UVF4ZnBqS2pEblNOdnBxcnZHQ0VxLVZwRzVKYnJPb1h3MU5xRmIzX3pZandv?oc=5\" target=\"_blank\">US Consumer Confidence Falls by Most Since April on Economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+          "source": "Google News",
+          "keyword": "economy",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "US Consumer Confidence Falls by Most Since April on Economy - Bloomberg.com",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "US Consumer Confidence Falls by Most Since April on Economy - Bloomberg.com",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        },
+        {
+          "title": "Russians Are Starting to Feel Real Economic Pain From Putin’s War - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQS3lWQm9FUm9qUzdIQUU4NXNnMVRrTGtKdUg4LWpadkpXaUgtbUh1QllEMUttcFk1VHZwTzg1OGJEUHp0cVN6dzlBWkszQWsxYmJJcVVHbm1Yd3RpX1FDTDhZakRvaW5qdDJxb2t4dG4zSExpOEpmbkFoS0tSZUVsczc4Ym5qOWFzRkVqV0Z6aXFQZzRiTW45bjU3SzlQSnhmaFQzMVFnZVFlUVRuSVVla2lBeC1FelRIOEt0dG9R?oc=5",
+          "published": "Thu, 27 Nov 2025 08:04:37 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxQS3lWQm9FUm9qUzdIQUU4NXNnMVRrTGtKdUg4LWpadkpXaUgtbUh1QllEMUttcFk1VHZwTzg1OGJEUHp0cVN6dzlBWkszQWsxYmJJcVVHbm1Yd3RpX1FDTDhZakRvaW5qdDJxb2t4dG4zSExpOEpmbkFoS0tSZUVsczc4Ym5qOWFzRkVqV0Z6aXFQZzRiTW45bjU3SzlQSnhmaFQzMVFnZVFlUVRuSVVla2lBeC1FelRIOEt0dG9R?oc=5\" target=\"_blank\">Russians Are Starting to Feel Real Economic Pain From Putin’s War</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+          "source": "Google News",
+          "keyword": "economy",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Russians Are Starting to Feel Real Economic Pain From Putin’s War - Bloomberg.com",
+            "summary_highlights": [
+              "The complete article text",
+              "Key statistics or economic data mentioned",
+              "Quotes from officials or experts",
+              "Specific market impacts described"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Russians Are Starting to Feel Real Economic Pain From Putin’s War - Bloomberg.com",
+          "summary_highlights": [
+            "The complete article text",
+            "Key statistics or economic data mentioned",
+            "Quotes from officials or experts",
+            "Specific market impacts described"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        },
+        {
+          "title": "Russia’s Economy Cracks as War Reaches Daily Life and Sanctions Pressure Deepens - Kyiv Post",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9nWmE0a09aRDJoT3FsanJiZ0RCT0IxT0dFZlg1bkc1bVIzWU84WnFwZjd5MThYa1Y3cWlUdTJCLXhUSDNXNG5ZVEVTMA?oc=5",
+          "published": "Thu, 27 Nov 2025 00:39:10 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiS0FVX3lxTE9nWmE0a09aRDJoT3FsanJiZ0RCT0IxT0dFZlg1bkc1bVIzWU84WnFwZjd5MThYa1Y3cWlUdTJCLXhUSDNXNG5ZVEVTMA?oc=5\" target=\"_blank\">Russia’s Economy Cracks as War Reaches Daily Life and Sanctions Pressure Deepens</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Kyiv Post</font>",
+          "source": "Google News",
+          "keyword": "economy",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Russia’s Economy Cracks as War Reaches Daily Life and Sanctions Pressure Deepens - Kyiv Post",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Russia’s Economy Cracks as War Reaches Daily Life and Sanctions Pressure Deepens - Kyiv Post",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        },
+        {
+          "title": "Cracks In Russia’s War Economy - Forbes",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZjQtUmVIa3VmSmxHV1NhVm1raXpFRlRfVW4tU1pkY09BUUtzZzVqSFBmUzg2a2hoYlY1QVNTdTdSaFdqMUJPTGtsZ3lCTFZxYWVIYVN4el9xZFAzSXdUM3EtZUdxYjluTzRzMjV0RlBFQmpPd0J6Z092Y2Q3c0RQWGJyaFZLakJS?oc=5",
+          "published": "Tue, 25 Nov 2025 14:40:24 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZjQtUmVIa3VmSmxHV1NhVm1raXpFRlRfVW4tU1pkY09BUUtzZzVqSFBmUzg2a2hoYlY1QVNTdTdSaFdqMUJPTGtsZ3lCTFZxYWVIYVN4el9xZFAzSXdUM3EtZUdxYjluTzRzMjV0RlBFQmpPd0J6Z092Y2Q3c0RQWGJyaFZLakJS?oc=5\" target=\"_blank\">Cracks In Russia’s War Economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Forbes</font>",
+          "source": "Google News",
+          "keyword": "economy",
+          "highlights": [
+            "The key facts about Russia's economy mentioned in the article",
+            "Quotes from officials or economists",
+            "Specific market impacts described",
+            "Future implications discussed by the author"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Cracks In Russia’s War Economy - Forbes",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Cracks In Russia’s War Economy - Forbes",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        },
+        {
+          "title": "German Economy Shows Signs of Revival - The Wall Street Journal",
+          "url": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxNa3VvUFRlWld2Wll0RWRHUmlrZ1cxT09nNmt0QzlHTE1KcXlsczBKUnNEVjBGaHdrZGVKekdvRWplMWxhREx3NEhObnV0VFc5WDBFZnhOYkkzeWJJWl9ZVzVxaUNudndVZmNKc3FrUjlURGhTc3I1WC1uelRDa3c4b0hZcU5QMm5HVXRYYnNUOXNwc1dvclRxYktrOVZGdkxpNU4yd3Zwc3A1Qm96OUtoVjdrcW1DUVIzNWRCTEhhTkVZS2NrQU1ZcGYydlJ4Y245dkZ3dm0ta0FHX1VIVEp3VDYtWWVYTDdBQW5fMlA1QW1ONjNtTDREajJfLUlHSEZpdHIxZ1VVTnlEVXBuMUNwVU5WSW1jWnFJMzZka3BhUHJYNjdEeUtVRFZTNm9Pdk5WUjZyWTFmWExzT0RUTE42RVA2anhsOFFNdVp1YURDWkNEb3BXSVBudGZZUUtXWkU5c2xQd0RJbHNlcWl2cmNVbTlZTzk3SUw2YW1jNmc3S2c1dTBzazI1TGdMQQ?oc=5",
+          "published": "Tue, 25 Nov 2025 07:31:00 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwNBVV95cUxNa3VvUFRlWld2Wll0RWRHUmlrZ1cxT09nNmt0QzlHTE1KcXlsczBKUnNEVjBGaHdrZGVKekdvRWplMWxhREx3NEhObnV0VFc5WDBFZnhOYkkzeWJJWl9ZVzVxaUNudndVZmNKc3FrUjlURGhTc3I1WC1uelRDa3c4b0hZcU5QMm5HVXRYYnNUOXNwc1dvclRxYktrOVZGdkxpNU4yd3Zwc3A1Qm96OUtoVjdrcW1DUVIzNWRCTEhhTkVZS2NrQU1ZcGYydlJ4Y245dkZ3dm0ta0FHX1VIVEp3VDYtWWVYTDdBQW5fMlA1QW1ONjNtTDREajJfLUlHSEZpdHIxZ1VVTnlEVXBuMUNwVU5WSW1jWnFJMzZka3BhUHJYNjdEeUtVRFZTNm9Pdk5WUjZyWTFmWExzT0RUTE42RVA2anhsOFFNdVp1YURDWkNEb3BXSVBudGZZUUtXWkU5c2xQd0RJbHNlcWl2cmNVbTlZTzk3SUw2YW1jNmc3S2c1dTBzazI1TGdMQQ?oc=5\" target=\"_blank\">German Economy Shows Signs of Revival</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Wall Street Journal</font>",
+          "source": "Google News",
+          "keyword": "economy",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "German Economy Shows Signs of Revival - The Wall Street Journal",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "German Economy Shows Signs of Revival - The Wall Street Journal",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "positive",
+            "confidence": 0.5,
+            "economic_tone": "bullish"
+          }
+        },
+        {
+          "title": "Britain Raises Taxes by More Than $30 Billion in Push for ‘Stable Economy’ - The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMDVXeVp5cF9MdXB1c3lYc2RJUGVDbkhVQVZ0dTJTSUJBOE9uMnRVMkVMM3dNTVdCaFhuc0pycUdzZW8zclZmUXJRLUxmSDEtNUotMW91RnVKX241T1hyOFVEQ18zaFMyR2xESnJqRUMzUEdOaVpBLWtDd2M3aFRVenlnRlJ0UEVlX3kxdFV3?oc=5",
+          "published": "Wed, 26 Nov 2025 05:00:06 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOMDVXeVp5cF9MdXB1c3lYc2RJUGVDbkhVQVZ0dTJTSUJBOE9uMnRVMkVMM3dNTVdCaFhuc0pycUdzZW8zclZmUXJRLUxmSDEtNUotMW91RnVKX241T1hyOFVEQ18zaFMyR2xESnJqRUMzUEdOaVpBLWtDd2M3aFRVenlnRlJ0UEVlX3kxdFV3?oc=5\" target=\"_blank\">Britain Raises Taxes by More Than $30 Billion in Push for ‘Stable Economy’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
+          "source": "Google News",
+          "keyword": "economy",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Britain Raises Taxes by More Than $30 Billion in Push for ‘Stable Economy’ - The New York Times",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Britain Raises Taxes by More Than $30 Billion in Push for ‘Stable Economy’ - The New York Times",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        },
+        {
+          "title": "The fracturing of the world economy - Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iR2pmbXdJSm1VTm5wbGVMQW1kUmNLOF95aEd0eHVTNl91N1ZkdUdtQW9hOS1iV1JTZkJJd3ZDOElXalJOMGttM3lacWVPTF9nXzUwaDBRX3ZTUl9MbjlOU0NLUzlOcVZVamZFREE5V0s?oc=5",
+          "published": "Tue, 25 Nov 2025 16:43:35 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9iR2pmbXdJSm1VTm5wbGVMQW1kUmNLOF95aEd0eHVTNl91N1ZkdUdtQW9hOS1iV1JTZkJJd3ZDOElXalJOMGttM3lacWVPTF9nXzUwaDBRX3ZTUl9MbjlOU0NLUzlOcVZVamZFREE5V0s?oc=5\" target=\"_blank\">The fracturing of the world economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+          "source": "Google News",
+          "keyword": "economy",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "The fracturing of the world economy - Financial Times",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "The fracturing of the world economy - Financial Times",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        },
+        {
+          "title": "As Americans Grapple With Affordability, Trump Announces Joint Base Andrews Golf Course Remodeling Project - Truthout",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWXF1UFl4XzRVX1luRS02OHRJUFRRSjcwZWFLOEpKdWtaSzdxRC1VbjRRalVwaElMbEhhUm1sQmxLcTh6TmhEbDU3RFFwU0tNdlB6dGFLbVNwT3JKTHl6UFFXbXA3WXpmbW1pRkFzUUt6UmZVTjlxNVJzclRRbU5IRDlYM2gzRlMyd2FYRzBSTWRURnY3VWE3bV9CWFhLNTZjbHZxWkdZeGQ3SndpUGJ1MA?oc=5",
+          "published": "Tue, 25 Nov 2025 20:11:10 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPWXF1UFl4XzRVX1luRS02OHRJUFRRSjcwZWFLOEpKdWtaSzdxRC1VbjRRalVwaElMbEhhUm1sQmxLcTh6TmhEbDU3RFFwU0tNdlB6dGFLbVNwT3JKTHl6UFFXbXA3WXpmbW1pRkFzUUt6UmZVTjlxNVJzclRRbU5IRDlYM2gzRlMyd2FYRzBSTWRURnY3VWE3bV9CWFhLNTZjbHZxWkdZeGQ3SndpUGJ1MA?oc=5\" target=\"_blank\">As Americans Grapple With Affordability, Trump Announces Joint Base Andrews Golf Course Remodeling Project</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Truthout</font>",
+          "source": "Google News",
+          "keyword": "inflation",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "As Americans Grapple With Affordability, Trump Announces Joint Base Andrews Golf Course Remodeling Project - Truthout",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "As Americans Grapple With Affordability, Trump Announces Joint Base Andrews Golf Course Remodeling Project - Truthout",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        }
+      ]
+    },
+    "Unemployment & Employment": {
+      "total_count": 10,
+      "displayed_count": 10,
+      "articles": [
+        {
+          "title": "The start-up creating science kits for young Africans",
+          "url": "https://www.bbc.com/news/articles/c201zx3yyx1o?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 04 Nov 2025 00:13:20 GMT",
+          "description": "Stemaide's goal is to bring tech skills to young Africans and prepare them for future jobs.",
+          "source": "BBC Business",
+          "source_type": "free_rss",
+          "keyword": "RSS Feed",
+          "highlights": [
+            "Stemaide, founded in 2022 in Ghana, is developing offline-compatible science kits to address technological education gaps across Africa.",
+            "CEO Prince Boateng Asare emphasizes the company's mission to equip young Africans with skills needed for future employment opportunities.",
+            "The initiative represents part of a broader technology development trend across Africa, with similar startups emerging in South Africa and Kenya.",
+            "Investment in African educational technology could potentially reduce skills gaps and boost economic competitiveness in emerging digital economies."
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "The start-up creating science kits for young Africans",
+            "summary_highlights": [
+              "Stemaide, founded in 2022 in Ghana, is developing offline science kits to address technological education gaps in African regions lacking internet infrastructure.",
+              "CEO Prince Boateng Asare emphasizes the company's mission to prepare African youth for future employment opportunities through science and technology skills.",
+              "The educational technology sector in Africa shows growth potential with startups addressing infrastructure challenges, though no specific market figures were provided in the article.",
+              "This initiative may help reduce Africa's skills gap in STEM fields, potentially increasing workforce competitiveness and economic development in technology sectors."
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "The start-up creating science kits for young Africans",
+          "summary_highlights": [
+            "Stemaide, founded in 2022 in Ghana, is developing offline science kits to address technological education gaps in African regions lacking internet infrastructure.",
+            "CEO Prince Boateng Asare emphasizes the company's mission to prepare African youth for future employment opportunities through science and technology skills.",
+            "The educational technology sector in Africa shows growth potential with startups addressing infrastructure challenges, though no specific market figures were provided in the article.",
+            "This initiative may help reduce Africa's skills gap in STEM fields, potentially increasing workforce competitiveness and economic development in technology sectors."
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "positive",
+            "confidence": 0.5,
+            "economic_tone": "bullish"
+          }
+        },
+        {
+          "title": "Despite Trump's best efforts to reshore manufacturing, blue-collar employment is plunging for the first time since the pandemic with 59,000 lost jobs - Fortune",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaFRWbXY0Z3c2b21sU0JGbEh5T2VZOVpUMUV2MXJvUU9MOVV0TDdHSVB5SUtEWklJb2J6djRWVG9HdTc4RDByZWd6R2ZqeDhPTEw4TUtPdE5PYjRRSktFRmNKNkxwMEY2YUN5NWxGRW9GaXF1WUl6VUhwejUtTGlJSHFFaW5kWWpoNmhEN29HZnBHNnlrb0E?oc=5",
+          "published": "Tue, 25 Nov 2025 18:59:00 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQaFRWbXY0Z3c2b21sU0JGbEh5T2VZOVpUMUV2MXJvUU9MOVV0TDdHSVB5SUtEWklJb2J6djRWVG9HdTc4RDByZWd6R2ZqeDhPTEw4TUtPdE5PYjRRSktFRmNKNkxwMEY2YUN5NWxGRW9GaXF1WUl6VUhwejUtTGlJSHFFaW5kWWpoNmhEN29HZnBHNnlrb0E?oc=5\" target=\"_blank\">Despite Trump's best efforts to reshore manufacturing, blue-collar employment is plunging for the first time since the pandemic with 59,000 lost jobs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fortune</font>",
+          "source": "Google News",
+          "keyword": "jobs",
+          "highlights": [
+            "Details about the 59,000 manufacturing job losses",
+            "Expert commentary or quotes about this trend",
+            "Information about market reactions",
+            "Analysis of future implications for reshoring efforts"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Despite Trump's best efforts to reshore manufacturing, blue-collar employment is plunging for the first time since the pandemic with 59,000 lost jobs - Fortune",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Despite Trump's best efforts to reshore manufacturing, blue-collar employment is plunging for the first time since the pandemic with 59,000 lost jobs - Fortune",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        },
+        {
+          "title": "Half of workers are 'revenge quitting' and walking out on their jobs without notice—and the majority are loyal, longtime staff - Fortune",
+          "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQTWl3MmpsOFNSQklaWVFkN3JLZUYyRUxsNEU1MktPcXBiZU5rUHI5TXBUdFhDYkwxelJQZTdhdWgyTHBNcWF2Z2syMnpyNk9sNURoSlB0c0N0OS0xYUcwalMtTXBXVzk0VHZ3NWhpSXdIaVRrWDZsRXZrem9BYWxOZGFSbzFMTWJ4V21lQVNqTFEwRG5MRmdZdHR1NU56akpfTWN1VTVMTzluczRPU3RhNUZfMU9ocTdKWFZhTEJuZEhVWUhGRWczUEZmQlNkajZkemtzckRYQXI3OWdHYkZmS1hQWWNXbVZ1WDlfRU1ESE5qVzh6VjhOcE9FZ2Z0bDdpYzV6VDFCOW5LU3gyV0JQYkt6dzBacENvaEVZOXdobHFYUFVPZllZNw?oc=5",
+          "published": "Tue, 25 Nov 2025 14:33:00 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiqAJBVV95cUxQTWl3MmpsOFNSQklaWVFkN3JLZUYyRUxsNEU1MktPcXBiZU5rUHI5TXBUdFhDYkwxelJQZTdhdWgyTHBNcWF2Z2syMnpyNk9sNURoSlB0c0N0OS0xYUcwalMtTXBXVzk0VHZ3NWhpSXdIaVRrWDZsRXZrem9BYWxOZGFSbzFMTWJ4V21lQVNqTFEwRG5MRmdZdHR1NU56akpfTWN1VTVMTzluczRPU3RhNUZfMU9ocTdKWFZhTEJuZEhVWUhGRWczUEZmQlNkajZkemtzckRYQXI3OWdHYkZmS1hQWWNXbVZ1WDlfRU1ESE5qVzh6VjhOcE9FZ2Z0bDdpYzV6VDFCOW5LU3gyV0JQYkt6dzBacENvaEVZOXdobHFYUFVPZllZNw?oc=5\" target=\"_blank\">Half of workers are 'revenge quitting' and walking out on their jobs without notice—and the majority are loyal, longtime staff</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fortune</font>",
+          "source": "Google News",
+          "keyword": "jobs",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Half of workers are 'revenge quitting' and walking out on their jobs without notice—and the majority are loyal, longtime staff - Fortune",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Half of workers are 'revenge quitting' and walking out on their jobs without notice—and the majority are loyal, longtime staff - Fortune",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        },
+        {
+          "title": "Charted: Why U.S. Employers Are Cutting Jobs in 2025 - Visual Capitalist",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOV00zNnp0UF9FdlZwWnFTY2dIT1hiN3NqU1RINDl0WHZ5WDR1ampuOTRqZDFmU3hMR0JIN3ZOLWFyaFljcmFYTzNqU3prWkRhbGRybUdkZ21iT3JWVVZodUpmdXZQZzF4V2liQTFzNnFzaXlBME5WVi0zOF9iRlFMNVdGNjlRcV9aT195eA?oc=5",
+          "published": "Thu, 27 Nov 2025 20:11:17 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOV00zNnp0UF9FdlZwWnFTY2dIT1hiN3NqU1RINDl0WHZ5WDR1ampuOTRqZDFmU3hMR0JIN3ZOLWFyaFljcmFYTzNqU3prWkRhbGRybUdkZ21iT3JWVVZodUpmdXZQZzF4V2liQTFzNnFzaXlBME5WVi0zOF9iRlFMNVdGNjlRcV9aT195eA?oc=5\" target=\"_blank\">Charted: Why U.S. Employers Are Cutting Jobs in 2025</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Visual Capitalist</font>",
+          "source": "Google News",
+          "keyword": "jobs",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Charted: Why U.S. Employers Are Cutting Jobs in 2025 - Visual Capitalist",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Charted: Why U.S. Employers Are Cutting Jobs in 2025 - Visual Capitalist",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        },
+        {
+          "title": "Hiring Veterans: Jobs of the week for Nov. 24, 2025 - VA News (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQenNxZlR2bVVHanAtanUxQ21aWXFxR2pZeUE4dEtJVE5EVEZ6OG1pZ0RhN2JMU2JoNkRXNWFDdDN0emZCUU0zLWg4MHZfc1dWV3lSQjh3S3hOUFAwYVV4YW5INEZEUFlNeGN4SXRnNlBPVnJlZzFYMnJSUUl1NmtHVWZR?oc=5",
+          "published": "Tue, 25 Nov 2025 14:10:15 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQenNxZlR2bVVHanAtanUxQ21aWXFxR2pZeUE4dEtJVE5EVEZ6OG1pZ0RhN2JMU2JoNkRXNWFDdDN0emZCUU0zLWg4MHZfc1dWV3lSQjh3S3hOUFAwYVV4YW5INEZEUFlNeGN4SXRnNlBPVnJlZzFYMnJSUUl1NmtHVWZR?oc=5\" target=\"_blank\">Hiring Veterans: Jobs of the week for Nov. 24, 2025</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VA News (.gov)</font>",
+          "source": "Google News",
+          "keyword": "jobs",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Hiring Veterans: Jobs of the week for Nov. 24, 2025 - VA News (.gov)",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Hiring Veterans: Jobs of the week for Nov. 24, 2025 - VA News (.gov)",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "neutral",
+            "confidence": 0.5,
+            "economic_tone": "neutral"
+          }
+        },
+        {
+          "title": "As companies turn to AI, key economic sectors show weak job growth - Axios",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB1X1U1NksyTlN3ZElKUVQyY3ktUjhOdHhSLWVWX3JnMFhKemJlSVVMNU9UOFdpSms1bTZMM3dzRkpDN1pobUhhQU1xeGtscFJfV3VrVVZYUnl6eHlXTnUtS0tzTkdmeE5vVktELU1BZw?oc=5",
+          "published": "Tue, 25 Nov 2025 17:04:49 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFB1X1U1NksyTlN3ZElKUVQyY3ktUjhOdHhSLWVWX3JnMFhKemJlSVVMNU9UOFdpSms1bTZMM3dzRkpDN1pobUhhQU1xeGtscFJfV3VrVVZYUnl6eHlXTnUtS0tzTkdmeE5vVktELU1BZw?oc=5\" target=\"_blank\">As companies turn to AI, key economic sectors show weak job growth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Axios</font>",
+          "source": "Google News",
+          "keyword": "jobs",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "As companies turn to AI, key economic sectors show weak job growth - Axios",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "As companies turn to AI, key economic sectors show weak job growth - Axios",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        },
+        {
+          "title": "HP to cut about 6,000 jobs by 2028, ramps up AI efforts - CNN",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50bFNUY3ZNUnpsVlNoSS1OQzR0Y21fQnJfdWZYTGtQNjE2TU96Ri1VOUdTUmxWa3J1UXVvdm8wNmdUVlNHR05TSFQyUzYwSVk2TG9NNnJHaGd1OTZmWHBuUTVDa0NMV013?oc=5",
+          "published": "Tue, 25 Nov 2025 22:28:46 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE50bFNUY3ZNUnpsVlNoSS1OQzR0Y21fQnJfdWZYTGtQNjE2TU96Ri1VOUdTUmxWa3J1UXVvdm8wNmdUVlNHR05TSFQyUzYwSVk2TG9NNnJHaGd1OTZmWHBuUTVDa0NMV013?oc=5\" target=\"_blank\">HP to cut about 6,000 jobs by 2028, ramps up AI efforts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+          "source": "Google News",
+          "keyword": "jobs",
+          "highlights": [
+            "HP plans significant workforce reduction of approximately 6,000 positions over a five-year period ending in 2028",
+            "The company is strategically pivoting toward artificial intelligence technologies while reducing its traditional workforce",
+            "This restructuring likely reflects HP's response to changing technology markets and effort to remain competitive in the AI era",
+            "The extended timeline suggests a measured approach to job cuts rather than immediate dramatic workforce reduction"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "HP to cut about 6,000 jobs by 2028, ramps up AI efforts - CNN",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "HP to cut about 6,000 jobs by 2028, ramps up AI efforts - CNN",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        },
+        {
+          "title": "Wacker Chemie Becomes Latest German Company to Cut Jobs in Ailing Labor Market - The Wall Street Journal",
+          "url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxQejRublUwNnFST3JsNTJkdHkxajFOVHlFQndLVlR3Y21waXllQ2UyQm9IdXBDWXdXZE9scE00bkt4dkxXYkdrdkE5RlVydGs1eFZlOUlnQmtpSy1QQW9UanVqQXJNSUJla3dmaHpURmI3TFBaRERnRnVKUTFrNEctd3J2VnlrSHE1N3hLaERpVkw1TlI4ZGJKQjRXb1duT3ZiZTl2SkNWTlZCSnlyMUk1NzR1c0FuNjhoWmJsMzR4RlFiVDNoaVRfby1ONTd4dDNSMG5QUXZZSklVeEJZMUVKTDNrT210eEdZTVRNejlpaWIxN0p4T1Y4Q3hsYnZKOU4ybjJGVzZLQnFTb2JsQ1N1ZXJWRlpZckwtalBDejVVTWpjZjdHMkhQd0dBdXVFNTlHY2hnU29rWUZ4cGxYbGZFcExjSnNqSzFVdjZ0cTZtNjFESzd4aXlXRlFvSWFOaF9xdTJhUGd4dnZQVUQtUVV0VF9ncUo2cWdybm9ISTZUX2ZLQlRycC1hOE1wWF9QNkVoQjZWUWFsS3V0MjE5dEd2MW1YNTZBeHJV?oc=5",
+          "published": "Thu, 27 Nov 2025 12:10:00 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiqANBVV95cUxQejRublUwNnFST3JsNTJkdHkxajFOVHlFQndLVlR3Y21waXllQ2UyQm9IdXBDWXdXZE9scE00bkt4dkxXYkdrdkE5RlVydGs1eFZlOUlnQmtpSy1QQW9UanVqQXJNSUJla3dmaHpURmI3TFBaRERnRnVKUTFrNEctd3J2VnlrSHE1N3hLaERpVkw1TlI4ZGJKQjRXb1duT3ZiZTl2SkNWTlZCSnlyMUk1NzR1c0FuNjhoWmJsMzR4RlFiVDNoaVRfby1ONTd4dDNSMG5QUXZZSklVeEJZMUVKTDNrT210eEdZTVRNejlpaWIxN0p4T1Y4Q3hsYnZKOU4ybjJGVzZLQnFTb2JsQ1N1ZXJWRlpZckwtalBDejVVTWpjZjdHMkhQd0dBdXVFNTlHY2hnU29rWUZ4cGxYbGZFcExjSnNqSzFVdjZ0cTZtNjFESzd4aXlXRlFvSWFOaF9xdTJhUGd4dnZQVUQtUVV0VF9ncUo2cWdybm9ISTZUX2ZLQlRycC1hOE1wWF9QNkVoQjZWUWFsS3V0MjE5dEd2MW1YNTZBeHJV?oc=5\" target=\"_blank\">Wacker Chemie Becomes Latest German Company to Cut Jobs in Ailing Labor Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Wall Street Journal</font>",
+          "source": "Google News",
+          "keyword": "jobs",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Wacker Chemie Becomes Latest German Company to Cut Jobs in Ailing Labor Market - The Wall Street Journal",
+            "summary_highlights": [
+              "Specific numbers of job cuts or financial details",
+              "Quotes from executives or economists",
+              "Market impacts on stock prices or the broader economy",
+              "Detailed future implications"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Wacker Chemie Becomes Latest German Company to Cut Jobs in Ailing Labor Market - The Wall Street Journal",
+          "summary_highlights": [
+            "Specific numbers of job cuts or financial details",
+            "Quotes from executives or economists",
+            "Market impacts on stock prices or the broader economy",
+            "Detailed future implications"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        },
+        {
+          "title": "Allianz to axe up to 1,800 jobs in travel insurance segment - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84SDdiM1E0MkJGNTAyaEFPdVlqZWViR2xzZnAtcm9QZk44UEZrUE9PZGlwU3J6ZDlmeUNXV01QQUpxUEF0dU90ako2Zko2MHhESFVsemhadUszaEVrdTVUc1NUekpPcGFMVW5walBCMUw2VU04WlRr?oc=5",
+          "published": "Thu, 27 Nov 2025 12:05:40 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE84SDdiM1E0MkJGNTAyaEFPdVlqZWViR2xzZnAtcm9QZk44UEZrUE9PZGlwU3J6ZDlmeUNXV01QQUpxUEF0dU90ako2Zko2MHhESFVsemhadUszaEVrdTVUc1NUekpPcGFMVW5walBCMUw2VU04WlRr?oc=5\" target=\"_blank\">Allianz to axe up to 1,800 jobs in travel insurance segment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+          "source": "Google News",
+          "keyword": "jobs",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Allianz to axe up to 1,800 jobs in travel insurance segment - Yahoo Finance",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Allianz to axe up to 1,800 jobs in travel insurance segment - Yahoo Finance",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "negative",
+            "confidence": 0.5,
+            "economic_tone": "bearish"
+          }
+        },
+        {
+          "title": "Rams DC Chris Shula 'not really thinking' about potential HC jobs yet - Rams Wire",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPU0c1UHVVY1J0N2xWbVNDZ1FVYWZMZ1ZPeVkwSGlJWjdHRjlKV0FCZExhbDFZVTBlM2t5UldzQ2hfWWcyTUNHemVJc3NsLW9CZmlMNDhWdGRZYWZDMjhlRTZzbVZmV09yTWpLQ2haN0F0M3lqUGFhNl9fNnVrOFBIbW4tZk9ZS3d4RHZRSUN5S0kxY1huQ19JcGE1UnpzWlNJUkRtVFhYU2dETkFMYzUyRHpvM3Y3QjlTMDUyWVhoXy04Y1RsVFZOYmxIZWJfTURGY3pzcWVlem4?oc=5",
+          "published": "Thu, 27 Nov 2025 14:01:19 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxPU0c1UHVVY1J0N2xWbVNDZ1FVYWZMZ1ZPeVkwSGlJWjdHRjlKV0FCZExhbDFZVTBlM2t5UldzQ2hfWWcyTUNHemVJc3NsLW9CZmlMNDhWdGRZYWZDMjhlRTZzbVZmV09yTWpLQ2haN0F0M3lqUGFhNl9fNnVrOFBIbW4tZk9ZS3d4RHZRSUN5S0kxY1huQ19JcGE1UnpzWlNJUkRtVFhYU2dETkFMYzUyRHpvM3Y3QjlTMDUyWVhoXy04Y1RsVFZOYmxIZWJfTURGY3pzcWVlem4?oc=5\" target=\"_blank\">Rams DC Chris Shula 'not really thinking' about potential HC jobs yet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Rams Wire</font>",
+          "source": "Google News",
+          "keyword": "jobs",
+          "highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "source_category": "free",
+          "structured_analysis": {
+            "topic_headline": "Rams DC Chris Shula 'not really thinking' about potential HC jobs yet - Rams Wire",
+            "summary_highlights": [
+              "Economic development shows mixed signals for market participants",
+              "Policy implications require monitoring by financial institutions",
+              "Market reactions reflect investor sentiment on economic trends",
+              "Future outlook depends on broader macroeconomic conditions"
+            ],
+            "notable_quotes": [
+              "Analysis based on available information"
+            ],
+            "context_implications": "This development has implications for monetary policy and market conditions."
+          },
+          "topic_headline": "Rams DC Chris Shula 'not really thinking' about potential HC jobs yet - Rams Wire",
+          "summary_highlights": [
+            "Economic development shows mixed signals for market participants",
+            "Policy implications require monitoring by financial institutions",
+            "Market reactions reflect investor sentiment on economic trends",
+            "Future outlook depends on broader macroeconomic conditions"
+          ],
+          "notable_quotes": [
+            "Analysis based on available information"
+          ],
+          "context_implications": "This development has implications for monetary policy and market conditions.",
+          "llm_enhanced": true,
+          "sentiment_analysis": {
+            "sentiment": "neutral",
+            "confidence": 0.5,
+            "economic_tone": "neutral"
+          }
+        }
+      ]
+    }
+  }
+}

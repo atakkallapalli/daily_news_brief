@@ -153,10 +153,10 @@ class DailyDigestScheduler:
             # Generate SF Fed Executive Digest if enabled
             if self.config["digest_settings"].get("generate_sf_fed_digest", False):
                 try:
-                    sf_fed_digest = self.sf_fed_generator.generate_digest(target_date)
-                    sf_fed_file = self.sf_fed_generator.save_digest(sf_fed_digest, target_date)
-                    digest_files["sf_fed_executive"] = sf_fed_file
-                    logger.info(f"SF Fed Executive Digest generated: {sf_fed_file}")
+                    sf_fed_data = self.sf_fed_generator.generate_digest_data(target_date)
+                    sf_fed_files = self.generate_sf_fed_formats(sf_fed_data, target_date, output_dir)
+                    digest_files.update(sf_fed_files)
+                    logger.info(f"SF Fed Executive Digest generated in multiple formats: {sf_fed_files}")
                 except Exception as e:
                     logger.error(f"Error generating SF Fed digest: {e}")
             
@@ -443,17 +443,135 @@ class DailyDigestScheduler:
                 import shutil
                 shutil.copy2(file_path, latest_link)
     
+    def generate_sf_fed_formats(self, sf_fed_data: dict, target_date: datetime, output_dir: Path) -> dict:
+        """Generate SF Fed digest in all 3 formats"""
+        timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
+        date_str = target_date.strftime("%Y-%m-%d")
+        
+        sf_fed_files = {}
+        
+        # Markdown format
+        md_file = output_dir / f"sf_fed_executive_digest_{timestamp}.md"
+        md_content = self.sf_fed_generator.format_digest_markdown(sf_fed_data)
+        with open(md_file, 'w', encoding='utf-8') as f:
+            f.write(md_content)
+        sf_fed_files["sf_fed_markdown"] = str(md_file)
+        
+        # JSON format
+        json_file = output_dir / f"sf_fed_executive_digest_{timestamp}.json"
+        with open(json_file, 'w', encoding='utf-8') as f:
+            json.dump(sf_fed_data, f, indent=2, ensure_ascii=False, default=str)
+        sf_fed_files["sf_fed_json"] = str(json_file)
+        
+        # HTML format
+        html_file = output_dir / f"sf_fed_executive_digest_{timestamp}.html"
+        html_content = self.generate_sf_fed_html(sf_fed_data, date_str)
+        with open(html_file, 'w', encoding='utf-8') as f:
+            f.write(html_content)
+        sf_fed_files["sf_fed_html"] = str(html_file)
+        
+        # Create latest symlinks
+        self.create_sf_fed_latest_links(sf_fed_files, output_dir)
+        
+        return sf_fed_files
+    
+    def generate_sf_fed_html(self, sf_fed_data: dict, date_str: str) -> str:
+        """Generate HTML format for SF Fed digest"""
+        html_content = f"""
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SF Fed Executive Daily News Digest - {date_str}</title>
+    <style>
+        body {{ font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; }}
+        .header {{ background: #1f4e79; color: white; padding: 20px; border-radius: 8px; margin-bottom: 30px; }}
+        .executive-summary {{ background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 30px; border-left: 4px solid #1f4e79; }}
+        .category {{ margin-bottom: 40px; }}
+        .article {{ border-left: 4px solid #1f4e79; padding-left: 15px; margin-bottom: 25px; }}
+        .highlights {{ background: #f8f9fa; padding: 10px; border-radius: 4px; margin: 10px 0; }}
+        .highlight-item {{ margin: 5px 0; }}
+        h1 {{ color: white; }}
+        h2 {{ color: #1f4e79; border-bottom: 2px solid #1f4e79; padding-bottom: 5px; }}
+        h3 {{ color: #333; }}
+        .meta {{ color: #666; font-size: 0.9em; }}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🏛️ SF Fed Executive Daily News Digest</h1>
+        <p><strong>Date:</strong> {date_str}</p>
+        <p><strong>Prepared for:</strong> SF Fed Executive Leadership Team</p>
+        <p><strong>Total Articles:</strong> {sf_fed_data.get('total_articles', 0)}</p>
+    </div>
+    
+    <div class="executive-summary">
+        <h2>📊 Executive Summary</h2>
+        <p>{sf_fed_data.get('executive_summary', 'No summary available.')}</p>
+    </div>
+"""
+        
+        # Add categories
+        for category_name, category_data in sf_fed_data.get('categories', {}).items():
+            if not category_data.get('articles'):
+                continue
+                
+            html_content += f'<div class="category"><h2>{category_data.get("display_name", category_name)}</h2>'
+            
+            for article in category_data['articles'][:5]:
+                html_content += f'<div class="article">'
+                html_content += f'<h3><a href="{article["url"]}" target="_blank">{article["title"]}</a></h3>'
+                html_content += f'<div class="meta">Source: {article["source"]} | {article.get("published", "N/A")}</div>'
+                
+                if article.get('highlights'):
+                    html_content += '<div class="highlights"><strong>Key Points:</strong>'
+                    for highlight in article['highlights'][:4]:
+                        html_content += f'<div class="highlight-item">• {highlight}</div>'
+                    html_content += '</div>'
+                
+                html_content += '</div>'
+            
+            html_content += '</div>'
+        
+        html_content += """
+</body>
+</html>
+"""
+        return html_content
+    
+    def create_sf_fed_latest_links(self, sf_fed_files: dict, output_dir: Path):
+        """Create symlinks to latest SF Fed digest files"""
+        format_map = {
+            "sf_fed_markdown": "latest_sf_fed_digest.md",
+            "sf_fed_json": "latest_sf_fed_digest.json", 
+            "sf_fed_html": "latest_sf_fed_digest.html"
+        }
+        
+        for format_type, file_path in sf_fed_files.items():
+            if format_type in format_map:
+                latest_link = output_dir / format_map[format_type]
+                if latest_link.exists() or latest_link.is_symlink():
+                    latest_link.unlink()
+                
+                try:
+                    latest_link.symlink_to(Path(file_path).name)
+                except OSError:
+                    import shutil
+                    shutil.copy2(file_path, latest_link)
+    
     def cleanup_old_digests(self, output_dir: Path):
         """Remove digest files older than configured days"""
         cutoff_date = datetime.now() - timedelta(days=self.config["archive_days"])
         
-        for file_path in output_dir.glob("daily_digest_*"):
-            if file_path.stat().st_mtime < cutoff_date.timestamp():
-                try:
-                    file_path.unlink()
-                    logger.info(f"Cleaned up old digest: {file_path}")
-                except Exception as e:
-                    logger.error(f"Error cleaning up {file_path}: {e}")
+        for pattern in ["daily_digest_*", "sf_fed_executive_digest_*"]:
+            for file_path in output_dir.glob(pattern):
+                if file_path.stat().st_mtime < cutoff_date.timestamp():
+                    try:
+                        file_path.unlink()
+                        logger.info(f"Cleaned up old digest: {file_path}")
+                    except Exception as e:
+                        logger.error(f"Error cleaning up {file_path}: {e}")
     
     def send_email_notification(self, digest_files: dict, date_str: str):
         """Send email notification with digest (placeholder)"""
@@ -515,13 +633,15 @@ def main():
     elif args.sf_fed_only:
         # Generate only SF Fed Executive Digest
         try:
-            sf_fed_digest = scheduler.sf_fed_generator.generate_digest()
-            sf_fed_file = scheduler.sf_fed_generator.save_digest(sf_fed_digest)
-            print(f"SF Fed Executive Digest generated: {sf_fed_file}")
+            output_dir = scheduler.setup_output_directory()
+            sf_fed_data = scheduler.sf_fed_generator.generate_digest_data()
+            sf_fed_files = scheduler.generate_sf_fed_formats(sf_fed_data, datetime.now(), output_dir)
+            print(f"SF Fed Executive Digest generated in multiple formats: {sf_fed_files}")
             print("\n" + "="*80)
             print("SF FED EXECUTIVE DAILY NEWS DIGEST")
             print("="*80)
-            print(sf_fed_digest)
+            md_content = scheduler.sf_fed_generator.format_digest_markdown(sf_fed_data)
+            print(md_content)
         except Exception as e:
             print(f"Error generating SF Fed digest: {e}")
     elif args.schedule:
@@ -530,6 +650,7 @@ def main():
         print("Use --run-once to generate a digest now, --sf-fed-only for SF Fed digest, or --schedule to start continuous scheduling")
         print(f"Current schedule times: {scheduler.config['schedule_times']}")
         print(f"SF Fed digest enabled: {scheduler.config['digest_settings'].get('generate_sf_fed_digest', False)}")
+        print(f"Output formats: Markdown, HTML, JSON")
 
 if __name__ == "__main__":
     main()

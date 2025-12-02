@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Economic News Dashboard
-Creates a web interface to display the curated economic news
+SF Fed Executive Daily News Dashboard
+Creates a web interface to display the SF Fed executive digest with same features as main dashboard
 """
 
 from flask import Flask, render_template_string, jsonify, request
@@ -11,14 +11,14 @@ import os
 
 app = Flask(__name__)
 
-# HTML template for the dashboard
-DASHBOARD_TEMPLATE = """
+# HTML template for the SF Fed dashboard (same styling as main dashboard)
+SF_FED_DASHBOARD_TEMPLATE = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily News AIssistant (DNA)</title>
+    <title>SF Fed Executive Daily News Digest</title>
     <style>
         * {
             margin: 0;
@@ -46,7 +46,7 @@ DASHBOARD_TEMPLATE = """
         }
         
         .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #1f4e79 0%, #2c5f8a 100%);
             color: white;
             padding: 30px 0;
             text-align: center;
@@ -85,8 +85,6 @@ DASHBOARD_TEMPLATE = """
             opacity: 0.6;
             cursor: not-allowed;
         }
-        
-
         
         .edit-btn {
             background: #17a2b8;
@@ -146,6 +144,21 @@ DASHBOARD_TEMPLATE = """
             opacity: 0.9;
         }
         
+        .executive-summary {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            border-left: 5px solid #1f4e79;
+        }
+        
+        .executive-summary h2 {
+            color: #1f4e79;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
         .stats {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -164,7 +177,7 @@ DASHBOARD_TEMPLATE = """
         .stat-number {
             font-size: 2em;
             font-weight: bold;
-            color: #667eea;
+            color: #1f4e79;
             margin-bottom: 5px;
         }
         
@@ -186,7 +199,7 @@ DASHBOARD_TEMPLATE = """
         }
         
         .topic-header {
-            background: #667eea;
+            background: #1f4e79;
             color: white;
             padding: 20px;
             font-size: 1.3em;
@@ -199,7 +212,7 @@ DASHBOARD_TEMPLATE = """
         }
         
         .topic-header:hover {
-            background: #5a6fd8;
+            background: #1a4269;
         }
         
         .collapse-icon {
@@ -260,7 +273,7 @@ DASHBOARD_TEMPLATE = """
         }
         
         .article-title a:hover {
-            color: #667eea;
+            color: #1f4e79;
         }
         
         .article-meta {
@@ -291,11 +304,6 @@ DASHBOARD_TEMPLATE = """
             color: #888;
         }
         
-        .article-summary {
-            color: #555;
-            line-height: 1.5;
-        }
-        
         .article-highlights {
             color: #555;
             line-height: 1.5;
@@ -315,25 +323,6 @@ DASHBOARD_TEMPLATE = """
             overflow-wrap: break-word;
             white-space: normal;
             line-height: 1.4;
-        }
-        
-        .load-more {
-            text-align: center;
-            margin-top: 20px;
-        }
-        
-        .load-more button {
-            background: #667eea;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 1em;
-        }
-        
-        .load-more button:hover {
-            background: #5a6fd8;
         }
         
         .footer {
@@ -363,7 +352,7 @@ DASHBOARD_TEMPLATE = """
         }
         
         .keywords-header {
-            background: #667eea;
+            background: #1f4e79;
             color: white;
             padding: 15px;
             border-radius: 0 10px 0 0;
@@ -407,7 +396,7 @@ DASHBOARD_TEMPLATE = """
         
         .tab-button.active {
             background: white;
-            border-bottom: 2px solid #667eea;
+            border-bottom: 2px solid #1f4e79;
         }
         
         .tab-content {
@@ -477,7 +466,7 @@ DASHBOARD_TEMPLATE = """
         }
         
         input:checked + .slider {
-            background-color: #667eea;
+            background-color: #1f4e79;
         }
         
         input:checked + .slider:before {
@@ -569,7 +558,7 @@ DASHBOARD_TEMPLATE = """
         }
         
         .btn-primary {
-            background: #667eea;
+            background: #1f4e79;
             color: white;
         }
         
@@ -617,12 +606,17 @@ DASHBOARD_TEMPLATE = """
 <body>
     <div class="container">
         <div class="header">
-            <h1>Daily News AIssistant (DNA)</h1>
-            <p>Curated news from Bloomberg, Reuters, Fox News, NBC, AP, WSJ, and LinkedIn</p>
+            <h1>🏛️ SF Fed Executive Daily News Digest</h1>
+            <p>Prepared for SF Fed Executive Leadership Team</p>
             <p><strong>Collection Date:</strong> {{ collection_date }}</p>
             <div class="header-buttons">
-                <button class="refresh-btn" onclick="refreshNews()" id="refreshBtn">🔄 Refresh News</button>
+                <button class="refresh-btn" onclick="refreshNews()" id="refreshBtn">🔄 Refresh Digest</button>
             </div>
+        </div>
+        
+        <div class="executive-summary">
+            <h2>📊 Executive Summary</h2>
+            <p>{{ executive_summary }}</p>
         </div>
         
         <div class="stats">
@@ -631,8 +625,8 @@ DASHBOARD_TEMPLATE = """
                 <div class="stat-label">Total Articles</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">{{ topic_count }}</div>
-                <div class="stat-label">Topic Categories</div>
+                <div class="stat-number">{{ category_count }}</div>
+                <div class="stat-label">Priority Categories</div>
             </div>
             <div class="stat-card">
                 <div class="stat-number">{{ source_count }}</div>
@@ -640,22 +634,23 @@ DASHBOARD_TEMPLATE = """
             </div>
             <div class="stat-card">
                 <div class="stat-number">7</div>
-                <div class="stat-label">Days Coverage</div>
+                <div class="stat-label">SF Fed Implications</div>
             </div>
         </div>
         
         <div class="topics">
-            {% for topic, articles in topics.items() %}
+            {% for category_key, category_data in categories.items() %}
+            {% if category_data.articles %}
             <div class="topic-section collapsed" id="topic-{{ loop.index0 }}">
                 <div class="topic-header" onclick="toggleTopic('{{ loop.index0 }}')">
-                    <span>{{ topic }} ({{ articles|length }} articles)</span>
+                    <span>{{ category_data.display_name }} ({{ category_data.articles|length }} articles)</span>
                     <div>
-                        <button class="topic-export-btn" onclick="event.stopPropagation(); exportTopicToPDF('{{ topic }}', '{{ loop.index0 }}')">📄 Export PDF</button>
+                        <button class="topic-export-btn" onclick="event.stopPropagation(); exportTopicToPDF('{{ category_data.display_name }}', '{{ loop.index0 }}')" >📄 Export PDF</button>
                         <span class="collapse-icon">▼</span>
                     </div>
                 </div>
                 <div class="topic-content">
-                    {% for article in articles[:5] %}
+                    {% for article in category_data.articles[:5] %}
                     <div class="article">
                         <div class="article-title">
                             <a href="{{ article.url }}" target="_blank">{{ article.title }}</a>
@@ -667,18 +662,18 @@ DASHBOARD_TEMPLATE = """
                         {% if article.get('author') %}
                         <div class="article-author">By {{ article.author }}</div>
                         {% endif %}
-                        {% if article.get('summary_highlights') %}
+                        {% if article.get('highlights') %}
                         <div class="article-highlights">
                             <strong>Key Points:</strong>
-                            <button class="edit-btn" onclick="toggleEdit('{{ loop.index0 }}')">✏️ Edit</button>
-                            <ul id="highlights-{{ loop.index0 }}" class="editable-highlights">
-                                {% for highlight in article.summary_highlights[:4] %}
+                            <button class="edit-btn" onclick="toggleEdit('{{ loop.index0 }}-{{ loop.index }}')" >✏️ Edit</button>
+                            <ul id="highlights-{{ loop.index0 }}-{{ loop.index }}" class="editable-highlights">
+                                {% for highlight in article.highlights[:4] %}
                                 <li contenteditable="false" class="highlight-item">{{ highlight }}</li>
                                 {% endfor %}
                             </ul>
-                            <div class="edit-controls" id="controls-{{ loop.index0 }}" style="display: none;">
-                                <button class="save-btn" onclick="saveHighlights('{{ loop.index0 }}')">💾 Save</button>
-                                <button class="cancel-btn" onclick="cancelEdit('{{ loop.index0 }}')">❌ Cancel</button>
+                            <div class="edit-controls" id="controls-{{ loop.index0 }}-{{ loop.index }}" style="display: none;">
+                                <button class="save-btn" onclick="saveHighlights('{{ loop.index0 }}-{{ loop.index }}')">💾 Save</button>
+                                <button class="cancel-btn" onclick="cancelEdit('{{ loop.index0 }}-{{ loop.index }}')">❌ Cancel</button>
                             </div>
                         </div>
                         {% elif article.description %}
@@ -689,26 +684,27 @@ DASHBOARD_TEMPLATE = """
                     </div>
                     {% endfor %}
                     
-                    {% if articles|length > 5 %}
+                    {% if category_data.articles|length > 5 %}
                     <div class="load-more">
-                        <p><em>... and {{ articles|length - 5 }} more articles in this category</em></p>
+                        <p><em>... and {{ category_data.articles|length - 5 }} more articles in this category</em></p>
                     </div>
                     {% endif %}
                 </div>
             </div>
+            {% endif %}
             {% endfor %}
         </div>
         
         <div class="footer">
-            <p>Data collected from publicly available sources including Google News RSS feeds and major news outlets.</p>
-            <p>This dashboard provides a curated view of recent economic and financial news for analysis and review.</p>
+            <p>SF Fed Executive Digest prepared from publicly available sources with Fed-specific analysis.</p>
+            <p>This dashboard provides curated economic and financial news relevant to SF Fed priorities.</p>
         </div>
     </div>
     
     <!-- Keywords Editor Panel -->
     <div class="keywords-panel" id="keywordsPanel">
         <div class="keywords-header" onclick="toggleKeywordsPanel()">
-            <span>Application Settings</span>
+            <span>SF Fed Settings</span>
             <span class="toggle-icon">◀</span>
         </div>
         <div class="keywords-content" id="keywordsContent">
@@ -722,7 +718,7 @@ DASHBOARD_TEMPLATE = """
                     <div id="keywordsList" style="height: calc(100% - 100px); overflow-y: auto; margin-bottom: 10px;">
                         <!-- Keywords will be loaded here -->
                     </div>
-                    <input type="text" class="add-keyword" id="newKeyword" placeholder="Add new keyword..." onkeypress="handleKeywordInput(event)">
+                    <input type="text" class="add-keyword" id="newKeyword" placeholder="Add SF Fed keyword..." onkeypress="handleKeywordInput(event)">
                     <div class="btn-group">
                         <button class="btn btn-primary" onclick="addKeyword()">Add</button>
                         <button class="btn btn-secondary" onclick="resetKeywords()">Reset</button>
@@ -753,6 +749,8 @@ DASHBOARD_TEMPLATE = """
     
     <script>
         let currentKeywords = [];
+        let currentSources = [];
+        let originalHighlights = {};
         
         function toggleKeywordsPanel() {
             const panel = document.getElementById('keywordsPanel');
@@ -781,7 +779,7 @@ DASHBOARD_TEMPLATE = """
                 currentKeywords.push(keyword);
                 input.value = '';
                 loadKeywords();
-                saveKeywords(); // Auto-save after adding
+                saveKeywords();
             }
         }
         
@@ -789,8 +787,6 @@ DASHBOARD_TEMPLATE = """
             currentKeywords.splice(index, 1);
             loadKeywords();
         }
-        
-        let currentSources = [];
         
         function switchTab(tabName) {
             document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
@@ -905,7 +901,7 @@ DASHBOARD_TEMPLATE = """
         }
         
         function saveKeywords() {
-            fetch('/api/keywords', {
+            fetch('/api/sf-fed-keywords', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -925,17 +921,22 @@ DASHBOARD_TEMPLATE = """
         
         function resetKeywords() {
             currentKeywords = [
-                'unemployment', 'inflation', 'market risk', 'banking',
-                'federal reserve', 'interest rates', 'economic outlook',
-                'GDP', 'recession', 'monetary policy', 'fiscal policy',
-                'fed', 'jerome powell', 'fomc', 'federal open market committee',
-                'fed chair', 'fed governor', 'fed official', 'fed policy',
-                'fed meeting', 'fed minutes', 'fed speech', 'fed testimony'
+                'federal reserve', 'fed', 'fomc', 'jerome powell', 'monetary policy', 'interest rates',
+                'fed chair', 'fed governor', 'fed official', 'fed policy', 'fed meeting', 'fed minutes',
+                'california', 'washington', 'oregon', 'arizona', 'utah', 'alaska', 'hawaii', 'idaho', 'nevada',
+                'san francisco fed', '12th district', 'west coast', 'pacific', 'silicon valley',
+                'inflation', 'unemployment', 'gdp', 'productivity', 'labor market', 'employment',
+                'housing market', 'consumer spending', 'supply chain', 'logistics',
+                'banking', 'financial stability', 'credit', 'liquidity', 'capital', 'stress test',
+                'commercial real estate', 'cre', 'funding markets', 'credit spreads',
+                'fintech', 'digital payments', 'fednow', 'cbdc', 'cryptocurrency', 'blockchain',
+                'cyber security', 'cloud computing', 'artificial intelligence', 'ai risk',
+                'china', 'japan', 'korea', 'asean', 'trade war', 'tariffs', 'supply chain',
+                'geopolitical', 'international trade', 'central bank',
+                'cfpb', 'fdic', 'occ', 'treasury', 'congress', 'regulation', 'supervision'
             ];
             loadKeywords();
         }
-        
-        let originalHighlights = {};
         
         function toggleEdit(articleId) {
             const highlights = document.getElementById(`highlights-${articleId}`);
@@ -953,8 +954,6 @@ DASHBOARD_TEMPLATE = """
             controls.style.display = 'block';
         }
         
-        let globalArticleIndex = 0;
-        
         function saveHighlights(articleId) {
             const highlights = document.getElementById(`highlights-${articleId}`);
             const controls = document.getElementById(`controls-${articleId}`);
@@ -964,7 +963,7 @@ DASHBOARD_TEMPLATE = """
             const editedHighlights = Array.from(items).map(item => item.textContent);
             
             // Save to server
-            fetch('/api/save-highlights', {
+            fetch('/api/save-sf-fed-highlights', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -1008,8 +1007,6 @@ DASHBOARD_TEMPLATE = """
             controls.style.display = 'none';
         }
         
-
-        
         function exportTopicToPDF(topicName, topicIndex) {
             // Hide all other topics
             const allTopics = document.querySelectorAll('.topic-section');
@@ -1025,7 +1022,7 @@ DASHBOARD_TEMPLATE = """
             });
             
             // Hide other elements
-            const elementsToHide = ['.stats', '.keywords-panel', '.header-buttons'];
+            const elementsToHide = ['.stats', '.keywords-panel', '.header-buttons', '.executive-summary'];
             const hiddenElements = [];
             elementsToHide.forEach(selector => {
                 const elements = document.querySelectorAll(selector);
@@ -1038,7 +1035,7 @@ DASHBOARD_TEMPLATE = """
             // Update header title
             const headerTitle = document.querySelector('.header h1');
             const originalTitle = headerTitle.textContent;
-            headerTitle.textContent = `Economic News: ${topicName}`;
+            headerTitle.textContent = `SF Fed: ${topicName}`;
             
             // Print
             window.print();
@@ -1065,55 +1062,54 @@ DASHBOARD_TEMPLATE = """
         function refreshNews() {
             const btn = document.getElementById('refreshBtn');
             btn.disabled = true;
-            btn.innerHTML = '⏳ Scanning...';
+            btn.innerHTML = '⏳ Generating...';
             
-            fetch('/api/refresh-news', {
+            fetch('/api/refresh-sf-fed-digest', {
                 method: 'POST'
             })
             .then(response => response.json())
             .then(data => {
                 if (data.success) {
-                    alert('News refresh completed! Reloading page...');
+                    alert('SF Fed digest refresh completed! Reloading page...');
                     window.location.reload();
                 } else {
-                    alert('Error refreshing news: ' + data.error);
+                    alert('Error refreshing digest: ' + data.error);
                 }
             })
             .catch(error => {
-                alert('Error refreshing news: ' + error);
+                alert('Error refreshing digest: ' + error);
             })
             .finally(() => {
                 btn.disabled = false;
-                btn.innerHTML = '🔄 Refresh News';
+                btn.innerHTML = '🔄 Refresh Digest';
             });
         }
         
         // Load keywords on page load
         document.addEventListener('DOMContentLoaded', function() {
-            fetch('/api/keywords')
+            fetch('/api/sf-fed-keywords')
             .then(response => response.json())
             .then(data => {
                 currentKeywords = data.keywords || [
-                    'unemployment', 'inflation', 'market risk', 'banking',
-                    'federal reserve', 'interest rates', 'economic outlook',
-                    'GDP', 'recession', 'monetary policy', 'fiscal policy',
-                    'fed', 'jerome powell', 'fomc', 'federal open market committee',
-                    'fed chair', 'fed governor', 'fed official', 'fed policy',
-                    'fed meeting', 'fed minutes', 'fed speech', 'fed testimony'
+                    'federal reserve', 'fed', 'fomc', 'jerome powell', 'monetary policy', 'interest rates',
+                    'fed chair', 'fed governor', 'fed official', 'fed policy', 'fed meeting', 'fed minutes',
+                    'california', 'washington', 'oregon', 'arizona', 'utah', 'alaska', 'hawaii', 'idaho', 'nevada',
+                    'san francisco fed', '12th district', 'west coast', 'pacific', 'silicon valley',
+                    'inflation', 'unemployment', 'gdp', 'productivity', 'labor market', 'employment',
+                    'housing market', 'consumer spending', 'supply chain', 'logistics',
+                    'banking', 'financial stability', 'credit', 'liquidity', 'capital', 'stress test',
+                    'commercial real estate', 'cre', 'funding markets', 'credit spreads',
+                    'fintech', 'digital payments', 'fednow', 'cbdc', 'cryptocurrency', 'blockchain',
+                    'cyber security', 'cloud computing', 'artificial intelligence', 'ai risk',
+                    'china', 'japan', 'korea', 'asean', 'trade war', 'tariffs', 'supply chain',
+                    'geopolitical', 'international trade', 'central bank',
+                    'cfpb', 'fdic', 'occ', 'treasury', 'congress', 'regulation', 'supervision'
                 ];
                 loadKeywords();
             })
             .catch(error => {
                 console.error('Error loading keywords:', error);
-                currentKeywords = [
-                    'unemployment', 'inflation', 'market risk', 'banking',
-                    'federal reserve', 'interest rates', 'economic outlook',
-                    'GDP', 'recession', 'monetary policy', 'fiscal policy',
-                    'fed', 'jerome powell', 'fomc', 'federal open market committee',
-                    'fed chair', 'fed governor', 'fed official', 'fed policy',
-                    'fed meeting', 'fed minutes', 'fed speech', 'fed testimony'
-                ];
-                loadKeywords();
+                resetKeywords();
             });
         });
     </script>
@@ -1121,59 +1117,37 @@ DASHBOARD_TEMPLATE = """
 </html>
 """
 
-def clean_highlight(highlight):
-    """Remove sub-header prefixes from highlights"""
-    prefixes = [
-        'Economic news:', 'Market development:', 'Federal Reserve development:', 
-        'Inflation update:', 'Employment market news:', 'Context:', 
-        'Key statement:', 'Economic data:', 'Source:', 'Fed Chair Jerome Powell statement:',
-        'Federal Reserve interest rate policy:'
-    ]
-    
-    cleaned = highlight
-    for prefix in prefixes:
-        if cleaned.startswith(prefix):
-            cleaned = cleaned[len(prefix):].strip()
-            break
-    
-    return cleaned
-
 @app.route('/')
-def dashboard():
-    """Main dashboard route"""
+def sf_fed_dashboard():
+    """SF Fed dashboard route"""
     try:
-        # Load the articles data
-        with open('articles_data.json', 'r', encoding='utf-8') as f:
+        # Load the SF Fed digest JSON data
+        with open('daily_digests/latest_sf_fed_digest.json', 'r', encoding='utf-8') as f:
             data = json.load(f)
         
-        # Clean highlights in all articles
-        for topic_name, articles in data.get('topics', {}).items():
-            for article in articles:
-                if 'summary_highlights' in article:
-                    article['summary_highlights'] = [clean_highlight(h) for h in article['summary_highlights']]
-                if 'highlights' in article:
-                    article['highlights'] = [clean_highlight(h) for h in article['highlights']]
-        
         # Format the collection date
-        collection_date = datetime.fromisoformat(data['collection_date'].replace('Z', '+00:00'))
-        formatted_date = collection_date.strftime('%B %d, %Y at %I:%M %p UTC')
+        collection_date = datetime.fromisoformat(data['date']).strftime('%B %d, %Y')
+        
+        # Count categories with articles
+        category_count = sum(1 for cat_data in data['categories'].values() if cat_data['articles'])
         
         return render_template_string(
-            DASHBOARD_TEMPLATE,
-            collection_date=formatted_date,
+            SF_FED_DASHBOARD_TEMPLATE,
+            collection_date=collection_date,
             total_articles=data['total_articles'],
-            topic_count=len(data['topics']),
+            category_count=category_count,
             source_count=len(data['sources_covered']),
-            topics=data['topics']
+            executive_summary=data['executive_summary'],
+            categories=data['categories']
         )
     except Exception as e:
-        return f"Error loading dashboard: {str(e)}", 500
+        return f"Error loading SF Fed dashboard: {str(e)}", 500
 
 @app.route('/api/data')
 def api_data():
-    """API endpoint to get raw data"""
+    """API endpoint to get raw SF Fed data"""
     try:
-        with open('articles_data.json', 'r', encoding='utf-8') as f:
+        with open('daily_digests/latest_sf_fed_digest.json', 'r', encoding='utf-8') as f:
             data = json.load(f)
         return jsonify(data)
     except Exception as e:
@@ -1181,25 +1155,25 @@ def api_data():
 
 @app.route('/api/summary')
 def api_summary():
-    """API endpoint to get summary statistics"""
+    """API endpoint to get SF Fed summary statistics"""
     try:
-        with open('articles_data.json', 'r', encoding='utf-8') as f:
+        with open('daily_digests/latest_sf_fed_digest.json', 'r', encoding='utf-8') as f:
             data = json.load(f)
         
         summary = {
             'total_articles': data['total_articles'],
-            'topics': {topic: len(articles) for topic, articles in data['topics'].items()},
+            'categories': {cat_key: len(cat_data['articles']) for cat_key, cat_data in data['categories'].items()},
             'sources': data['sources_covered'],
-            'collection_date': data['collection_date']
+            'collection_date': data['date']
         }
         return jsonify(summary)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-@app.route('/api/keywords', methods=['GET', 'POST'])
-def api_keywords():
-    """API endpoint to get and update keywords"""
-    keywords_file = 'keywords.json'
+@app.route('/api/sf-fed-keywords', methods=['GET', 'POST'])
+def api_sf_fed_keywords():
+    """API endpoint to get and update SF Fed keywords"""
+    keywords_file = 'sf_fed_keywords.json'
     
     if request.method == 'GET':
         try:
@@ -1208,14 +1182,21 @@ def api_keywords():
                     data = json.load(f)
                 return jsonify(data)
             else:
-                # Return default keywords
+                # Return default SF Fed keywords
                 default_keywords = [
-                    'unemployment', 'inflation', 'market risk', 'banking',
-                    'federal reserve', 'interest rates', 'economic outlook',
-                    'GDP', 'recession', 'monetary policy', 'fiscal policy',
-                    'fed', 'jerome powell', 'fomc', 'federal open market committee',
-                    'fed chair', 'fed governor', 'fed official', 'fed policy',
-                    'fed meeting', 'fed minutes', 'fed speech', 'fed testimony'
+                    'federal reserve', 'fed', 'fomc', 'jerome powell', 'monetary policy', 'interest rates',
+                    'fed chair', 'fed governor', 'fed official', 'fed policy', 'fed meeting', 'fed minutes',
+                    'california', 'washington', 'oregon', 'arizona', 'utah', 'alaska', 'hawaii', 'idaho', 'nevada',
+                    'san francisco fed', '12th district', 'west coast', 'pacific', 'silicon valley',
+                    'inflation', 'unemployment', 'gdp', 'productivity', 'labor market', 'employment',
+                    'housing market', 'consumer spending', 'supply chain', 'logistics',
+                    'banking', 'financial stability', 'credit', 'liquidity', 'capital', 'stress test',
+                    'commercial real estate', 'cre', 'funding markets', 'credit spreads',
+                    'fintech', 'digital payments', 'fednow', 'cbdc', 'cryptocurrency', 'blockchain',
+                    'cyber security', 'cloud computing', 'artificial intelligence', 'ai risk',
+                    'china', 'japan', 'korea', 'asean', 'trade war', 'tariffs', 'supply chain',
+                    'geopolitical', 'international trade', 'central bank',
+                    'cfpb', 'fdic', 'occ', 'treasury', 'congress', 'regulation', 'supervision'
                 ]
                 return jsonify({'keywords': default_keywords})
         except Exception as e:
@@ -1230,13 +1211,13 @@ def api_keywords():
             with open(keywords_file, 'w', encoding='utf-8') as f:
                 json.dump({'keywords': keywords}, f, indent=2)
             
-            return jsonify({'success': True, 'message': 'Keywords saved successfully'})
+            return jsonify({'success': True, 'message': 'SF Fed keywords saved successfully'})
         except Exception as e:
             return jsonify({'success': False, 'error': str(e)}), 500
 
 @app.route('/api/sources', methods=['GET', 'POST'])
 def api_sources():
-    """API endpoint to get and update news sources"""
+    """API endpoint to get and update news sources (same as main dashboard)"""
     sources_file = 'sources.json'
     
     if request.method == 'GET':
@@ -1275,66 +1256,62 @@ def api_sources():
         except Exception as e:
             return jsonify({'success': False, 'error': str(e)}), 500
 
-@app.route('/api/save-highlights', methods=['POST'])
-def api_save_highlights():
-    """API endpoint to save edited highlights"""
+@app.route('/api/save-sf-fed-highlights', methods=['POST'])
+def api_save_sf_fed_highlights():
+    """API endpoint to save edited SF Fed highlights"""
     try:
         data = request.get_json()
         article_id = data.get('articleId')
         highlights = data.get('highlights', [])
         
-        # Load current articles data
-        with open('articles_data.json', 'r', encoding='utf-8') as f:
-            articles_data = json.load(f)
+        # Load current SF Fed digest data
+        with open('daily_digests/latest_sf_fed_digest.json', 'r', encoding='utf-8') as f:
+            digest_data = json.load(f)
         
-        # Find and update the article
-        # Parse article_id (now just a simple index)
-        article_idx = int(article_id)
+        # Parse article_id (format: "categoryIndex-articleIndex")
+        category_idx, article_idx = map(int, article_id.split('-'))
         
-        # Flatten all articles to find by index
-        all_articles = []
-        topic_article_map = []
+        # Get category keys in order
+        category_keys = list(digest_data['categories'].keys())
         
-        for topic_name, topic_articles in articles_data['topics'].items():
-            for i, article in enumerate(topic_articles):
-                all_articles.append(article)
-                topic_article_map.append((topic_name, i))
-        
-        if article_idx < len(all_articles):
-            topic_name, topic_article_idx = topic_article_map[article_idx]
-            articles_data['topics'][topic_name][topic_article_idx]['summary_highlights'] = highlights
+        if category_idx < len(category_keys):
+            category_key = category_keys[category_idx]
+            category_articles = digest_data['categories'][category_key]['articles']
             
-            # Save updated data
-            with open('articles_data.json', 'w', encoding='utf-8') as f:
-                json.dump(articles_data, f, indent=2, default=str)
-            
-            return jsonify({'success': True, 'message': 'Highlights saved successfully'})
+            if article_idx - 1 < len(category_articles):  # article_idx is 1-based in template
+                category_articles[article_idx - 1]['highlights'] = highlights
+                
+                # Save updated data
+                with open('daily_digests/latest_sf_fed_digest.json', 'w', encoding='utf-8') as f:
+                    json.dump(digest_data, f, indent=2, default=str)
+                
+                return jsonify({'success': True, 'message': 'SF Fed highlights saved successfully'})
         
         return jsonify({'success': False, 'error': 'Article not found'})
         
     except Exception as e:
         return jsonify({'success': False, 'error': str(e)}), 500
 
-@app.route('/api/refresh-news', methods=['POST'])
-def api_refresh_news():
-    """API endpoint to trigger news aggregation"""
+@app.route('/api/refresh-sf-fed-digest', methods=['POST'])
+def api_refresh_sf_fed_digest():
+    """API endpoint to trigger SF Fed digest generation"""
     try:
         import subprocess
         import sys
         
-        # Run the news aggregator script
-        result = subprocess.run([sys.executable, 'news_aggregator.py'], 
+        # Run the daily scheduler with SF Fed only flag
+        result = subprocess.run([sys.executable, 'daily_scheduler.py', '--sf-fed-only'], 
                               capture_output=True, text=True, timeout=900)
         
         if result.returncode == 0:
-            return jsonify({'success': True, 'message': 'News refresh completed successfully'})
+            return jsonify({'success': True, 'message': 'SF Fed digest refresh completed successfully'})
         else:
-            return jsonify({'success': False, 'error': f'News aggregator failed: {result.stderr}'})
+            return jsonify({'success': False, 'error': f'SF Fed digest generation failed: {result.stderr}'})
             
     except subprocess.TimeoutExpired:
-        return jsonify({'success': False, 'error': 'News aggregation timed out (15 minutes)'})
+        return jsonify({'success': False, 'error': 'SF Fed digest generation timed out (15 minutes)'})
     except Exception as e:
         return jsonify({'success': False, 'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5002, debug=True)
