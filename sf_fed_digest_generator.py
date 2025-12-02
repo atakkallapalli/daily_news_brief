@@ -223,18 +223,25 @@ Key focus areas include monetary policy transmission, regional economic conditio
         
         return implications[:7]  # Limit to 5-7 bullets as requested
     
-    def generate_digest(self, target_date: datetime = None) -> str:
-        """Generate complete SF Fed Executive Daily News Digest"""
+    def generate_digest_data(self, target_date: datetime = None) -> dict:
+        """Generate structured SF Fed digest data"""
         if target_date is None:
             target_date = datetime.now()
         
-        print("Generating SF Fed Executive Daily News Digest...")
+        print("Generating SF Fed Executive Daily News Digest data...")
         
         # Collect articles
         summary = self.collect_sf_fed_articles(target_date)
         
         if not summary.get('topics'):
-            return "No relevant articles found for today's digest."
+            return {
+                "date": target_date.strftime("%Y-%m-%d"),
+                "generated_at": datetime.now().isoformat(),
+                "total_articles": 0,
+                "executive_summary": "No relevant articles found for today's digest.",
+                "categories": {},
+                "sources_covered": []
+            }
         
         # Extract all articles from topics
         all_articles = []
@@ -244,8 +251,51 @@ Key focus areas include monetary policy transmission, regional economic conditio
         # Categorize for SF Fed structure
         categories = self.categorize_for_sf_fed(all_articles)
         
-        # Generate digest sections
-        digest_date = target_date.strftime("%B %d, %Y")
+        # Generate structured data
+        digest_data = {
+            "date": target_date.strftime("%Y-%m-%d"),
+            "generated_at": datetime.now().isoformat(),
+            "total_articles": len(all_articles),
+            "executive_summary": self.generate_executive_summary(categories),
+            "categories": {
+                "top_headlines": {
+                    "display_name": "Top 5 Headlines Relevant to the Federal Reserve",
+                    "articles": categories['top_headlines'][:5] if categories['top_headlines'] else (categories['national_macro'] + categories['financial_banking'])[:5]
+                },
+                "district_regional": {
+                    "display_name": "12th District Regional Economic & Labor Signals",
+                    "articles": categories['district_regional'][:5]
+                },
+                "national_macro": {
+                    "display_name": "National Macroeconomic & Monetary Policy Developments",
+                    "articles": categories['national_macro'][:5]
+                },
+                "financial_banking": {
+                    "display_name": "Financial System & Banking Stability Watch",
+                    "articles": categories['financial_banking'][:5]
+                },
+                "global_pacific": {
+                    "display_name": "Global & Pacific Rim Insights (SF Fed Priority)",
+                    "articles": categories['global_pacific'][:5]
+                },
+                "technology_cyber": {
+                    "display_name": "Technology, Cyber, and Payments Developments",
+                    "articles": categories['technology_cyber'][:5]
+                },
+                "regulatory_legislative": {
+                    "display_name": "Regulatory, Legislative, and Federal Government Updates",
+                    "articles": categories['regulatory_legislative'][:5]
+                }
+            },
+            "sf_fed_implications": self.generate_sf_fed_implications(categories),
+            "sources_covered": summary.get('sources_covered', [])
+        }
+        
+        return digest_data
+    
+    def format_digest_markdown(self, digest_data: dict) -> str:
+        """Format digest data as markdown"""
+        digest_date = datetime.strptime(digest_data['date'], "%Y-%m-%d").strftime("%B %d, %Y")
         
         digest = f"""# San Francisco Federal Reserve Executive Daily News Digest
 **Date**: {digest_date}
@@ -253,127 +303,52 @@ Key focus areas include monetary policy transmission, regional economic conditio
 
 ---
 
-## Top 5 Headlines Relevant to the Federal Reserve
-
 """
         
-        # Top 5 headlines
-        top_articles = categories['top_headlines'][:5]
-        if not top_articles:
-            # Fallback to most relevant articles
-            top_articles = (categories['national_macro'] + categories['financial_banking'])[:5]
-        
-        for i, article in enumerate(top_articles, 1):
-            digest += f"{i}. {self.format_article_summary(article)}\n\n"
-        
-        digest += """---
-
-## 12th District Regional Economic & Labor Signals
-
-"""
-        
-        # Regional articles
-        regional_articles = categories['district_regional'][:5]
-        if regional_articles:
-            for article in regional_articles:
-                digest += f"• {self.format_article_summary(article)}\n\n"
-        else:
-            digest += "*No specific 12th District developments identified in today's coverage.*\n\n"
-        
-        digest += """---
-
-## National Macroeconomic & Monetary Policy Developments
-
-"""
-        
-        # National macro articles
-        macro_articles = categories['national_macro'][:5]
-        for article in macro_articles:
-            digest += f"• {self.format_article_summary(article)}\n\n"
-        
-        digest += """---
-
-## Financial System & Banking Stability Watch
-
-"""
-        
-        # Banking articles
-        banking_articles = categories['financial_banking'][:5]
-        if banking_articles:
-            for article in banking_articles:
-                digest += f"• {self.format_article_summary(article)}\n\n"
-        else:
-            digest += "*No significant banking sector developments identified.*\n\n"
-        
-        digest += """---
-
-## Global & Pacific Rim Insights (SF Fed Priority)
-
-"""
-        
-        # Global/Pacific articles
-        global_articles = categories['global_pacific'][:5]
-        if global_articles:
-            for article in global_articles:
-                digest += f"• {self.format_article_summary(article)}\n\n"
-        else:
-            digest += "*No major Pacific Rim developments in today's coverage.*\n\n"
-        
-        digest += """---
-
-## Technology, Cyber, and Payments Developments
-
-"""
-        
-        # Technology articles
-        tech_articles = categories['technology_cyber'][:5]
-        if tech_articles:
-            for article in tech_articles:
-                digest += f"• {self.format_article_summary(article)}\n\n"
-        else:
-            digest += "*No significant fintech or cyber developments identified.*\n\n"
-        
-        digest += """---
-
-## Regulatory, Legislative, and Federal Government Updates
-
-"""
-        
-        # Regulatory articles
-        reg_articles = categories['regulatory_legislative'][:5]
-        if reg_articles:
-            for article in reg_articles:
-                digest += f"• {self.format_article_summary(article)}\n\n"
-        else:
-            digest += "*No major regulatory developments in today's coverage.*\n\n"
-        
-        digest += """---
-
-## Implications for SF Fed
-
-"""
+        # Add categories
+        for category_key, category_data in digest_data['categories'].items():
+            if not category_data['articles']:
+                continue
+                
+            digest += f"## {category_data['display_name']}\n\n"
+            
+            if category_key == 'top_headlines':
+                for i, article in enumerate(category_data['articles'], 1):
+                    digest += f"{i}. {self.format_article_summary(article)}\n\n"
+            else:
+                for article in category_data['articles']:
+                    digest += f"• {self.format_article_summary(article)}\n\n"
+            
+            if not category_data['articles'] and category_key in ['district_regional', 'global_pacific', 'technology_cyber', 'financial_banking']:
+                digest += f"*No significant {category_data['display_name'].lower()} identified in today's coverage.*\n\n"
+            
+            digest += "---\n\n"
         
         # SF Fed implications
-        implications = self.generate_sf_fed_implications(categories)
-        for implication in implications:
+        digest += "## Implications for SF Fed\n\n"
+        for implication in digest_data.get('sf_fed_implications', []):
             digest += f"• {implication}\n\n"
         
-        digest += """---
-
-"""
+        digest += "---\n\n"
         
         # Executive summary
-        digest += self.generate_executive_summary(categories)
+        digest += digest_data.get('executive_summary', '')
         
         digest += f"""
 
 ---
 
-*Digest prepared from {len(all_articles)} articles across {len(summary['sources_covered'])} sources*
-*Sources: {', '.join(summary['sources_covered'][:5])}{'...' if len(summary['sources_covered']) > 5 else ''}*
+*Digest prepared from {digest_data['total_articles']} articles across {len(digest_data['sources_covered'])} sources*
+*Sources: {', '.join(digest_data['sources_covered'][:5])}{'...' if len(digest_data['sources_covered']) > 5 else ''}*
 """
         
         return digest
+    
+    def generate_digest(self, target_date: datetime = None) -> str:
+        """Generate complete SF Fed Executive Daily News Digest (legacy method)"""
+        digest_data = self.generate_digest_data(target_date)
+        return self.format_digest_markdown(digest_data)
+
     
     def save_digest(self, digest_content: str, target_date: datetime = None) -> str:
         """Save digest to file"""

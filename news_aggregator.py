@@ -1239,6 +1239,32 @@ class NewsAggregator:
             quotes.extend(matches[:3])  # Limit to 3 quotes per pattern
         
         return quotes[:5]  # Return max 5 quotes
+    
+    def extract_author(self, article_content: str, description: str = "") -> str:
+        """Extract author name from article content"""
+        import re
+        
+        # Combine content for author search
+        text = f"{description} {article_content}"
+        
+        # Author patterns to search for
+        author_patterns = [
+            r'By\s+([A-Z][a-z]+\s+[A-Z][a-z]+)',  # By John Smith
+            r'Written by\s+([A-Z][a-z]+\s+[A-Z][a-z]+)',  # Written by John Smith
+            r'Author:\s*([A-Z][a-z]+\s+[A-Z][a-z]+)',  # Author: John Smith
+            r'Reporter:\s*([A-Z][a-z]+\s+[A-Z][a-z]+)',  # Reporter: John Smith
+            r'\-\s*([A-Z][a-z]+\s+[A-Z][a-z]+)\s*$',  # - John Smith (at end)
+        ]
+        
+        for pattern in author_patterns:
+            match = re.search(pattern, text)
+            if match:
+                author = match.group(1).strip()
+                # Validate author name (not generic terms)
+                if not any(word in author.lower() for word in ['news', 'staff', 'editor', 'team', 'bureau']):
+                    return author
+        
+        return ""  # Return empty string if no author found
 
     def generate_highlights(self, article: Dict[str, Any]) -> List[str]:
         """Generate meaningful insights from article content"""
@@ -1599,6 +1625,17 @@ class NewsAggregator:
                             title_text = title.text or ''
                             desc_text = (description.text or '') if description is not None else ''
                             
+                            # Extract author from RSS feed
+                            author = ''
+                            author_elem = item.find('author') or item.find('dc:creator', {'dc': 'http://purl.org/dc/elements/1.1/'})
+                            if author_elem is not None and author_elem.text:
+                                author = author_elem.text.strip()
+                            
+                            # If no author in RSS, try to extract from content
+                            if not author:
+                                full_content = self.fetch_article_content(link.text) if link.text else ''
+                                author = self.extract_author(full_content, desc_text)
+                            
                             # Check if article matches any of the loaded keywords
                             content_lower = f"{title_text} {desc_text}".lower()
                             
@@ -1606,7 +1643,7 @@ class NewsAggregator:
                             matches_keyword = any(keyword.lower() in content_lower for keyword in self.keywords)
                             
                             if matches_keyword:
-                                articles.append({
+                                article_data = {
                                     'title': title_text,
                                     'url': link.text,
                                     'published': pub_date.text if pub_date is not None else '',
@@ -1614,7 +1651,13 @@ class NewsAggregator:
                                     'source': source.name,
                                     'source_type': source.source_type,
                                     'keyword': 'RSS Feed'
-                                })
+                                }
+                                
+                                # Only add author field if author is found
+                                if author:
+                                    article_data['author'] = author
+                                
+                                articles.append(article_data)
                                 
                 except ET.ParseError as e:
                     print(f"Error parsing RSS feed from {source.name}: {e}")
