@@ -1,0 +1,91 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.4 Chrome/138.0.7204.97 Electron/37.2.1 Safari/537.36" version="28.0.4">
+  <diagram name="C4 System Context" id="c4-context">
+    <mxGraphModel dx="786" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="RSS Summarizer - System Context Diagram (C1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=24;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="400" y="20" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="system" value="DNA (Daily News AI)&lt;br&gt;[Software System]&lt;br&gt;&lt;br&gt;Aggregates news from RSS feeds,&lt;br&gt;analyzes relevance using AI,&lt;br&gt;and presents summarized articles&lt;br&gt;organized by topics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0D5EAF;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="550" y="350" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="user" value="News Reader&lt;br&gt;[Persona]&lt;br&gt;&lt;br&gt;Reads curated and&lt;br&gt;summarized news articles&lt;br&gt;relevant to their interests" style="shape=umlActor;verticalLabelPosition=middle;verticalAlign=middle;html=1;fillColor=#08427b;strokeColor=#0D5EAF;fontColor=light-dark(#130c0c, #121212);fontSize=12;labelBackgroundColor=none;labelPosition=left;align=right;" parent="1" vertex="1">
+          <mxGeometry x="675" y="100" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" value="Administrator&lt;br&gt;[Persona]&lt;br&gt;&lt;br&gt;Configures RSS feeds,&lt;br&gt;manages topics and&lt;br&gt;categories" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#08427b;strokeColor=#0D5EAF;fontColor=light-dark(#170710, #121212);fontSize=12;labelBackgroundColor=none;labelPosition=center;align=center;textShadow=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="350" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rss-feeds" value="RSS News Feeds&#xa;[External System]&#xa;&#xa;Provides news articles&#xa;from various sources&#xa;(BBC, Reuters, Bloomberg, etc.)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#666666;fontColor=#ffffff;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="180" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-service" value="AWS Bedrock&#xa;[External System]&#xa;&#xa;Analyzes article content&#xa;and generates summaries&#xa;using Claude AI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#666666;fontColor=#ffffff;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="530" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" value="Reads summarized&#xa;news articles" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#333333;" parent="1" source="user" target="system" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="400" as="sourcePoint" />
+            <mxPoint x="650" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2" value="Provides feedback&#xa;on articles" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;fontColor=#333333;dashed=1;" parent="1" source="system" target="user" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="400" as="sourcePoint" />
+            <mxPoint x="650" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r3" value="Manages feeds,&#xa;topics, and categories" style="endArrow=classic;html=1;rounded=0;exitX=0.8;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#333333;" parent="1" source="admin" target="system" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="400" as="sourcePoint" />
+            <mxPoint x="650" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4" value="Fetches articles&#xa;from RSS feeds" style="endArrow=classic;html=1;rounded=0;exitX=0.973;exitY=0.02;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#333333;exitPerimeter=0;" parent="1" source="system" target="rss-feeds" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="400" as="sourcePoint" />
+            <mxPoint x="650" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5" value="Returns article&#xa;content" style="endArrow=classic;html=1;rounded=0;exitX=0.014;exitY=0.842;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=11;fontColor=#333333;dashed=1;exitPerimeter=0;" parent="1" source="rss-feeds" target="system" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="400" as="sourcePoint" />
+            <mxPoint x="650" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r6" value="Sends articles for&#xa;analysis and summarization" style="endArrow=classic;html=1;rounded=0;exitX=0.987;exitY=0.94;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#333333;exitPerimeter=0;" parent="1" source="system" target="ai-service" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="500" as="sourcePoint" />
+            <mxPoint x="650" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r7" value="Returns summaries&#xa;and relevance scores" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=11;fontColor=#333333;dashed=1;" parent="1" source="ai-service" target="system" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="500" as="sourcePoint" />
+            <mxPoint x="650" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="650" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="90" y="660" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-person" value="Person" style="shape=umlActor;verticalLabelPosition=middle;verticalAlign=middle;html=1;fillColor=#08427b;strokeColor=#0D5EAF;fontColor=#ffffff;fontSize=10;labelPosition=right;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="700" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-system" value="Software System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0D5EAF;fontColor=#ffffff;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="150" y="700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-external" value="External System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#666666;fontColor=#ffffff;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="150" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-arrow" value="Relationship" style="endArrow=classic;html=1;rounded=0;fontSize=10;fontColor=#333333;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="780" as="sourcePoint" />
+            <mxPoint x="130" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
